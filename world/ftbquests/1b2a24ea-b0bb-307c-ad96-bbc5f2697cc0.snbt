@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "1b2a24eab0bb307cad96bbc5f2697cc0"
+	name: "mE1E"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
