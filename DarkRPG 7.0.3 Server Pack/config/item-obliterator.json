@@ -1,0 +1,49 @@
+{
+  "blacklisted_items": [
+    "//Items here will be unusable completely",
+    "advancedcombat:advanced_nether_star_sword",
+    "simplyswords:soulpyre",
+    "simplyswords:frostfall",
+    "mythicmetals:legendary_banglum_shovel",
+    "mythicmetals:banglum_nuke_core",
+    "mythicmetals:legendary_banglum_pickaxe",
+    "mythicmetals:carmot_nuke_core",
+    "mythicmetals:quadrillum_nuke_core",
+    "mythicmetals:stormyx_shield",
+    "adabraniummod:oneshotium_sword",
+    "soulsweapons:chaos_robes",
+    "soulsweapons:comet_spear",
+    "soulsweapons:mjolnir",
+    "soulsweapons:withered_wabbajack",
+    "soulsweapons:frostmourne",
+    "soulsweapons:dragonslayer_swordspear",
+    "soulsweapons:dragon_staff",
+    "soulsweapons:soul_reaper",
+    "soulsweapons:leviathan_axe",
+    "gobber2:gobber2_ring_farmer",
+    "gobber2:gobber2_staff_farmer",
+    "gobber2:gobber2_staff_sniper",
+    "gobber2:gobber2_sword_sniper",
+    "gobber2:gobber2_staff_ensnarement",
+    "gobber2:gobber2_staff_stars",
+    "gobber2:gobber2_staff_hostile_ensnarement",
+    "gobber2:gobber2_ring_explorer",
+    "gobber2:gobber2_ring_miner",
+    "gobber2:gobber2_ring_attraction",
+    "gobber2:gobber2_special_item",
+    "things:broken_watch",
+    "things:displacement_tome",
+    "things:hardening_catalyst",
+    "things:infernal_scepter",
+    "morebows:ender_bow",
+    "morebows:multi_bow"
+  ],
+  "only_disable_interactions": [
+    "//Items here will not be able to be right-clicked (Interact)",
+    "examplemod:example_item"
+  ],
+  "only_disable_attacks": [
+    "//Items here will not be able to be used to attack",
+    "examplemod:example_item"
+  ]
+}

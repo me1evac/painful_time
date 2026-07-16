@@ -1,0 +1,12 @@
+{
+  "trim_durability": 1,
+  "quartz_experience_bonus": 0.05,
+  "iron_mining_speed_increase": 8.0,
+  "netherite_fire_resistance": 0.25,
+  "redstone_movement_speed_increase": 0.1,
+  "copper_swim_speed_increase": 0.05,
+  "emerald_villager_discount": 0.125,
+  "diamond_damage_reduction": 0.05,
+  "lapis_enchantability": 30,
+  "amethyst_potion_duration_modify_chance": 0.0625
+}

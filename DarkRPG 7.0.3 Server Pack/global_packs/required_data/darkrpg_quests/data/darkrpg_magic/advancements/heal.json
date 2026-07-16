@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by Rav115",
+    "display": {
+        "title": {"text": "Healer LFG (Quest)"},
+        "description": {"text": "Obtain 1x Shulker Shell.  Reward: 30 Exp, 1x Heal Spell."},
+        
+        "icon": {"item": "minecraft:shulker_shell"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_heal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["minecraft:shulker_shell"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg_magic:lunge": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "function": 
+            "darkrpg_magic:heal"
+        ,
+		"experience": 30
+    },
+    "parent": "darkrpg_magic:lunge"
+}

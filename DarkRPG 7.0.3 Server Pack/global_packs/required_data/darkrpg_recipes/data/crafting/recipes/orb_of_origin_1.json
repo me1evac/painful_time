@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"I#I",
+		"#O#",
+		"I#I"
+	],
+	"key": {
+		"#": {"item": "minecraft:diamond_block"},
+		"O": {"item": "minecraft:slime_ball"},
+		"I": {"item": "minecraft:dirt"}
+		},
+	"result": {
+		"item": "origins:orb_of_origin"
+	}
+}

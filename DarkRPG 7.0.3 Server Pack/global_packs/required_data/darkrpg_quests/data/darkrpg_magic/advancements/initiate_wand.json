@@ -1,0 +1,36 @@
+{
+    "__comment": "Made by Rav115",
+    "display": {
+        "title": {"text": "Welcome Mage! (Quest)"},
+        "description": {"text": "Obtain 2x Sticks and 1x Amethyst Shard, then craft an Initiate Wand.  Reward: 20 Exp, 1x Empty Mana Flask, 1x Brewing Stand, 20x Orbs of Origin."},
+        
+        "icon": {"item": "arcanus:initiate_wand"},
+        "frame": "challenge",
+        
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "darkrpg_initiate_wand": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [
+                    {
+                        "items": ["arcanus:initiate_wand"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ],
+				"player": {"type_specific": {"type": "player","advancements": {"darkrpg_magic:info_magic": "true"}}}
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "darkrpg_magic:initiate_wand"
+        ],
+		"experience": 20
+    },
+    "parent": "darkrpg_magic:info_magic"
+}

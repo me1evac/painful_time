@@ -1,0 +1,1 @@
+spells spellbook arcanus:heal @p
