@@ -1,27 +1,1570 @@
-[16:31:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
-[16:31:47] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[16:31:47] [main/INFO]: Loading 3 mods:
+[08:19:45] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.21
+[08:19:45] [ForkJoinPool-1-worker-2/WARN]: Mod globalpacks uses the version 1.16.1_fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[08:19:45] [ForkJoinPool-1-worker-2/WARN]: Mod geophilic uses the version v2.0.0-mc1.20u1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[08:19:45] [ForkJoinPool-1-worker-2/WARN]: Mod mythicupgrades uses the version +fabric-1.8.2-1.20.1 which isn't compatible with Loader's extended semantic version format (Missing version number component!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[08:19:45] [ForkJoinPool-1-worker-1/WARN]: The mod "dungeons_arise" contains invalid entries in its mod json:
+- Unsupported root entry "credits" at line 12 column 12
+[08:19:45] [ForkJoinPool-1-worker-2/WARN]: The mod "rpg_origins" contains invalid entries in its mod json:
+- Unsupported root entry "pack_format" at line 15 column 18
+[08:19:46] [ForkJoinPool-1-worker-2/WARN]: Mod getittogetherdrops uses the version fabric-1.20-1.3.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[08:19:46] [main/WARN]: Warnings were found!
+ - Mod 'Alloy Forgery' (alloy_forgery) 2.0.21+1.20 recommends version 12.0.0 or later of roughlyenoughitems, which is missing!
+	 - You should install version 12.0.0 or later of roughlyenoughitems for the optimal experience.
+ - Mod 'Elytra Trims' (elytratrims) 1.1.9 recommends any version between 0.1.0-beta.4 (inclusive) and 0.2.0 (exclusive) of command-config, which is missing!
+	 - You should install any version between 0.1.0-beta.4 (inclusive) and 0.2.0 (exclusive) of command-config for the optimal experience.
+ - Mod 'More Bows Restrung' (morebows) 1.0.11+1.20.x recommends version 7.0.0-beta.2 or later of modmenu, which is missing!
+	 - You should install version 7.0.0-beta.2 or later of modmenu for the optimal experience.
+ - Mod 'Things' (things) 0.3.1+1.20 recommends any version of patchouli, which is missing!
+	 - You should install any version of patchouli for the optimal experience.
+[08:19:46] [main/INFO]: Loading 261 mods:
+	- additionalstructures 4.2.0
+	- advancednetherite 2.0.2-1.20.1
+	- airchidori 1.0.1
+	- alloy_forgery 2.0.21+1.20
+	- allthetrims 2.1.3
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	- alternate-current 1.7.0
+	- amethyst_core 1.2.1+1.20.1
+	   \-- common-protection-api 1.0.0
+	- amethyst_imbuement 1.20.1-04
+	   |-- common-protection-api 1.0.0
+	   |-- conditional-mixin 0.3.2
+	   |-- fzzy_config 0.1.1+1.19.3
+	   |-- playerabilitylib 1.8.0
+	   \-- structurized-reborn 1.20.1-01
+	- appleskin 2.5.0+mc1.20
+	- architectury 9.0.8
+	- azure-paxels 1.0.5
+	- azurelib 1.0.18
+	   \-- com_eliotlash_mclib_mclib 20
+	- beautify 1.0.0+1.20
+	- beekeeperhut 1.3.0
+	- bettercombat 1.7.2+1.20.1
+	- bettertrims 1.0.3
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	- biomemakeover 1.20.0-1.10.1
+	   \-- taniwha 1.20.0-5.1.1
+	- cardinal-components 5.2.1
+	   |-- cardinal-components-base 5.2.1
+	   |-- cardinal-components-block 5.2.1
+	   |-- cardinal-components-chunk 5.2.1
+	   |-- cardinal-components-entity 5.2.1
+	   |-- cardinal-components-item 5.2.1
+	   |-- cardinal-components-level 5.2.1
+	   |-- cardinal-components-scoreboard 5.2.1
+	   \-- cardinal-components-world 5.2.1
+	- carpet 1.4.112+v230608
+	- carpet-extra 1.4.115
+	- catalogue 1.7.1
+	- chunky 1.3.92
+	- cloth-config 11.0.99
+	   \-- cloth-basic-math 0.6.1
+	- clumps 12.0.0.3
+	- clutter 1.20.1-0.3.8
+	- collective 6.62
+	- connectivity 1.20.1-4.2
+	- craterlib 1.0.1
+	- croptopia 2.3.0
+	   |-- com_typesafe_config 1.4.1
+	   |-- io_leangen_geantyref_geantyref 1.3.11
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   \-- org_spongepowered_configurate-hocon 4.1.2
+	- crystals_overhauled 1.2.2
+	- ctov 3.3.2
+	- darkbindings 1.2.8
+	- darkcap 1.0.3
+	- darkfeather 1.0.0
+	- darkflight 1.0.4
+	- darkheads 1.0.2
+	- darkinventory 1.0.1
+	- darkloot 1.1.5
+	- darkmenu 1.0.7
+	- darkmining 1.0.7
+	- darkmobs 1.0.3
+	- darkquesting 1.1.3
+	- darkrewards 1.0.4
+	- darkrtp 1.0.4
+	- darksmithing 1.0.0
+	- darkspawn 1.0.1
+	- darkspins 1.0.5
+	- darkstarter 1.0.2
+	- darktides 1.0.8
+	- darktimer 1.0.5
+	- darkwaters 0.0.19
+	- darkwooly 1.0.3
+	- diamondeconomy 1.5.6
+	   |-- org_xerial_sqlite-jdbc 3.36.0.3
+	   \-- placeholder-api 2.1.1+1.20
+	- diamondsauctionhouse 1.1.5+1.20
+	   \-- sgui 1.2.2+1.20
+	- digs_dnd_origins 1.20.1-0.0.11
+	- dungeons_andtaverns_mr 1-v2.1.3
+	- dungeons_arise 2.1.56.1
+	- durability101 0.0.4
+	- durabilitytooltip 1.1.4
+	- elytratrims 1.1.9
+	   \-- conditional-mixin 0.3.2
+	- emi 1.0.5+1.20.1+fabric
+	- emotecraft 2.2.7-a.build.49
+	   \-- bendy-lib 4.0.0
+	- extraorigins 1.20-1
+	- fabric-api 0.84.0+1.20.1
+	   |-- fabric-api-base 0.4.29+b04edc7a77
+	   |-- fabric-api-lookup-api-v1 1.6.34+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b77
+	   |-- fabric-block-api-v1 1.0.9+e022e5d177
+	   |-- fabric-blockrenderlayer-v1 1.1.39+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-command-api-v1 1.2.32+f71b366f77
+	   |-- fabric-command-api-v2 2.2.11+b3afc78b77
+	   |-- fabric-commands-v0 0.2.49+df3654b377
+	   |-- fabric-containers-v0 0.1.61+df3654b377
+	   |-- fabric-content-registries-v0 4.0.7+b3afc78b77
+	   |-- fabric-convention-tags-v1 1.5.3+b3afc78b77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.1.11+b3afc78b77
+	   |-- fabric-dimensions-v1 2.1.51+b3afc78b77
+	   |-- fabric-entity-events-v1 1.5.21+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.0+b3afc78b77
+	   |-- fabric-events-lifecycle-v0 0.2.61+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.26+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.7+b3afc78b77
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.20+b3afc78b77
+	   |-- fabric-loot-api-v2 1.1.37+b3afc78b77
+	   |-- fabric-loot-tables-v1 1.1.41+9e7660c677
+	   |-- fabric-message-api-v1 5.1.6+b3afc78b77
+	   |-- fabric-mining-level-api-v1 2.1.47+b3afc78b77
+	   |-- fabric-models-v0 0.3.35+b3afc78b77
+	   |-- fabric-networking-api-v1 1.3.8+b3afc78b77
+	   |-- fabric-networking-v0 0.3.48+df3654b377
+	   |-- fabric-object-builder-api-v1 11.0.6+b3afc78b77
+	   |-- fabric-particles-v1 1.0.28+b3afc78b77
+	   |-- fabric-recipe-api-v1 1.0.18+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.2.6+b3afc78b77
+	   |-- fabric-renderer-api-v1 3.1.0+c154966e77
+	   |-- fabric-renderer-indigo 1.4.0+c154966e77
+	   |-- fabric-renderer-registries-v1 3.2.44+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.33+b3afc78b77
+	   |-- fabric-rendering-fluids-v1 3.0.26+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.47+df3654b377
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	   |-- fabric-resource-loader-v0 0.11.7+f7923f6d77
+	   |-- fabric-screen-api-v1 2.0.6+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.27+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.2.2+b3afc78b77
+	   \-- fabric-transitive-access-wideners-v1 4.2.0+b3afc78b77
+	- fabric-language-kotlin 1.9.6+kotlin.1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-reflect 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.22
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.22
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.21.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.5.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.5.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.5.1
 	- fabricloader 0.14.21
+	- farsight 1.20.1-3.7
+	   \-- org_jctools_jctools-core 4.0.1
+	- ferritecore 6.0.0
+	- flowerymooblooms 1.1.0
+	- forcecrawl 1.0.2
+	- forgeconfigapiport 8.0.0
+	- framework 0.6.6
+	   |-- com_electronwill_night-config_core 3.6.6
+	   \-- com_electronwill_night-config_toml 3.6.6
+	- friendsandfoes 1.9.2
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	- fwaystones 3.1.2+mc1.20
+	- fzzy_core 0.2.5.1+1.20.1
+	- geckolib 4.2
+	- geode_plus 1.2.0
+	   \-- paragon 3.0.2
+	        |-- com_moandjiezana_toml_toml4j 0.7.2
+	        \-- org_yaml_snakeyaml 1.27
+	- geophilic v2.0.0-mc1.20u1.20.1
+	- getittogetherdrops fabric-1.20-1.3.1
+	- globalpacks 1.16.1_fabric
+	- goldenberry 1.1.4
+	- graveyard 2.9.1
+	   \-- omega-config 1.2.2-1.18.1
+	- grindenchantments 3.1.2+1.20
+	   \-- codec-config-api 1.0.2+1.19.3
+	- handcrafted 2.3.2
+	- harvest_scythes 2.5.6+mc1.20
+	   \-- mm 2.3
+	- healingcampfire 5.1
+	- immersive_aircraft 0.5.1+1.20.1
+	- inventorysorter 1.9.0-1.20
+	   \-- kyrptconfig 1.5.6-1.20
+	- item_obliterator 1.3.0
+	- jade 11.1.4
+	- jamlib 0.6.0+1.20
 	- java 17
+	- lazydfu 0.1.3
+	- libreexpfix 0.1-ALPHA
+	- limitedspawners 1.0.8
+	- loadingscreentips 1.3.0
+	   \-- midnightlib 1.4.1
+	- logbegone 1.0.8
+	- logprot 1.20.1-3.0
+	- lootr 0.7.29.75
+	- mcwbridges 2.1.0
+	- mcwfences 1.0.7
+	- mcwlights 1.0.6
+	- mcwpaths 1.0.3
+	- mcwroofs 2.2.4
+	- mcwtrpdoors 1.1.1
+	- melius-vanish 1.4.2+1.20
+	   |-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.1.1+1.20
+	   |-- player-data-api 0.2.2+1.19.3
+	   \-- server_translations_api 2.0.0-beta.2+1.19.4-pre2
+	        \-- packet_tweaker 0.3.1+23w06a
+	- midashunger 2.2.1+1.20
 	- minecraft 1.20.1
-[16:31:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/xboxg/Desktop/dfgfgfgfgfgfgfgfgfgfgfg/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[16:31:53] [main/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
-	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
-	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at net.minecraft.class_3808.method_16727(class_3808.java:62) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3806.method_16714(class_3806.java:137) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3807.<init>(class_3807.java:12) ~[server-intermediary.jar:?]
-	at net.minecraft.server.Main.main(Main.java:115) ~[server-intermediary.jar:?]
+	- more_armor_trims 1.1.0-1.20.1
+	- morebows 1.0.11+1.20.x
+	- mythicmetals 0.18.1+1.20-hotfix
+	   \-- common-protection-api 1.0.0
+	- mythicupgrades +fabric-1.8.2-1.20.1
+	- neruina 1.1.0
+	   \-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	- nochatreports 1.20.1-v2.2.2
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- nohostilesaroundcampfire 5.6
+	- nyctophobia 1.9
+	   \-- omega-config 1.2.2-1.18.1
+	- openpartiesandclaims 0.18.0
+	- origins 1.10.0
+	   |-- apoli 2.9.0
+	   |    |-- additionalentityattributes 1.3.0+1.20.0
+	   |    |-- calio 1.11.0
+	   |    |-- cardinal-components-base 5.2.1
+	   |    |-- cardinal-components-entity 5.2.1
+	   |    \-- playerabilitylib 1.8.0
+	   \-- reach-entity-attributes 2.4.0
+	- origins-classes 1.7.0
+	- owo 0.11.0+1.20
+	   \-- blue_endless_jankson 1.2.2
+	- pehkui 3.7.6+1.14.4-1.20.1
+	   \-- kanos_config 0.4.1+1.14.4-1.19.4
+	- player-animator 1.0.2-rc1+1.20
+	- plentyofarmors 1.2.1
+	- plushies 1.2.1
+	- polymorph 0.49.0+1.20.1
+	   |-- cardinal-components-base 5.2.1
+	   |-- cardinal-components-block 5.2.1
+	   |-- cardinal-components-entity 5.2.1
+	   |-- cardinal-components-item 5.2.1
+	   \-- spectrelib 0.13.13+1.20.1
+	- puffish_skills 0.5.0
+	- pumpkillagersquest 3.2
+	- regions_unexplored 0.4.1+1.20.1
+	- reinfbarrel 2.4.1+1.20
+	   \-- reinfcore 3.1.2+1.20
+	- reinfchest 2.4.2+1.20
+	   \-- reinfcore 3.1.2+1.20
+	- reinfshulker 2.4.1+1.20
+	   \-- reinfcore 3.1.2+1.20
+	- resourcefullib 2.1.1
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rpg_origins 1.3.3
+	- sdlink 2.2.2
+	- servercore 1.3.7+1.20.1
+	   |-- com_github_llamalad7_mixinextras 0.2.0-beta.8
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- placeholder-api 2.1.1+1.20
+	- showmeyourskin 1.6.6+1.20
+	   |-- cardinal-components-base 5.2.1
+	   |-- cardinal-components-entity 5.2.1
+	   \-- cicada 0.4.0
+	- simply_houses 1.1.4-1.20.1
+	- simplyswords 1.48.0-1.21
+	- skyvillages 1.0.2.1-1.20.1
+	- smartbrainlib 1.11.1
+	- smoothchunk 1.20.1-3.0
+	- soulsweapons 0.9.9.6-1.20-fabric
+	- spark 1.10.42
+	- starlight 1.1.2+fabric.dbc156f
+	- structureessentials 1.20.1-2.9
+	- supermartijn642configlib 1.1.6
+	- terrablender 3.0.0.165
+	- thiccpackets 1.17-1.19+
+	- things 0.3.1+1.20
+	   \-- lavender 0.1.0-pre.6+1.20
+	        |-- lavender-md 0.1.0-pre.3+1.20
+	        \-- lavender-md-owo-ui 0.1.0-pre.3+1.20
+	- toms_trading_network 0.2.3
+	- trade_cycling 1.20.1-1.0.5
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- trimeffects 1.0.1-fabric
+	- trinkets 3.7.0
+	- usefulbackpacks 2.0.1.120
+	- uteamcore 5.1.3.267
+	- utilitybelt 1.3.3+1.20.x
+	   \-- tutorial-lib 1.1.2+1.20.x
+	- walljump 1.3.6
+	   \-- org_aeonbits_owner_owner 1.0.12
+	- worldedit 7.2.15+6463-5ca4dff
+	- xaerominimap 23.5.0
+	- xaeroworldmap 1.30.6
+[08:19:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/painful_time/DarkRPG%207.0.3%20Server%20Pack/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[08:19:47] [main/INFO]: Compatibility level set to JAVA_17
+[08:19:47] [main/WARN]: Reference map 'azure-paxels-1.20.1-refmap.json' for azure-paxels.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:47] [main/WARN]: Reference map 'codec-config-api-refmap.json' for codec-config-api.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:47] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:47] [main/WARN]: Reference map 'neruina-fabric-refmap.json' for neruina.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:48] [main/WARN]: Reference map 'paragon-fabric-refmap.json' for paragon.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:48] [main/WARN]: Reference map 'paragon-common-refmap.json' for paragon-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:48] [main/WARN]: Reference map 'plenty-of-armors-refmap.json' for plentyofarmors.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:48] [main/WARN]: Reference map 'simplyswords-fabric-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:48] [main/WARN]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:48] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[08:19:49] [main/WARN]: Error loading class: net/minecraft/class_632 (java.lang.ClassNotFoundException: net/minecraft/class_632)
+[08:19:49] [main/WARN]: @Mixin target net.minecraft.class_632 was not found lavender.mixins.json:ClientAdvancementManagerAccessor from mod lavender
+[08:19:49] [main/WARN]: Error loading class: net/minecraft/class_1007 (java.lang.ClassNotFoundException: net/minecraft/class_1007)
+[08:19:49] [main/WARN]: @Mixin target net.minecraft.class_1007 was not found mythicmetals.mixins.json:PlayerEntityRendererMixin from mod mythicmetals
+[08:19:49] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[08:19:50] [main/WARN]: Error loading class: net/minecraft/class_970 (java.lang.ClassNotFoundException: net/minecraft/class_970)
+[08:19:50] [main/WARN]: @Mixin target net.minecraft.class_970 was not found uteamcore.mixins.json:HumanoidArmorLayerMixin from mod uteamcore
+[08:19:50] [main/WARN]: Error loading class: net/minecraft/class_634 (java.lang.ClassNotFoundException: net/minecraft/class_634)
+[08:19:50] [main/WARN]: @Mixin target net.minecraft.class_634 was not found uteamcore.mixins.json:ClientPacketListenerMixin from mod uteamcore
+[08:19:50] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[08:19:50] [main/WARN]: @Mixin target net.minecraft.class_310 was not found uteamcore.mixins.json:MinecraftMixin from mod uteamcore
+[08:19:50] [main/WARN]: Error loading class: net/minecraft/class_309 (java.lang.ClassNotFoundException: net/minecraft/class_309)
+[08:19:50] [main/WARN]: @Mixin target net.minecraft.class_309 was not found uteamcore.mixins.json:KeyboardHandlerMixin from mod uteamcore
+[08:19:50] [main/WARN]: [carpet] detected, disabling UPDATE mixin com.sk89q.worldedit.fabric.mixin.MixinLevelChunkSetBlockHook
+[08:19:51] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[08:19:51] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[08:19:51] [main/ERROR]: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.isMixin()" because "superClass" is null
+java.lang.NullPointerException: Cannot invoke "org.spongepowered.asm.mixin.transformer.ClassInfo.isMixin()" because "superClass" is null
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$SubType$Standard.validate(MixinInfo.java:582) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:328) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:914) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:803) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:568) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.12.5+mixin.0.8.5.jar:0.12.5+mixin.0.8.5]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:112) ~[fabric-loader-0.14.21.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.fabricmc.language.kotlin.KotlinAdapter.create(KotlinAdapter.kt) ~[fabric-language-kotlin-1.9.6+kotlin.1.8.22.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:117) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:162) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:19:52] [main/INFO]: PreLaunching Better Trims
+[08:19:52] [main/INFO]: Loaded config
+[08:19:56] [main/WARN]: Method overwrite conflict for getLanguage in worldedit-fabric.mixins.json:MixinServerPlayer from mod worldedit, previously written by carpet.mixins.ServerPlayer_scarpetEventMixin. Skipping method.
+[08:19:57] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[08:19:57] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to mde81921$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[08:19:57] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to mde81921$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[08:19:59] [main/WARN]: Method overwrite conflict for setItem in reinfshulker.mixins.json:ItemStackAccessor from mod reinfshulker, previously written by io.github.apace100.apoli.mixin.ItemStackMixin. Skipping method.
+[08:20:06] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[08:20:06] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[08:20:08] [main/WARN]: Method overwrite conflict for getClimateSettings in architectury.mixins.json:BiomeAccessor from mod architectury, previously written by carpet.mixins.Biome_scarpetMixin. Skipping method.
+[08:20:09] [main/INFO]: Hello world!
+[08:20:09] [main/INFO]: [AllTheTrims] AllTheTrims Initialized!
+[08:20:09] [main/INFO]: [AllTheTrims] Config loaded
+[08:20:11] [main/INFO]: Apoli 2.9.0 has initialized. Ready to power up your game!
+[08:20:11] [main/INFO]: Registered azurelib config for auto-sync function
+[08:20:12] [main/INFO]: Initializing Better Trims
+[08:20:13] [main/INFO]: Registering C2S receiver with id biomemakeover:cl_complete_quest
+[08:20:13] [main/INFO]: Registering C2S receiver with id biomemakeover:update_dir_data
+[08:20:14] [main/INFO]: Loading Collective version 6.62.
+[08:20:14] [main/INFO]: Connectivity initialized
+[08:20:14] [main/INFO]: Initializing CrystalsOverhauledMod
+[08:20:14] [main/INFO]: Registered darkwaters config for auto-sync function
+[08:20:14] [main/INFO]: Registered darkwaters config for auto-sync function
+[08:20:14] [main/INFO]: Roll initiative...
+[08:20:14] [main/INFO]: farsight mod initialized
+[08:20:15] [main/INFO]: Is initializing.
+[08:20:15] [main/INFO]: Has successfully been initialized.
+[08:20:15] [main/INFO]: Registered geode_plus
+[08:20:15] [main/ERROR]: No data fixer registered for handcrafted
+[08:20:16] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[08:20:16] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[08:20:16] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[08:20:16] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[08:20:16] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[08:20:16] [main/INFO]: Item Obliterator Config Loaded
+[08:20:16] [main/INFO]: [jamlib] Mod initialized!
+[08:20:16] [main/INFO]: Shields up!
+[08:20:18] [main/INFO]: Definitely not up to no good
+[08:20:18] [main/INFO]: Registering items for modmore_armor_trims
+[08:20:18] [main/INFO]: [Mythic Metals] I see HarvestScythes. I'll take care of DH so you don't have to
+[08:20:18] [main/INFO]: [Mythic Metals] Have fun using Origins!
+[08:20:18] [main/INFO]: [Mythic Metals] Mythic Metals is now initialized.
+[08:20:18] [main/INFO]: Registering Mythic Items for mythicupgrades
+[08:20:18] [main/INFO]: Registering Mythic Blocks for mythicupgrades
+[08:20:18] [main/INFO]: Mythic Upgrades PROBABLY works properly!
+[08:20:18] [main/INFO]: Initializing Neruina
+[08:20:18] [main/INFO]: KONNICHIWA ZA WARUDO!
+[08:20:18] [main/INFO]: Default JVM text encoding is: UTF-8
+[08:20:18] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[08:20:18] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[08:20:18] [main/INFO]: Origins 1.10.0 is initializing. Have fun!
+[08:20:18] [main/INFO]: dead people should put things in their grave, I have bills to pay - Blodgharm
+[08:20:18] [main/INFO]: Registered paragon
+[08:20:18] [main/INFO]: acee#1220
+[08:20:18] [main/INFO]: Paragon has been initialized
+[08:20:18] [main/INFO]: Registering Mod items forplentyofarmors
+[08:20:19] [main/INFO]: [ServerCore] Loaded V1.3.7+1.20.1!
+[08:20:19] [main/ERROR]: No data fixer registered for battlestandard
+[08:20:19] [main/ERROR]: No data fixer registered for battlestandarddark
+[08:20:19] [main/INFO]: [STDOUT]: /workspaces/painful_time/DarkRPG 7.0.3 Server Pack/config
+[08:20:19] [main/INFO]: Registering Mythic Metals compat Items for simplyswords
+[08:20:19] [main/INFO]: Hello Fabric world!
+[08:20:19] [main/INFO]: Config initialized!
+[08:20:19] [main/INFO]: Successfully initialized Geckolib!
+[08:20:20] [main/INFO]: Successfully registered SoulsWeapons content!
+[08:20:20] [main/INFO]: Successfully registered recipes!
+[08:20:20] [main/INFO]: Successfully registered built-in 2D model resourcepack!
+[08:20:20] [main/INFO]: Initializing done, time taken: 224ms
+[08:20:20] [main/INFO]: structureessentials mod initialized
+[08:20:20] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[08:20:20] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[08:20:20] [main/INFO]: Registered region nyctophobia:biome_provider to index 1 for type OVERWORLD
+[08:20:20] [main/INFO]: Registered region regions_unexplored:primary to index 2 for type OVERWORLD
+[08:20:20] [main/INFO]: Registered region regions_unexplored:secondary to index 3 for type OVERWORLD
+[08:20:20] [main/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[08:20:20] [main/INFO]: Tom's Trading Network starting
+[08:20:20] [main/INFO]: [jamlib] Registered config for utilitybelt
+[08:20:20] [main/INFO]: [utilitybelt] Mod initialized!
+[08:20:20] [main/INFO]: [Wall Jump] loading config from file
+[08:20:20] [main/INFO]: [Wall Jump] initialized!
+[08:20:20] [Version Check/INFO]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks_fabric.json
+[08:20:21] [Version Check/INFO]: [usefulbackpacks] Found status: OUTDATED Current: 2.0.1.120 Target: 2.0.1.124
+[08:20:21] [Version Check/INFO]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore_fabric.json
+[08:20:21] [Version Check/INFO]: [uteamcore] Found status: OUTDATED Current: 5.1.3.267 Target: 5.1.4.382
+[08:20:22] [main/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2ac78a6d]
+[08:20:22] [main/INFO]: WorldEdit for Fabric (version 7.2.15+6463-5ca4dff) is loaded
+[08:20:22] [main/INFO]: Loading configuration...
+[08:20:22] [main/INFO]: Loading Open Parties and Claims!
+[08:20:22] [main/INFO]: Registered simple-discord-bot.toml successfully!
+[08:20:22] [main/ERROR]: Could not initialize bot. Could not load config or your Bot Token is missing. Bot will be disabled
+[08:20:23] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[08:20:23] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[08:20:23] [main/INFO]: Loading [Harvest Scythes]
+[08:20:23] [main/INFO]: [Mythic Metals] detected. Loading supported items.
+[08:20:23] [main/INFO]: [Harvest Scythes] has successfully been loaded!
+[08:20:23] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08:20:28] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[08:20:28] [main/WARN]: @Final field field_9027:Lorg/slf4j/Logger; in fzzy_core.mixins.json:RecipeManagerMixin from mod fzzy_core should be final
+[08:20:29] [main/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[08:20:31] [Worker-Main-1/ERROR]: Couldn't parse element loot_tables:darkrpg_magic:master_wand
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'arcanus:master_wand'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:20:31] [Worker-Main-1/ERROR]: Couldn't parse element loot_tables:darkrpg_magic:initiate_wand
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'arcanus:mana_flask'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:20:31] [Worker-Main-1/ERROR]: Couldn't parse element loot_tables:darkrpg_magic:adept_wand
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'arcanus:adept_wand'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file things:broken_watch from things:recipes/broken_watch.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file mythicmetals:crafting/banglum_nuke_core from mythicmetals:recipes/crafting/banglum_nuke_core.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file mythicmetals:crafting/carmot_nuke_core from mythicmetals:recipes/crafting/carmot_nuke_core.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file mythicmetals:crafting/quadrillum_nuke_core from mythicmetals:recipes/crafting/quadrillum_nuke_core.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file mythicmetals:crafting/stormyx_shield from mythicmetals:recipes/crafting/stormyx_shield.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file things:displacement_tome from things:recipes/displacement_tome.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file morebows:ender_bow from morebows:recipes/ender_bow.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file things:hardening_catalyst from things:recipes/hardening_catalyst.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file things:infernal_scepter from things:recipes/infernal_scepter.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file morebows:multi_bow from morebows:recipes/multi_bow.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file mythicmetals:pickaxe/legendary_banglum_pickaxe from mythicmetals:recipes/pickaxe/legendary_banglum_pickaxe.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:32] [Worker-Main-1/ERROR]: Couldn't parse data file mythicmetals:shovel/legendary_banglum_shovel from mythicmetals:recipes/shovel/legendary_banglum_shovel.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_51148(class_4309.java:44) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_20731(class_4309.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4309.method_18789(class_4309.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 13 more
+[08:20:33] [Worker-Main-1/ERROR]: Couldn't parse data file rpg_origins:file from rpg_origins:powers/file.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at io.github.apace100.calio.data.MultiJsonDataLoader.lambda$prepare$1(MultiJsonDataLoader.java:62) ~[calio-1.11.0-c875030d672fe1b1.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at io.github.apace100.calio.data.MultiJsonDataLoader.prepare(MultiJsonDataLoader.java:48) ~[calio-1.11.0-c875030d672fe1b1.jar:?]
+	at io.github.apace100.calio.data.MultiJsonDataLoader.method_18789(MultiJsonDataLoader.java:25) ~[calio-1.11.0-c875030d672fe1b1.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1455) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:558) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:769) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 14 more
+[08:20:33] [Worker-Main-1/ERROR]: Couldn't parse data file foxboi_two:smolman from foxboi_two:powers/smolman.json
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Unterminated object at line 4 column 9 path $.entity_action_added
+	at net.minecraft.class_3518.method_47993(class_3518.java:526) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15267(class_3518.java:531) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15276(class_3518.java:581) ~[server-intermediary.jar:?]
+	at io.github.apace100.calio.data.MultiJsonDataLoader.lambda$prepare$1(MultiJsonDataLoader.java:62) ~[calio-1.11.0-c875030d672fe1b1.jar:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at io.github.apace100.calio.data.MultiJsonDataLoader.prepare(MultiJsonDataLoader.java:48) ~[calio-1.11.0-c875030d672fe1b1.jar:?]
+	at io.github.apace100.calio.data.MultiJsonDataLoader.method_18789(MultiJsonDataLoader.java:25) ~[calio-1.11.0-c875030d672fe1b1.jar:?]
+	at net.minecraft.class_4080.method_18791(class_4080.java:11) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated object at line 4 column 9 path $.entity_action_added
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1657) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:500) ~[gson-2.10.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:422) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:779) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$28.read(TypeAdapters.java:725) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_47993(class_3518.java:524) ~[server-intermediary.jar:?]
+	... 14 more
+[08:20:33] [Worker-Main-1/INFO]: Loading optional recipes!
+[08:20:33] [Worker-Main-1/INFO]: Skipped 1 optional recipes
+[08:20:35] [main/ERROR]: Parsing error loading recipe clutter:numismatic_bronze_to_clutter_copper
+com.google.gson.JsonSyntaxException: Unknown item 'numismatic-overhaul:bronze_coin'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1869.method_35228(class_1869.java:259) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8142(class_1867.java:99) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8121(class_1867.java:87) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
-[16:31:53] [main/WARN]: Failed to load eula.txt
-[16:31:53] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[08:20:35] [main/ERROR]: Parsing error loading recipe digs_dnd_origins:leather_horns_helmet
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:20:35] [main/ERROR]: Parsing error loading recipe digs_dnd_origins:iron_horns_helmet
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:20:35] [main/ERROR]: Parsing error loading recipe digs_dnd_origins:golden_horns_helmet
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:20:36] [main/ERROR]: Parsing error loading recipe digs_dnd_origins:diamond_horns_helmet
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:20:36] [main/ERROR]: Parsing error loading recipe clutter:clutter_copper_to_numismatic_bronze
+com.google.gson.JsonSyntaxException: Unknown item 'numismatic-overhaul:bronze_coin'
+	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1869.method_8155(class_1869.java:272) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8107(class_1856.java:160) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1856.method_8102(class_1856.java:143) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8144(class_1867.java:107) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8142(class_1867.java:92) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1867$class_1868.method_8121(class_1867.java:87) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:135) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:20:36] [main/ERROR]: Parsing error loading recipe digs_dnd_origins:netherite_horns_helmet
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.14.21.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.14.21.jar:?]
+[08:20:36] [main/INFO]: Loaded 11 recipes
+[08:20:36] [main/INFO]: Starting application of optional recipes
+[08:20:36] [main/INFO]: Finished application of optional recipes
+[08:20:36] [main/ERROR]: Failed to load function darkrpg_magic:heal
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[08:20:36] [main/ERROR]: Failed to load function darkrpg_magic:magic_missile
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[08:20:36] [main/ERROR]: Failed to load function foxboi_two:search/20_25
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Invalid integer '20.22' at position 38: ...h matches <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Invalid integer '20.22' at position 38: ...h matches <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[08:20:36] [main/ERROR]: Failed to load function darkrpg_magic:lunge
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[08:20:36] [main/ERROR]: Parsing error loading custom advancement minecraft:husbandry/wax_off: Failed to parse 'location' field
+[08:20:36] [main/ERROR]: Parsing error loading custom advancement minecraft:husbandry/wax_on: Failed to parse 'location' field
+[08:20:36] [main/ERROR]: Parsing error loading custom advancement darkrpg_magic:master_wand: Expected item to be an item, was unknown string 'arcanus:master_wand'
+[08:20:36] [main/ERROR]: Parsing error loading custom advancement darkrpg_magic:initiate_wand: Expected item to be an item, was unknown string 'arcanus:initiate_wand'
+[08:20:36] [main/ERROR]: Parsing error loading custom advancement darkrpg_magic:adept_wand: Expected item to be an item, was unknown string 'arcanus:adept_wand'
+[08:20:36] [main/ERROR]: Couldn't load advancement darkrpg_magic:lunge: Task Advancement{parentId=darkrpg_magic:magic_missile, display=net.minecraft.class_185@527731af, rewards=AdvancementRewards{experience=30, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@59ca27b}, criteria={darkrpg_lunge=net.minecraft.class_175@5dbfb9b9}, requirements=[[darkrpg_lunge]], sends_telemetry_event=false}
+[08:20:36] [main/ERROR]: Couldn't load advancement darkrpg_magic:magic_missile: Task Advancement{parentId=darkrpg_magic:initiate_wand, display=net.minecraft.class_185@47e2e709, rewards=AdvancementRewards{experience=30, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@6730ec3d}, criteria={darkrpg_magic_missile=net.minecraft.class_175@25f2d1ee}, requirements=[[darkrpg_magic_missile]], sends_telemetry_event=false}
+[08:20:36] [main/ERROR]: Couldn't load advancement darkrpg_magic:enchanting_table: Task Advancement{parentId=darkrpg_magic:adept_wand, display=net.minecraft.class_185@5abc1b69, rewards=AdvancementRewards{experience=40, loot=[darkrpg_magic:enchanting_table], recipes=[], function=net.minecraft.class_2158$class_2159@6972cc71}, criteria={darkrpg_enchanting_table=net.minecraft.class_175@3aa950b1}, requirements=[[darkrpg_enchanting_table]], sends_telemetry_event=false}
+[08:20:36] [main/ERROR]: Couldn't load advancement darkrpg_magic:heal: Task Advancement{parentId=darkrpg_magic:lunge, display=net.minecraft.class_185@2f8fb5f0, rewards=AdvancementRewards{experience=30, loot=[], recipes=[], function=net.minecraft.class_2158$class_2159@5f534468}, criteria={darkrpg_heal=net.minecraft.class_175@537e9dc5}, requirements=[[darkrpg_heal]], sends_telemetry_event=false}
+[08:20:36] [main/INFO]: Loaded 3086 advancements
+[08:20:36] [main/ERROR]: There was a problem reading power file digs_dnd_origins:elf/high/ability_score_increase (skipping): Error reading data field at modifier.attribute: Identifier "spell_power:arcane" was not registered in registry "minecraft:attribute".
+[08:20:36] [main/ERROR]: There was a problem reading power file digs_dnd_origins:tiefling/ability_score_increase (skipping): Error reading data field at modifier.attribute: Identifier "spell_power:fire" was not registered in registry "minecraft:attribute".
+[08:20:36] [main/ERROR]: There was a problem reading power file foxboi_two:diet (skipping): Error reading data field at item_condition.conditions.[3]: ItemCondition json type "origins:berries" is not defined.
+[08:20:36] [main/ERROR]: There was a problem reading power file digs_dnd_origins:elf/dark/ability_score_increase (skipping): Error reading data field at modifier.attribute: Identifier "spell_power:frost" was not registered in registry "minecraft:attribute".
+[08:20:36] [main/ERROR]: There was a problem reading power file rpg_origins:stealthy_invis (skipping): Error reading data field at effect: Error reading status effect: could not find status effect with id: minecraft:invisiblity
+[08:20:36] [main/INFO]: Finished loading powers from data files. Registry contains 645 powers.
+[08:20:36] [main/ERROR]: Origin "digs_dnd_origins:elf/high" contained unregistered power: "digs_dnd_origins:elf/high/ability_score_increase"
+[08:20:36] [main/ERROR]: Origin "rpg_origins:brute" contained unregistered power: "rpg_origins:no_shield"
+[08:20:36] [main/ERROR]: Origin "rpg_origins:brute" contained unregistered power: "rpg_origins:strong_arms"
+[08:20:36] [main/ERROR]: Origin "rpg_origins:brute" contained unregistered power: "rpg_origins:strong_arms_break_speed"
+[08:20:36] [main/ERROR]: Origin "rpg_origins:brute" contained unregistered power: "rpg_origins:natural_armor"
+[08:20:36] [main/ERROR]: Origin "digs_dnd_origins:elf/dark" contained unregistered power: "digs_dnd_origins:elf/dark/ability_score_increase"
+[08:20:36] [main/ERROR]: Origin "foxboi_two:foxboi_two" contained unregistered power: "foxboi_two:diet"
+[08:20:36] [main/ERROR]: Origin "foxboi_two:foxboi_two" contained unregistered power: "foxboi_two:smolman"
+[08:20:36] [main/ERROR]: Origin "digs_dnd_origins:tiefling" contained unregistered power: "digs_dnd_origins:tiefling/ability_score_increase"
+[08:20:36] [main/INFO]: Finished loading origins from data files. Registry contains 88 origins.
+[08:20:36] [main/INFO]: Trying to read layer file: origins:gnome
+[08:20:36] [main/INFO]: Trying to read layer file: origins-classes:class
+[08:20:36] [main/INFO]: Trying to read layer file: origins:elf
+[08:20:36] [main/INFO]: Trying to read layer file: origins:skills/skilled_feat_3
+[08:20:36] [main/INFO]: Trying to read layer file: origins:skills/skilled_feat_2
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:origin
+[08:20:36] [main/INFO]: Trying to read layer file: origins:skills/skilled_feat_1
+[08:20:36] [main/INFO]: Trying to read layer file: origins:skills/skills
+[08:20:36] [main/INFO]: Trying to read layer file: origins:halfling
+[08:20:36] [main/INFO]: Trying to read layer file: origins:dragonborn
+[08:20:36] [main/INFO]: Trying to read layer file: origins:skills/half-elf_skills
+[08:20:36] [main/INFO]: Trying to read layer file: origins:cantrips/cantrips
+[08:20:36] [main/INFO]: Trying to read layer file: origins:feats/variant_human_feats
+[08:20:36] [main/INFO]: Trying to read layer file: origins:dwarf
+[08:20:36] [main/INFO]: Finished loading origin layers from data files. Read 14 layers.
+[08:20:36] [Thread-7/INFO]: Loaded 562 translation keys
+[08:20:36] [main/INFO]: Loaded 0 global power sets.
+[08:20:45] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[08:20:45] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[08:20:45] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[08:20:45] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[08:20:46] [main/INFO]: Applied 4778 biome modifications to 140 of 140 new biomes in 173.7 ms
+[08:20:46] [Server thread/INFO]: Loading server configs...
+[08:20:46] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/savanna/houses
+[08:20:46] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/snowy/houses
+[08:20:46] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/plains/houses
+[08:20:46] [Server thread/INFO]: Adding waystone fwaystones:desert_village_waystone to village minecraft:village/desert/houses
+[08:20:46] [Server thread/INFO]: Adding waystone fwaystones:village_waystone to village minecraft:village/taiga/houses
+[08:20:46] [Server thread/INFO]: Reading config.
+[08:20:46] [Server thread/INFO]: [puffish_skills] Configuration loaded successfully!
+[08:20:46] [Server thread/INFO]: Starting background profiler...
+[08:20:47] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[08:20:47] [Server thread/INFO]: Loading properties
+[08:20:47] [Server thread/INFO]: Default game type: SURVIVAL
+[08:20:47] [Server thread/INFO]: Generating keypair
+[08:20:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:20:48] [Server thread/INFO]: Using epoll channel type
+[08:20:48] [Server thread/INFO]: Preparing level "world"
+[08:20:49] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[08:20:49] [Server thread/INFO]: Loading server info!
+[08:20:49] [Server thread/INFO]: Loading player configs...
+[08:20:49] [Server thread/INFO]: Loaded player configs!
+[08:20:49] [Server thread/INFO]: Loading parties...
+[08:20:49] [Server thread/INFO]: Loaded parties!
+[08:20:49] [Server thread/INFO]: Fixing party inconsistencies...
+[08:20:49] [Server thread/INFO]: Registered permission system for OPAC: permission_api
+[08:21:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[08:21:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:46] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:21:49] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:02] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:04] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:06] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:07] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:11] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:12] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:13] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:21] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:22] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:23] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:25] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:26] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:27] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:28] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:30] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:31] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:32] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:34] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:36] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:37] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:38] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:39] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:40] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:41] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:43] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:45] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[08:22:46] [Worker-Main-1/WARN]: Tried to access a block entity before it was created. class_2338{x=51, y=74, z=-144}
+[08:22:46] [Worker-Main-1/WARN]: Tried to access a block entity before it was created. class_2338{x=51, y=74, z=-144}
+[08:22:46] [Worker-Main-1/INFO]: Preparing spawn area: 1%
+[08:22:46] [Worker-Main-1/INFO]: Preparing spawn area: 13%
+[08:22:47] [Worker-Main-1/INFO]: Preparing spawn area: 21%
+[08:22:47] [Worker-Main-1/INFO]: Preparing spawn area: 26%
+[08:22:48] [Worker-Main-1/INFO]: Preparing spawn area: 43%
+[08:22:48] [Worker-Main-7/INFO]: Preparing spawn area: 46%
+[08:22:49] [Worker-Main-7/INFO]: Preparing spawn area: 46%
+[08:22:49] [Worker-Main-7/INFO]: Preparing spawn area: 46%
+[08:22:50] [Worker-Main-7/INFO]: Preparing spawn area: 46%
+[08:22:50] [Worker-Main-7/INFO]: Preparing spawn area: 46%
+[08:22:51] [Worker-Main-7/INFO]: Preparing spawn area: 47%
+[08:22:51] [Worker-Main-7/INFO]: Preparing spawn area: 47%
+[08:22:52] [Worker-Main-7/INFO]: Preparing spawn area: 48%
+[08:22:52] [Worker-Main-7/INFO]: Preparing spawn area: 49%
+[08:22:53] [Worker-Main-7/INFO]: Preparing spawn area: 50%
+[08:22:53] [Worker-Main-7/INFO]: Preparing spawn area: 51%
+[08:22:54] [Worker-Main-7/INFO]: Preparing spawn area: 51%
+[08:22:54] [Worker-Main-7/INFO]: Preparing spawn area: 52%
+[08:22:55] [Worker-Main-7/INFO]: Preparing spawn area: 52%
+[08:22:56] [Worker-Main-7/INFO]: Preparing spawn area: 53%
+[08:22:56] [Worker-Main-7/INFO]: Preparing spawn area: 53%
+[08:22:56] [Worker-Main-7/INFO]: Preparing spawn area: 53%
+[08:22:57] [Worker-Main-7/INFO]: Preparing spawn area: 53%
+[08:22:57] [Worker-Main-7/INFO]: Preparing spawn area: 54%
+[08:22:58] [Worker-Main-7/INFO]: Preparing spawn area: 54%
+[08:22:58] [Worker-Main-7/INFO]: Preparing spawn area: 54%
+[08:22:59] [Worker-Main-7/INFO]: Preparing spawn area: 54%
+[08:22:59] [Worker-Main-7/INFO]: Preparing spawn area: 54%
+[08:23:00] [Worker-Main-7/INFO]: Preparing spawn area: 55%
+[08:23:00] [Worker-Main-7/INFO]: Preparing spawn area: 55%
+[08:23:01] [Worker-Main-7/INFO]: Preparing spawn area: 55%
+[08:23:01] [Worker-Main-7/INFO]: Preparing spawn area: 56%
+[08:23:02] [Worker-Main-7/INFO]: Preparing spawn area: 56%
+[08:23:02] [Worker-Main-7/INFO]: Preparing spawn area: 57%
+[08:23:03] [Worker-Main-7/INFO]: Preparing spawn area: 57%
+[08:23:03] [Worker-Main-7/INFO]: Preparing spawn area: 57%
+[08:23:04] [Worker-Main-7/INFO]: Preparing spawn area: 57%
+[08:23:04] [Worker-Main-7/INFO]: Preparing spawn area: 57%
+[08:23:05] [Worker-Main-7/INFO]: Preparing spawn area: 58%
+[08:23:05] [Worker-Main-7/INFO]: Preparing spawn area: 58%
+[08:23:06] [Worker-Main-7/INFO]: Preparing spawn area: 59%
+[08:23:06] [Worker-Main-7/INFO]: Preparing spawn area: 59%
+[08:23:07] [Worker-Main-7/INFO]: Preparing spawn area: 60%
+[08:23:07] [Worker-Main-7/INFO]: Preparing spawn area: 61%
+[08:23:08] [Worker-Main-7/INFO]: Preparing spawn area: 62%
+[08:23:08] [Worker-Main-7/INFO]: Preparing spawn area: 63%
+[08:23:09] [Worker-Main-7/INFO]: Preparing spawn area: 63%
+[08:23:09] [Worker-Main-7/INFO]: Preparing spawn area: 63%
+[08:23:10] [Worker-Main-7/INFO]: Preparing spawn area: 64%
+[08:23:10] [Worker-Main-7/INFO]: Preparing spawn area: 64%
+[08:23:11] [Worker-Main-7/INFO]: Preparing spawn area: 65%
+[08:23:11] [Worker-Main-7/INFO]: Preparing spawn area: 65%
+[08:23:12] [Worker-Main-7/INFO]: Preparing spawn area: 65%
+[08:23:12] [Worker-Main-7/INFO]: Preparing spawn area: 66%
+[08:23:13] [Worker-Main-7/INFO]: Preparing spawn area: 66%
+[08:23:13] [Worker-Main-7/INFO]: Preparing spawn area: 66%
+[08:23:14] [Worker-Main-7/INFO]: Preparing spawn area: 66%
+[08:23:14] [Worker-Main-7/INFO]: Preparing spawn area: 67%
+[08:23:15] [Worker-Main-7/INFO]: Preparing spawn area: 68%
+[08:23:15] [Worker-Main-7/INFO]: Preparing spawn area: 68%
+[08:23:16] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:16] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:17] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:17] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:18] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:18] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:19] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:19] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:20] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:20] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:21] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:23] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:23] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:23] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:23] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:23] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:24] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:24] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:25] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:25] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:26] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:26] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:27] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:27] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:28] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:29] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:29] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:30] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:30] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:30] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:31] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:31] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:32] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:32] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:33] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:33] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:34] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:34] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:35] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:35] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:36] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:36] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:37] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:37] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:38] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:38] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:39] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:39] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:40] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:40] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:41] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:41] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:42] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:42] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:43] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:43] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:44] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:44] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:45] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:46] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:46] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:47] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:47] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:48] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:48] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:48] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:49] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:49] [Worker-Main-7/INFO]: Preparing spawn area: 69%
+[08:23:50] [Server thread/WARN]: Tried to load a block entity for block Block{fwaystones:waystone}[active=false,facing=west,generated=true,half=upper,mossy=false,waterlogged=false] but failed at location class_2338{x=51, y=74, z=-144}
+[08:23:50] [Server thread/INFO]: Time elapsed: 135756 ms
+[08:23:50] [Server thread/INFO]: Done (181.545s)! For help, type "help"
+[08:23:50] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 476326 bytes (in 48 string chunks with the size of 10000)
+[08:23:51] [Server thread/INFO]: Start loading plugin from Beautify
+[08:23:51] [Server thread/INFO]: Start loading plugin from Jade
+[08:23:51] [Server thread/INFO]: Start loading plugin from Jade
+[08:23:51] [Server thread/INFO]: Start loading plugin from Jade
+[08:23:51] [Server thread/INFO]: Start loading plugin from Tom's Trading Network
+[08:23:58] [Server thread/INFO]: Loading claims...
+[08:23:58] [Server thread/INFO]: Loaded claims in 1ms
+[08:23:58] [Server thread/WARN]: The configured permission system prometheus isn't registered!
+[08:23:58] [Server thread/INFO]: Configured OPAC to use the following permission system: permission_api
+[08:23:58] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[08:23:58] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[08:23:58] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[08:24:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2228ms or 44 ticks behind
+[08:27:58] [Server thread/INFO]: Stopping the server
+[08:27:59] [Server thread/INFO]: Stopping server
+[08:27:59] [Server thread/INFO]: Saving players
+[08:27:59] [Server thread/INFO]: Saving worlds
+[08:28:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:28:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:28:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:28:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08:28:07] [Server thread/INFO]: Unloading server configs...
+[08:28:07] [Server thread/INFO]: Stopping IO worker...
+[08:28:07] [Server thread/INFO]: Stopped IO worker!
