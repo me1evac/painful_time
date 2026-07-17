@@ -1,1 +1,0 @@
-spells spellbook arcanus:magic_missile @p

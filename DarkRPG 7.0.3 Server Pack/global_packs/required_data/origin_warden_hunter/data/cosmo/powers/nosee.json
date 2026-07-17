@@ -1,6 +1,0 @@
-{
-  "name": "ocular disfunction",
-    "description": "after your years in the deep dark you have lost most of color perception.",
-  "type": "origins:shader",
-  "shader": "minecraft:shaders/post/desaturate.json"
-}
