@@ -1,0 +1,7 @@
+{
+	// 20 ticks = 1 second
+	"weapon_blocking_cooldown": 60,
+	// 0.03 = 3% chance
+	"sickle_head_drop_chance": 0.029999999329447746,
+	"healing_staff_owner_healing": false
+}
