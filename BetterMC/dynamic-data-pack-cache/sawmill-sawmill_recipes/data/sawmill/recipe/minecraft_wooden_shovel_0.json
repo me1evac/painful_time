@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "betternether:nether_mushroom_stem"
+  },
+  "result": {
+    "id": "minecraft:wooden_shovel",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

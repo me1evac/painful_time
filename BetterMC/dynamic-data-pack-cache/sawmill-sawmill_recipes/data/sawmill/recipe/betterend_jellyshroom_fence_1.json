@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betterend:jellyshroom_planks"
+  },
+  "result": {
+    "id": "betterend:jellyshroom_fence",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

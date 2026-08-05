@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betternether:stalagnate_log"
+  },
+  "result": {
+    "id": "betternether:stalagnate_stripped_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

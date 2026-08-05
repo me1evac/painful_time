@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:willow_planks"
+  },
+  "result": {
+    "id": "biomesoplenty:willow_slab",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

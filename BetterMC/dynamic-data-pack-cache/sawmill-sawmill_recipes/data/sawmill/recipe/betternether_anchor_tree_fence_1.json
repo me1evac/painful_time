@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:anchor_tree_planks"
+  },
+  "result": {
+    "id": "betternether:anchor_tree_fence",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

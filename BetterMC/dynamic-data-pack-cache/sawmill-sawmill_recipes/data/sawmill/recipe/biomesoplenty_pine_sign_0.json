@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:pine_log"
+    },
+    {
+      "item": "biomesoplenty:pine_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_pine_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_pine_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:pine_sign",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

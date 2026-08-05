@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "charm:azalea_planks"
+  },
+  "result": {
+    "id": "charm:azalea_fence",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

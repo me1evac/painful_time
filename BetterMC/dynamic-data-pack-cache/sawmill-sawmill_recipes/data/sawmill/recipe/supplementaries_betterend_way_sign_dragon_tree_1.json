@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betterend:dragon_tree_planks"
+  },
+  "result": {
+    "id": "supplementaries:betterend/way_sign_dragon_tree",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

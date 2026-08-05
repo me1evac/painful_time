@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:lucernia_stripped_log"
+  },
+  "result": {
+    "id": "betterend:lucernia_stripped_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:nether_mushroom_planks"
+  },
+  "result": {
+    "id": "supplementaries:betternether/way_sign_nether_mushroom",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

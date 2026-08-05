@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:umbran_wood"
+  },
+  "result": {
+    "id": "biomesoplenty:stripped_umbran_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

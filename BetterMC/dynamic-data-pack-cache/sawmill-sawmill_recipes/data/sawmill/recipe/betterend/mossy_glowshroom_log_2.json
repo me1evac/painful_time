@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:mossy_glowshroom_log"
+  },
+  "result": {
+    "id": "betterend:mossy_glowshroom_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

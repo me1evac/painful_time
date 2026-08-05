@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:mushroom_fir_planks"
+  },
+  "result": {
+    "id": "betternether:mushroom_fir_button",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

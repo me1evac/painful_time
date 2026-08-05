@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:lacugrove_bark"
+  },
+  "result": {
+    "id": "betterend:lacugrove_stripped_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:dead_wood"
+  },
+  "result": {
+    "id": "biomesoplenty:dead_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

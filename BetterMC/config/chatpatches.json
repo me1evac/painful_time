@@ -1,0 +1,11 @@
+{
+  "time": false,
+  "timeSystemMessages": false,
+  "counter": false,
+  "chatlog": false,
+  "name": false,
+  "chatHidePacket": false,
+  "messageDrafting": true,
+  "search": false,
+  "searchDrafting": false
+}

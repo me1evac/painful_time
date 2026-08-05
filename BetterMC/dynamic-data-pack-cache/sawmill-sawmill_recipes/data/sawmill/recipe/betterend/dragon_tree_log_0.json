@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:dragon_tree_log"
+  },
+  "result": {
+    "id": "betterend:dragon_tree_stripped_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

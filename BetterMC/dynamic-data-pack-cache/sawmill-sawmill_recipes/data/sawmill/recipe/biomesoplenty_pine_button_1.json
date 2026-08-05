@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:pine_planks"
+  },
+  "result": {
+    "id": "biomesoplenty:pine_button",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

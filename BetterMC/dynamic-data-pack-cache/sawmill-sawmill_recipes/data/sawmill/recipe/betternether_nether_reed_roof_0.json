@@ -1,0 +1,12 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "betternether:nether_reed_stem"
+  },
+  "result": {
+    "id": "betternether:nether_reed_roof",
+    "count": 1
+  },
+  "ingredient_count": 6,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "minecraft:crimson_stem"
+    },
+    {
+      "item": "minecraft:crimson_hyphae"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_hyphae"
+    }
+  ],
+  "result": {
+    "id": "animal_feeding_trough:feeding_trough",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

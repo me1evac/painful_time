@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betterend:pythadendron_planks"
+  },
+  "result": {
+    "id": "betterend:pythadendron_wall",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

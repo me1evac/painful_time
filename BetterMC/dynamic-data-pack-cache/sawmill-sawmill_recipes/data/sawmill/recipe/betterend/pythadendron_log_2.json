@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:pythadendron_log"
+  },
+  "result": {
+    "id": "betterend:pythadendron_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:dragon_tree_log"
+    },
+    {
+      "item": "betterend:dragon_tree_bark"
+    },
+    {
+      "item": "betterend:dragon_tree_stripped_log"
+    },
+    {
+      "item": "betterend:dragon_tree_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "betterend:dragon_tree_fence",
+    "count": 3
+  },
+  "type": "sawmill:woodcutting"
+}

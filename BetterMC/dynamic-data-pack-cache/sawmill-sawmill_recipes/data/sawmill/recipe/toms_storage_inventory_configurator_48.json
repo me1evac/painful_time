@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "charm:azalea_log"
+    },
+    {
+      "item": "charm:azalea_wood"
+    },
+    {
+      "item": "charm:stripped_azalea_log"
+    },
+    {
+      "item": "charm:stripped_azalea_wood"
+    }
+  ],
+  "result": {
+    "id": "toms_storage:inventory_configurator",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

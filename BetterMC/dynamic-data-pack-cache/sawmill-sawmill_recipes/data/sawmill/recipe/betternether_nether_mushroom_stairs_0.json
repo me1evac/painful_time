@@ -1,0 +1,11 @@
+{
+  "group": "logs",
+  "ingredient": {
+    "item": "betternether:nether_mushroom_stem"
+  },
+  "result": {
+    "id": "betternether:nether_mushroom_stairs",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:maple_log"
+    },
+    {
+      "item": "biomesoplenty:maple_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_maple_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_maple_wood"
+    }
+  ],
+  "result": {
+    "id": "minecraft:bowl",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

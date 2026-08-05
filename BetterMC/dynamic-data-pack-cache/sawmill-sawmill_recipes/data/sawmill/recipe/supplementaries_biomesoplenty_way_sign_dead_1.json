@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:dead_planks"
+  },
+  "result": {
+    "id": "supplementaries:biomesoplenty/way_sign_dead",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

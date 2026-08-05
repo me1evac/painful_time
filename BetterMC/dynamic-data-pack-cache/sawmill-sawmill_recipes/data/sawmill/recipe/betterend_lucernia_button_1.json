@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betterend:lucernia_planks"
+  },
+  "result": {
+    "id": "betterend:lucernia_button",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

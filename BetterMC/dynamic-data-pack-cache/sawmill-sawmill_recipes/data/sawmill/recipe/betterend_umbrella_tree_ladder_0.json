@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:umbrella_tree_log"
+    },
+    {
+      "item": "betterend:umbrella_tree_bark"
+    },
+    {
+      "item": "betterend:umbrella_tree_stripped_log"
+    },
+    {
+      "item": "betterend:umbrella_tree_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "betterend:umbrella_tree_ladder",
+    "count": 3
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betterend:umbrella_tree_planks"
+  },
+  "result": {
+    "id": "betterend:umbrella_tree_ladder",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

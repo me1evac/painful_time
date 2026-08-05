@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:stalagnate_planks"
+  },
+  "result": {
+    "id": "betternether:stalagnate_fence",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

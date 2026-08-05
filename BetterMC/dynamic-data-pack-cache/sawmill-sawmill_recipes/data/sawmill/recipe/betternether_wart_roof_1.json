@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:wart_planks"
+  },
+  "result": {
+    "id": "betternether:wart_roof",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

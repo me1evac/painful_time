@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:tenanea_log"
+    },
+    {
+      "item": "betterend:tenanea_bark"
+    },
+    {
+      "item": "betterend:tenanea_stripped_log"
+    },
+    {
+      "item": "betterend:tenanea_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "toms_storage:open_crate",
+    "count": 1
+  },
+  "ingredient_count": 4,
+  "type": "sawmill:woodcutting"
+}

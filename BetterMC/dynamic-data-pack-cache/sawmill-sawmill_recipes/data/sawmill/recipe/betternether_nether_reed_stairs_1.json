@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:nether_reed_planks"
+  },
+  "result": {
+    "id": "betternether:nether_reed_stairs",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

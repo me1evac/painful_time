@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:jacaranda_wood"
+  },
+  "result": {
+    "id": "biomesoplenty:jacaranda_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

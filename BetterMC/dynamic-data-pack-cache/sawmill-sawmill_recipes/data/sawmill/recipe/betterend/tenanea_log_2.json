@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:tenanea_log"
+  },
+  "result": {
+    "id": "betterend:tenanea_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

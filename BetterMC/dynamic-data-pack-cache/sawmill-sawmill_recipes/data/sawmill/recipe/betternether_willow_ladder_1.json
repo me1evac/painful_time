@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:willow_planks"
+  },
+  "result": {
+    "id": "betternether:willow_ladder",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

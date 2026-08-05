@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:mahogany_planks"
+  },
+  "result": {
+    "id": "biomesoplenty:mahogany_button",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

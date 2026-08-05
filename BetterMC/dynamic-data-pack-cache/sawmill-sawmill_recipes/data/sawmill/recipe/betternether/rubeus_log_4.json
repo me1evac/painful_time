@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betternether:rubeus_bark"
+  },
+  "result": {
+    "id": "betternether:rubeus_stripped_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

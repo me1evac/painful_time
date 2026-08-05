@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:umbran_planks"
+  },
+  "result": {
+    "id": "supplementaries:biomesoplenty/way_sign_umbran",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

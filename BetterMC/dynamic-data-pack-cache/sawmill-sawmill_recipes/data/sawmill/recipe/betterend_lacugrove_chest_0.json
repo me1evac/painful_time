@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:lacugrove_log"
+    },
+    {
+      "item": "betterend:lacugrove_bark"
+    },
+    {
+      "item": "betterend:lacugrove_stripped_log"
+    },
+    {
+      "item": "betterend:lacugrove_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "betterend:lacugrove_chest",
+    "count": 1
+  },
+  "ingredient_count": 2,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:mossy_glowshroom_log"
+    },
+    {
+      "item": "betterend:mossy_glowshroom_bark"
+    },
+    {
+      "item": "betterend:mossy_glowshroom_stripped_log"
+    },
+    {
+      "item": "betterend:mossy_glowshroom_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "farmersdelight:cutting_board",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

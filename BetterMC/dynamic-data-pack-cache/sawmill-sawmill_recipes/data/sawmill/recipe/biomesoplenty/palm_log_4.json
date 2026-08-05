@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:palm_wood"
+  },
+  "result": {
+    "id": "biomesoplenty:stripped_palm_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

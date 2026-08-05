@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "charm:ebony_planks"
+  },
+  "result": {
+    "id": "charm:ebony_stairs",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

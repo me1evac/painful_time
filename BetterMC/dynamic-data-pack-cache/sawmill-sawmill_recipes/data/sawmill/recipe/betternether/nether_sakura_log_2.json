@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betternether:nether_sakura_log"
+  },
+  "result": {
+    "id": "betternether:nether_sakura_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

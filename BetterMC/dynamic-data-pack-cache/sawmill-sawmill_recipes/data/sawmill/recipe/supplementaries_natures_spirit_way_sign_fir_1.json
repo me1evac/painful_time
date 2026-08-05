@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "natures_spirit:fir_planks"
+  },
+  "result": {
+    "id": "supplementaries:natures_spirit/way_sign_fir",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

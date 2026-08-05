@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "charm:azalea_log"
+    },
+    {
+      "item": "charm:azalea_wood"
+    },
+    {
+      "item": "charm:stripped_azalea_log"
+    },
+    {
+      "item": "charm:stripped_azalea_wood"
+    }
+  ],
+  "result": {
+    "id": "animal_feeding_trough:feeding_trough",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

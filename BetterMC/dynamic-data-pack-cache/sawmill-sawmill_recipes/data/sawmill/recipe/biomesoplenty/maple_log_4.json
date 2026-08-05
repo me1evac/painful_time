@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:maple_wood"
+  },
+  "result": {
+    "id": "biomesoplenty:stripped_maple_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

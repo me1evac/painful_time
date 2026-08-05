@@ -1,0 +1,16 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "mynethersdelight:powdery_block"
+    },
+    {
+      "item": "mynethersdelight:stripped_powdery_block"
+    }
+  ],
+  "result": {
+    "id": "animal_feeding_trough:feeding_trough",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

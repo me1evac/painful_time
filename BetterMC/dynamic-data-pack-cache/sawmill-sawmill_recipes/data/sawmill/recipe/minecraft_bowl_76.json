@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:tenanea_log"
+    },
+    {
+      "item": "betterend:tenanea_bark"
+    },
+    {
+      "item": "betterend:tenanea_stripped_log"
+    },
+    {
+      "item": "betterend:tenanea_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "minecraft:bowl",
+    "count": 6
+  },
+  "type": "sawmill:woodcutting"
+}

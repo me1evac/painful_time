@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:magic_planks"
+  },
+  "result": {
+    "id": "supplementaries:biomesoplenty/way_sign_magic",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

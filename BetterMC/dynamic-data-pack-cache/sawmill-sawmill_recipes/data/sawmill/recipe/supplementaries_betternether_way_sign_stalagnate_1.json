@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:stalagnate_planks"
+  },
+  "result": {
+    "id": "supplementaries:betternether/way_sign_stalagnate",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

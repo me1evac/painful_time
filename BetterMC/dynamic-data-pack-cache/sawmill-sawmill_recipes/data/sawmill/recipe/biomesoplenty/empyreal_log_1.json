@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:empyreal_log"
+  },
+  "result": {
+    "id": "biomesoplenty:stripped_empyreal_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

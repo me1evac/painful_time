@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:rubeus_planks"
+  },
+  "result": {
+    "id": "betternether:rubeus_ladder",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

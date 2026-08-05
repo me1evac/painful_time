@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:maple_log"
+    },
+    {
+      "item": "biomesoplenty:maple_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_maple_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_maple_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:maple_pressure_plate",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

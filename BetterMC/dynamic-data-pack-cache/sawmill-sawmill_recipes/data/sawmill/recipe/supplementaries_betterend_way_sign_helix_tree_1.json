@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betterend:helix_tree_planks"
+  },
+  "result": {
+    "id": "supplementaries:betterend/way_sign_helix_tree",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

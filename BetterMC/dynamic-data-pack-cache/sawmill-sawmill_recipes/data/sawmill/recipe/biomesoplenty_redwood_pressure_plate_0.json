@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:redwood_log"
+    },
+    {
+      "item": "biomesoplenty:redwood_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_redwood_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:redwood_pressure_plate",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

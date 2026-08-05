@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betternether:willow_log"
+    },
+    {
+      "item": "betternether:willow_bark"
+    },
+    {
+      "item": "betternether:willow_stripped_log"
+    },
+    {
+      "item": "betternether:willow_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

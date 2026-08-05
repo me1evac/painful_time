@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "charm:stripped_azalea_log"
+  },
+  "result": {
+    "id": "charm:stripped_azalea_wood",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

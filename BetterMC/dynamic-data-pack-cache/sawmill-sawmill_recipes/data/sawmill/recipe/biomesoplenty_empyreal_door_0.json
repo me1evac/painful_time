@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:empyreal_log"
+    },
+    {
+      "item": "biomesoplenty:empyreal_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_empyreal_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_empyreal_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:empyreal_door",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

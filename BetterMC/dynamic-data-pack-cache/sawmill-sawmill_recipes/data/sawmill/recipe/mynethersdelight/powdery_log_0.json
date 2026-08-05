@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "mynethersdelight:powdery_block"
+  },
+  "result": {
+    "id": "mynethersdelight:stripped_powdery_block",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "natures_spirit:aspen_log"
+    },
+    {
+      "item": "natures_spirit:aspen_wood"
+    },
+    {
+      "item": "natures_spirit:stripped_aspen_log"
+    },
+    {
+      "item": "natures_spirit:stripped_aspen_wood"
+    }
+  ],
+  "result": {
+    "id": "supplementaries:natures_spirit/way_sign_aspen",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

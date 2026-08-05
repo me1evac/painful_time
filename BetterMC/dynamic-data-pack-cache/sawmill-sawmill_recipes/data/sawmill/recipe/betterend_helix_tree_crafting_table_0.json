@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:helix_tree_log"
+    },
+    {
+      "item": "betterend:helix_tree_bark"
+    },
+    {
+      "item": "betterend:helix_tree_stripped_log"
+    },
+    {
+      "item": "betterend:helix_tree_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "betterend:helix_tree_crafting_table",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

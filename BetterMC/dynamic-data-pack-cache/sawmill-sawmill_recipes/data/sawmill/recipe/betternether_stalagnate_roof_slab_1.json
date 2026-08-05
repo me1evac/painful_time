@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "betternether:stalagnate_planks"
+  },
+  "result": {
+    "id": "betternether:stalagnate_roof_slab",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

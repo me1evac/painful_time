@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "charm:azalea_planks"
+  },
+  "result": {
+    "id": "charm:azalea_slab",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

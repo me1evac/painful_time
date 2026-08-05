@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betternether:mushroom_fir_log"
+    },
+    {
+      "item": "betternether:mushroom_fir_bark"
+    },
+    {
+      "item": "betternether:mushroom_fir_stripped_log"
+    },
+    {
+      "item": "betternether:mushroom_fir_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "betternether:mushroom_fir_planks",
+    "count": 4
+  },
+  "type": "sawmill:woodcutting"
+}

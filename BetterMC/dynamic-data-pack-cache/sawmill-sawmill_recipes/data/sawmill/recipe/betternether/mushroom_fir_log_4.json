@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betternether:mushroom_fir_bark"
+  },
+  "result": {
+    "id": "betternether:mushroom_fir_stripped_bark",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

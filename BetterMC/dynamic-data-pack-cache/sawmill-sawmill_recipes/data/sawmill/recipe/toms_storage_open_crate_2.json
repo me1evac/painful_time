@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:lucernia_log"
+    },
+    {
+      "item": "betterend:lucernia_bark"
+    },
+    {
+      "item": "betterend:lucernia_stripped_log"
+    },
+    {
+      "item": "betterend:lucernia_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "toms_storage:open_crate",
+    "count": 1
+  },
+  "ingredient_count": 4,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:dead_log"
+    },
+    {
+      "item": "biomesoplenty:dead_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_dead_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_dead_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:dead_fence",
+    "count": 3
+  },
+  "type": "sawmill:woodcutting"
+}

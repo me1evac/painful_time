@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "biomesoplenty:mahogany_planks"
+  },
+  "result": {
+    "id": "biomesoplenty:mahogany_slab",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

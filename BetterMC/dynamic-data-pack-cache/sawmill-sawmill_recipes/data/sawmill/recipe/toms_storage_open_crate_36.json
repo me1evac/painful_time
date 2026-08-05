@@ -1,0 +1,23 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:mossy_glowshroom_log"
+    },
+    {
+      "item": "betterend:mossy_glowshroom_bark"
+    },
+    {
+      "item": "betterend:mossy_glowshroom_stripped_log"
+    },
+    {
+      "item": "betterend:mossy_glowshroom_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "toms_storage:open_crate",
+    "count": 1
+  },
+  "ingredient_count": 4,
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "betterend:umbrella_tree_log"
+    },
+    {
+      "item": "betterend:umbrella_tree_bark"
+    },
+    {
+      "item": "betterend:umbrella_tree_stripped_log"
+    },
+    {
+      "item": "betterend:umbrella_tree_stripped_bark"
+    }
+  ],
+  "result": {
+    "id": "toms_storage:inventory_configurator",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "biomesoplenty:mahogany_wood"
+  },
+  "result": {
+    "id": "biomesoplenty:mahogany_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

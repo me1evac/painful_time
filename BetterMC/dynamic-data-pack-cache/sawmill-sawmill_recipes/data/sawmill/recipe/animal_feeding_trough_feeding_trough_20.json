@@ -1,0 +1,16 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "minecraft:bamboo_block"
+    },
+    {
+      "item": "minecraft:stripped_bamboo_block"
+    }
+  ],
+  "result": {
+    "id": "animal_feeding_trough:feeding_trough",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

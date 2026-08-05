@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:jacaranda_log"
+    },
+    {
+      "item": "biomesoplenty:jacaranda_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_jacaranda_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_jacaranda_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:jacaranda_trapdoor",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}

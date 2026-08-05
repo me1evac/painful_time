@@ -1,0 +1,11 @@
+{
+  "group": "log",
+  "ingredient": {
+    "item": "betterend:jellyshroom_log"
+  },
+  "result": {
+    "id": "betterend:jellyshroom_stripped_log",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

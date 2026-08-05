@@ -1,0 +1,11 @@
+{
+  "group": "planks",
+  "ingredient": {
+    "item": "natures_spirit:cypress_planks"
+  },
+  "result": {
+    "id": "supplementaries:natures_spirit/way_sign_cypress",
+    "count": 1
+  },
+  "type": "sawmill:woodcutting"
+}

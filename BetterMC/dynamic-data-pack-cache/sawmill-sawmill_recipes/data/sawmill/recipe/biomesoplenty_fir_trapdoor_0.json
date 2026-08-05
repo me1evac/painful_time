@@ -1,0 +1,22 @@
+{
+  "group": "logs",
+  "ingredient": [
+    {
+      "item": "biomesoplenty:fir_log"
+    },
+    {
+      "item": "biomesoplenty:fir_wood"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_log"
+    },
+    {
+      "item": "biomesoplenty:stripped_fir_wood"
+    }
+  ],
+  "result": {
+    "id": "biomesoplenty:fir_trapdoor",
+    "count": 2
+  },
+  "type": "sawmill:woodcutting"
+}
