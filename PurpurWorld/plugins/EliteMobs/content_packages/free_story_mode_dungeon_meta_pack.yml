@@ -1,5 +1,5 @@
 isEnabled: true
-name: '&2[010-055] Story Mode Dungeons: Chapter One!'
+name: '&2[000-055] All 10 Free Story Mode Dungeons and Sanctums!'
 customInfo:
 - The perfect set of story dungeons
 - for players new to EliteMobs!
@@ -21,6 +21,6 @@ containedPackages:
 setupMenuDescription:
 - '&2All free story mode dungeons for EliteMobs!'
 - '&2Featuring multiple custom soundtracks, models'
-- '&2unique powers and elaborate maps, it''''s a really'
+- '&2unique powers and elaborate maps, it''s a really'
 - '&2fun way of experiencing EliteMobs content!'
 dungeonLockoutMinutes: 0

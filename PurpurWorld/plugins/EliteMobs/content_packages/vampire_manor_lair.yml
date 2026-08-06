@@ -22,15 +22,15 @@ contentType: DYNAMIC_DUNGEON
 dungeonConfigFolderName: vampire_manor
 contentLevel: -1
 difficulties:
-- levelSync: '+5'
-  id: 0
+- id: 0
   name: normal
-- levelSync: '+0'
-  id: 1
+  levelSync: '+5'
+- id: 1
   name: hard
-- levelSync: '-5'
-  id: 2
+  levelSync: '+0'
+- id: 2
   name: mythic
+  levelSync: '-5'
 setupMenuDescription:
 - '&2A Dynamic Lair where you choose the level!'
 dungeonLockoutMinutes: 1440

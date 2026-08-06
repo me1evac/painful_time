@@ -1,0 +1,12 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &4Arena Zombie
+level: '13'
+powers:
+- corpse.yml
+- attack_poison.yml
+- invulnerability_fire.yml
+followDistance: 60
+onSpawnBlockStates: []
+onRemoveBlockStates: []
+bossType: NORMAL

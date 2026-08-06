@@ -22,15 +22,15 @@ contentType: INSTANCED_DUNGEON
 dungeonConfigFolderName: em_id_primis_gladius
 contentLevel: 1
 difficulties:
-- id: 0
-  levelSync: 18
+- levelSync: 18
   name: normal
-- id: 1
-  levelSync: 15
+  id: 0
+- levelSync: 15
   name: hard
-- id: 2
-  levelSync: 12
+  id: 1
+- levelSync: 12
   name: mythic
+  id: 2
 listedInTeleports: false
 setupMenuDescription: []
 dungeonLockoutMinutes: 0

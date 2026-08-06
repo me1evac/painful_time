@@ -2,3 +2,5 @@ validWorlds:
   world: true
   world_nether: true
   world_the_end: true
+  em_primis: true
+  em_primis_wormhole: true

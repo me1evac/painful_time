@@ -303,14 +303,25 @@ skillItemDisplayNameFormat: '&6&lLevel $level $skillName'
 skillItemSelectLore1: '&eClick to select passive skills'
 skillItemSelectLore2: '&eand see more details!'
 dialog:
+  # Title for the main player status dialog menu.
   titlePlayerStatus: Player Status Menu
+  # Title for the Stats dialog section.
   titleStats: Stats
+  # Title for the Gear dialog section.
   titleGear: Gear
+  # Title for the Teleports dialog section.
   titleTeleports: Teleports
+  # Title for the Commands dialog section.
   titleCommands: Commands
+  # Title for the Quests dialog section.
   titleQuests: Quests
+  # Title for the Boss Tracking dialog section.
   titleBossTracking: Boss Tracking
+  # Title for the Skills dialog section.
   titleSkills: Skills
+  # Message shown when the player has no active quests.
   noActiveQuests: No active quests
+  # Message showing the number of active quests. Use $amount for the quest count.
   activeQuestsFormat: You have $amount active quest(s).
+  # Text for the back button in dialog sections.
   backButton: ← Back to Menu

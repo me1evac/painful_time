@@ -1,5 +1,7 @@
 isEnabled: true
+# Sets the display name of the menu
 menuName: '&6Elite Scroll Menu'
+# Sets the item slot number of the information button in the chest menu.
 infoSlot: 4
 infoButton:
   material: PLAYER_HEAD
@@ -10,6 +12,7 @@ infoButton:
   - §2to elite mobs.
   - §2To convert a non-elite item into an elite item, place
   - §2your non-elite item below, as well as a Elite Scroll!
+# Sets the item slot number of the cancel button in the chest menu.
 cancelSlot: 27
 cancelButton:
   material: BARRIER
@@ -17,11 +20,14 @@ cancelButton:
   lore:
   - §cCancel!
   customModelID: 31173
+# Sets the item slot number of the confirm button in the chest menu.
 confirmSlot: 35
 confirmButton:
   material: EMERALD
   name: §2Apply!
+# Sets the item slot number of the non-elite item in the chest menu.
 itemSlot: 29
+# Sets the item slot number of the non-elite item info button in the chest menu.
 itemInfoSlot: 20
 itemInfoButton:
   material: GREEN_BANNER
@@ -29,6 +35,7 @@ itemInfoButton:
   lore:
   - §aPut your non-elite item here!
   customModelID: 31173
+# Sets the item slot number of the elite scroll item info button in the chest menu.
 eliteScrollItemInfoSlot: 22
 eliteScrollItemInfoButton:
   material: GREEN_BANNER
@@ -36,6 +43,7 @@ eliteScrollItemInfoButton:
   lore:
   - §aPut your elite scroll here!
   customModelID: 31173
+# Sets the item slot number of elite scroll in the chest menu.
 eliteScrollItemSlot: 31
 outputInfoButton:
   material: RED_BANNER

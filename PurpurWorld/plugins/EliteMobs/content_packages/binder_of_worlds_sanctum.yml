@@ -23,15 +23,15 @@ contentType: INSTANCED_DUNGEON
 dungeonConfigFolderName: the_binder_of_worlds
 contentLevel: 50
 difficulties:
-- levelSync: 205
-  id: 0
+- id: 0
   name: normal
-- levelSync: 200
-  id: 1
+  levelSync: 205
+- id: 1
   name: hard
-- levelSync: 195
-  id: 2
+  levelSync: 200
+- id: 2
   name: mythic
+  levelSync: 195
 allowExplosionBlockDamage: true
 setupMenuDescription:
 - '&2Basically the final boss of EliteMobs!'

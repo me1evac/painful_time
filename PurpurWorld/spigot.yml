@@ -173,6 +173,8 @@ world-settings:
       entity: 50
     thunder-chance: 100000
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 players:
   disable-saving: false
 config-version: 12

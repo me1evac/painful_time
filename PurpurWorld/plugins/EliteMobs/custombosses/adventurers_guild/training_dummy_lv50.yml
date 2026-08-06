@@ -1,0 +1,20 @@
+isEnabled: true
+entityType: HUSK
+name: '&8[&6Lv.50 &7Training Dummy&8]'
+level: '50'
+damageMultiplier: 0.0
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+dropsSkillXP: false
+customModel: em_trainingdummy3
+followDistance: 15
+isRegionalBoss: true
+onSpawnBlockStates: []
+onRemoveBlockStates: []
+bossType: NORMAL
+silent: true
+ai: false
+alwaysShowName: true
+spawnLocations:
+- em_adventurers_guild,232.5,87,208.5,-43,0:1770119101738

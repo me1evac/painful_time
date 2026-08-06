@@ -8014,9 +8014,15 @@ maceNames:
 - Mace of the Sundered Crown
 - Dustbound Mace
 - The Limestone Gavel
+# Display name for command loot preview items.
 lootPreviewCommandDisplayName: Command
+# Label prefix for the command in loot preview lore.
 lootPreviewCommandLabel: 'Command: '
+# Label prefix for the chance in loot preview lore.
 lootPreviewChanceLabel: 'Chance: '
+# Label prefix for the times/amount in command loot preview lore.
 lootPreviewTimesLabel: 'Times: '
+# Display name for currency loot preview items.
 lootPreviewCurrencyDisplayName: Currency reward
+# Label prefix for the amount in currency loot preview lore.
 lootPreviewAmountLabel: 'Amount: '

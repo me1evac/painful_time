@@ -12,6 +12,6 @@ questCompleteMessage: []
 questCompleteCommands: []
 customObjectives:
   Objective1:
-    filename: test_boss.yml
     amount: 1
     objectiveType: KILL_CUSTOM
+    filename: test_boss.yml
