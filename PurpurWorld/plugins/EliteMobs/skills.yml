@@ -1,0 +1,9 @@
+skillSystemEnabled: true
+armorSkillHealthBonusEnabled: true
+forceDefaultHealthWhenArmorSkillHealthBonusDisabled: false
+skillsMenuTitle: '&5&lYour Skills'
+showCombatLevelDisplay: true
+showXPBar: true
+skillBarTitleFormat: '&6$skillName &7Lv.$level$xpText'
+skillLevelUpTitleFormat: '&e&l✦ $skillName LEVEL UP! &7→ &eLv.$level &e&l✦'
+combatLevelFormat: '&6&lCombat Lv. $level'

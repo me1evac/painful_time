@@ -1,0 +1,313 @@
+payNiceTryMessage: '&4[EliteMobs]Nice try.'
+payPlayerNotOnlineMessage: '&8[EliteMobs] &4Player $player is not online and can therefore
+  not get a payment.'
+currencyPlayerNotValidMessage: '&8[EliteMobs] &4Player $player is not valid!'
+currencyAddedMessage: '&8[EliteMobs] &2You have added $amount to $player'
+currencyNowHasMessage: '&8[EliteMobs] &2They now have $amount'
+currencyAddedAllMessage: '&8[EliteMobs] &2You have added $amount to all online players.'
+currencySubtractedMessage: '&8[EliteMobs] &2You have subtracted $amount from $player'
+currencySetMessage: You set $player's $currencyName to $amount
+currencyCheckMessage: '&8[EliteMobs]&f $player &2has $amount $currencyName'
+dungeonNotValidMessage: '[EliteMobs] That dungeon isn''t valid!'
+dungeonNotInstalledMessage: '[EliteMobs] That dungeon isn''t installed, ask an admin
+  to install it!'
+alreadyInInstanceMessage: '[EliteMobs] You''re already in an instance! You will not
+  be able to switch to another instance before you do /em quit'
+dungeonTeleportNotSetMessage: '[EliteMobs] Can''t teleport you to the dungeon because
+  the teleport location isn''t set! If you are an admin, check the DungeonPackager
+  config for this content and manually set the teleport location.'
+questPlayerNotValidMessage: '[EliteMobs] Error - player name not valid!'
+questResetSuccessMessage: '[EliteMobs] Successfully reset quests for player $player'
+questNameNotValidMessage: '[EliteMobs] Error - quest filename $quest is not valid!'
+questCompletedSuccessMessage: '[EliteMobs] Successfully quest $quest for player $player'
+noActiveQuestsMessage: You have no active quests.
+questNotFoundMessage: Quest not found.
+noSafeSpawnMessage: '[EliteMobs] No safe spawn location found! Make sure the area
+  is passable!'
+bossNotValidRegionalMessage: '&8[EliteMobs] &4Failed to add spawn location! Custom
+  Boss $boss is not valid regional boss!'
+leashRadiusFailedMessage: '&8[EliteMobs] &4Failed set the leash radius! Was the boss
+  a valid regional boss?'
+invalidEntityTypeMessage: '&8[EliteMobs] &4Entity type $type can''t be an Elite!'
+filenameNotValidMessage: Filename $filename is not valid! Make sure you are writing
+  the name of a configuration file in the custombosses folder!
+worldNotValidMessage: '[EliteMobs] World argument was not valid!'
+invalidPowerMessage: '[EliteMobs] Power $power is not a valid power! Valid powers:'
+killedElitesMessage: '&8[EliteMobs] &4Killed $count Elite Mobs.'
+killedEliteTypeMessage: '&8[EliteMobs] &4Killed $count Elite $type.'
+invalidEliteTypeMessage: '&8[EliteMobs] &cNot a valid entity type for EliteMobs!'
+removeElitesOffMessage: '&8[EliteMobs] &aYou are no longer removing elites!'
+removeElitesOnMessage: '&8[EliteMobs] &cYou are now removing elites when you punch
+  them! Run &a/em remove &cagain to stop removing elites!'
+removedNotEliteMobsMessage: '&8[EliteMobs] The entity you just removed was not an
+  EliteMobs entity. EliteMobs will still attempt to remove it though.'
+removedHijackedMessage: '&8[EliteMobs] If the entity is supposed to be an EliteMobs
+  entity, it is highly likely some other plugin hijacked the entity and changed it
+  in a way that made EliteMobs unable to recognize it anymore.'
+removedTreasureChestMessage: '[EliteMobs] Removed treasure chest!'
+removedSpawnLocationMessage: '&8[EliteMobs] &cRemoved a spawn location for boss $boss'
+invalidNpcFilenameMessage: '[EliteMobs] Invalid NPC filename.'
+gaveItemMessage: '[EliteMobs] Successfully gave $player item $item'
+invalidItemFilenameMessage: '&8[EliteMobs] &cFile name $filename is not a valid custom
+  item file name!'
+invalidPlayerForItemMessage: '&8[EliteMobs] &cTried to give item to invalid player!'
+eventQueuedMessage: '&8[EliteMobs] Queued event $event for the next valid time it
+  can spawn. &cThis might take a while depending on the start conditions of the event.'
+invalidEventMessage: '&8[EliteMobs] &4Event $event is not valid! Make sure the event
+  file exists, is enabled and has eventType set to TIMED.'
+eventCancelledMessage: '&8[EliteMobs] &4Event $event was cancelled by another plugin!'
+eventNoSpawnTypeMessage: '&8[EliteMobs] &4Event $event has no spawnType set! Add a
+  valid custom spawn filename to the event config.'
+eventInvalidSpawnTypeMessage: '&8[EliteMobs] &4Event $event failed to start because
+  its spawnType ''$spawnType'' is not a valid custom spawn file! Make sure the file
+  exists in the customspawns folder and is enabled.'
+eventNoValidBossesMessage: '&8[EliteMobs] &4Event $event failed to start because none
+  of its boss filenames are valid! Check that the bossFilenames in the event config
+  point to existing custom boss files.'
+invalidMinidungeonMessage: '&8[EliteMobs] &4Minidungeons name $name isn''t valid!'
+minidungeonNotInstalledMessage: '&8[EliteMobs] &4Minidungeon isn''t installed! Can''t
+  get the relative location for uninstalled Minidungeons!'
+invalidAnchorPointMessage: '&8[EliteMobs] &4Something went wrong and made the anchor
+  point not valid!'
+packageDoneMessage: '&8[EliteMobs] &2Done! You can find your package in &9~/plugins/EliteMobs/exports
+  &2. &6If you are making a dungeon, make sure to create your own dungeonpackages
+  file!'
+packageDontForgetMessage: '&8[EliteMobs] &6Don''t forget to add your world and schematic
+  files to the package if needed!'
+packageZipFailedMessage: '&4[EliteMobs] Failed to zip package!'
+packageZippedMessage: '&8[EliteMobs] &6Zipped files for your convenience. Don''t forget
+  any additional files like the dungeonpackager or world/schematics files before distributing!'
+packageNeedsDungeonNameMessage: '[EliteMobs] This commands needs a valid dungeon name!'
+packageNeedsNumberMessage: This command needs a valid natural number! (1, 2, 3, 4...)
+packageNoSubdirectoryMessage: '[EliteMobs] Could not find any $subdirectory for this
+  dungeon. This might be normal depending on your setup.'
+packageFailedDirectoryMessage: '[EliteMobs] Failed to create directory $path'
+missingPermissionMessage: 'Missing permission: elitemobs.adventurersguild.command
+  / elitemobs.adventurersguild.teleport'
+regionalBossStatsMessage: '&7[EM] &2There are &c$total &2Regional Bosses installed,
+  of which &c$loaded &2are currently loaded.'
+languageNotFoundMessage: '&cLanguage not found. Valid options:'
+languageListPrefix: '  - '
+languageSetEnglishMessage: '&2Language set to English! Using plugin defaults.'
+languageGeneratingCustomMessage: '&eGenerating custom.csv template...'
+languageGenerateFailedMessage: '&cFailed to generate custom.csv. Language not changed.'
+languageGenerateSuccessMessage: '&2Generated custom.csv! Edit it to customize text
+  or add translations.'
+languageSetCustomMessage: '&2Language set to custom! &eEdit plugins/EliteMobs/translations/custom.csv
+  to customize text. New keys will be added automatically as the plugin runs.'
+languageDownloadingMessage: '&eDownloading $language.csv...'
+languageDownloadFailedMessage: '&cFailed to download $language.csv. Language not changed.'
+languageDownloadSuccessMessage: '&2Downloaded $language.csv successfully.'
+languageSetMessage: '&2Language set to $language! &eTranslations are community-managed.
+  Use at your own discretion.'
+skillPlayerNotFoundMessage: '&cPlayer not found: $player'
+skillCheckHeaderMessage: '&6=== $player''s Skills ==='
+skillCheckEntryFormat: '&7$skill: &aLevel $level &7($xpProgress/$xpNeeded XP, $progress%)'
+skillInvalidTypeMessage: '&cInvalid skill type: $type'
+skillValidTypesMessage: '&7Valid types: $types'
+skillLevelMinMessage: '&cLevel must be at least 1!'
+skillLevelWarningMessage: '&eWarning: Level $level is above the soft cap of 100.'
+skillSetSuccessMessage: '&aSet $player''s $skill skill to level $level ($xp XP)'
+skillSetAllSuccessMessage: '&aSet all of $player''s skills to level $level ($xp XP)'
+skillTestOnlyPlayerMessage: '&cThis command can only be run by a player!'
+skillTestAlreadyRunningMessage: '&cA test is already running! Use &e/em skill test
+  cancel &cto stop it.'
+skillTestStartMessage: '&a[Test] Starting skill system test...'
+skillTestInfoMessage1: '&7This will temporarily modify your skill levels and selections.'
+skillTestInfoMessage2: '&7Your original state will be restored after the test.'
+skillTestCancelNoTestMessage: '&cNo active test to cancel.'
+skillTestCancelSuccessMessage: '&aTest cancelled and player state restored.'
+debugEnabledMessage: '&aDebug mode &2enabled&a. Combat damage calculations will be
+  logged to console.'
+debugDisabledMessage: '&cDebug mode &4disabled&c.'
+discordMessage: '&6Discord room for support & downloads: &9'
+discordMessageSentMessage: '&aAttempted to send a message to Discord!'
+eliteScrollConfigMessage: Elite Scrolls are not currently enabled on this server!
+  They should only be used if the server uses an item system other than EliteMobs'
+  built in item system. To enable elite scrolls, an admin has to set them to true
+  in the ~/plugins/EliteMobs/ItemSettings.yml and set useEliteItemScrolls to true.
+scrollsNotEnabledMessage: Elite Scrolls are not currently enabled on this server!
+  Ask the admin to enable them in the EliteMobs DefaultConfig.yml
+scrollInvalidNumberMessage: Level and amount must be valid integers.
+scrollLevelZeroMessage: Scroll level must be greater than zero.
+scrollAmountZeroMessage: Amount must be greater than zero.
+scrollGaveMessage: Gave $amount level $level Elite Scroll(s) to $player.
+helpHeaderMessage: 'Commands:'
+wormholeInvalidOptionMessage: Not a valid wormhole option! Pick 1 or 2 to set either
+  end of the wormhole.
+wormholeSetFailedMessage: Failed to set location for this wormhole.
+protectionBypassMessage: Bypassing dungeon protections is now $status
+setupDoneDisableMessage: '&aEliteMobs will no longer send messages on login. You can
+  do [/em setup done] again to revert this.'
+setupDoneEnableMessage: '&aEliteMobs will once again send messages on login. You can
+  do [/em setup done] again to revert this.'
+setupNotValidPackageMessage: Not a valid em package!
+setupInstalledMessage: Successfully installed content!
+setupUninstalledMessage: Successfully uninstalled content!
+shopPlayerNotFoundMessage: Failed to get player with that username!
+notQueuedForInstanceMessage: You are not queued for instanced content!
+reloadStartMessage: Plugin reloading...
+reloadSuccessMessage: Plugin reloaded!
+getTierGaveGearMessage: '&aGave level $level test gear and set all skills to level
+  $level.'
+getTierIronSwordMessage: '&7Use the &fIron Sword &7for balanced damage testing.'
+getTierCheatSwordMessage: '&7The &cCHEAT SWORD &7has Sharpness 100 - use it only to
+  skip fights!'
+transitiveBlockStartMessage: '[EliteMobs] Now registering large selection for transitive
+  blocks! Left click to set corner 1, right click to set corner 2! Run the same command
+  again to stop registering blocks and run /em cancelblocks to cancel!'
+transitiveBlockInvalidBossMessage: Boss file isn't valid! Try again with a valid filename
+  for your custom boss.
+transitiveBlockNotRegionalMessage: '&cBoss file isn''t for a regional boss! This feature
+  only works for regional bosses.'
+transitiveBlockIgnoreWarningMessage: '&aIgnore this warning if you are setting blocks
+  for a phase boss whose first phase is a regional boss!'
+transitiveBlockInvalidTypeMessage: Not a valid transitive block type, use ON_SPAWN
+  or ON_REMOVE !
+transitiveBlockCorner1Message: Set corner 1!
+transitiveBlockCorner2Message: Set corner 2!
+transitiveBlockSelectionCountMessage: '[EliteMobs] Current selection has $count blocks
+  selected. For performance reasons, it is recommended you don''t go over $limit blocks!'
+transitiveBlockRegisteredMessage: Registered $type block!
+transitiveBlockRegisteredAirMessage: Registered air block!
+transitiveBlockUnregisteredMessage: Unregistered block!
+transitiveBlockTooManyMessage: '[EliteMobs] You registered more than $limit blocks
+  at once. For performance reasons, it is recommended you keep the selections low.
+  Avoid things like selecting a lot of unnecessary air blocks!'
+transitiveBlockRequiresRegionalMessage: '&c[EliteMobs] Transitive blocks require one
+  Regional Boss from the configuration files to be placed in order to add transitive
+  blocks relative to the spawn coordinates of that boss.'
+transitiveBlockCancellingMessage: '&c[EliteMobs] Cancelling block registration!'
+transitiveBlockMultipleBossesMessage: '&c[EliteMobs] Transitive blocks require having
+  ONLY one Regional Boss from the configuration files to be placed in order to add
+  transitive blocks relative to the spawn coordinates of that boss. If there is more
+  than one boss, the plugin can''t determine which boss specifically should be getting
+  the transitive blocks'
+transitiveBlockMultipleBossesHintMessage: '&c[EliteMobs] If want multiple bosses to
+  have transitive blocks, you will need one configuration file per boss that has them!'
+transitiveBlockNowRegisteringMessage: '&a[EliteMobs] Now registering $type blocks!
+  &2Punch blocks to register air at that location, or right click blocks to register
+  the block you right clicked!'
+transitiveBlockRunSameCommandMessage: '&6[EliteMobs] Run the same command to stop
+  registering blocks and save!'
+transitiveBlockCancelCommandMessage: '&6[EliteMobs] Or run the command /em cancelblocks
+  to cancel the registration!'
+transitiveBlockCancelledMessage: '&c[EliteMobs] Block registration successfully cancelled!'
+transitiveBlockNowSavingMessage: '&a[EliteMobs] Now saving $type blocks!'
+transitiveBlockRegisteredCornerMessage: Successfully registered $count blocks between
+  your corners!
+transitiveBlockLocationsRegisteredMessage: Locations registered correctly!
+transitiveBlockLocationsFailedMessage: Failed to commit locations!
+lootStatsHeader: '[EliteMobs] Item Stats:'
+lootStatsAttackSpeed: 'Item attack speed: '
+lootStatsDamage: 'Item damage: '
+lootStatsEdps: 'Item EDPS: '
+lootStatsLevel: 'Item level: '
+lootStatsBonusEdps: 'Item bonus EDPS: '
+simLootPlayerNotFound: '[EliteMobs] Failed to get a player named "$player"!'
+simLootFinishedMultiple: '[EliteMobs] Finished running simulation command for player
+  $player $times times at level $level .'
+simLootFinishedSingle: '[EliteMobs] Finished running simulation command for player
+  $player at level $level .'
+simLootCouldNotSend: '&c[EliteMobs] Could not send item to player $player - player
+  with this name was not found!'
+trackedBossCountMessage: 'Tracked boss count: '
+trackedNpcCountMessage: 'Tracked NPC count: '
+statsSeparator: <g:#8B0000:#CC4400:#DAA520>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</g>
+statsVersionHeader: '&7[EM] &a&lEliteMobs v. $version stats:'
+statsEntityCountMessage: '&7[EM] &2There are currently &l&6$total &f&2EliteMobs mobs
+  entities in the world, of which &a$aggressive &2are Elite Mobs and &a$passive &2are
+  Super Mobs.'
+statsBreakdownPrefix: '&2Breakdown: &a'
+statsHighestThreatMessage: '&7[EM] &2Highest online threat tier: &a$player &2at total
+  threat tier &a$threat'
+statsAverageThreatMessage: '&7[EM] &2Average threat tier: &a$average'
+npcFeatureComingSoonMessage: '[EliteMobs] This feature is coming soon!'
+npcCannotRenameMessage: '[EliteMobs] You can''t rename NPCs using name tags!'
+npcFeatureReplacedMessage: '&8[EliteMobs] &cThis feature has been replaced! This NPC
+  should be removed by an admin as soon as possible.'
+npcRemoveInstructions: '&2To remove this NPC, use the command &6/em remove &2and hit
+  the NPC!'
+lootVoteSeparator: <g:#8B0000:#CC4400:#DAA520>▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬</g>
+lootVoteMessage: '&8[EliteMobs] &6Loot vote! Click '
+lootVoteMessageSuffix: ' &6to vote on $count items!'
+versionCheckConnectionWarning: '&8[EliteMobs] &eWarning: Could not connect to update
+  servers. Version checking is currently unavailable. Check your internet connection
+  or try again later.'
+versionOutdatedMessage: '&cYour version of EliteMobs is outdated. &aYou can download
+  the latest version from '
+resourcePackUpdatedMessage: '&8[EliteMobs] &cThe EliteMobs resource pack has updated!
+  This means that the current resource pack will not fully work until you restart
+  your server. You only need to restart once!'
+contentUpdatesAvailable: '&e$count content update(s) available:'
+contentUpdateEntry: '&e- $name'
+dungeonsOutdatedMessage: '&cThe following dungeons are outdated:'
+versionUseSetupMessage: '&7Use '
+versionClickDownloadHover: '&9Click to go to download link!'
+versionNoDownloadLink: ' &7(no download link available)'
+versionDownloadAtMessage: '&8[EliteMobs]&f You can download the update at '
+versionUpdateEasyMessage: '&2Updating is quick & easy! '
+versionClickHereLabel: '&9&nClick here'
+versionInstallInfoMessage: ' &2for info on how to install updates and '
+versionHereLabel: '&9&nhere'
+versionSupportRoomMessage: ' &2for the support room.'
+versionAutoUpdateMessage: '&a[Click here to update all content automatically]'
+versionAutoUpdateHover: '&eRuns /em updatecontent'
+versionOutdatedEntryPrefix: '&c- '
+versionNightbreakHover: Click for Nightbreak link
+versionWikiHover: Click for wiki link
+versionDiscordHover: Discord support link
+wormholeOpDownloadMessage: '&8[OP] &7This content is not installed. Use '
+wormholeOpSetupMessage: '&8[EliteMobs - OP-only message] &fTo set up this portal,
+  stand at the desired destination and run: &a/em place wormhole $filename $number'
+wormholeAgSpawnRecommendation: '&8[EliteMobs - OP-only message] &fThe official recommendation
+  is to place this at your server''s spawn so players can access the Adventurer''s
+  Guild through this portal!'
+downloadAllNoTokenMessage: '&c[EliteMobs] No Nightbreak token registered. Use /nightbreaklogin
+  <token> first.'
+downloadAllNothingMessage: '&a[EliteMobs] No new content to download! All available
+  packages are already downloaded.'
+downloadAllNoAccessMessage: '&c[EliteMobs] No accessible content found. Link your
+  Nightbreak account and ensure you have access.'
+downloadAllFoundMessage: '&e[EliteMobs] Found $count packages to download. Starting...'
+downloadAllProgressMessage: '&7[EliteMobs] ($current/$total) Downloading: $name...'
+downloadAllDownloadedMoreMessage: '&a[EliteMobs] Downloaded $name! &7Please hold on,
+  $remaining more to go...'
+downloadAllDownloadedMessage: '&a[EliteMobs] Downloaded $name!'
+downloadAllFailedMessage: '&c[EliteMobs] Failed to download: $name'
+downloadAllCompleteMessage: '&a[EliteMobs] Download complete! Downloaded: $completed,
+  Failed: $failed'
+downloadAllReloadingMessage: '&a[EliteMobs] Reloading to apply downloads...'
+downloadAllAlreadyRunningMessage: '&c[EliteMobs] A bulk download is already in progress!
+  Please wait for it to finish.'
+downloadAllFailedListMessage: '&c[EliteMobs] Failed packages: $names'
+downloadAllSetupClickMessage: '&a[Click to download all available content]'
+downloadAllSetupClickHover: '&eRuns /em downloadall'
+updateNoTokenMessage: '&c[EliteMobs] No Nightbreak token registered. Use /nightbreaklogin
+  <token> first.'
+updateAllUpToDateMessage: '&a[EliteMobs] All content is up to date!'
+updateFoundOutdatedMessage: '&e[EliteMobs] Found $count outdated packages. Starting
+  updates...'
+updateCompleteMessage: '&a[EliteMobs] Update complete! Downloaded: $completed, Failed:
+  $failed'
+updateReloadingMessage: '&a[EliteMobs] Reloading to apply updates...'
+updateProgressMessage: '&7[EliteMobs] ($current/$total) Downloading: $name...'
+updateDownloadedMoreMessage: '&a[EliteMobs] Downloaded $name! &7Please hold on, $remaining
+  more to go...'
+updateDownloadedMessage: '&a[EliteMobs] Downloaded $name!'
+updateFailedMessage: '&c[EliteMobs] Failed to download: $name'
+farmingWarningMessage: '&c[EliteMobs] &7You''ve been farming natural elites too quickly!
+  No drops or XP will be awarded. Spread out your farming area or wait for the timeout
+  to reset. Time until reset: &e$time &7seconds.'
+farmingResetMessage: '&a[EliteMobs] &7Your natural elite kill limit has been reset!'
+farmingCapMessage: '&c[EliteMobs] &7You''re temporarily capped from earning rewards
+  from natural elites in this area. Time until reset: &e$time &7seconds.'
+lootNeedMessage: $player &chas selected need for $item!
+lootGreedMessage: $player &2has selected greed for $item!
+questInvalidIdMessage: '&c[EliteMobs] Invalid quest ID!'
+questBypassOnMessage: Now bypassing quest permission requirements!
+questBypassOffMessage: No longer bypassing quest permission requirements!
+invalidTreasureChestFilename: '&c[EliteMobs] Invalid Treasure Chest file name!'
+relativePositionMessage: '&8[EliteMobs] &fRelative position to anchor point of &2$filename&f
+  is &2$coordinates'
+cheatSwordDisplayName: CHEAT SWORD

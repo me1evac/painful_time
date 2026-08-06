@@ -1,0 +1,7 @@
+useMySQL: false
+mysqlHost: localhost
+mysqlPort: '3306'
+mysqlDatabaseName: elitemobs
+mysqlUsername: your_username_mysql_here
+mysqlPassword: your_mysql_password_here
+useSSL: true

@@ -1,0 +1,44 @@
+isEnabled: true
+menuName: '&6Elite Scroll Menu'
+infoSlot: 4
+infoButton:
+  material: PLAYER_HEAD
+  name: '§2Elite Scroll info:'
+  lore:
+  - §2This menu converts non-elite items into elite items!
+  - §2Elite items have elite dps or elite defense which applies
+  - §2to elite mobs.
+  - §2To convert a non-elite item into an elite item, place
+  - §2your non-elite item below, as well as a Elite Scroll!
+cancelSlot: 27
+cancelButton:
+  material: BARRIER
+  name: §4Cancel
+  lore:
+  - §cCancel!
+  customModelID: 31173
+confirmSlot: 35
+confirmButton:
+  material: EMERALD
+  name: §2Apply!
+itemSlot: 29
+itemInfoSlot: 20
+itemInfoButton:
+  material: GREEN_BANNER
+  name: §2Non-Elite Item Input slot
+  lore:
+  - §aPut your non-elite item here!
+  customModelID: 31173
+eliteScrollItemInfoSlot: 22
+eliteScrollItemInfoButton:
+  material: GREEN_BANNER
+  name: §2Elite Scroll Input slot
+  lore:
+  - §aPut your elite scroll here!
+  customModelID: 31173
+eliteScrollItemSlot: 31
+outputInfoButton:
+  material: RED_BANNER
+  name: §2Result
+outputInfoSlot: 24
+outputSlot: 33

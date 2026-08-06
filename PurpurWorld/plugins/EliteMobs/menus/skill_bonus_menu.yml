@@ -1,0 +1,85 @@
+isEnabled: true
+weaponSelectMenuName: '&6Select Weapon Type'
+skillSelectMenuName: '&6%skill_type% Skills'
+swordsItem:
+  material: DIAMOND_SWORD
+  name: §6Swords
+swordsSlot: 11
+axesItem:
+  material: DIAMOND_AXE
+  name: §6Axes
+axesSlot: 12
+bowsItem:
+  material: BOW
+  name: §6Bows
+bowsSlot: 13
+crossbowsItem:
+  material: CROSSBOW
+  name: §6Crossbows
+crossbowsSlot: 14
+tridentsItem:
+  material: TRIDENT
+  name: §6Tridents
+tridentsSlot: 15
+hoesItem:
+  material: DIAMOND_HOE
+  name: §6Hoes (Scythes)
+hoesSlot: 20
+macesItem:
+  material: MACE
+  name: §6Maces
+macesSlot: 21
+spearsItem:
+  material: IRON_SWORD
+  name: §6Spears
+spearsSlot: 22
+armorItem:
+  material: DIAMOND_CHESTPLATE
+  name: §6Armor
+armorSlot: 23
+backItem:
+  material: ARROW
+  name: §cBack
+backSlot: 45
+infoSlot: 49
+lockedPrefix: '&8[LOCKED] '
+unlockedPrefix: '&a[UNLOCKED] '
+activePrefix: '&6[ACTIVE] '
+lockedLore: '&cRequires level %level%'
+clickToActivate: '&aClick to activate this skill'
+clickToDeactivate: '&eClick to deactivate this skill'
+maxActiveSkillsReached: '&cYou already have 3 active skills! Deactivate one first.'
+skillTypeLabel: '&7Type: &f'
+skillTierLabel: '&7Tier: &f'
+skillTierLevelFormat: '%tier% (Level %level%)'
+skillValueLabel: '&7Value at your level: &a'
+infoItemTitle: '&eSkill Info'
+infoSkillTypeLabel: '&7Skill Type: &f'
+infoYourLevelLabel: '&7Your Level: &f'
+infoActiveSkillsLabel: '&7Active Skills: &f%count%/3'
+infoActiveSkillsHeader: '&6Active Skills:'
+infoActiveSkillPrefix: '&7- '
+infoUnlockLevelsHeader: '&7Skills unlock at levels:'
+infoTier1Unlock: '&a Tier 1: &fLevel 10'
+infoTier2Unlock: '&e Tier 2: &fLevel 25'
+infoTier3Unlock: '&6 Tier 3: &fLevel 50'
+infoTier4Unlock: '&c Tier 4: &fLevel 75'
+skillRequiresLevelMessage: '&cThis skill requires level %level%!'
+skillDeactivatedMessage: '&eDeactivated skill: %skill%'
+skillActivatedMessage: '&aActivated skill: %skill%'
+skillTypeName:
+  armor: Armor
+  swords: Swords
+  axes: Axes
+  bows: Bows
+  crossbows: Crossbows
+  tridents: Tridents
+  hoes: Hoes
+  maces: Maces
+  spears: Spears
+bonusTypeName:
+  proc: Proc
+  passive: Passive
+  conditional: Conditional
+  stacking: Stacking
+  cooldown: Cooldown

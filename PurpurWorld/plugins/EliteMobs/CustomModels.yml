@@ -1,0 +1,10 @@
+useModels: true
+useAttributeScaling: true
+anvilHammer: elitemobs:ui/anvilhammer
+cancel: elitemobs:ui/redcross
+goldenQuestionMark: elitemobs:ui/goldenquestionmark
+bagOfCoins: elitemobs:ui/bagofcoins
+boxInput: elitemobs:ui/boxinput
+boxOutput: elitemobs:ui/boxoutput
+handWithCoins: elitemobs:ui/handwithcoins
+whiteAnvil: elitemobs:ui/whiteanvil

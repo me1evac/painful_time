@@ -1,0 +1,207 @@
+gamblingEnabled: true
+minBet: 10
+debtCollector:
+  spawnChance: 0.5
+  checkIntervalMinutes: 60
+  timeoutSeconds: 600
+  debtReductionOnPlayerDeath: 50.0
+  spawnMessage: '&c[Debt Collector] &7Well well well... &e$player&7. You owe us &6$amount
+    coins&7. Time to pay up!'
+  timeoutMessage: '&c[Debt Collector] &7Running won''t save you, &e$player&7. I''ll
+    be back for what you owe!'
+  deathMessage: '&c[Debt Collector] &7Ugh... I''ll be back, &e$player&7. And I''ll
+    bring friends!'
+  killMessage: '&c[Debt Collector] &7Pleasure doing business, &e$player&7. Let that
+    be a lesson about debts!'
+  debtPaidMessage: '&7[Casino] &e$amount coins &7of debt paid. Remaining debt: &c$remaining
+    coins'
+  debtClearedMessage: '&a[Casino] &7Your debt has been cleared! You''re free... for
+    now.'
+  debtAutoCollectedMessage: '&c[Debt Collector] &7Nice earnings. I''ll be taking &6$amount
+    coins &7off the top. You still owe &6$remaining coins&7. Don''t forget it.'
+  debtAutoClearedMessage: '&c[Debt Collector] &7That settles your debt. You''re square
+    with us... for now. Try not to push your luck again.'
+payouts:
+  blackjack:
+    normal: 2.0
+    blackjack: 2.5
+  coinFlip:
+    edgeChance: 0.01
+    edgePayout: 5.0
+  higherLower:
+    multiplierV2: 1.3
+messages:
+  insufficientFunds: '&c[Casino] You can''t afford that bet!'
+  win: '&a[%game%] Congratulations! You won &6%amount% coins&a!'
+  lose: '&c[%game%] Better luck next time. You lost &6%amount% coins&c.'
+  debtWarning: '&c[Casino] Warning: You are now &6%debt% coins &cin debt! The Debt
+    Collector is watching...'
+  betPlaced: '&7[Casino] Bet placed: &6%amount% coins'
+menus:
+  bettingTitle: '&6&lCasino - %game%'
+  playButton: '&a&lPLAY!'
+  cancelButton: '&c&lCancel'
+  blackjackTitle: '&6&lBlackjack'
+  coinFlipTitle: '&e&lCoin Flip'
+  slotsTitle: '&d&lSlot Machine'
+  higherLowerTitle: '&b&lHigher or Lower'
+blackjack:
+  hitButton: '&a&lHIT'
+  hitButtonLore: '&7Draw another card'
+  standButton: '&e&lSTAND'
+  standButtonLore: '&7Keep your current hand'
+  doubleDownButton: '&6&lDOUBLE DOWN'
+  doubleDownButtonLore: '&7Double your bet, take one card, then stand'
+  doubleDownDisabled: '&7Double Down'
+  doubleDownCantAffordLore: '&cYou can''t afford to double!'
+  dealerLabel: '&cDealer: '
+  playerLabel: '&aYou: '
+  betLabel: '&aBet: '
+  winPayoutLabel: '&7Win: '
+  blackjackPayoutLabel: '&7Blackjack: '
+  cardValueLabel: '&7Value: '
+  hiddenCardText: '&8???'
+  hiddenCardLore: '&7Hidden'
+  resultBlackjack: '&a&lBLACKJACK!'
+  resultYouWin: '&a&lYOU WIN!'
+  resultDealerBusts: '&a&lDEALER BUSTS!'
+  resultPush: '&e&lPUSH - TIE'
+  resultBust: '&c&lBUST!'
+  resultDealerWins: '&c&lDEALER WINS'
+  resultGameOver: '&7Game Over'
+  resultPlayerLabel: '&7Player: '
+  resultDealerLabel: '&7Dealer: '
+  resultWonPrefix: '&aYou won '
+  resultWonSuffix: ' coins!'
+  resultBetReturned: '&7Your bet was returned.'
+  resultLostPrefix: '&cYou lost '
+  resultCloseToContinue: '&eClose to continue'
+  cardSuitSpades: Spades
+  cardSuitHearts: Hearts
+  cardSuitDiamonds: Diamonds
+  cardSuitClubs: Clubs
+  cardOfText: ' &7of '
+coinFlip:
+  coinTitle: '&6&lThe Coin'
+  chooseLore: '&7Choose Heads or Tails!'
+  willFlipLore: '&7The coin will flip...'
+  headsButton: '&e&lHEADS'
+  headsBetLore: '&7Click to bet on Heads!'
+  tailsButton: '&6&lTAILS'
+  tailsBetLore: '&7Click to bet on Tails!'
+  makeYourChoice: '&7Make your choice!'
+  betLabel: '&aBet: '
+  normalWinLabel: '&7Normal Win: &a'
+  payoutLabel: '&7Payout: &e'
+  edgeChanceLore: '&b✦ 1% chance to land on EDGE!'
+  edgePayoutLoreV2: '&b✦ Edge Payout: &a5x &7(&a'
+  flipping: '&7Flipping...'
+  headsText: '&e&lHEADS'
+  tailsText: '&6&lTAILS'
+  edgeCoinTitle: '&b&l✦ EDGE! ✦'
+  edgeCoinLore: '&7The coin landed on its &bEDGE&7!'
+  edgeResultTitle: '&b&l✦ INCREDIBLE! ✦'
+  edgeLandedLore: '&7The coin landed on its &bEDGE&7!'
+  edgeRareLore: '&7This is incredibly rare! (1% chance)'
+  edgeWonPrefix: '&7You won &a'
+  edgePayoutMultiplierV2: '&6&l5x PAYOUT!'
+  edgeChatMessageV2: '&b&l✦ EDGE! ✦ &7The coin landed on its edge! &a5x PAYOUT! &7You
+    won &a%amount% coins&7!'
+  landedOnLore: '&7The coin landed on '
+  headsWord: Heads
+  tailsWord: Tails
+  youWin: '&a&lYOU WIN!'
+  wonPrefix: '&7You won &a'
+  closeToContinue: '&eClose to continue'
+  youLose: '&c&lYOU LOSE'
+  lostPrefix: '&7You lost &c'
+  winLore: '&7Win: &a'
+slots:
+  paylineLabel: '&e>>> PAYLINE >>>'
+  spinButton: '&a&lSPIN!'
+  spinClickLore: '&7Click to spin the reels!'
+  spinBetLore: '&7Bet: &6'
+  betLabel: '&aBet: '
+  match3Lore: '&7Match 3 symbols to win!'
+  match2Lore: '&7Match 2 symbols for a small return'
+  payoutsTitle: '&6&lPAYOUTS &7(Rarer = Higher!)'
+  payoutTableTitle: '&6Payout Table'
+  chanceRarityNote: '&8Chance shown as rarity colors'
+  spinning: '&7Spinning...'
+  jackpotTitle: '&6&l✦ JACKPOT! ✦'
+  bigWinTitle: '&a&lBIG WIN!'
+  smallWinTitle: '&e&lSmall Win!'
+  wonPrefix: '&7You won &a'
+  closeToContinue: '&eClose to continue'
+  noMatchTitle: '&c&lNo Match'
+  lostPrefix: '&7You lost &c'
+  payoutSymbolFormat: '$symbol&7: &a$multiplierx &8(2x: $twoMatchx)'
+higherLower:
+  cardValueLabel: '&7Value: &f'
+  nextCardPrompt: '&7Is the next card higher or lower?'
+  hiddenCardText: '&8&l???'
+  makeGuessLore: '&7Make your guess!'
+  higherButton: '&a&lHIGHER'
+  higherLore1: '&7Click if you think the next'
+  higherLore2: '&7card is &ahigher &7than '
+  cashOutButton: '&e&lCASH OUT'
+  currentWinningsLabel: '&7Current Winnings: &a'
+  cashOutClickLore: '&7Click to take your winnings!'
+  cashOutDisabled: '&7Cash Out'
+  cashOutWinOnceLore: '&7Win at least once to cash out!'
+  lowerButton: '&c&lLOWER'
+  lowerLore1: '&7Click if you think the next'
+  lowerLore2: '&7card is &clower &7than '
+  streakLabel: '&6Streak: '
+  multiplierLabel: '&7Multiplier: &e'
+  potentialWinLabel: '&7Potential Win: &a'
+  maxStreakLabel: '&7Max streak: &e'
+  betLabel: '&aBet: '
+  eachGuessLore: '&7Each correct guess multiplies by &e'
+  wait: '&7Wait...'
+  revealing: '&7Revealing...'
+  maxStreakChat: '&a[Casino] &6MAX STREAK! &aYou hit %streak% correct guesses! Auto-cashing
+    out: &6%amount% coins!'
+  correctChat: '&a[Casino] Correct! Streak: %streak% | Multiplier: %multiplier%x'
+  gameOverTitle: '&c&lGAME OVER'
+  lostCardLore: '&7You lost! The card was '
+  lostCoinsLore: '&7You lost &c'
+  closeToContinue: '&eClose to continue'
+  cashedOutTitle: '&a&lCASHED OUT!'
+  cashedOutLore: '&7You cashed out with &a'
+  cashedOutStreakLore: '&7Streak: &e'
+  autoCashOutChat: '&a[Casino] Auto-cashed out: &6%amount% coins &a(Streak: %streak%)'
+  autoCashoutSuffix: ' &7(auto-cashout)'
+gambling:
+  currencyWord: coins
+  houseEarningsLabel: '&6House Earnings: '
+betting:
+  affordableColor: '&a'
+  unaffordableColor: '&c'
+  casinoClosedMessage: '&c[Casino] The casino is currently closed!'
+  selectBetLore: '&eSelect your bet amount below!'
+  yourFinancesTitle: '&6Your Finances'
+  balanceLabel: '&7Balance: &a'
+  debtLabel: '&7Debt: &c'
+  availableCreditLabel: '&7Available Credit: &e'
+  currentBetPrefix: 'Current Bet: '
+  clickPlayLore: '&7Click Play to start!'
+  cantAffordLore: '&cYou can''t afford this bet!'
+  adjustBetLore: '&7Click to adjust bet by '
+  allInButton: '&b&lALL IN'
+  allInLore: '&7Bet everything you have!'
+  maxAvailableLabel: '&7Max available: &6'
+  resetButton: '&8&lRESET'
+  resetLore: '&7Reset to minimum bet: &6'
+  cancelLore: '&7Click to leave the casino'
+  cantAffordButton: '&c&lCan''t Afford'
+  startGameLore: '&7Start the game with your current bet!'
+  reduceBetLore: '&7Reduce your bet or pay off debt'
+  blackjackName: Blackjack
+  blackjackDescription: Get as close to 21 as possible without going over!
+  coinFlipName: Coin Flip
+  coinFlipDescription: Heads or Tails? Simple 50/50 chance!
+  slotsName: Slot Machine
+  slotsDescription: Match three symbols to win big!
+  higherLowerName: Higher or Lower
+  higherLowerDescription: Guess if the next card is higher or lower!

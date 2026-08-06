@@ -1,0 +1,41 @@
+language: english
+alwaysShowEliteMobNameTags: false
+superMobStackAmount: 50
+preventEliteMobConversionOfNamedMobs: true
+enableHighCompatibilityMode: false
+emLeadsToStatusMenu: true
+otherCommandsLeadToEMStatusMenu: true
+setupDoneV5: false
+preventVanillaReinforcementsForEliteEntities: true
+defaultSpawnLocation: world,0.0,95.0,0.0,0.0,0.0
+doExplosionRegen: true
+doRegenerateContainers: true
+defaultTransitiveBlockLimiter: 500
+notificationThrottleSeconds: 10
+onlyUseBedrockMenus: false
+characterLimitForBookMenuPagesV2: 170
+useGlassToFillMenuEmptySpace: false
+trackMessage: Track the $name
+chestCooldownMessage: '&7[EM] &cYou''ve already opened this chest recently! Wait $time!'
+dismissEMMessage: '&8[EliteMobs] &2/elitemobs &fmenu not working for you? Try &2/elitemobs
+  alt &fto see an alternative version of the menu! &cDon''t want to see this message
+  again? &4/em dismiss'
+switchEMStyleMessage: '&8[EliteMobs] &2/elitemobs &fmenu style changed! Check it out!'
+treasureChestNoDropMessage: '&8[EliteMobs] &cYou didn''t get anything! Better luck
+  next time!'
+bossAlreadyGoneMessage: '&c[EliteMobs] Sorry, this boss is already gone!'
+resetPlayerScale: true
+enchantmentChallengeFailureMessage: '&8[EliteMobs] &cFailed enchantment! The enchantment
+  did not bind to the item.'
+enchantmentChallengeSuccessMessage: '&8[EliteMobs] &2Successful enchantment!'
+enchantmentChallengeInventoryFullMessage: '&8[EliteMobs] &cYour inventory was full
+  so the item you were trying to upgrade has been deleted! It will be restored if
+  your item is not full by the time you leave the instanced dungeon.'
+enchantmentChallengeConsequencesMessage: '&cThere''s a 10% chance of losing your item
+  if you lose the fight! Leaving the arena counts as losing.'
+enchantmentChallengeCriticalFailureMessage: '&8[EliteMobs] &4Critical failure! You
+  lost the item!'
+enchantmentChallengeStartMessage: '&8[EliteMobs] &6Challenge! Defeat the boss to get
+  your upgraded item!'
+useResourcePackEvenIfResourcePackManagerIsNotInstalled: false
+useRandomizedScalingForElites: false

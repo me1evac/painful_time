@@ -1,0 +1,81 @@
+doEliteMobsLoot: true
+doMMORPGColorsForItems: true
+preventCustomItemPlacement: true
+itemLoreStructureV2:
+- §7§m§l---------§7<§lEquip Info§7>§m§l---------
+- '§7Item level: §f$itemLevel §7Prestige §6$prestigeLevel'
+- $weaponOrArmorStats
+- $soulbindInfo
+- $itemSource
+- $ifLore§7§m§l-----------§7< §f§lLore§7 >§m§l-----------
+- $customLore
+- $ifEnchantments§7§m§l--------§7<§9§lEnchantments§7>§m§l--------
+- $enchantments
+- $eliteEnchantments
+- $ifCustomEnchantments§7§m§l------§7< §3§lCustom Enchants§7 >§m§l------
+- $customEnchantments
+- $ifPotionEffects§7§m§l----------§7< §5§lEffects§7 >§m§l----------
+- $potionEffect
+- §7§l§m-----------------------------
+- $loreResaleValue
+shopSourceItemLores: '&7Purchased from a store'
+mobSourceItemLores: '&7Looted from $mob'
+loreWorths: '&7Worth $worth $currencyName'
+loreResaleValues: '&7Sells for $resale $currencyName'
+flatDropRateV3: 0.2
+regionalBossNonUniqueDropRate: 0.05
+regionalBossesDropVanillaLoot: false
+levelIncreaseDropRateV2: 0.0
+proceduralItemDropWeight: 90.0
+weighedItemDropWeight: 1.0
+fixedItemDropWeight: 10.0
+limitedItemDropWeight: 3.0
+scalableItemDropWeight: 6.0
+defaultLootMultiplier: 0.0
+levelCapForDefaultLootMultiplier: 100
+defaultExperienceMultiplier: 1.0
+maximumItemLevel: 100
+useEliteEnchantments: true
+eliteEnchantmentLoreStrings: Elite
+useHoesAsWeapons: false
+enableRareItemParticleEffects: true
+potionEffectOnHitTargetLore: '&4⚔☠'
+potionEffectOnHitSelfLore: '&9⚔🛡'
+potionEffectContinuousLore: '&6⟲'
+eliteEnchantmentLoreColor: '&9◇'
+vanillaEnchantmentLoreColor: '&7◇'
+customEnchantmentColor: '&3◇'
+potionEffectLoreColor: '&5◇'
+noSoulbindLore: '&7Not Soulbound!'
+preventEliteItemEnchantment: true
+preventEliteItemDisenchantment: true
+preventEliteItemDisenchantmentMessage: '&c[EliteMobs] Can''t disenchant Elite Items!'
+preventEliteItemDiamondToNetheriteUpgrade: true
+eliteItemsDurabilityLossOnlyOnDeath: true
+eliteItemsDurabilityLossMultiplier: 1.0
+scrapSucceededMessageV2: '&8[EliteMobs] &2Scrapping succeeded $amount times!'
+scrapFailedMessageV2: '&8[EliteMobs] &cScrapping failed $amount times!'
+putLootDirectlyIntoPlayerInventory: false
+lootLevelDifferenceLockout: 10
+preventEliteItemsFromBreaking: true
+noItemDurabilityMessage: '&8[EliteMobs] $item &4is broken! It won''t work until repaired!'
+minimumProcedurallyGeneratedDiamondLootLevelPlusSeven: 10
+simlootMessageSuccess: '&8[EliteMobs] &2Rolled for loot and got $itemName &2!'
+simlootMessageFailure: '&8[EliteMobs] &cRolled for loot and got nothing!'
+directDropCustomLootMessage: '&8[EliteMobs] &2Obtained $itemName &2!'
+directDropMinecraftLootMessage: '&8[EliteMobs] &aObtained $itemName &a!'
+directDropCoinMessage: '&8[EliteMobs] &aObtained &2$amount $currencyName &a!'
+hideItemAttributes: true
+hideEnchants: true
+weaponEntry: '&7Elite DPS: &2$EDPS'
+armorEntry: '&7Elite Armor: &2$EDEF'
+levelRangeTooDifferent: '&8EM] &4Your gear is level $playerLevel and the boss is level
+  $bossLevel, level difference is too high to get coins!'
+useEliteItemScrolls: false
+eliteItemScrollChance: 0.1
+eliteItemScrollName: '&6Elite Item Scroll'
+eliteItemScrollLore:
+- '&fUse at the Scroll Applier NPC to enchant'
+- '&fa non-elite item into a level $level'
+- '&felite item!'
+eliteItemModel: elitemobs:elitescroll/elitescroll

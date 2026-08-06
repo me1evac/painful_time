@@ -1,0 +1,7 @@
+enableCombatTag: true
+combatTagMessage: '&c[EliteMobs] Combat tag activated!'
+enableAdventurersGuildTeleportTimer: true
+teleportTimeLeft: '&7[EM] Teleporting in &a$time &7seconds...'
+teleportCancelled: '&7[EM] &cTeleport interrupted!'
+useActionBarMessagesInsteadOfChat: true
+preventFlyToggleInDungeons: true

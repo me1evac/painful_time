@@ -1,0 +1,19 @@
+enabled: true
+craftable: true
+chunkRadius: 4
+suppressEvents: true
+recipeShape:
+- BBB
+- BWB
+- BBB
+recipeIngredients:
+  W: ANY_BANNER
+  B: BONE
+itemName: '&aPeace Banner'
+itemLore:
+- '&7Place to create a peaceful zone'
+- '&7Prevents elite mob spawning'
+- '&7within a &f4 chunk &7radius'
+placedMessage: '&aPeace Banner placed! Elite mobs will not spawn within a &f$radius
+  chunk &aradius.'
+removedMessage: '&cPeace Banner removed. Elite mobs can now spawn in this area again.'

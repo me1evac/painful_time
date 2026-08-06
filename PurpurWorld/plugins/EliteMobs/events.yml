@@ -1,0 +1,5 @@
+announcementBroadcastWorldOnly: false
+actionEventMinimumCooldownMinutes: 4
+timedEventMinimumCooldownMinutes: 4
+actionEventsEnabled: true
+timedEventsEnabled: true

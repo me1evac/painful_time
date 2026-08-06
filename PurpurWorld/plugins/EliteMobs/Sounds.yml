@@ -1,0 +1,5 @@
+treasureChestOpenSound: elitemobs:treasure_chest.open
+questProgressionSound: elitemobs:quest.progression
+questCompleteSound: elitemobs:quest.completion
+questAbandonSound: elitemobs:quest.abandon
+questAcceptSound: elitemobs:quest.accept
