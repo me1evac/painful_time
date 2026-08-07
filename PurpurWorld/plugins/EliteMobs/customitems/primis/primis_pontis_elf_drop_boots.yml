@@ -1,0 +1,12 @@
+isEnabled: true
+material: IRON_BOOTS
+name: "&7Elf Boots"
+enchantments:
+- "PROTECTION_ENVIRONMENTAL,2"
+- "DAMAGE_UNDEAD,2"
+lore:
+- "&7You feel strange energy"
+- "&7coming from the armor."
+itemType: unique
+level: 12
+scalability: fixed

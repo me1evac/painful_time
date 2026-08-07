@@ -1,0 +1,18 @@
+activationRadius: 3.0
+name: '&3Eleusium Martius'
+role: '&3<Lighthouse Custodian>'
+profession: NITWIT
+greetings:
+- What brings you here?
+dialog:
+- Gotta make sure the\nlighthouse is working.
+- Nice to see someone\ncome visit.
+farewell:
+- Goodbye.
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_groves_lighthouse_custodian
+customDisguiseData: player primis_pontis_groves_lighthouse_custodian setskin {"id":"a82fd3f6-09bf-4c00-9b09-72a6a85c8f1f","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxNjYxMzMyOTcxNywKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMxNGI0Y2E0ZDNhOTNkZTYwNmI5ZDhlOGQ2MTJhYTExM2MxOWY2NTMwOWIzZTlhNGM1MGUwMWMxZTcyM2VjYiIKICAgIH0KICB9Cn0=","signature":"vpJ4+2H+51qHI9V6cWsLBw9R8RjDl1sxpfDSo3NcCb1ce9TUR35qxog6/Ds3sIWs6Dduqy1U4NxTdklCbcyjZEmDNlUsCeNcO++ZTP2wv4ZJrHy7OD4g178unLilVgAW1AdV58P2KZqXfy+g0WKJPJTy5OF0Ay5c5zY3HoqPM+HkdxQrzkHu+fZRvvaN9JvJJqmB7NN+Yk/PZ9cS1/vWs+4cQ4DNuJCX5F0X8YaK3AjdJY3z9wF4gzgiYRTBR2NZmNZivMhQPtl6WXXGA55RwtBiQhieC3MqLDWGwB0x45DdFwZPRT/xhEc2xbXhN82IT47apYqq+CFJBod+sHpch2d2KMv1SMNDmSANlOXhtI52wHpPWIQSpI1U59YYl5KTDOdZs6WYXIAfiDPCPu6r1aigrHHy0XBZGVT21xDoqkqlHEsfgankz4Vt3od0laWtkfUcYeVj4XEgaVBUWYADFGPvX1wyXFXy9DcyhKPvjxsZE96nO6jb0f/WlOo7sK6FplN+DLKJ4QD31lR8AATtL57+t8gsGJg5OexW3UImxduORI206rPuCme/M8GGwKuLgvQQE7rlpbc5rkpOJ81cKichOC2GY6YjWRO3BJkaoyvotaCXuXzO/7N8wXbYsfDymnSNQtNAuTpIm8q97yjxAo8ykMucgSPAG+FsAOCvK/I="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,895.94,21.0,228.58,-55.95,5.8

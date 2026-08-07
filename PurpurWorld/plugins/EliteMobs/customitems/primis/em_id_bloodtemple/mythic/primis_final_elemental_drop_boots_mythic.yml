@@ -1,0 +1,14 @@
+name: "&cBlood Deprived Stompers"
+material: NETHERITE_BOOTS
+level: 20
+lore:
+- "&cStomping is so much fun."
+enchantments:
+- PROTECTION_FIRE,8
+- PROTECTION_PROJECTILE,5
+- PROTECTION_ENVIRONMENTAL,5
+potionEffects:
+- SPEED,3,self,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

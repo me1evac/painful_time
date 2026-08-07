@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&aParry'
-description:
-- '&7Block attacks with your sword to'
-- '&7reduce damage even further.'
 skillType: SWORDS
 bonusType: CONDITIONAL
 unlockTier: 3

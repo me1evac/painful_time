@@ -1,0 +1,9 @@
+isEnabled: true
+material: ENDER_EYE
+name: "&eStone of Far-speech"
+lore:
+- '&aYou can sense a presence coming from the stone.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_mille_counselor_sword.yml
+level: 13

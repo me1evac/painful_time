@@ -1,0 +1,16 @@
+material: DIAMOND_BOOTS
+name: "&4Diamond Tree Boots"
+lore: 
+- "&7Boots made out of special soft bark."
+- "&7Decorated with gems."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "PROTECTION_FALL,4"
+- "PROTECTION_EXPLOSIONS,1"
+- "PROTECTION_FIRE,1"
+potionEffects: 
+- "SPEED,1,self,continuous"
+- "SLOW_FALLING,2,self,continuous"
+scalability: FIXED
+level: 15
+itemType: unique

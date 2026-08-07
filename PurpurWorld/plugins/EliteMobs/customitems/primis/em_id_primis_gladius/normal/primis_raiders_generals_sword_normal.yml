@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_SWORD
+name: "&4General's Sword"
+enchantments:
+- DAMAGE_ALL,2
+potionEffects:
+- WITHER,0,target,onHit
+lore:
+- "&aCurved and mean-looking."
+itemType: unique
+level: 14
+scalability: fixed

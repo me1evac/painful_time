@@ -1,0 +1,20 @@
+isEnabled: true
+name: '&6Simo Clericus'
+role: '&6<Resident>'
+profession: NITWIT
+greetings:
+- Hey!
+dialog:
+- Heard the hog is on\nthe lift again.
+farewell:
+- Bye.
+canTalk: true
+activationRadius: 3.0
+interactionType: NONE
+disguise: custom:elitemobs_terrvilla_generic_1
+customDisguiseData: player elitemobs_terrvilla_generic_1_generic_1 setskin {"id":"5cacf5ee-ff48-42e4-a5a6-20bd06331db6","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1ODEyNDc5MzUyMiwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFiNzhmZTVjNzA0M2JhNzRkZDVkMWU2YjA5NjZlYjU4NzczNWQyOTNhOGI1NDI2OTY3MzNkNjFlYjk2NjVjMSIKICAgIH0KICB9Cn0=","signature":"v/BrbwsJLyQU6mrjVWBkzzwPjqVJGM8tprsIqTFdbEBxgMZ91qFQSPyT7smvFqwKJ6OiM0SKIkiPSdBQaADe7nUr5DQOoIew1nRbL9/NTpaK9YoDD7RKzbYab8ne2Fd73S+SAK2nVlPtJirGVDjPel6HWGyIppqu4ozRQh5IlbwlWH+3UyOFP52JmIJcJ4mTTW5XLRZ05yRS2EC3roVYu4k1UQm/TDZY5FwSdodNUhCcv5CRwc+JSgzbYvad2p4waqxl8iQfViqQmHfCNAOi73dFnA61gn/dJhPbD8MtxZcYo72WWICxZn5KtOWZOYnDwR59uaOyL20gisGMYClnCEmHqrYJDLsKbuIltgY/R5M9FoosJTvPrY8N98eZgIjvVQzwQpK7y/J/maAhYo7eyZtgTu7zHXn0qIstVr/eVFKLIUOd/Krz/9bCP1ehPpd0cXBCrj0smoQwl1hhdM9pWBfZdE6aayocCnHEUojj7b2QOuC6sqvCiPcsfrp0nEm0wQ3wq8OVwXOXA1ysX5zu/n4NKqVTZoIyvYOdHkXtzDZbzrUYKpYjNl9/XQeNAZked/JmXnOUwg0u8xw7TfUUg85MC/wBhCENzdhj7xa1tLgrkt45Y5JoCVXPg9kfj2DvOTbwOohtkJ/bPkwxdfAculx9EkZh6SbG5bCj34+7vDA="}],"legacy":false}
+spawnLocations:
+- em_primis,359.48,28.0,1415.32,29.28,39.17
+
+
+

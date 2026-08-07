@@ -1,0 +1,27 @@
+isEnabled: true
+entityType: SKELETON
+mainHand: BOW
+leggings: LEATHER_LEGGINGS
+name: $normalLevel &fClimbers Demise
+level: 17
+healthMultiplier: 0.3
+damageMultiplier: 0.3
+movementSpeedAttribute: 0.06
+spawnCooldown: 20
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 20
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- attack_push.yml
+spawnLocations:
+- em_primis,761.5,110.5,1209.5,0.0,0.0:1676145173937
+- em_primis,731.5,101.5,1209.5,0.0,0.0:1676145157725
+- em_primis,759.5,86.5,1217.5,0.0,0.0:1676145143132
+- em_primis,732.5,71.5,1237.5,0.0,0.0:1676145130478
+- em_primis,737.5,123.5,1206.5,0.0,0.0
+- em_primis,774.5,145.5,1147.5,0.0,0.0
+- em_primis,813.5,189.5,1085.5,0.0,0.0:1674845994671

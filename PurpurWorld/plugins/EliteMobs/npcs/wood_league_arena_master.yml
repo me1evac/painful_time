@@ -1,15 +1,7 @@
 isEnabled: true
-name: <g:#A89040:#B8A050>Gladius</g>
-role: <g:#988030:#A89040><Arena Master></g>
 profession: ARMORER
 spawnLocation: em_adventurers_guild,219.5,93,257.5,0,0
 spawnLocations: []
-greetings:
-- Welcome to the\nArena!
-dialog:
-- Prepared to face the arena?
-farewell:
-- Return with your shield, or on it!
 canTalk: true
 activationRadius: 3.0
 interactionType: ARENA_MASTER

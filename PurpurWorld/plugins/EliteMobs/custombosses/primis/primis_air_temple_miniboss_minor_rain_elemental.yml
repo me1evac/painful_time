@@ -1,0 +1,73 @@
+isEnabled: true
+entityType: BLAZE
+isRegionalBoss: true
+spawnCooldown: 5
+leashRadius: 15
+name: $minibossLevel &9Minor Rain Elemental
+level: 18
+disguise: BEE
+normalizedCombat: true
+healthMultiplier: 4.0
+damageMultiplier: 1.0
+movementSpeedAttribute: 0.46
+frozen: false
+powers:
+- attack_gravity.yml
+- lightning_bolts.yml
+- attack_freeze.yml
+- primis_sleep.yml
+- invulnerability_fire.yml
+- attack_lightning.yml
+eliteScript:
+  Close:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 8
+      z: 4
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - em_primis_wormhole,-495.5,151,-110.5,0.0,0.0
+        - em_primis_wormhole,-495.5,151,-115.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      material: BARRIER
+      Target:
+        targetType: ZONE_FULL
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CLOUD
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.15
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  Open:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 8
+      z: 4
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - em_primis_wormhole,-495.5,151,-110.5,0.0,0.0
+        - em_primis_wormhole,-495.5,151,-115.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+spawnLocations:
+- em_primis_wormhole,-458.5,128.5,-86.5,0.0,0.0:1694083221607
+# Generated with https://magmaguy.com/webapp/webapp.html !

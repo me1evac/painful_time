@@ -1,0 +1,14 @@
+name: "&cBlood Summoner"
+material: NETHERITE_SWORD
+level: 20
+lore:
+- "&cOnly blood can please this blade."
+enchantments:
+- DAMAGE_ALL,7
+- DAMAGE_ARTHROPODS,5
+- DAMAGE_UNDEAD,5
+potionEffects:
+- WITHER,1,target,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

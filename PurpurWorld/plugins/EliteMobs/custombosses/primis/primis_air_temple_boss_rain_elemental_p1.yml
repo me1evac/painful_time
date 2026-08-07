@@ -1,0 +1,43 @@
+isEnabled: true
+entityType: BLAZE
+isRegionalBoss: true
+spawnCooldown: 5
+leashRadius: 15
+disguise: BEE
+name: $bossLevel &9Rain Elemental
+level: 18
+normalizedCombat: true
+healthMultiplier: 7.0
+damageMultiplier: 1.1
+movementSpeedAttribute: 0.34
+frozen: true
+trails:
+- CLOUD
+powers:
+- invulnerability_knockback.yml
+- lightning_bolts.yml
+- invulnerability_fire.yml
+phases:
+- primis_air_temple_boss_rain_elemental_p2.yml:.99
+- primis_air_temple_boss_rain_elemental_p3.yml:.50
+eliteScript:
+  Open:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 8
+      z: 4
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - em_primis_wormhole,-495.5,151,-110.5,0.0,0.0
+        - em_primis_wormhole,-495.5,151,-115.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+spawnLocations:
+- em_primis_wormhole,-509.5,151.5,-113.5,0.0,0.0:1694086254390

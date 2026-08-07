@@ -1,0 +1,143 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &5General Darius
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+isRegionalBoss: true
+mainHand: IRON_SWORD
+offHand: IRON_SWORD
+helmet: CHAINMAIL_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: CHAINMAIL_BOOTS
+phases:
+- primis_miniboss_1_p2.yml:.99
+- primis_miniboss_1_p3.yml:.50
+eliteScript:
+  Wait:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      radius: 16.0
+      height: 3.0
+      shape: CYLINDER
+      filter: PLAYER
+      Target:
+        targetType: SELF
+        offset: 0,-1,0
+    Actions:
+    - action: SET_MOB_AI
+      wait: 25
+      bValue: false
+      Target:
+        targetType: SELF
+    - action: SET_MOB_AI
+      wait: 160
+      bValue: true
+      repeatEvery: 5
+      Target:
+        targetType: SELF
+      Conditions:
+        hasTags:
+        - wake2
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 100
+        conditionType: FILTERING
+    - action: TAG
+      repeatEvery: 5
+      duration: 200
+      tags:
+      - wake2
+      Target:
+        targetType: ZONE_FULL
+  ScriptRunnerStart:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - TauntScript
+  TauntScript:
+    Actions:
+    - action: MESSAGE
+      Target:
+        targetType: DIRECT_TARGET
+      sValue: '&5[General Darius]&f They are trying to retake the city! Stop them!'
+spawnLocations:
+- em_id_primis_gladius,-15.5,65.5,40.5,0.0,0.0:1673371207698
+onSpawnBlockStates:
+- 23.5,-1.5,-3.5/minecraft:coarse_dirt
+- 23.5,-1.5,-2.5/minecraft:rooted_dirt
+- 23.5,-1.5,-1.5/minecraft:coarse_dirt
+- 23.5,-1.5,-0.5/minecraft:rooted_dirt
+- 23.5,-1.5,0.5/minecraft:rooted_dirt
+- 23.5,-1.5,1.5/minecraft:podzol[snowy=false]
+- 23.5,-1.5,2.5/minecraft:rooted_dirt
+- 23.5,-0.5,-3.5/minecraft:air
+- 23.5,-0.5,-2.5/minecraft:air
+- 23.5,-0.5,-1.5/minecraft:air
+- 23.5,-0.5,-0.5/minecraft:air
+- 23.5,-0.5,0.5/minecraft:air
+- 23.5,-0.5,1.5/minecraft:air
+- 23.5,-0.5,2.5/minecraft:air
+- 23.5,0.5,-3.5/minecraft:air
+- 23.5,0.5,-2.5/minecraft:air
+- 23.5,0.5,-1.5/minecraft:air
+- 23.5,0.5,-0.5/minecraft:air
+- 23.5,0.5,0.5/minecraft:air
+- 23.5,0.5,1.5/minecraft:air
+- 23.5,0.5,2.5/minecraft:air
+- 23.5,1.5,-3.5/minecraft:air
+- 23.5,1.5,-2.5/minecraft:air
+- 23.5,1.5,-1.5/minecraft:air
+- 23.5,1.5,-0.5/minecraft:air
+- 23.5,1.5,0.5/minecraft:air
+- 23.5,1.5,1.5/minecraft:air
+- 23.5,1.5,2.5/minecraft:air
+- 23.5,2.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- -24.5,-1.5,-3.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,-2.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,-1.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,-0.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,0.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,1.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,2.5/minecraft:deepslate[axis=y]
+- -24.5,-0.5,-3.5/minecraft:air
+- -24.5,-0.5,-2.5/minecraft:air
+- -24.5,-0.5,-1.5/minecraft:air
+- -24.5,-0.5,-0.5/minecraft:air
+- -24.5,-0.5,0.5/minecraft:air
+- -24.5,-0.5,1.5/minecraft:air
+- -24.5,-0.5,2.5/minecraft:air
+- -24.5,0.5,-3.5/minecraft:air
+- -24.5,0.5,-2.5/minecraft:air
+- -24.5,0.5,-1.5/minecraft:air
+- -24.5,0.5,-0.5/minecraft:air
+- -24.5,0.5,0.5/minecraft:air
+- -24.5,0.5,1.5/minecraft:air
+- -24.5,0.5,2.5/minecraft:air
+- -24.5,1.5,-3.5/minecraft:air
+- -24.5,1.5,-2.5/minecraft:air
+- -24.5,1.5,-1.5/minecraft:air
+- -24.5,1.5,-0.5/minecraft:air
+- -24.5,1.5,0.5/minecraft:air
+- -24.5,1.5,1.5/minecraft:air
+- -24.5,1.5,2.5/minecraft:air
+- -24.5,2.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]

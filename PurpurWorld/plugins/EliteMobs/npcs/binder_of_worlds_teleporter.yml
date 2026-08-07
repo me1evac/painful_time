@@ -1,16 +1,7 @@
 isEnabled: true
-name: <g:#4A3A5A:#5A4A6A>Buði the Doomsayer</g>
-role: <g:#3A2A4A:#4A3A5A><[100] Binder of Worlds Teleport></g>
 profession: ARMORER
 spawnLocation: em_adventurers_guild,289.5,92,264.5,-180,0
 spawnLocations: []
-greetings:
-- You are not prepared.
-dialog:
-- The things I've seen...\nYou wouldn't believe it.
-- The End is near...\nYou are not prepared.
-- I give the greatest challenge of them all.\nExpect death.
-farewell: []
 canTalk: true
 activationRadius: 3.0
 interactionType: COMMAND

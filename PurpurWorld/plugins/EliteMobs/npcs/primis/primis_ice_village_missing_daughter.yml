@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&3Cornelia Ennodius'
+role: '&3<Missing Daughter>'
+profession: NITWIT
+greetings:
+- Help...
+dialog:
+- Go away, go away,\nGO AWAY!
+- They are not\nreal...
+- Just don't look\nat them Cornelia.
+farewell:
+- Bye.
+canTalk: true
+activationRadius: 3.0
+interactionType: NONE
+disguise: custom:elitemobs_ice_village_missing_daughter
+customDisguiseData: player elitemobs_ice_village_missing_daughter setskin {"id":"0d192ad4-c8af-49be-9647-1fb5abfe4c0e","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MjEwMzc3ODQ3NiwKICAicHJvZmlsZUlkIiA6ICJmY2U2MjNhMDYwNWY0YzJmYTg0Zjk3Yjc3ODYwYTNjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQcnJpbnQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI2OWI4YTc1OGExMmI1YWI2ODE0ZDAzOTk3ZmE2ZTE1ODczYjJhYTUyOGFjMGQ3MmY3NGM4Nzg4MTU0MjZiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"MBY51IhwAXOmuu0Nel/P986d9163x4hHEAUj3h+6LMcYYeY/ovspX1dNJGnmNOPN0D7OouyzC4Tnxlu4KkEhP4hd4x38X0jLH5s7+0XTXUE/HAWNjNVd0cOIGnIncSdokW7ugphtIjfnmzk51hH2sx9HX9miYQ27ifjUM/TJ5x1HICCt9jjAL6/bbNEnQWIrtfEY6n7iQtdyN8OgbmDemGaiifhyXlTmPUb3flSklH9DxTgrtLLTmFHST3DUrnhJq5DLZ2gZ6cWd5C9NaeADRfwf/K0KvFvAsNXbR/pHfD+d6UXYDimjVCfBaaGiOuBovROyxGo65+ws6KsEY26l6eJDzHqXJ4CehnXQqMEhCqRPTulZvp9RKvRbXVhvZQrmveq6QgSql8fBj4nKuYX+xxFZdO1+7P+LuwtFtyDuXArFAkYH9lWRCp4XpQlWzr5MLz4Kwtic94FljIrX39Ac63Q+Y7MQD1jL21HEAZJkXZlp/ldu9UMACivlIDbrrEsaR1qyj9iXGxPFzqAjdV68ltpQxvmu2sr6Ln+2Z5vHrfk3K4LXhb5Eq4NGu0ynJmyOTP5IyjGBZ6BoncKARHPlQDckiFqJMHULjpfdDVQjSU/PrqR6uhX0mRtlBX7k6fNV4UDq7M1u7s6UVDsXhBPH7f9fCvcuL77FRX/V3j/0Q7c="}],"legacy":false}
+spawnLocations:
+- em_primis,672.47,38.0,1612.58,-119.73,19.32
+
+
+

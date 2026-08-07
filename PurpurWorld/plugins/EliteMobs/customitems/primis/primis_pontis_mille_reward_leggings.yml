@@ -1,0 +1,9 @@
+material: IRON_LEGGINGS
+name: "&4Pontis Mille Leggings"
+lore: 
+- "&7Traditional Pontis Mille Leggings"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: FIXED
+level: 13
+itemType: unique

@@ -1,0 +1,24 @@
+greetings: []
+activationRadius: 3.0
+name: '&3Posuere Hominem'
+role: '&c<Bored Citizen>'
+profession: NITWIT
+greeting:
+- Hey! Come here.
+dialog:
+- Up for a challenge?
+- You think you got what it takes?
+- Wanna go swinging?
+- You a mad lad?
+- No cheating!
+farewell:
+- See you later.
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_groves_acrobatics.yml
+disguise: custom:elitemobs_groves_parkour
+customDisguiseData: player elitemobs_groves_parkour setskin {"id":"0c2509db-0477-4c23-b1aa-541935aefe71","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2MTcwNzg0NywKICAicHJvZmlsZUlkIiA6ICI1NTZjNDNmOWJmZjU0MjI1OTI0NDU5M2EwN2QyYzE1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaW50b2tsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlODBiODUxMDU4NDlkMjY5OTk3MmM4ZTEyZGRkN2IwYjVmMGE2MWNiYzU2N2ZhNDdjMmU4ZjYyODA3NGU4MyIKICAgIH0KICB9Cn0=","signature":"jzO1ImrAZMsMxIV5mogguu2MXnxDnuBA/Ky1sJUNbEExozaJX/v42Yc+XpGXMwoqV5wHFmntOGxp+Nq4bXMufRhWdVY2T2+IVSh70iu7rd7oSmZ3KWH8GdCwYfBgg+zG4RCaLVO90dm+vKQdmeDlem4Azz9IMEdzZLuANRYu+4yMwxDP1/sGNr0CtiCLXliEhVJXsVmuHPQrOpsKUEmZlK4+8yp/Oma+6ReihvxKNYn14Iz2GZrF9nqxQS0JTrW07x2NKwYWL1/6qhM66GZnImudxpCQvgBkBhGhl98jF01levUun3wmN0FLpFvMoTyp5Vzo/3wJdVOcQQwKRfQ+9QxRITcJkzBbb0mfDdNOLcgDQcbBley7i/fmhn4Hz/iSwzN4ik6DSzrR/eqBmfNttfhnSdD6ywN2G837n4ZsBfaV5zy5H3hCw1gsbYQIkZZML8sskfga97KNzRIrpzqgD2yg2eWSCE04qfuFt/MDeInWI4PQj5QIvd9xhIPDnerUPDprujfQSEy8qUZ+iooHF7YA6uw+1yDs+iSEOUv7pksVDVSuTEyoa4cX6FhXH/26+G5oGOK7y9V3KOeFIJx+y7i7Q19MfTySqqlhIuPpjYezBtFbSawdW003yl6W1elpTckFMmaHKs8p0yL2RnsZc2ll54hILo5I3L/MMmmMcB4="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,692.41,29.0,356.51,-124.24,9.0

@@ -1,0 +1,16 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 1
+lootList:
+- filename=primis_ice_village_violet_whip.yml:chance=1.0
+- filename=primis_ice_village_violet_leggings.yml:chance=1.0
+- filename=primis_ice_village_violet_boots.yml:chance=1.0
+locations:
+- em_primis,1261.0,24.0,1527.0,0.0,0.0:0

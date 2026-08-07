@@ -1,0 +1,115 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &fRaiding Mariner
+level: 13
+instanced: true
+healthMultiplier: 1
+damageMultiplier: 1.15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+movementSpeedAttribute: 0.33
+mainHand: TRIDENT
+helmet: LEATHER_HELMET:191970
+chestplate: LEATHER_CHESTPLATE:191970
+leggings: LEATHER_LEGGINGS:191970
+boots: LEATHER_BOOTS:191970
+powers:
+- invulnerability_fire.yml
+- attack_poison.yml
+- filename: attack_push.yml
+  difficultyID: 
+  - 1
+- filename: attack_gravity.yml
+  difficultyID: 
+  - 2
+uniqueLootList:
+- filename: primis_raiders_helmet_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_helmet_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_helmet_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_helmet_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_helmet_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_helmet_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_chestplate_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_chestplate_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_chestplate_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_chestplate_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_chestplate_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_chestplate_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_leggings_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_leggings_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_leggings_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_leggings_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_leggings_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_leggings_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_boots_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_boots_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_boots_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_boots_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_boots_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_boots_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_bow_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_bow_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_bow_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_id_primis_gladius,15.5,66.5,48.5,0.0,0.0
+- em_id_primis_gladius,36.5,67.5,49.5,0.0,0.0
+- em_id_primis_gladius,10.5,70.5,26.5,0.0,0.0

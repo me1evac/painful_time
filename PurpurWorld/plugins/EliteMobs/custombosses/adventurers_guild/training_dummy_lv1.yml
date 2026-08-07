@@ -1,6 +1,5 @@
 isEnabled: true
 entityType: HUSK
-name: '&8[&aLv.1 &7Training Dummy&8]'
 level: '1'
 damageMultiplier: 0.0
 dropsEliteMobsLoot: false
@@ -17,4 +16,4 @@ silent: true
 ai: false
 alwaysShowName: true
 spawnLocations:
-- em_adventurers_guild,229.5,87,216.5,-70,0:1770286453451
+- em_adventurers_guild,229.5,87,216.5,-70,0:1786036294037

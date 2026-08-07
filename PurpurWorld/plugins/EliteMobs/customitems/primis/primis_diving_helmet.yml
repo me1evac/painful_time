@@ -1,0 +1,10 @@
+material: TURTLE_HELMET
+name: "&1Diving Helmet"
+lore: 
+- "An old Diving Helmet." 
+- "Still works just fine."
+enchantments: 
+- OXYGEN,3
+itemType: UNIQUE
+level: 4
+scalability: FIXED

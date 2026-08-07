@@ -1,0 +1,11 @@
+material: IRON_HELMET
+name: "&4Shredding Helmet"
+lore: 
+- "Full of small tiny razor blade"
+- "like points on the exterior."
+enchantments: 
+- "THORNS,1"
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: FIXED
+level: 14
+itemType: unique

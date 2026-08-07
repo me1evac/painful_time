@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&2[025-055] The Oasis Adventure!'
-customInfo:
-- The tutorial adventure for players
-- new to EliteMobs!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

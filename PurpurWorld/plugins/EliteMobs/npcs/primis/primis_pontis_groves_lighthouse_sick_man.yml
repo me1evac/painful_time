@@ -1,0 +1,23 @@
+greetings: []
+activationRadius: 3.0
+name: '&3Alanus Secundas'
+role: '&c<Sickly Man>'
+profession: NITWIT
+greeting:
+- Hi, there.
+dialog:
+- I don't feel so good
+- Hopefully I recover soon.
+- Well, I am feeling a bit better.
+- We need more food.
+farewell:
+- Farewell.
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_groves_lighthouse_2.yml
+disguise: custom:lighthouse_sick_man
+customDisguiseData: player lighthouse_sick_man setskin {"id":"b0e1ea7f-8437-4f00-a7ac-5168e3d18f7f","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTI4NDgyMDUxMiwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzZmYWI2OTI5ZmM4OGZiNWE5MmVhNmIwMjIyOGFhODc5Y2E0Y2QwNjM5YWM4ZTEyZjZjZDk1NDc3MTUzNTIyIgogICAgfQogIH0KfQ==","signature":"N/VmmnyNcnkmge0anOL4EoPKTZqJD6/QjB8K3V6hB75EjY/kgva1DVMHz2U6PCYn9EN2tRfdyrwWe4UKArsmQyqlAc15NAXA1bIhxI5AnkFPrCVnry82D2jrropStPOOsXojFm/KUccfzM0oafz7DExjshuweR4fsY68SENCEbD9haYuSl+RINU2JLYwodakQVhfavgzNftxR7YtmspIRucLVdbai6bTi1gDA2L8rNUD8AL3Oq1ZQ1WhnfXYUL2PafKY0S64aOKLfj44eHiFdg6CQFJbB0Dphk+WZj/2L6B/m1ffi0e+pkGNSTnllhjsLZuGNfK/CH4tQAylOoOjHsocHiyq0IyRarJ5GigEczgyjsjUAzBFqEVMvO0eKt4Mqo5oWPeI1qRqH/vwOmHJ609ttzZfHgPsHSOS00fihok8Wje/KonJBzqcK9iMZJMGJPYHw0YtX/Wam+1xPyCkjMbG266pbzytmg1vAFpikcHXmvKerQjlNotw2XwmFQeFNRxYrT1FoMvFswDsKaVroixLLCcT5YoenbjiR1gfejX445sH0Ph2JrP8OFGDs79ZRQdDelPE9Ph5DpNggJxnK6013inLOUkSwwba4qPJr1TMqZRvZS2keg4HfXEQ1vMZlwZU2UOV74spZEN1DlJLHzfgUeTbOJV9K5cVxm7T/Tw="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,934.5,22.0,265.87,160.02,6.04

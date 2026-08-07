@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: PURPLE_DYE
-name: '&5Huge Elite Scrap'
-lore:
-- '&fUsed to repair Elite items!'
-- '&fFully repairs an item!'
 enchantments:
 - repair,5
 potionEffects: []

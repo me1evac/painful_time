@@ -1,0 +1,23 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&fNatsumi'
+role: '&7<Spa Attendee>'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Do you like the hot spring?
+- Just sit back and relax!
+- Nya!
+- uwu...
+- OwO
+farewell:
+- Have fun!
+disguise: custom:primis_spa_attendee_1
+customDisguiseData: player primis_spa_attendee_1 setskin {"id":"aafb1fc8-89d1-4ad8-b1ff-7839873a5398","name":"Unknown","properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1Njc0MzQyMTkwNTIsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4NTA2MGM5ZmIzMTUwYjQyNjVhZjE3ZmJkMGQxMTQ4ZDUwMWIwM2YyZGUzY2JlYzZkYTA5NGY2NTEyZTRiNzUifX19","signature":"dhUZc4cEn+EM8pgaYHvFu/44j2acj3LmbzOluEAx7ZuhlLBFPqK1+zblPIYaszrBBBxklbl0kCJgL/ZowCkwn2et8Bx4yEYsADZjtxvoYMSs2GJjrfxsS2sO8QXoK6cbsxnp5nf2dICFcJ0HDlhufKMBvi+bg+jp7WM7GYTx9OaaewWlEqr6lmWCgcqvaaBFC1ylwpuVj+UpKpEdtzux4HBSkEm4DDjMeyexuit8MLe53TnT1H17BMovLB6z4W2NweEDqwbuS12y3/7h0Kt18II8Fkj61NRRMxfGuzh4yP7fPtSNeJXRuOv2OfIEFPlyIYk6NC2hxpVeqTglKBpw0sukYcrpdaL0tiZWQaYexyH8V7RMMHcTEgxnu9Obvt8Ga7ofEiKoxAmIZyLcoRYSX9tNZP1vfbYUPekg2ZhcFlVjcaCqdaB3aZ0bbmZ07GnSrz4rYnhcipYHgPrMxn99ogslDttOof6jVk/CWnFw1HPaEoyy76RmG1j8FVFjS7qyC/K8q/UXsc5utSAek4zhM/198bVSjvsKa3ejK3wPRXWHGmop2EtWWBsGv16DbwiUHYj78FfHL1ByMZoQJKarw/j8hDYeB4tVJP6S6PFKDGVH/4GBtvUNg0ajtDrPtY7xSIfkodr+GgKtjB9Hju1YeRpv5kAmqedo74qC9/mF/I8="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1745.07,92.0,1521.8,-7.95,8.69
+

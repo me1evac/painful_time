@@ -1,0 +1,26 @@
+entityType: RAVAGER
+name: $minibossLevel &dImpaler Beast Uladzimir
+level: '13'
+healthMultiplier: 4.0
+damageMultiplier: 1.4
+powers:
+- attack_push.yml
+- attack_wither.yml
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+uniqueLootList:
+- filename=primis_pontis_beast_horn.yml:amount=1:chance=1.0
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 40
+spawnCooldown: 30
+leashRadius: 40
+disguise: GOAT
+isRegionalBoss: true
+movementSpeedAttribute: 0.28
+spawnLocations:
+- em_primis,233.5,126.5,1101.5,0.0,0.0:1676129006602
+

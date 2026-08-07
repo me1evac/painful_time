@@ -1,0 +1,23 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&aMew Meowzer'
+role: '&d<Feline>'
+profession: NITWIT
+greeting:
+- Meow!
+dialog:
+- Meooooww!
+- Meow...
+- Mreeeooooowww...
+- Meowww.
+- MEOW!
+farewell:
+- Prrrr meow!
+disguise: CAT
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_hungry_friend.yml
+spawnLocations:
+- em_primis,588.29,56.0,727.44,-124.62,39.9

@@ -1,0 +1,22 @@
+entityType: LLAMA
+name: '$normalLevel &6Kuzco'
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- material=APPLE:amount=5:chance=1
+powers:
+- invulnerability_knockback.yml
+- attack_gravity.yml
+- attack_push.yml
+- shield_wall.yml
+followDistance: 8
+spawnCooldown: 5
+leashRadius: 2
+frozen: true
+isRegionalBoss: true
+spawnLocations:
+- em_primis,1023.5,131.5,611.5,0.0,0.0

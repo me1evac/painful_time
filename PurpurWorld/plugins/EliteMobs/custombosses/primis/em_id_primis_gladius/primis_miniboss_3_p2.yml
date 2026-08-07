@@ -1,0 +1,203 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &4Commander Niall
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+mainHand: IRON_AXE
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+powers:
+- invulnerability_fire.yml
+- invulnerability_fireworks.yml
+- invulnerability_arrow.yml
+eliteScript:
+  ScriptRunnerStart:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - TauntScript
+      - Teleporter
+  TauntScript:
+    Actions:
+    - action: MESSAGE
+      Target:
+        targetType: DIRECT_TARGET
+      sValue: '&4[Commander Niall] &fGuards, fire at will!'
+  Teleporter:
+    Actions:
+    - action: TELEPORT
+      Target:
+        targetType: WORLD_PLAYERS
+      FinalTarget:
+        targetType: LOCATION
+        location: same_as_boss,3,70,-55,0,0
+  SummonReinforcementRight:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      Target:
+        targetType: SELF_SPAWN
+        offset: -13,2,5
+      sValue: primis_miniboss_3_reinforcement_right.yml
+  SummonReinforcementLeft:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      Target:
+        targetType: SELF_SPAWN
+        offset: -13,2,-4
+      sValue: primis_miniboss_3_reinforcement_left.yml
+onSpawnBlockStates:
+- 14.5,-0.5,-12.5/minecraft:cracked_stone_bricks
+- 14.5,-0.5,-11.5/minecraft:stone_bricks
+- 14.5,-0.5,-10.5/minecraft:barrier
+- 14.5,-0.5,-9.5/minecraft:stripped_dark_oak_wood[axis=y]
+- 14.5,-0.5,-8.5/minecraft:white_concrete
+- 14.5,-0.5,-7.5/minecraft:spruce_planks
+- 14.5,0.5,-12.5/minecraft:cracked_stone_bricks
+- 14.5,0.5,-11.5/minecraft:cracked_stone_bricks
+- 14.5,0.5,-10.5/minecraft:stone_bricks
+- 14.5,0.5,-9.5/minecraft:cracked_stone_bricks
+- 14.5,0.5,-8.5/minecraft:stripped_dark_oak_wood[axis=y]
+- 14.5,0.5,-7.5/minecraft:cracked_stone_bricks
+- 14.5,1.5,-12.5/minecraft:air
+- 14.5,1.5,-11.5/minecraft:barrier
+- 14.5,1.5,-10.5/minecraft:stone_bricks
+- 14.5,1.5,-9.5/minecraft:cracked_stone_bricks
+- 14.5,1.5,-8.5/minecraft:barrier
+- 14.5,1.5,-7.5/minecraft:barrier
+- 14.5,2.5,-12.5/minecraft:air
+- 14.5,2.5,-11.5/minecraft:barrier
+- 14.5,2.5,-10.5/minecraft:barrier
+- 14.5,2.5,-9.5/minecraft:barrier
+- 14.5,2.5,-8.5/minecraft:barrier
+- 14.5,2.5,-7.5/minecraft:barrier
+- 14.5,3.5,-12.5/minecraft:air
+- 14.5,3.5,-11.5/minecraft:barrier
+- 14.5,3.5,-10.5/minecraft:barrier
+- 14.5,3.5,-9.5/minecraft:barrier
+- 14.5,3.5,-8.5/minecraft:barrier
+- 14.5,3.5,-7.5/minecraft:barrier
+- 14.5,4.5,-12.5/minecraft:air
+- 14.5,4.5,-11.5/minecraft:barrier
+- 14.5,4.5,-10.5/minecraft:barrier
+- 14.5,4.5,-9.5/minecraft:barrier
+- 14.5,4.5,-8.5/minecraft:barrier
+- 14.5,4.5,-7.5/minecraft:barrier
+- 15.5,-0.5,-12.5/minecraft:cobblestone
+- 15.5,-0.5,-11.5/minecraft:stone_bricks
+- 15.5,-0.5,-10.5/minecraft:stone_bricks
+- 15.5,-0.5,-9.5/minecraft:stone_bricks
+- 15.5,-0.5,-8.5/minecraft:stripped_dark_oak_wood[axis=y]
+- 15.5,-0.5,-7.5/minecraft:spruce_planks
+- 15.5,0.5,-12.5/minecraft:cracked_stone_bricks
+- 15.5,0.5,-11.5/minecraft:cracked_stone_bricks
+- 15.5,0.5,-10.5/minecraft:cracked_stone_bricks
+- 15.5,0.5,-9.5/minecraft:campfire[facing=east,lit=true,signal_fire=false,waterlogged=false]
+- 15.5,0.5,-8.5/minecraft:cracked_stone_bricks
+- 15.5,0.5,-7.5/minecraft:cobblestone
+- 15.5,1.5,-12.5/minecraft:air
+- 15.5,1.5,-11.5/minecraft:cracked_stone_bricks
+- 15.5,1.5,-10.5/minecraft:cracked_stone_bricks
+- 15.5,1.5,-9.5/minecraft:stone_bricks
+- 15.5,1.5,-8.5/minecraft:air
+- 15.5,1.5,-7.5/minecraft:stone_bricks
+- 15.5,2.5,-12.5/minecraft:air
+- 15.5,2.5,-11.5/minecraft:stone_bricks
+- 15.5,2.5,-10.5/minecraft:cracked_stone_bricks
+- 15.5,2.5,-9.5/minecraft:air
+- 15.5,2.5,-8.5/minecraft:air
+- 15.5,2.5,-7.5/minecraft:barrier
+- 15.5,3.5,-12.5/minecraft:air
+- 15.5,3.5,-11.5/minecraft:stone_bricks
+- 15.5,3.5,-10.5/minecraft:air
+- 15.5,3.5,-9.5/minecraft:air
+- 15.5,3.5,-8.5/minecraft:air
+- 15.5,3.5,-7.5/minecraft:barrier
+- 15.5,4.5,-12.5/minecraft:air
+- 15.5,4.5,-11.5/minecraft:air
+- 15.5,4.5,-10.5/minecraft:air
+- 15.5,4.5,-9.5/minecraft:air
+- 15.5,4.5,-8.5/minecraft:air
+- 15.5,4.5,-7.5/minecraft:barrier
+- 16.5,-0.5,-12.5/minecraft:cobblestone
+- 16.5,-0.5,-11.5/minecraft:stone_bricks
+- 16.5,-0.5,-10.5/minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+- 16.5,-0.5,-9.5/minecraft:cracked_stone_bricks
+- 16.5,-0.5,-8.5/minecraft:white_concrete
+- 16.5,-0.5,-7.5/minecraft:stripped_dark_oak_wood[axis=y]
+- 16.5,0.5,-12.5/minecraft:cracked_stone_bricks
+- 16.5,0.5,-11.5/minecraft:cracked_stone_bricks
+- 16.5,0.5,-10.5/minecraft:cracked_stone_bricks
+- 16.5,0.5,-9.5/minecraft:cracked_stone_bricks
+- 16.5,0.5,-8.5/minecraft:air
+- 16.5,0.5,-7.5/minecraft:white_concrete
+- 16.5,1.5,-12.5/minecraft:cracked_stone_bricks
+- 16.5,1.5,-11.5/minecraft:cracked_stone_bricks
+- 16.5,1.5,-10.5/minecraft:air
+- 16.5,1.5,-9.5/minecraft:cracked_stone_bricks
+- 16.5,1.5,-8.5/minecraft:air
+- 16.5,1.5,-7.5/minecraft:cracked_stone_bricks
+- 16.5,2.5,-12.5/minecraft:barrier
+- 16.5,2.5,-11.5/minecraft:air
+- 16.5,2.5,-10.5/minecraft:air
+- 16.5,2.5,-9.5/minecraft:air
+- 16.5,2.5,-8.5/minecraft:air
+- 16.5,2.5,-7.5/minecraft:stone_bricks
+- 16.5,3.5,-12.5/minecraft:barrier
+- 16.5,3.5,-11.5/minecraft:air
+- 16.5,3.5,-10.5/minecraft:air
+- 16.5,3.5,-9.5/minecraft:air
+- 16.5,3.5,-8.5/minecraft:air
+- 16.5,3.5,-7.5/minecraft:barrier
+- 16.5,4.5,-12.5/minecraft:barrier
+- 16.5,4.5,-11.5/minecraft:air
+- 16.5,4.5,-10.5/minecraft:air
+- 16.5,4.5,-9.5/minecraft:air
+- 16.5,4.5,-8.5/minecraft:air
+- 16.5,4.5,-7.5/minecraft:barrier
+- 17.5,-0.5,-12.5/minecraft:cobblestone
+- 17.5,-0.5,-11.5/minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+- 17.5,-0.5,-10.5/minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]
+- 17.5,-0.5,-9.5/minecraft:air
+- 17.5,-0.5,-8.5/minecraft:cobblestone
+- 17.5,-0.5,-7.5/minecraft:spruce_planks
+- 17.5,0.5,-12.5/minecraft:cracked_stone_bricks
+- 17.5,0.5,-11.5/minecraft:air
+- 17.5,0.5,-10.5/minecraft:air
+- 17.5,0.5,-9.5/minecraft:air
+- 17.5,0.5,-8.5/minecraft:stripped_dark_oak_wood[axis=y]
+- 17.5,0.5,-7.5/minecraft:cobblestone
+- 17.5,1.5,-12.5/minecraft:stone_bricks
+- 17.5,1.5,-11.5/minecraft:air
+- 17.5,1.5,-10.5/minecraft:air
+- 17.5,1.5,-9.5/minecraft:air
+- 17.5,1.5,-8.5/minecraft:barrier
+- 17.5,1.5,-7.5/minecraft:stone_bricks
+- 17.5,2.5,-12.5/minecraft:barrier
+- 17.5,2.5,-11.5/minecraft:air
+- 17.5,2.5,-10.5/minecraft:air
+- 17.5,2.5,-9.5/minecraft:air
+- 17.5,2.5,-8.5/minecraft:barrier
+- 17.5,2.5,-7.5/minecraft:white_concrete
+- 17.5,3.5,-12.5/minecraft:barrier
+- 17.5,3.5,-11.5/minecraft:air
+- 17.5,3.5,-10.5/minecraft:air
+- 17.5,3.5,-9.5/minecraft:air
+- 17.5,3.5,-8.5/minecraft:barrier
+- 17.5,3.5,-7.5/minecraft:cracked_stone_bricks
+- 17.5,4.5,-12.5/minecraft:barrier
+- 17.5,4.5,-11.5/minecraft:air
+- 17.5,4.5,-10.5/minecraft:air
+- 17.5,4.5,-9.5/minecraft:air
+- 17.5,4.5,-8.5/minecraft:barrier
+- 17.5,4.5,-7.5/minecraft:barrier

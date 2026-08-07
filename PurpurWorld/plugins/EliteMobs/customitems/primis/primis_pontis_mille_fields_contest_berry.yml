@@ -1,0 +1,9 @@
+isEnabled: true
+material: PUMPKIN
+name: "&dContest Berry"
+lore:
+- "&dA beautiful and very large berry."
+- "&dTruly a one in a million specimen."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_mille_fields_contest_berry.yml

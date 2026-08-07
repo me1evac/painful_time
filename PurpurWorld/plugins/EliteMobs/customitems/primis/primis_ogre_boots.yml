@@ -1,0 +1,12 @@
+isEnabled: true
+material: LEATHER_BOOTS
+name: "&cOgre's boots"
+enchantments:
+- PROTECTION_FIRE,1
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- "&7They'll keep you nice"
+- "&7and toasty."
+itemType: unique
+level: 7
+scalability: fixed

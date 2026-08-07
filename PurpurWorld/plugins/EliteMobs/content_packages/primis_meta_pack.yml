@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&2[000-020] The Primis Adventure!'
-customInfo:
-- The tutorial adventure for players
-- new to EliteMobs!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

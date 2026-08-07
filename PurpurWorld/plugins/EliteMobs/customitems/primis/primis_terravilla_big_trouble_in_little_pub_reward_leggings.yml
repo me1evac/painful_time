@@ -1,0 +1,13 @@
+material: NETHERITE_LEGGINGS
+name: "&eEarth's Blessing"
+lore: 
+- "&eLooks heavy but it is"
+- "&esurprisingly light."
+- "&eIt is clear that these"
+- "&eleggings are at least a"
+- "&efew centuries old."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+scalability: FIXED
+level: 18
+itemType: unique

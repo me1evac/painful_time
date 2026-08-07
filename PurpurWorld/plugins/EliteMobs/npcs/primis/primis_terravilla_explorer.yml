@@ -1,0 +1,20 @@
+isEnabled: true
+name: '&6Telestis Senna'
+role: '&6<Explorer>'
+profession: NITWIT
+greetings:
+- How goes it.
+dialog:
+- Always so\nbusy.
+- Need a bag?
+farewell:
+- Bye.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_terravilla_razorbag.yml
+disguise: custom:elitemobs_terravilla_explorer
+customDisguiseData: player elitemobs_terravilla_explorer setskin {"id":"51209604-1487-4413-aa09-5e9cbe5ebfb7","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MjczOTMyNTY2NiwKICAicHJvZmlsZUlkIiA6ICJjYjIzZWZhOWY1N2U0ZTQyOGE0MDU2OTM4NDlhODAxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWMUdHTyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZTNmOTIyYTA2OGI3OGZiN2M3MTA3YzkyZmIyZTUzZTVkOTI5NGU5YTg1NThkNjY1ZTVjMDljYmIyOTczYmJmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"T8MUgnvuZrM38Uhj7LgHmru/du6sztj05PiHAiwIfPWS2cRQOPxXm4lLqlOiJdMIokBljhFofwXN1xtkxmvOfKzhVwDKbO75/BGcM87UwK+RhB4fAsB3YEnWwbbnzYdfjiX8/vDIhqVLjE8LBJpKsWwl6Eh/X74PujtAQ0cyVkk6pzh2+ReEw5RCx/1al8SBvvt7z3rA4tKLDqBxryMlqsMMn2/WUvnaf4ngQmxI/aysCGHh57XOgEQ8TYD1p1Ev/Fgm5+9Ug+3qWXu/lFgruWm1w+yR3429Ig58G9ix1P5KRjkNg2AgZeJRzO2A91MmwEHwFuTcL2TCvSRkE5Rv7Bpy2zSm2fbVLOu6fseX9sgS8XIMHrFDs/WU5S5QtKR7IYMUi79gFRWbpWdZkvGysRhZ7BCh0oo7R8e5SFVfC9v74xdOX9DvXeKSHzaC2eyFllNTGGbcVUSsggvk6wMp8/RaqYUWwEhcw0m938Ut5LwrmLqeqEG1V9jGqQWKbCd2h40SeDpNVA/GN6Dtg0SoIu8Kt6e787axkfzm4fs2EEwYL9rwUIPolor4pI+0a1hvhXR1HJL6JyULRxYWAqJ+RJ6Nv1H3m/Wj1JUh7B2/ALThm2w50CXDTjy2ZoXxtYamx1/0SRDE0HpeJkQinUt2j4rLkpxRsIdKvCmFjGyh3EA="}],"legacy":false}
+spawnLocations:
+- em_primis,314.37,27.06,1382.36,90.78,40.13

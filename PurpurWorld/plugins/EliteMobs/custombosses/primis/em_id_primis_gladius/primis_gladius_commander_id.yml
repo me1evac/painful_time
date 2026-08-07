@@ -1,0 +1,235 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $normalLevel &fRaid Commander
+level: 15
+instanced: true
+healthMultiplier: 1.5
+damageMultiplier: 1
+movementSpeedAttribute: 0.30
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: NETHERITE_SWORD
+offHand: SHIELD
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- bonus_coins.yml
+- filename: attack_push.yml
+  difficultyID: 
+  - 1
+- filename: attack_blinding.yml
+  difficultyID: 
+  - 2
+eliteScript:
+  Wait:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      repeatEvery: 3
+      Conditions:
+        hasTags:
+        - wait
+      Target:
+        targetType: SELF
+    - action: SET_MOB_AI
+      bValue: true
+      repeatEvery: 20
+      Conditions:
+        hasTags:
+        - wait
+      Target:
+        targetType: SELF
+    - action: TAG
+      tags:
+      - wait
+      Target:
+        targetType: SELF
+  SummonAssassins:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: UNTAG
+      tags:
+      - wait
+      Target:
+        targetType: SELF
+    - action: SET_MOB_AI
+      bValue: true
+      Target:
+        targetType: SELF
+    - action: MESSAGE
+      wait: 15
+      times: 1
+      sValue: '&a[Raid Commander] &fAssassin no Jutsu!!!'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: RUN_SCRIPT
+      scripts:
+      - SummonAssasin1
+      - SummonAssasin2
+      - SummonAssasin3
+  SummonAssasin1:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,25.5,73.5,-32.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: primis_gladius_assassin_summon_id.yml
+      Target:
+        targetType: ZONE_FULL
+    - action: SPAWN_PARTICLE
+      wait: 15
+      Target:
+        targetType: ZONE_FULL 
+      particles:
+        - particle: EXPLOSION_LARGE
+  SummonAssasin2:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,33.5,73.5,-26.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: primis_gladius_assassin_summon_id.yml
+      Target:
+        targetType: ZONE_FULL
+    - action: SPAWN_PARTICLE
+      wait: 15
+      Target:
+        targetType: ZONE_FULL 
+      particles:
+        - particle: EXPLOSION_LARGE    
+  SummonAssasin3:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,36.5,75.5,-32.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: primis_gladius_assassin_summon_id.yml
+      Target:
+        targetType: ZONE_FULL
+    - action: SPAWN_PARTICLE
+      wait: 15
+      Target:
+        targetType: ZONE_FULL 
+      particles:
+        - particle: EXPLOSION_LARGE  
+uniqueLootList:
+- filename: primis_raiders_helmet_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_helmet_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_helmet_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_helmet_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_helmet_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_helmet_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_chestplate_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_chestplate_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_chestplate_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_chestplate_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_chestplate_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_chestplate_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_leggings_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_leggings_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_leggings_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_leggings_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_leggings_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_leggings_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_boots_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_boots_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_boots_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_boots_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_boots_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_boots_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_generals_sword_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_generals_sword_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_generals_sword_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 15
+spawnLocations:
+- em_id_primis_gladius,30.5,69.5,-28.5,0.0,0.0

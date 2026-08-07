@@ -1,0 +1,22 @@
+entityType: HUSK
+name: $minibossLevel &6Cursed Fowl Goblin
+level: '11'
+healthMultiplier: 3.0
+damageMultiplier: 0.6
+powers:
+- attack_fire.yml
+uniqueLootList:
+- filename=primis_pontis_mille_mines_goblin_head.yml:amount=1:chance=1.0
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 10
+spawnCooldown: 10
+leashRadius: 10
+disguise: CHICKEN
+isRegionalBoss: true
+movementSpeedAttribute: 0.23
+spawnLocations:
+- em_primis,649.5,84.5,436.5,0.0,0.0:1676123846080
+

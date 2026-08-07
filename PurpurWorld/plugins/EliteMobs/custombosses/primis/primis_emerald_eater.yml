@@ -1,0 +1,12 @@
+entityType: RAVAGER
+name: "$normalLevel &aEmerald Eater"
+level: "15"
+healthMultiplier: 0.5
+damageMultiplier: 0.6
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers: 
+- "invulnerability_knockback.yml"
+followDistance: 30
+movementSpeedAttribute: .3

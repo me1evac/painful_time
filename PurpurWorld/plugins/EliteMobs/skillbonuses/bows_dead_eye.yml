@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&4Dead Eye'
-description:
-- '&7Critical hits deal massive'
-- '&7bonus damage. 45s cooldown.'
 skillType: BOWS
 bonusType: COOLDOWN
 unlockTier: 4

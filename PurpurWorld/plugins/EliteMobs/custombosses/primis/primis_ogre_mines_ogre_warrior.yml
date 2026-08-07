@@ -1,0 +1,30 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $minibossLevel &fOgre Warrior
+level: 8
+healthMultiplier: 0.6
+damageMultiplier: 0.6
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: STONE_AXE
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- invulnerability_knockback.yml
+- attack_fire.yml
+uniqueLootList:
+- primis_ogre_helmet.yml:0.2
+- primis_ogre_chestplate.yml:0.2
+- primis_ogre_leggings.yml:0.2
+- primis_ogre_boots.yml:0.2
+disguise: custom:elitemobs_ogre_mines_ogre_warrior
+customDisguiseData: player elitemobs_ogre_mines_ogre_warrior setskin {"id":"258a8b6f-f801-4102-a885-5c7dbc4a71aa","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MTM0ODU1MjQwNywKICAicHJvZmlsZUlkIiA6ICIzY2MxMTY3MWU0MTM0ODM0YjhjMmZjMTY1OGE4OWU3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb3NzaTU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk0OGU2ZGQxMzU3Njc1ZDQ5ZGEyZTJmYjZmNzM5N2M2YzI0OGRhYTQ3ZjI3NTNkMWY3YTY5NGUzY2E1ZGQzZDYiCiAgICB9CiAgfQp9","signature":"c6gHZ/DoRQ0LjO6yVcGZ+yQwUecuEI+bDbivn0Sr+FhIfQPxC1Pw/0ZG92bZIE9JbAWpnCsE9RvkO7pOlIq7G5reu3Ywi/kmySecwS7ak3NUNgfGv1O30pWxDOpinDvS/AKSgYMXuz+DlJKR2o3T8yTFuqSc+b85v5iv99acuNMU84ZcDWOmFrU9PjxwDMqe8tBU8m2UE3a+mPTocyeZ5YOEeM13KPVxM2103eudJVJjH43EUHL3O3w41ZMUfBnoY7BzTwc09xg0/37WsJIcH5C35zm/y+dpctBFvhHcsWKORHCGSLxECNNEaks7rmjaR3BXcNMCDLC6Mh4QIg7duQoYyA0aE05IrCwqAyJkKRUGPuqfh2GwYw838xzxEV1KGUz8fRKI+/qbYJDUv/5SIYifd3o0qPRyocgtX7xGGJHgN19hYwnYPPyxVZZ5qyPQdJq7vVN4CYA/ttsLm+0OMfq+WbaXQRSqrnZEEMya7dJBY6vqevO+5y8Pd3ilvdm3L+2lZb0X2piGSJs+RbYXZJEykqgT8L3EdTjuOcP6rOL1Xcpf7rOeSiSj5UFwBWa6JOxy8muCbkpYhfohyV9C0NZJ+0YUgLiJhQZTXmNwscE6UbPrsZEWMtdOkZJ7tpqPiIVXAnygXWVTJf1YYeM8u36hbQr+i8cVtjQVi0OFdD4="}],"legacy":false}
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1449.5,24.5,530.5,0.0,0.0:1653276669213
+- em_primis,1491.5,43.5,539.5,0.0,0.0:1676056368580

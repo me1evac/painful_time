@@ -1,0 +1,30 @@
+isEnabled: true
+isRegionalBoss: true
+entityType: SILVERFISH
+name: $normalLevel &fField Rat
+level: 11
+healthMultiplier: 0.25
+damageMultiplier: 0.4
+spawnCooldown: 10
+leashRadius: 25
+followDistance: 15
+movementSpeedAttribute: 0.33
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_mille_fields_rat_meat.yml:amount=1:chance=0.05
+powers:
+- attack_push.yml
+spawnLocations:
+- em_primis,336.5,14.5,726.5,0.0,0.0:1676125107787
+- em_primis,345.5,15.5,733.5,0.0,0.0:1676125050235
+- em_primis,331.5,14.5,745.5,0.0,0.0:1676125051244
+- em_primis,326.5,13.5,741.5,0.0,0.0:1676125015484
+- em_primis,316.5,14.5,734.5,0.0,0.0:1676124949484
+- em_primis,326.5,13.5,725.5,0.0,0.0:1676124965684
+- em_primis,332.5,14.5,718.5,0.0,0.0:1676124971435
+- em_primis,362.5,13.5,719.5,0.0,0.0:1676124500984
+- em_primis,354.5,13.5,708.5,0.0,0.0:1676124504484
+- em_primis,385.5,16.5,759.5,0.0,0.0:1676124669385
+

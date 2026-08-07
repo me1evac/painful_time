@@ -1,0 +1,27 @@
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&cMagmus Hypnos'
+role: '&4<Tired Hunter>'
+profession: NITWIT
+greeting:
+- Traveler.
+dialog:
+- Where is Volumnia...
+- I hope she isn't in\ntrouble again.
+- I need a good rest.
+- If only there were more\nhours in the day.
+- Speak to me when you\nhave found Volumnia.
+- So much work,\nso little time.
+- Yet another 17 hour day.
+- I worry too much.
+farewell:
+- Never enough time...
+disguise: custom:primis_pontis_fields_magmus
+customDisguiseData: player primis_pontis_fields_magmus setskin {"id":"9656e54e-c2f7-40f1-b18a-76ebb11c8ab6","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYwNjg0NzEyNzUyMCwKICAicHJvZmlsZUlkIiA6ICI5NjU2ZTU0ZWMyZjc0MGYxYjE4YTc2ZWJiMTFjOGFiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYW1vbm9fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5YzRlMzNiODU2M2VlZmExM2NlYTcwNDM3YWM1MzU1MzI4MjNjYzlkODY5ZGVlYzVjY2I5ZGMxYjlkYzZlZTQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"AcOhu96Q03SfztsNEh1azLU0UvWzK/voM777ow10OHQDc70fxo6cZNJVBP11hWfqfJiEoUzNgn4DYojM4Pw4NzAc7o51JmsBFXHdbOo6rrdbrvr+FiJGkXbIMQGBdmpue6u+bQKsXse2VYuWu1Weue/0odjn0GDecD8j92QhNUBn5qbiioI+LVkc8pwEEodHVxoq4rr/SK8EfdtUrBRFzM7Xq9dPRLfovt+wyUKGNJfgDHOQwjDz9g3DyohSVwn6+3UC8XcwpmWbMiVFBValeHNKm38Yi+foeBQyp61AI7d0goLkyGSn98pOKq2dnfK6av/Llze4ASu+RVJDv8D12K4GyrP8RVYtpfs+6NfzCbmqdipVqNC5+c9dtUYsGQRdihIMo1jw7BLNy3h8O7Wwhi+hsw8joDCOlI6i6w4YXamNSAGnGwE3LHHgNNUyfzev0Trq7vK8Z/iMEZVMOa9FpDw0S6BBxkF/9xCgdFl3TcxWvh20/P4WmVQaulSJaKdG4EkXYC20kr3S9aJxLas91kN1zBi24jqVog81IMP6Q2fMDvabDKL4uSpIfqP0jeJmJ7qZ/RQKmMcGGmcj/87wsySe4M+Bi53WgFy7GlNq6XG03B5kZeCJjFQBYT35LC/hs5Ehy/HAL5rEyGivasqI/AWhSspJJoc3n1m5Tj79URs="}],"legacy":false}
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fields_camp_hunter_three_times_hunter.yml
+spawnLocations:
+- em_primis,275.78,17.06,868.14,-117.23,11.4

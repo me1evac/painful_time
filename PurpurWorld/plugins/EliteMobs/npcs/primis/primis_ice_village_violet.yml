@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&5Domina Violet'
+role: '&d<Shieldmaiden>'
+profession: TOOLSMITH
+greetings:
+- Did I ask\nyour opinion?
+dialog:
+- Feels good to\nget it out.
+- They're gonna pay\nwhile I collect.
+farewell:
+- No, that's what I thought.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_make_them_go_ouch.yml
+disguise: custom:elitemobs_ice_village_violet
+customDisguiseData: player elitemobs_ice_village_violet setskin {"id":"20d4ed61-1fac-401c-b6e8-27093ce1d5b6","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0ODgxODg0NzE5NywKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ZTYwN2NmOTQwZTEyMDVlYjlmODZlYmEwYjI1Y2U5OTkzOWZkN2I1Mjc0MDc5OWVmNDJjZTBiMjI5MWM5ZjQ4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"NLLvTI6JnsHBUJUYMpUAroqWmIuERkaxcr1IlWnI9JwOseSpM+iDq4AhLoMu26jIequahJgPzogHjDFue9ahCUA879Wi/AvZDKdOx6eYQ1EayvMYLbLX9aQ4N95vSHalUxzksG14kdVM7BeAI1rpMPVA1GvNwgRwApd0h43jgidI+ITNmY1kgBtJVmLC8XQII0HH6y5aAwcce+UIgpoy6Bns427VOVF9b8WVcFH8sxEcBs1QpJF0XQcnh4cJ+CGlo+Ic13J/p5kfwAXQK+xAYaGzyH/Fz2eeZMU3Z8R4+0UQCtnqJzMttn52myi/Xl65k2Vv8QXUXpTACcepCkjRNGoCjWW0taAfWiJEtjWzA1Od+gVv0S5NbIJ6PIyzltDZc3uOSY08FYsMwBTrZPR/Ehqosz9YJroJUoIi3NCXJj13vVxUA4g94VyfJLL+uAR8okFW1Ec+vc6JIoO92uLTIa1Vh9EzghDfsAwVZLw1kfZlEWJq/iW3Bzyz1/ulaoCN+Y3gZNUZauBfbSSkEn/znO11bxAzMv4FKL+31g0+hwBZVNMtsI+cq7HApehpiLbvbIE8lajmJeJRRAuTwmrL/7yTaMXr8N92DviDBfqKBxih4CGyt7lY3x6NA0vNnUIrf8x65/VCW2b9K3ibLTjRaglZLNEQnOeB4pmCN2R6ly4="}],"legacy":false}
+spawnLocations:
+- em_primis,979.2,56.0,1459.35,48.03,13.19
+

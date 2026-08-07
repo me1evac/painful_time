@@ -1,0 +1,12 @@
+material: CLAY_BALL
+name: "&9Cat's Blessing"
+lore: 
+- "&9If you hold it up all the"
+- "&9way to your ear you can"
+- "&9hear a slight purr."
+enchantments: 
+- "SWEEPING_EDGE,2"
+potionEffects: 
+- "SPEED,0,self,continuous"
+itemType: unique
+scalability: fixed

@@ -1,0 +1,9 @@
+isEnabled: true
+material: PAPER
+name: "&5Assistance Agreement"
+lore:
+- '... hence, for the help lended during these most trying'
+- "times, Pontis Mille promises to return in kind at Gladius'"
+- 'darkest hour.'
+scalability: fixed
+itemType: unique

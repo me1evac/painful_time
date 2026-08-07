@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&3Trebatia Cornix'
+role: '&3<Villager>'
+profession: NITWIT
+greetings:
+- OK.
+dialog:
+- Yep, got it.
+- I see...
+- Oh!
+farewell:
+- I will try that\nnext time.
+canTalk: true
+activationRadius: 3.0
+interactionType: NONE
+disguise: custom:elitemobs_ice_village_generic_3
+customDisguiseData: player elitemobs_ice_village_generic_3 setskin {"id":"ac4e5e83-4e2d-44de-ba02-74b9bd9795cb","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxODAzNjQyNjM1NiwKICAicHJvZmlsZUlkIiA6ICJiNWRkZTVmODJlYjM0OTkzYmMwN2Q0MGFiNWY2ODYyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXhlbWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmZTIzNDM5NThmZTA0MTBmZTRiYWRmZDdhZjcyYWY4NTA0MjNhNzA0NDhmOTVjZWMyZjFhZTcxYTQ3MDdmYzQiCiAgICB9CiAgfQp9","signature":"x+tYWJQid6JIT2LnM8Vv4T9zAz0VhZ11KH9+/dI+6qkmnXBefTZ8uXrfZhhyCbfFJz+j9hiVLnd2LI2xaLfe5whCtM330WdTI3f9d9ZaxK3GlufoTUsNACwBG+acZiO+Ovnh1xuAbBPv616Oj5Qb1X17Wzo+B28cmuGt8awgvXUtGjCjGB4HVnj1dCBH1t1v0CFRc+GVYj0ncNRdXkyA+tDCjCWYivPy+7DgmA4uGA1sKK7Kfmthz75iHDLojGppuSW6RXQ4GHQUYYD8Tgr5Q9ieco7WmOJP9kRMytXkqVdgPsPvkVhaV2dYyqfkcCvXb10G9uSxs2UfuehoXTPlFd8Qm/NEdndlLmzXM69UF90/LeSvw5Yik6N68tgbotsbWLncLX7xmzbeyRlqEuotlRW8VqlvNRIA5DUXDiG2IgYGONqHE+bm4EZQsNqmmVBkDwTPFhRBppPATdnhfe8erksC1juaY1fTsgTz3YA3uc8dXmc/7g+mJ4o9W+hR/G0uzvHL8jQ2iLbXOAM/qzFjlCjhwVCWGQJ4I6uS3BDnx9TC+nYhE29ZWNcEbDnbJ1naoydVupC3x9nJMUe9BejEIekHHJ+/mnLbnTF3VxclMFiHkWlQF9BKI8RBWaYcaxvtZbrlMWiD3vyOERAIjiFAQywyU7g7gmb1pPg0IGZHdBc="}],"legacy":false}
+spawnLocations:
+- em_primis,913.22,46.0,1483.16,-153.81,10.95
+
+
+
+

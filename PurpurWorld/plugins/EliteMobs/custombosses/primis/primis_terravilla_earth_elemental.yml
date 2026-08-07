@@ -1,0 +1,32 @@
+isEnabled: true
+entityType: IRON_GOLEM
+name: $bossLevel &fEarth Elemental
+level: 18
+healthMultiplier: 7
+damageMultiplier: 1.4
+powers:
+- invulnerability_arrow.yml
+- primis_sleep.yml
+phases:
+- primis_terravilla_earth_elemental_p2.yml:0.70
+- primis_terravilla_earth_elemental_p3.yml:0.40
+followDistance: 70
+spawnCooldown: 30
+leashRadius: 70
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+isRegionalBoss: true
+movementSpeedAttribute: 0.25
+spawnLocations:
+- em_primis_wormhole,-62.5,148.5,823.5,0.0,0.0:1676307947000
+onSpawnBlockStates:
+- -1.5,-0.5,-20.5/minecraft:white_stained_glass
+- -1.5,0.5,-20.5/minecraft:white_stained_glass
+- -1.5,1.5,-20.5/minecraft:white_stained_glass
+- -0.5,-0.5,-20.5/minecraft:white_stained_glass
+- -0.5,0.5,-20.5/minecraft:white_stained_glass
+- -0.5,1.5,-20.5/minecraft:white_stained_glass
+- 0.5,-0.5,-20.5/minecraft:white_stained_glass
+- 0.5,0.5,-20.5/minecraft:white_stained_glass
+- 0.5,1.5,-20.5/minecraft:white_stained_glass

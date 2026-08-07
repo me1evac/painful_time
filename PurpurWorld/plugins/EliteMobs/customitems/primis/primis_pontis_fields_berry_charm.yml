@@ -1,0 +1,12 @@
+material: PUMPKIN
+name: "&dLarge Berry"
+lore: 
+- "&dThe fresh odor this berry emits"
+- "&dcan be smelled from miles away."
+- "&dThe odor seems to have a calming"
+- "&deffect on monsters and beasts."
+- "&dIt makes their attacks less vicious."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: unique
+scalability: fixed

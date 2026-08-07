@@ -1,0 +1,10 @@
+material: LEATHER_BOOTS
+name: "&3Frost Boots"
+lore: 
+- "&3It's just frost boots."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+- "FROST_WALKER,1"
+scalability: FIXED
+level: 16
+itemType: unique

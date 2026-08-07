@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&7Grim Reach'
-description:
-- '&7Extended attack range'
-- '&7with your scythe.'
 skillType: HOES
 bonusType: PASSIVE
 unlockTier: 1

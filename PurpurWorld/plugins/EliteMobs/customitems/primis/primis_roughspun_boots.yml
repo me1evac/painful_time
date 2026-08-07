@@ -1,0 +1,11 @@
+isEnabled: true
+material: CHAINMAIL_BOOTS
+name: "&5Roughspun Boots"
+lore:
+- "&dWorn and weathered, beats"
+- "&dno armor at all!"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: UNIQUE
+level: 2
+scalability: fixed

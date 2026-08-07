@@ -1,0 +1,19 @@
+activationRadius: 3.0
+name: '&6Candidus Nigellus'
+role: '&6<Tree Feller>'
+profession: FLETCHER
+greetings:
+- Greetings!
+dialog:
+- Fastest axe...my bottom!
+- Don't take his ramblings seriously.
+- Mr. big-shot sure has a lot to say.
+farewell:
+- Goodbye!
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_lumberjack
+customDisguiseData: player primis_pontis_lumberjack setskin {"id":"1fc6777b-182e-4b1c-ad2d-bcdca04768cb","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTIwNDU3Mjk3MiwKICAicHJvZmlsZUlkIiA6ICI4N2YzOGM1MWE4Yzc0MmNmYTY2YTgxNWExZTI2NzMzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWR3YXJzQ3V0aWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE4NmEyNDQwZTJjNjk4ZGQ2NjYwMGE2Mjc4OGYwMmY4NDU1YjQxOGQxM2MyZDVjZTI2OGNkMzI2N2MwMTIyYyIKICAgIH0KICB9Cn0=","signature":"iTG/yMUfE+VC+F/AEg9nPcl2SRb29zSvFWpetNfYitMUDUT8jNWKiMVMdGYu75fiJxP0c1ALoH0noaD64JUJ3176et+vPSkysDh6wFYs/gaa0ntF/QJPnyja6qILvGLsTn0LBOCejZwxNV53Ki4OCzUeJtip544l4tSo8EwRI91Z1RmtvOT9cILqSgczfKTfoz0i5GEfWGG6aaKd50RmiSTF1JaqCt/bSm+2ZDepuFeTZfnI9NiLU701YKf/2wiyekt7aUMyfXn9SaadaFJbEszpEjSMWijSQ6mUd6o40kOxojsLsiULlr1/Vy1shgCXgSOGEFgjrZe0l58wIAUC0tZRtH/3h2YPL86HsoTtcdK1+Jp4idA+cKeveJQ8toBFOdgirKSiPdgXwcVRxYCUEIvJQ0ACtZdZZdedhiCdhFtci3WYnvvznx+xHMYXypp/e9GLLX091sklTe7UZ3F5vlGZZjPRwu13iOC5s3IVAZxvyKKhlA9e7S3G9uPiEo5kYk9pZtk9bbM5mrWLoSC+HyOevsQivPX6nViPndPcRWEUvQ7BePw49sImGSm5SsrAMTOZ1iB1pwrrEMTWUT4XQciNHVDVz5DtgRinXXvaGtI3rmQBs+OtSnLDpMEid+74RerJBtPMYM3dRukZsEyMV7VXH5anR1QLw7QptjJihNk="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,369.68,23.94,544.42,-116.73,9.9

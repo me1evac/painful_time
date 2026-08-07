@@ -1,0 +1,17 @@
+entityType: STRAY
+name: '$normalLevel &ePrimal Fire Wisp'
+level: '11'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- attack_fireball.yml
+- attack_fire.yml
+followDistance: 60
+spawnCooldown: 5
+leashRadius: 23
+movementSpeedAttribute: 0.23
+

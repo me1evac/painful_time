@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,1062.5,93.5,1042.05,0,38
+location2: em_primis,1114.5,93.5,1048.95,179,38
+blindPlayer: true
+style: CRYSTAL
+sizeMultiplier: 1.5
+particleColor: 0xF70328
+permission: elitequest.primis_main_quest_27.yml

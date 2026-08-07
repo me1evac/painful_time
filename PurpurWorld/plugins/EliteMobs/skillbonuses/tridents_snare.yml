@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bSnare'
-description:
-- '&7Chance to root enemies'
-- '&7in place temporarily.'
 skillType: TRIDENTS
 bonusType: PROC
 unlockTier: 1

@@ -1,6 +1,5 @@
 isEnabled: true
 entityType: HUSK
-name: $reinforcementLevel <g:#808080:#D3D3D3>The Living Dead</g>
 level: dynamic
 powers:
 - attack_fire.lua

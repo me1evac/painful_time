@@ -1,0 +1,45 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+level: 7
+healthMultiplier: 0.8
+damageMultiplier: 0.7
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: BOW
+powers:
+- invulnerability_fire.yml
+- attack_web.yml
+uniqueLootList:
+- primis_pirate_helmet.yml:0.05
+- primis_pirate_chestplate.yml:0.05
+- primis_pirate_leggings.yml:0.05
+- primis_pirate_boots.yml:0.05
+- primis_pirate_sword.yml:0.05
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1061.5,31.5,706.5,0.0,0.0:1660950891552
+- em_primis,1059.5,33.5,726.5,0.0,0.0:1660584028278
+- em_primis,1058.5,36.5,739.5,0.0,0.0:1648741454597
+- em_primis,1037.5,23.5,716.5,0.0,0.0:1649633757586
+- em_primis,1022.5,23.5,701.5,0.0,0.0:1676057283383
+- em_primis,1055.5,24.5,699.5,0.0,0.0:1660950489198
+- em_primis,1058.5,22.5,727.5,0.0,0.0
+- em_primis,1073.5,22.5,726.5,0.0,0.0:1676057117382
+- em_primis,1082.5,21.5,699.5,0.0,0.0:1660583851528
+- em_primis,1112.5,20.5,703.5,0.0,0.0:1676057031685
+- em_primis,1121.5,21.5,684.5,0.0,0.0:1676057047331
+- em_primis,1122.5,19.5,722.5,0.0,0.0:1676056964431
+- em_primis,1127.5,30.5,664.5,0.0,0.0:1660950262128
+- em_primis,1141.5,43.5,645.5,0.0,0.0:1786084184107
+- em_primis,1160.5,34.5,647.5,0.0,0.0:1786084181161
+- em_primis,1176.5,38.5,646.5,0.0,0.0:1786084181907
+- em_primis,1147.5,32.5,668.5,0.0,0.0:1660950329227
+- em_primis,1045.5,26.5,734.5,0.0,0.0:1649633682359
+- em_primis,1045.5,25.5,737.5,0.0,0.0:1649633680566
+- em_primis,1057.5,22.5,710.5,0.0,0.0:1660583969179
+- em_primis,1020.5,18.5,728.5,0.0,0.0:1674354540674

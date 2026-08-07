@@ -1,0 +1,33 @@
+entityType: ZOMBIE
+name: $normalLevel &5Minor Storm Elemental
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_storm_temple_drop_charm.yml:chance=0.05
+powers:
+- taze.yml
+- attack_lightning.yml
+- implosion.yml
+followDistance: 15
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+disguise: custom:primis_pontis_minor_air
+customDisguiseData: player primis_pontis_minor_air setskin {"id":"93d0a7f0-4911-4766-8897-0f712de561c1","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTQ0OTk1OTExOSwKICAicHJvZmlsZUlkIiA6ICIxNDU1MDNhNDRjZmI0NzcwYmM3NWNjMTRjYjUwMDE4NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMaWtlbHlFcmljIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdkZjIwYjViYWUwN2NmNWVjYmMxNzgwZGYxNTQwNWE1MzhkNGQwOWU0NWFjNTQyZGYwYzhlMzZhNTRjYzE4YjciCiAgICB9CiAgfQp9","signature":"FMK7WRr59FTrGRR7OAlUypgc74h4kI9cXdNZNCPpMhP1dPHQW2Gw9zzz1S1/C1YbqMDwocdbMciraDzEqeauZlBCVCCOmBabloJAfZw6+/fcr5u5EUYDDVaoW25E8Arg26fgfeTG3xYO2c4M/UuU71jfegHglnT9jW+U4jJrEu/bwQdSXfFrQX0Hkze4jBTKK5O+vnu5BtzT6rfOYUqw9vziBDmooDiInrTyailE41poXxi1VHIk8OZEh4AT4enSZYRQo1rj4YZ7kw8a3yS+vAFNkzD5MyXAov36Fv9voyUzzwbhQKJaqJ8c/xYMeHa6YX5lwVPYw/bJnP2o2LyLgluL6Qsf2r77fXhvd6nzaGoolyZNBJElQ4eXNb5NyqBUj+ZKP6RtAjdTUbo3g3xT0sfwSxITv6kILmozWVNevPLTBVwZ5CL04tKNe25WF++Vf5VY4dsLliZIt2V4aEFzr+ELb/5cVz4oxT/WC4/xMzvlo1k2QwQd9WDLoU8unZz+Ha4u6tz/WR7hbNncP7LWCKBB0Vq2IOjky7OZu6rSnnBYsHB1pI8V4p6SLZTXN2zB5IJ8rv+0BRt6uysG7FnFvlzRzSBpJed19+iXNAKAfU55uC/UKDjohTMxm1TUVo+S0AR/4lUffr42SCyBRTKCLjVm/aD4h1yY8zRZQmvtoYw="}],"legacy":false}
+movementSpeedAttribute: 0.23
+spawnLocations:
+- em_primis_wormhole,-277.5,120.5,221.5,0.0,0.0:1676129566798
+- em_primis_wormhole,-277.5,120.5,219.5,0.0,0.0:1676129552724
+- em_primis_wormhole,-278.5,120.5,245.5,0.0,0.0:1676129574083
+- em_primis_wormhole,-319.5,120.5,245.5,0.0,0.0:1656546251702
+- em_primis_wormhole,-319.5,120.5,221.5,0.0,0.0:1656546255168
+- em_primis_wormhole,-319.5,120.5,219.5,0.0,0.0:1656546255768
+- em_primis_wormhole,-319.5,120.5,195.5,0.0,0.0:1656546246470
+- em_primis_wormhole,-278.5,120.5,194.5,0.0,0.0:1656546258722
+- em_primis_wormhole,-277.5,120.5,220.5,0.0,0.0:1676129551627
+- em_primis_wormhole,-277.5,120.5,220.5,0.0,0.0:1676129550372
+- em_primis_wormhole,-351.5,120.5,219.5,0.0,0.0:1660954461186

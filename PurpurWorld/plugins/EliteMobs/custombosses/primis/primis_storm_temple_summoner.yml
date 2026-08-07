@@ -1,0 +1,27 @@
+entityType: EVOKER
+name: $normalLevel &5Storm Temple Summoner
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_storm_temple_drop_leggings.yml:chance=0.02
+- filename=primis_storm_temple_drop_helmet.yml:chance=0.02
+- filename=primis_storm_temple_drop_chestplate.yml:chance=0.02
+- filename=primis_storm_temple_drop_boots.yml:chance=0.02
+powers:
+- attack_lightning.yml
+followDistance: 30
+spawnCooldown: 30
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.5
+spawnLocations:
+- em_primis,903.5,119.5,520.5,0.0,0.0:1676130945087
+- em_primis,974.5,124.5,525.5,0.0,0.0:1676130987382
+- em_primis,974.5,124.5,540.5,0.0,0.0:1676131005982
+- em_primis,1018.5,128.5,570.5,0.0,0.0
+- em_primis_wormhole,-351.5,120.5,219.5,0.0,0.0
+- em_primis_wormhole,-350.5,120.5,220.5,0.0,0.0

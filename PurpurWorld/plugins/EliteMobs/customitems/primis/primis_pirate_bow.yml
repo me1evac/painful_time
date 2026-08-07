@@ -1,0 +1,11 @@
+isEnabled: true
+material: BOW
+name: "&8Pirate's Bow"
+lore:
+- "&aNot quite a flintlock,"
+- "&abut it will do!"
+enchantments:
+- ARROW_DAMAGE,2
+itemType: unique
+level: 7
+scalability: fixed

@@ -1,0 +1,20 @@
+isEnabled: true
+entityType: EVOKER
+name: "$reinforcementLevel &3Ice Simulacrum"
+level: 16
+healthMultiplier: 0.25
+damageMultiplier: 0.6
+powers:
+- attack_freeze.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+followDistance: 80
+spawnCooldown: 30
+leashRadius: 80
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+disguise: POLAR_BEAR
+movementSpeedAttribute: 0.45
+customModel: 04_em_minor_ice_elemental
+spawnLocations:

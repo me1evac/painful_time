@@ -1,7 +1,4 @@
 isEnabled: true
-name: '&2Free Enchantment Challenges'
-customInfo:
-- All free enchantment challenges!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

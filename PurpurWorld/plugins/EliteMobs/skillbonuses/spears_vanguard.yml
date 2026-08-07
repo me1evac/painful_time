@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bVanguard'
-description:
-- '&7Charge forward, damaging'
-- '&7enemies in your path. 20s CD.'
 skillType: SPEARS
 bonusType: COOLDOWN
 unlockTier: 3

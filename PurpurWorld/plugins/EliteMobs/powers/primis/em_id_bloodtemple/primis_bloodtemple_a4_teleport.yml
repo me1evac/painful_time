@@ -1,0 +1,44 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  Teleport:
+    Events:
+    # - EliteMobDamagedByPlayerEvent
+    - ElitePhaseSwitchEvent
+    Actions:
+    # - action: TELEPORT
+      # wait: 5
+      # Target: 
+        # targetType: SELF
+      # FinalTarget:
+        # targetType: LOCATION
+        # location: same_as_boss,374.5,23,658.5,155,0
+    - action: TELEPORT
+      wait: 10
+      Target: 
+        targetType: WORLD_PLAYERS
+      FinalTarget:
+        targetType: LOCATION
+        location: same_as_boss,362.5,22,631.5,-24,0
+    - action: PLAY_SOUND
+      sValue: "entity.dragon_fireball.explode"
+      Target:
+        targetType: WORLD_PLAYERS
+        range: 40
+      wait: 10
+      repeatEvery: 12
+      times: 5
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 3
+      duration: 80
+      Target:
+        targetType: WORLD_PLAYERS
+        range: 40
+    - action: POTION_EFFECT
+      potionEffectType: DARKNESS
+      amplifier: 3
+      duration: 80
+      Target:
+        targetType: WORLD_PLAYERS
+        range: 40

@@ -1,0 +1,22 @@
+isEnabled: true
+entityType: IRON_GOLEM
+name: $bossLevel &fEarth Elemental
+level: 18
+healthMultiplier: 7
+damageMultiplier: 1.4
+powers:
+- attack_vacuum.yml
+- invulnerability_arrow.yml
+- invulnerability_knockback.yml
+- primis_rock_fall.yml
+- primis_earth_elemental_rays.yml
+followDistance: 70
+spawnCooldown: 30
+leashRadius: 70
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+movementSpeedAttribute: 0.31
+
+
+

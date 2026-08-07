@@ -1,0 +1,596 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&c[The Giant] &fcreates magic pools around himself. Watch out!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - "RunSlowCircle"
+      - "RunSlowCircle2"
+      - "RunSlowCircle3"
+      onlyRunOneScript: true
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - "RunSummonCube"
+      - "RunSummonCube2"
+      - "RunSummonCube3"
+      onlyRunOneScript: true
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true    
+    Cooldowns:
+      local: 422
+      global: 60
+  RunSlowCircle:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "SlowCircleVisual"
+      - "SlowCircle"
+  RunSlowCircle2:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "SlowCircleVisual2"
+      - "SlowCircle2"
+  RunSlowCircle3:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "SlowCircleVisual3"
+      - "SlowCircle3"
+  RunSummonCube:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "SummonCubeVisual"
+      - "SummonCube"
+  RunSummonCube2:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "SummonCubeVisual2"
+      - "SummonCube2"
+  RunSummonCube3:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "SummonCubeVisual3"
+      - "SummonCube3"      
+  SlowCircleVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 1
+      Target:
+        targetType: SELF
+        offset: 10,0,0
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.5
+      repeatEvery: 10
+      times: 20
+  SlowCircle:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 2
+      Target:
+        targetType: SELF
+        offset: 10,0,0
+        track: false
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 3
+      duration: 111
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 30
+      repeatEvery: 5
+      times: 40
+  SummonCubeVisual:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: -10,0,3
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SOUL
+        y: 1
+        amount: 0
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.9
+        track: false
+      repeatEvery: 10
+      times: 20
+  SummonCube:
+    Zone:
+      shape: CUBOID
+      x: 6
+      y: 2
+      z: 6
+      Target:
+        targetType: SELF
+        offset: -10,0,3
+        track: false
+        filter: PLAYER
+    Actions:
+    - action: TAG
+      tags:
+      - "summon"
+      duration: 4
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 29  
+      repeatEvery: 5
+      times: 40
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 30
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 60
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 90
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 120
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 150
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 180
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+  SlowCircleVisual2:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,10
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.5
+      repeatEvery: 10
+      times: 20
+  SlowCircle2:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 2
+      Target:
+        targetType: SELF
+        offset: 0,0,10
+        track: false
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 3
+      duration: 111
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 30
+      repeatEvery: 5
+      times: 40
+  SummonCubeVisual2:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: 3,0,-10
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SOUL
+        y: 1
+        amount: 0
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.9
+        track: false
+      repeatEvery: 10
+      times: 20
+  SummonCube2:
+    Zone:
+      shape: CUBOID
+      x: 6
+      y: 2
+      z: 6
+      Target:
+        targetType: SELF
+        offset: 3,0,-10
+        track: false
+        filter: PLAYER
+    Actions:
+    - action: TAG
+      tags:
+      - "summon"
+      duration: 4
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 29  
+      repeatEvery: 5
+      times: 40
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 30
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 60
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 90
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 120
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 150
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 180
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+  SlowCircleVisual3:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 1
+      Target:
+        targetType: SELF
+        offset: 5,0,10
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.5
+      repeatEvery: 10
+      times: 20
+  SlowCircle3:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 2
+      Target:
+        targetType: SELF
+        offset: 5,0,10
+        track: false
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 3
+      duration: 111
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 30
+      repeatEvery: 5
+      times: 40
+  SummonCubeVisual3:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: -5,0,-10
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SOUL
+        y: 1
+        amount: 0
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.9
+        track: false
+      repeatEvery: 10
+      times: 20
+  SummonCube3:
+    Zone:
+      shape: CUBOID
+      x: 6
+      y: 2
+      z: 6
+      Target:
+        targetType: SELF
+        offset: -5,0,-10
+        track: false
+        filter: PLAYER
+    Actions:
+    - action: TAG
+      tags:
+      - "summon"
+      duration: 4
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 29  
+      repeatEvery: 5
+      times: 40
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 30
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 60
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 90
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 120
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 150
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_giant_boss_summon.yml"
+      duration: 444
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.03
+      wait: 180
+      repeatEvery: 20
+      times: 1
+      Conditions:
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 30
+        hasTags:
+        - "summon"
+# Generated with https://magmaguy.com/webapp/webapp.html !

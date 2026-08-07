@@ -1,0 +1,78 @@
+farewell: []
+canTalk: true
+name: '&cPontis Forces'
+role: '&8<Soldier>'
+profession: TOOLSMITH
+greetings:
+- Sir!
+dialog:
+- My life for honor!
+- I am ready to fight!
+- We will give them hell!
+activationRadius: 3
+interactionType: NONE
+disguise: custom:elitemobs_pontis_guard
+customDisguiseData: player elitemobs_pontis_guard setskin {"id":"d767ea42-ee79-429b-bc0c-b9ae21d608ae","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1NTkyNzI3NDQzOCwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdiZmRiYmI5NjNjZjliZmRmNzEwNDc2Y2VjODYzMTI1MmJlOTA0N2IwOThlMzJjZjI5NzgwMjMwMWNlYWRlNyIKICAgIH0KICB9Cn0=","signature":"v+ov7tGwWia01psQh2/7X7aovsVUs7EUBicpsRhdp6uCRms+gFPkK/8RxIxGbY7reClmZuJ24XeFp8x7S0sUT+lnGD6bW+KzIC5gpmP+vyO+yzaX3lqXrcYPdE+lj01YE2y/zZcKWTuDo8WD+dMMbaBcUYYeTI6ElEAp/bR2kp2opN9YFO08z3vkQAtWVHd0GKWZx2/KS94VYCSejcD3GbAfo7nBpclE/6gIfLTIkvRvk70ow/C3LC4QhZUs8HGjdaSidhMXqRlgfW+mI6Dn+asVMmwjgF/qvaOQunm5rd5Shh0z7NfmTmSbdqlfm+iuzJm/eYC8qeRbd5pdQ4thXO2HUEOnXWLxICKzmNZeYC/fdIM0QgzyKEBoBCGmGDEUBlHksgT4ZysQEOWuMuiFGVAs0bCqrLqxsnAhb0LFa9olr3s9M2FUfzdXRGUEOOYGe9NmGJEFzK9cwrA8prnApNDZKMqmEIIR4/VyQlFaEsscTcwpjNqleoN7Fk0I0qqFd+tcAoRPXBi0QDZqpLkNz86GIomGHSeMcpsBwwR/dvHKj2iL4eQYizfrgvoFoB9P8pdXqE03VR82ATVKHUKNEobsIi+aP7bo13wQldfjA+XJqHuYZHwZPr0HWZNg5VwWAkokopAnuhIPL31UKAEdlXqeVaHAxik2gZfxmvtFK3I="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,670.31,23.0,957.66,-131.01,29.1
+- em_primis,671.78,23.0,953.84,174.99,30.3
+- em_primis,673.23,23.0,953.9,-162.21,32.1
+- em_primis,684.35,24.0,954.72,-125.91,22.05
+- em_primis,689.47,24.0,954.7,109.6,34.2
+- em_primis,688.64,24.5,962.26,42.25,23.55
+- em_primis,681.79,24.5,963.7,-60.5,22.95
+- em_primis,687.26,24.5,969.43,152.19,13.95
+- em_primis,684.49,24.0,980.1,-107.75,22.95
+- em_primis,688.68,24.0,979.98,106.59,20.85
+- em_primis,673.79,22.0,948.68,102.54,37.2
+- em_primis,652.57,25.0,954.49,-0.65,51.75
+- em_primis,665.37,24.0,965.06,160.02,12.6
+- em_primis,660.66,23.0,950.92,-177.62,11.4
+- em_primis,665.5,22.0,952.82,155.98,-0.45
+- em_primis,659.66,24.0,971.78,-140.57,9.75
+- em_primis,645.87,25.0,971.2,-25.81,34.95
+- em_primis,643.79,25.0,970.46,156.58,49.2
+- em_primis,668.81,24.0,981.23,116.24,19.5
+- em_primis,668.73,24.0,979.06,115.34,19.05
+- em_primis,672.26,24.0,982.17,-34.51,29.1
+- em_primis,672.31,24.0,978.72,-152.71,24.6
+- em_primis,674.42,24.0,971.54,91.04,42.15
+- em_primis,674.46,24.0,967.44,88.34,41.25
+- em_primis,702.3,23.0,948.71,101.54,43.8
+- em_primis,879.38,106.0,1010.44,-89.72,33.75
+- em_primis,879.39,106.0,1008.96,-89.72,33.75
+- em_primis,879.39,106.0,1007.02,-89.72,33.75
+- em_primis,879.4,106.0,1004.65,-89.72,33.75
+- em_primis,879.97,106.0,989.47,-89.87,29.25
+- em_primis,879.97,106.0,986.45,-89.87,29.25
+- em_primis,868.93,106.0,1000.51,-90.02,9.45
+- em_primis,868.94,106.0,994.47,-91.36,90.0
+- em_primis,880.84,106.0,995.4,86.99,10.95
+- em_primis,881.26,106.0,999.45,96.44,5.85
+- em_primis,873.05,106.0,1008.54,-90.47,25.35
+- em_primis,873.16,106.0,986.0,-93.01,13.35
+- em_primis,1125.67,90.0,1043.54,-90.77,10.6
+- em_primis,1125.7,90.0,1047.49,-90.77,10.6
+- em_primis,921.49,92.0,1002.59,-90.2,0.05
+- em_primis,921.49,92.0,1000.59,-90.2,0.05
+- em_primis,921.49,92.0,998.59,-90.2,0.05
+- em_primis,921.49,92.0,996.59,-90.2,0.05
+- em_primis,921.49,92.0,994.59,-90.2,0.05
+- em_primis,921.49,92.0,992.59,-90.2,0.05
+- em_primis,917.49,92.0,1002.59,-90.2,0.05
+- em_primis,917.49,92.0,1000.59,-90.2,0.05
+- em_primis,917.49,92.0,998.59,-90.2,0.05
+- em_primis,917.49,92.0,996.59,-90.2,0.05
+- em_primis,917.49,92.0,994.59,-90.2,0.05
+- em_primis,917.49,92.0,992.59,-90.2,0.05
+- em_primis,913.49,92.0,1002.59,-90.2,0.05
+- em_primis,913.49,92.0,1000.59,-90.2,0.05
+- em_primis,913.49,92.0,998.59,-90.2,0.05
+- em_primis,913.49,92.0,996.59,-90.2,0.05
+- em_primis,913.49,92.0,994.59,-90.2,0.05
+- em_primis,913.49,92.0,992.59,-90.2,0.05
+- em_primis,1195.36,151.0,997.97,-17.5,4.2
+- em_primis,1194.52,151.0,1003.79,-140.95,-9.15
+- em_primis,1197.6,151.0,1004.11,154.55,1.5
+- em_primis,1192.81,151.0,998.86,-55.6,-1.5

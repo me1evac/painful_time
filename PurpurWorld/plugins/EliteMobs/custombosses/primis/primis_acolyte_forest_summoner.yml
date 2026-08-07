@@ -1,0 +1,29 @@
+normalizedCombat: true
+isEnabled: true
+entityType: EVOKER
+name: $normalLevel &bElf Bandit Summoner
+level: 12
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 5
+leashRadius: 40
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_elf_drop_helmet.yml:chance=0.02
+- filename=primis_pontis_elf_drop_chestplate.yml:chance=0.02
+- filename=primis_pontis_elf_drop_leggings.yml:chance=0.02
+- filename=primis_pontis_elf_drop_boots.yml:chance=0.02
+- material=BREAD:chance=0.5
+isRegionalBoss: true
+followDistance: 15
+disguise: custom:primis_pontis_groves_elf_summoner
+customDisguiseData: player primis_pontis_groves_elf_summoner setskin {"id":"53975185-64eb-432c-b180-5d66b3a70ddc","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2NzU0MzkwMywKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk1YzE4MDM4NWM3N2IwNGYzNjU4N2VkYjI4MmFiMjExMDRlMGIzZTRkNGQ3OTllNWQ3YTkwYWI3ZDM4YTZhMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9","signature":"uLUpFf9xpQWfIBWW1ch/FzGEhJtbZYRfnQiYR6pgtuXQm0cI09FW3vUNA8Ukv1frA/9nqSZkTcX2Fj09RMnY5hFwODX2pcv8bJ1IDASdAiKOdbByLB7ZHWmgQ3MPDxZ+fUpiZjTXP9npuPTshQS+5I/HfJQPLRNwnC6VnkTSXrYBM2CXCpqVO4WMrEKoyq+5bEH2IiwIhu8uUnALJM0QJlpKM+zSkwbfhX7aB3ZsfF5KwYbOJqn4W0V0pkTjFGPmSH9T95nYrFWKv6+MpiyShRQOmiKJfo8DHkJvR7xkjaE1eXvGzimDvuojpZ6lbaTWZB3xDIbIaJx7jI+DftTmPsD+WhkLlCaSIRihGzo8RIrYlcikb+UnyegsJ7YbzH7P/GWcUS8h50M8JK4vVR3OnSYjGbbC4g2GkpALtL/6rOZv1C+APCPxho+uukUYHXfmG9sx+S4kyr30uCpS7pOTgwQKSPhoHJyKpAVlm2NuWZOdkNZ7yGQWXYgZU9iZz7oCRQIoLVT58V9TMC0dnp1dyHXXpa7YyXxo+SJfdEp+5ZhMEP/qx5t6Q+LgH1+CDZjiz8A3P+8q9dxdPGButmTckTYOvyBYBVZu34o0XsUF+HDpvGildLVHT5BjZuDDcuRRNH0J8ja8zoQX4Dkyfw6VGTTlPZAqmxZ7Thwz55hnLrc="}],"legacy":false}
+spawnLocations:
+- em_primis,251.5,21.5,467.5,0.0,0.0:1676069846339
+- em_primis,255.5,21.5,471.5,0.0,0.0:1676069851290
+- em_primis,252.5,21.5,475.5,0.0,0.0:1676069858239
+- em_primis,617.5,52.5,297.5,0.0,0.0:1676074126279
+- em_primis,608.5,52.5,297.5,0.0,0.0:1676074122079
+- em_primis,615.5,52.5,306.5,0.0,0.0:1676074131728

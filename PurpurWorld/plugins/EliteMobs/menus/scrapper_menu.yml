@@ -1,16 +1,6 @@
 isEnabled: true
-shopName: '[EM] Scrapper'
 infoButton:
   material: PLAYER_HEAD
-  name: §4§lEliteMobs §cby §4§lMagmaGuy
-  lore:
-  - §8Support the plugins you enjoy!
-  - §4Warning!
-  - §cItems scrapped here are lost!
-  - §cThere is a $chance% chance to get
-  - §cscrap when scrapping items!
-  - §aUse scrap at the smelter,
-  - §arepairman and refiner!
 infoButtonSlot: 4
 scrapSlots:
 - 19
@@ -36,16 +26,9 @@ scrapSlots:
 - 43
 cancelButton:
   material: BARRIER
-  name: §4Cancel
-  lore:
-  - §cCancel scrap!
   customModelID: 31173
 cancelButtonSlot: 27
 confirmButton:
   material: EMERALD
-  name: §2Confirm Scrap
-  lore:
-  - §aScrap items!
-  - §a$chance% chance of success!
 confirmScrapSlot: 35
 scrapChance: 0.75

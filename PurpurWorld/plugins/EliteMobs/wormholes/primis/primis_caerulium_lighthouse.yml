@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,1239.5,65,308.5,50,0
+location2: em_primis_wormhole,-56.5,119,142.5,0,0
+blindPlayer: true
+style: ICOSAHEDRON
+particleColor: 9830655
+sizeMultiplier: 2.0
+permission: elitequest.primis_farmstead_lighthouse_keeper.yml

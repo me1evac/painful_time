@@ -1,0 +1,194 @@
+normalizedCombat: true
+isEnabled: true
+entityType: BLAZE
+name: $bossLevel &dThe Observer
+level: 19
+healthMultiplier: 6
+damageMultiplier: 1.75
+powers:
+- attack_fire.yml
+- invulnerability_knockback.yml
+- skeleton_tracking_arrow.yml
+- attack_weakness.yml
+- primis_eye_jump_crouch.yml
+spawnCooldown: 30
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 1.0E-4
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+eliteScript:
+  SpawnShadow:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1110.5,110.5,987.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      Target:
+        targetType: ZONE_FULL
+      sValue: primis_blood_temple_eye_boss_summon.yml
+  BlockEntrance1:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1105,107,980,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: GLASS
+      duration: 99999
+      Target:
+        targetType: ZONE_FULL
+  BlockEntrance2:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1104,107,981,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: GLASS
+      duration: 99999
+      Target:
+        targetType: ZONE_FULL
+  BlockEntrance3:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1103,107,982,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: GLASS
+      duration: 99999
+      Target:
+        targetType: ZONE_FULL
+  UnblockEntrance1:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1105,107,980,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  UnblockEntrance2:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1104,107,981,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  UnblockEntrance3:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,1103,107,982,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  Levitate:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 6
+      Target:
+        targetType: SELF
+        track: true
+      filter: ELITE
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SPELL
+      - particle: SPELL
+        speed: 1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      repeatEvery: 10
+      times: 20
+    - action: PUSH
+      wait: 5
+      vValue: 0,1.4,0
+      Target:
+        targetType: SELF
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: SELF   
+    - action: POTION_EFFECT
+      potionEffectType: SLOW_FALLING
+      amplifier: 12
+      duration: 220
+      Target:
+        targetType: SELF
+    Cooldowns:
+      local: 455
+      global: 60
+onRemoveBlockStates:
+- -5.5,-16.5,55.5/minecraft:air
+- -5.5,-16.5,56.5/minecraft:air
+- -5.5,-16.5,57.5/minecraft:air
+- -5.5,-16.5,58.5/minecraft:air
+- -5.5,-16.5,59.5/minecraft:air
+- -5.5,-15.5,55.5/minecraft:air
+- -5.5,-15.5,56.5/minecraft:air
+- -5.5,-15.5,57.5/minecraft:air
+- -5.5,-15.5,58.5/minecraft:air
+- -5.5,-15.5,59.5/minecraft:air
+- -5.5,-14.5,55.5/minecraft:air
+- -5.5,-14.5,56.5/minecraft:air
+- -5.5,-14.5,57.5/minecraft:air
+- -5.5,-14.5,58.5/minecraft:air
+- -5.5,-14.5,59.5/minecraft:air
+- -5.5,-13.5,55.5/minecraft:air
+- -5.5,-13.5,56.5/minecraft:air
+- -5.5,-13.5,57.5/minecraft:air
+- -5.5,-13.5,58.5/minecraft:air
+- -5.5,-13.5,59.5/minecraft:air

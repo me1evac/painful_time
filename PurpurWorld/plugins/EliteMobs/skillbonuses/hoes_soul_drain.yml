@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&5Soul Drain'
-description:
-- '&7Chance to drain health'
-- '&7from enemies on hit.'
 skillType: HOES
 bonusType: PROC
 unlockTier: 1

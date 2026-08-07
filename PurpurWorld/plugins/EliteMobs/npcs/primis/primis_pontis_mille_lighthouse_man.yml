@@ -1,0 +1,24 @@
+greetings: []
+activationRadius: 3.0
+name: '&3Hegio Remus'
+role: '&c<Lighthouse Keeper>'
+profession: FLETCHER
+greeting:
+- Greetings!
+- It's good to see you.
+- The sun rises!
+dialog:
+- It is so beautiful up here.
+- The best view...
+farewell:
+- Farewell.
+- The sun sets!
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_lighthouse_2.yml
+disguise: custom:lighthouse_mille_man
+customDisguiseData: player lighthouse_mille_man setskin {"id":"1bf4465e-69bd-4ea2-a1cd-c32ff1b85fb0","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxMTMxNzUxMzg5MywKICAicHJvZmlsZUlkIiA6ICI2MTI4MTA4MjU5M2Q0OGQ2OWIzMmI3YjlkMzIxMGUxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGROaWNrVGhlUmVhcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q3MjM0MDllZTA4ZGNjODNhNDk2ZDU3ZTcwMzI5N2IwZDdjYWM2ZWRjZDUwYzVlY2Y4NTFlZjk4NTU5ODQ3YjIiCiAgICB9CiAgfQp9","signature":"u1Spve4geJ9mnykYRCUCc43i6tZSPjoAp9jVA3OQsoyUHVoj1r8zRQh/EJ7HvuUiD9ErZehrhKlBt2xUgE5AjQh5Vl3dmPKRlazQQqYL+46jhxlSubIqH6PyUNiCDBkUwEW4a2NUXJm7fa6ufAH6a9S8GJ8oYLNVARU4QjOXL3S6U+2YMkXxAeK8UZqmd7L25FhMBFNV5Wf9km9m08mO+D7Ko5VDam5yPxx9/Q+5zu7/oisSv7UmnvmI5ikDPXGW2iaIOgnYH5IJWV8yopdXK2qSq826vUgdpA+FNScNR+K0om4Lg1AGz02CwtL6FMAy4XeTYwrg7NMDlX0aVszMCmxa5ZpnCQjDst6nyWOT8G+k7ZXSHP0z6DGIPTMYZ7gyWB68jUnfyCw6bM/0Sez+y6RaLcQNcebndczWMY4T/GYWTmFjkFlAsPPuVEn0XNfTXCFy+7H55Mfar7ybgepc3RzzJiGDjRlrg1nEIHCvZzRf0mXslCiPQzPTGEDafIQpMM8u/A1vP+wOWUAAYKqfabJbQPyQqwOkcXGH0hxpIlmAsdREy5cwqsHwwSUogkKjB0A0PVfLve3f3QI7tOAjG/tvC8iD5Al7MZQ7ZwFGh1WR6ZjhGHOxtha5ZMpCg9pkmFQLwUnra+bulHOBMP6MUz4CEqtZ4E5sk1iQLcP7s78="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,598.39,106.19,720.5,-14.31,-26.55

@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eStunning Force'
-description:
-- '&7Increased knockback.'
-- '&7Chance to root enemies.'
 skillType: MACES
 bonusType: PASSIVE
 unlockTier: 3

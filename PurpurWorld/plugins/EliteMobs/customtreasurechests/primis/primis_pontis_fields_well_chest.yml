@@ -1,0 +1,14 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 9999
+lootList:
+- material=EGG:amount=100:chance=1.0
+locations:
+- em_primis,309.0,2.0,684.0,0.0,0.0:0

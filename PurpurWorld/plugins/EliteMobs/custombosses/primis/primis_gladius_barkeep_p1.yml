@@ -1,0 +1,43 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $minibossLevel &6The Barkeep
+level: 10
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+spawnCooldown: 10
+mainHand: CAULDRON
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_arrow.yml
+- attack_blinding.yml
+uniqueLootList:
+- primis_invaders_helmet.yml:0.5
+- primis_invaders_chestplate.yml:0.5
+- primis_invaders_leggings.yml:0.5
+- primis_invaders_boots.yml:0.5
+- primis_invaders_captains_sword.yml:0.5
+- primis_gladius_the_good_stuff.yml:1
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 20
+phases:
+- primis_gladius_barkeep_p2.yml:0.9999
+frozen: true
+disguise: custom:elitemobs_gladius_barkeep
+customDisguiseData: player elitemobs_gladius_barkeep setskin {"id":"5a8ca888-7ab7-48d6-95d5-f3cc4600f9b0","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MTMyOTIzNjk3NCwKICAicHJvZmlsZUlkIiA6ICIzNDkxZjJiOTdjMDE0MWE2OTM2YjFjMjJhMmEwMGZiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXNzc3N1aGgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVkYzExZDQyMTgyMjY5ZmQxNzU4MzMxZmI4ZTlkNDQxMjRlODRkN2MzYmNmODdkOThkMTZiMDgyOTRjODNmZCIKICAgIH0KICB9Cn0=","signature":"iJRYyBm6OJtvjtlVsMRzH8EhRhga7lq+br/1RdIEwkTIht9IqRINm0UdbVv1j13SB0RUXgAvWdVKkHMEwFymk/q87L5SSnGy9nQTTFD3RoSsUporTpD+ZW7LqXD28sZk8O7Yk7fESpnrCKMDHqySPoowbPVLKb1DsDgQ2ZFxBZJZhSjpBig1/MPwc+x5ok0hdb041CgZ4b4ALPSjediBKBSrl/gCk0ZnVGrdQSbYhRftQZuxqu7uNw9XTFmnB2K35/BHRO9qdgakKFw7dftgrxAuGiX2yBYCIPBdJNTonCXC3NsZwUhDrx0n44HzWetafuXdsg+lSl0S1VSYU2jGLA43F8EGC7FT48VJyVFIt6NhetOP3p+AW1Gm9J3RUjsFBbwMjqojx4sa7s4d8Te1xs/9xwaAMwtslhtbpv2o1WZXL7Rh1euaxIFfNapXRsGo/lnpIGv7kviqxa+IRogUqj+nl6ezHqSq/8KiEbxCOwonukr77s4Ng+dCdNVm6BkbV/nyprG2R055Oh39Nfx/3TsBz0yvl/XsHd5uLn+5X+j4BVCCPxlp1KbbjSsFOZqGfdSRNry8bPSx+5k85jqdJahxtiOJ3CG+pwslsZqTn/lKQIUJbuLHj3pEM/Hz8dRlcjchZs2eIFS7pdRttQxpB038u/Nwutm/J6F+knUdL/w="}],"legacy":false}
+spawnLocations:
+- em_primis,903.5,18.5,644.5,0.0,0.0:1660589052132
+onSpawnBlockStates:
+- 9.5,-0.5,-0.5/minecraft:air
+- 9.5,-0.5,0.5/minecraft:air
+- 9.5,0.5,-0.5/minecraft:air
+- 9.5,0.5,0.5/minecraft:air
+- 9.5,1.5,-0.5/minecraft:air
+- 9.5,1.5,0.5/minecraft:air
+- 9.5,2.5,-0.5/minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]
+- 9.5,2.5,0.5/minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]
+- 9.5,3.5,-0.5/minecraft:spruce_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+- 9.5,3.5,0.5/minecraft:spruce_stairs[facing=south,half=top,shape=straight,waterlogged=false]

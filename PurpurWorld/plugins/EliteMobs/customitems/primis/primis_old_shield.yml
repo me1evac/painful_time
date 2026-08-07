@@ -1,0 +1,11 @@
+isEnabled: true
+material: SHIELD
+name: "&8Old Shield"
+lore:
+- "&7An old relic from a more"
+- "&7dangerous time. It might be"
+- "&7able to be mended, though..."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_caeruleaum_fletching.yml
+level: 3

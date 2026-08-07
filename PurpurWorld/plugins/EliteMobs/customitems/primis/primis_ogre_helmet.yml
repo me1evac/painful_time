@@ -1,0 +1,11 @@
+isEnabled: true
+material: LEATHER_HELMET
+name: "&cOgre's helmet"
+enchantments:
+- PROTECTION_FIRE,1
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- "&7You'll be sweating bullets."
+itemType: unique
+level: 7
+scalability: fixed

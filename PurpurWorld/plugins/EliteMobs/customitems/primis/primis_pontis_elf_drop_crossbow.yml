@@ -1,0 +1,12 @@
+isEnabled: true
+material: CROSSBOW
+name: "&7Elf Dark-bow"
+enchantments:
+- "PIERCING,2"
+- "DAMAGE_UNDEAD,2"
+lore:
+- "&7The special projectiles that the bow"
+- "&7uses are both sharp and blunt."
+itemType: unique
+level: 12
+scalability: fixed

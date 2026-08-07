@@ -1,0 +1,27 @@
+entityType: RAVAGER
+name: $normalLevel &4Fields Longhorn
+level: '13'
+healthMultiplier: 1.4
+damageMultiplier: 0.8
+powers:
+- attack_push.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 35
+spawnCooldown: 10
+leashRadius: 35
+isRegionalBoss: true
+movementSpeedAttribute: 0.25
+spawnLocations:
+- em_primis,379.5,14.5,860.5,0.0,0.0:1676071001994
+- em_primis,431.5,14.5,887.5,0.0,0.0
+- em_primis,406.5,12.5,921.5,0.0,0.0:1676071143477
+- em_primis,344.5,13.5,949.5,0.0,0.0:1676071066543
+- em_primis,403.5,12.5,1047.5,0.0,0.0
+- em_primis,527.5,14.5,1050.5,0.0,0.0
+- em_primis,326.5,13.5,911.5,0.0,0.0:1676071046344
+- em_primis,480.5,14.5,981.5,0.0,0.0
+- em_primis,369.5,7.5,844.5,0.0,0.0:1676071020392
+

@@ -1,0 +1,21 @@
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&eAdulescens Lupis'
+role: '&d<Windmill Owner>'
+profession: FARMER
+greeting:
+- Hey!
+dialog:
+- Hoping for some good wind!
+- Need some flour?
+- This one is the best Windmill around!
+farewell:
+- Bless ya.
+disguise: custom:primis_pontis_fields_windmill_boy
+customDisguiseData: player primis_pontis_fields_windmill_boy setskin {"id":"8e919d6a-6079-4263-b064-54ab2f4b5662","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTgxMTc2MDkwOSwKICAicHJvZmlsZUlkIiA6ICI0YTUxMjFiYTJjYmI0ZGNkYWY2ZTcyMmY0MDEzMGRkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21hc2tvX2V1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY3YzllZTYwZjIxYzZmYjc1MWY3MDZjNDIyOGU2MWE4NGU1MjM0MzBlN2ZjNTY1YTRlNjQyYmVjMjA5NDc3M2MiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"in5EuC3YmE7xnsl/vf4BARzctZeh/ASCFekn5xxu3xZYAmQFA0AqFW9UbVwOtHgtaz0+IafRvVOYsTbKhikjoEA+vwis1xZpEYt4+CMeXI4WixWSIuPBPRQfbCcF7zw/atUqQrrpwHH3YPYXWavq0Ze3ZnzrpjYZhSNzVOSrIMaDXfYhmkA2QdjvBPHem1Zdpuu/gbKdQfKBy40c98v8+AjiJzNT+87AckTHaX1/b1asSk0q93D/inslPnF6gNYxEM5Ak/mlSoWQAF91ZulS+nF453zF/QEWtAxtBOy5Q2tDOMrM6yrlfXWKOFfbchu5QTAoGo28irCPUxMtytE/olcXq3SPtZL4jxfGcUTV4TLX7ed+ibyJmlKHkaD0fnaFTxTtcShgy2PjUKs59jEyWE6GRzZhDZQxmDNOKD6as8bR3GNfm1ZnCbfLT5xW3h8yRpnCdygssqv0s/YTAxZ2OmtBN4Aps2wiDLGxVmn3r0E1hm7onRn1MyBmAJnNSMROa47wRbtG3EYtu4LkXMpCvn+kiS2U3nt9hAwxzvanfT0L+6zphts/rGtQclGXlksgmYbZ5Ohiqxg0vZYOfA6De+t7TCQ6zKwpOzNqojAx5MvVOAsPDXjLg8GA9odKJxziIiJZl2gg7SBQIpGe9pTD8kN+yf99yiAd+9aXXtx7GvQ="}],"legacy":false}
+canTalk: true
+interactionType: NONE
+spawnLocations:
+- em_primis,436.31,17.0,1037.71,45.65,11.4
+

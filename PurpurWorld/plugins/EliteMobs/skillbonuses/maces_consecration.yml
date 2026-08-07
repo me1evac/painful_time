@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eConsecration'
-description:
-- '&7Create holy ground that'
-- '&7damages enemies within. 25s CD.'
 skillType: MACES
 bonusType: COOLDOWN
 unlockTier: 3

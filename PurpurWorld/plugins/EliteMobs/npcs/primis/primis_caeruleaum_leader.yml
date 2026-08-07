@@ -1,0 +1,27 @@
+isEnabled: true
+name: '&4Chief Piscis'
+role: '&c<Village Leader>'
+profession: NITWIT
+spawnLocation: em_primis,1240.21,37.5,308.5,90.36,-0.6
+greetings:
+- Welcome to our village!
+dialog:
+- |-
+  Ask not what this village can do for you,
+  ask what you can do for this village!
+- Welcome, outsider
+- Need something?
+- |-
+  You're not from around these parts,
+   are you?
+farewell:
+- Off you go!
+- Come back soon!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_3.yml
+- primis_main_quest_4.yml
+disguise: custom:elitemobs_caeruleaum_leader
+customDisguiseData: player elitemobs_caeruleaum_leader setskin {"id":"0f617578-3efb-4054-a22c-fa3e8b25ee03","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxMjU1OTE4NTc2NiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xOGVkMWQ5NWY2NDBhMzJjNmIxMzdmMjJmNzRlNmMzMTMzOWYyMjU1NGYzNmMzY2FjNDZlOTgxYWQ5ZWE2MjQ5IgogICAgfQogIH0KfQ==","signature":"Lhjaga20R1Q7zIFiiP+SF+tFwCX/q/hYFfO/VDe98HrLriLTRoXOORyNuaQNttErtkRd6TFsW5FyajV7HqhOz12C6FhqI1XyxS7eNpETjV+5Lgyi8/pf+lFKYdVIYEs6GNdL4BrofhuDH4C/V8Fv30atsW0xX5nvKUiRN9HSammqf4Ai7PgggVw0SZTPFx4UEWGUB4BJrN2png+kJ+JhE5qBhMg1KJIVEWsYmo8vRQPvEii69Nst65e8PCMRlFY0+O5ihvtB3Jb3exA24ys8SBOi9PszU1RL5e+2RvcXAfDRWJQwMndGZwFtwFrkVsGnZxZKNHvpcX9g3lfyf1Qi8+tLRy9uMJ0xjPJUa9+2M/EOOKqSVl6GqKPGQn2o45gzZloW+9WWSCXZbkhaXrBYpYcU1pvUuByUtk+XUnUu9Q2vSHx3+v9baKEz31lBo9PqxtEKEvVy70hVjNPg2mWnepJ5sgJxZRMO/tE4NCslpVlMjIz6e/li9GF48PxCnLD1mE9nybuW9zSCA9GIQ86vufiMdMMYQqXohk9W0B23qK85rdhlYG6QcH4qjCG50QWr4H0rgFe7yKJTrQ2AuJP/P18tJE72iGZik5lQWJ7n3SFYTgzH9tLzTMTf45iCT0VUv8fg7jXXoB5UJDICKcVY/mZHrqjXq1Dz1VqSqa4Do2I="}],"legacy":false}

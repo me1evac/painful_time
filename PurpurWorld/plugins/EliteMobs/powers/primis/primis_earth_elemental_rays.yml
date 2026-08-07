@@ -1,0 +1,338 @@
+powerType: UNIQUE
+eliteScript:
+  ArenaRaysVisual:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-69,149.5,816,0,0
+      ignoresSolidBlocks: true
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-74,149.5,823,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.7
+      repeatEvery: 7
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.4
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      scripts:
+      - ArenaRaysA
+      - ArenaRaysB
+      - ArenaRaysVisual2
+      - ArenaRays2A
+      - ArenaRays2B
+      - ArenaRaysVisual3
+      - ArenaRays3A
+      - ArenaRays3B
+      - ArenaRaysVisual4
+      - ArenaRays4A
+      - ArenaRays4B
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRaysA:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-69,148,816,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-74,148,823,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRaysB:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-69,149,816,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-74,149,823,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRaysVisual2:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-70,149.5,830,0,0
+      ignoresSolidBlocks: true
+      Target:
+        targetType: LOCATION
+        location:  same_as_boss,-64,149.5,835,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.7
+      repeatEvery: 7
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.4
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRays2A:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-70,148,830,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-64,148,835,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRays2B:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-70,149,830,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-64,149,835,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRaysVisual3:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-55,149.5,830,0,0
+      ignoresSolidBlocks: true
+      Target:
+        targetType: LOCATION
+        location:  same_as_boss,-50,149.5,823,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.7
+      repeatEvery: 7
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.4
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRays3A:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-55,148,830,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-50,148,823,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRays3B:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-55,149,830,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-50,149,823,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRaysVisual4:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-56,149.5,816,0,0
+      ignoresSolidBlocks: true
+      Target:
+        targetType: LOCATION
+        location:  same_as_boss,-63,149.5,811,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.7
+      repeatEvery: 7
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.4
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRays4A:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-56,148,811,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-63,148,816,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ArenaRays4B:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: LOCATION
+        location: same_as_boss,-56,149,811,0,0
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,-63,149,816,0,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 0
+      duration: 88
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

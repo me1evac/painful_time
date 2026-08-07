@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&4Last Stand'
-description:
-- '&7Survive fatal damage with'
-- '&71 heart. 120s cooldown.'
 skillType: ARMOR
 bonusType: COOLDOWN
 unlockTier: 4

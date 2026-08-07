@@ -1,0 +1,38 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WOLF
+name: $normalLevel &8Feral Wolf
+level: 3
+healthMultiplier: 0.6
+damageMultiplier: 0.6
+spawnCooldown: 5
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- primis_wolf_hide_boots.yml:.1
+- primis_wolf_hide_chestplate.yml:.1
+- primis_wolf_hide_helmet.yml:.1
+- primis_wolf_hide_leggings.yml:.1
+spawnLocations:
+- em_primis_wormhole,-1.5,52.5,-37.5,0.0,0.0:1676054701625
+- em_primis_wormhole,1.5,52.5,-33.5,0.0,0.0:1676054712232
+- em_primis_wormhole,14.5,52.5,-34.5,0.0,0.0:1676054696926
+- em_primis_wormhole,14.5,52.5,-28.5,0.0,0.0:1676054693378
+- em_primis_wormhole,27.5,52.5,-28.5,0.0,0.0:1676054687029
+- em_primis_wormhole,34.5,52.5,-17.5,0.0,0.0:1676054671330
+- em_primis_wormhole,30.5,52.5,-13.5,0.0,0.0:1676054664720
+- em_primis_wormhole,34.5,52.5,9.5,0.0,0.0:1660570256298
+- em_primis_wormhole,30.5,52.5,9.5,0.0,0.0:1660570261450
+- em_primis_wormhole,29.5,52.5,5.5,0.0,0.0:1660570265156
+- em_primis_wormhole,35.5,52.5,4.5,0.0,0.0:1660570259907
+- em_primis_wormhole,18.5,52.5,-15.5,0.0,0.0:1676054659028
+- em_primis_wormhole,-13.5,52.5,-15.5,0.0,0.0:1676054749180
+- em_primis_wormhole,-18.5,52.5,-7.5,0.0,0.0:1676054747074
+- em_primis_wormhole,-23.5,52.5,-16.5,0.0,0.0:1676054740329
+- em_primis_wormhole,-21.5,52.5,-34.5,0.0,0.0:1676054723877
+- em_primis_wormhole,-24.5,52.5,-36.5,0.0,0.0:1676054727128
+- em_primis_wormhole,-12.5,52.5,-35.5,0.0,0.0:1676054718484

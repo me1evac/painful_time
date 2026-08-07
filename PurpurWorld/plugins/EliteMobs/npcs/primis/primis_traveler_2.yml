@@ -1,0 +1,19 @@
+activationRadius: 3.0
+name: '&6Citro Gala'
+role: '&6<Traveler>'
+profession: NITWIT
+greetings:
+- Hi!
+dialog:
+- On my way back\nfrom the village.
+- Coming from Pontis Mille or?
+- Good luck!
+farewell:
+- Roads bless you.
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_traveler
+customDisguiseData: player primis_pontis_traveler setskin {"id":"17b8607c-e3ba-4a23-b4c5-c3befd257017","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTg4MDgwODE0OCwKICAicHJvZmlsZUlkIiA6ICJhOGJhMGY1YTFmNjQ0MTgzODZkZGI3OWExZmY5ZWRlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyOTA3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMTJkOTg4MmU3ZjcxZTBkZDc1YTJiZWI3YTY5ZTVhMTVjZWZlYWVhODRiNzY1YzU5YzJhNTUwZmE5NDk2MzA3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"gc3XCNyHSgH4cgvjDQA+cP3yThqNuAeZ5I5FSvx6YGP6PkAfhL08i8BuIlGIhmoQ01tJGa+rXkik6r7lmo+NrDcv3N4NnCaC1i0k4poX+/MR9rndTLN/KgzEPXcs8RJKNLjElW/tBJedFwsrR6x/u9g8++k8uoHsJCpTtx8dmR2vWHONtyt2e/K/cjVyhofnimVn9n3rEufooD3pAHs1gR3NJ/el9MbN8XFgtyvgQu9aK+dH2IPIbH0rri/KuazKTX3lmAnPhp8/YLfK1NYwPalFXsdROOaaOGTvEM4+53ceo3xSk6WmwGRVY0/40nuclKNBzZuRWbqx4kNgaOH2TAhTlyfGQ1+6lJ0OnIqVS+S7RuuY7C71p2MDIZQQ6yM+Uu1WCPMnY7gBuBZpfqpfr+Y8sO7sOJLR9NdUXCTQJ8VcaBO4gl3qruqFAvvhTDyBXhAUSsntGXV5Ut2Vp6PRFTXTY2e/1ri0EXKKAxyJ80Mg9qGjLTA0oYo6KcW+8IpGqWLt5lpnnZa2yTUKJMHC1onysbD44UGlqVEPSzwyxwBBYCeB7YdOQYS37r3o+Kq25roPgNaTG9AQpd7lMhCD5zqJ/8Lz/kmEwBjT+PRFUED2Zj1ECTrNtyhGiaElIxuVgF28d74TriTJly4t4IHQSBHbcXpOffe2qk70MpvgYYo="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,517.43,16.0,1000.39,63.22,17.17

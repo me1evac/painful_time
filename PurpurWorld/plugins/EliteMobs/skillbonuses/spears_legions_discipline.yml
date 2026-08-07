@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bLegion''s Discipline'
-description:
-- '&7Consecutive hits increase'
-- '&7damage. Resets on miss.'
 skillType: SPEARS
 bonusType: STACKING
 unlockTier: 3

@@ -1,0 +1,143 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &6Invading Rocketeer
+level: 14
+instanced: true
+healthMultiplier: 0.5
+damageMultiplier: 1
+movementSpeedAttribute: 0.34
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: CROSSBOW
+helmet: LEATHER_HELMET:f0d316
+chestplate: LEATHER_CHESTPLATE:ff8d29
+leggings: LEATHER_LEGGINGS:ff8d29
+boots: LEATHER_BOOTS:ff8d29
+powers:
+- invulnerability_fire.yml
+- invulnerability_fireworks.yml
+- invulnerability_arrow.yml
+frozen: true
+eliteScript:
+  fireworkShot1:
+    Conditions:
+      isAlive: true
+      Target:
+        targetType: SELF
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SPAWN_FIREWORKS
+      Target:
+        targetType: SELF
+        offset: 1,1.5,0
+      vValue: .5,-.35,-1
+      flicker: false
+      withTrail: false
+      power: 2
+      fireworkEffects:
+      - [ORANGE]
+      - [YELLOW]
+      fireworkEffectTypes:
+      - BALL_LARGE
+      - STAR
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - fireworkShot2
+  fireworkShot2:
+    Conditions:
+      isAlive: true
+      Target:
+        targetType: SELF
+    Actions:
+    - action: SPAWN_FIREWORKS
+      Target:
+        targetType: SELF
+        offset: 1,1.5,0
+      vValue: 1.2,-.35,-.9
+      flicker: false
+      withTrail: false
+      power: 2
+      fireworkEffects:
+      - [ORANGE]
+      - [YELLOW]
+      fireworkEffectTypes:
+      - BALL_LARGE
+      - STAR
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - fireworkShot3
+  fireworkShot3:
+    Conditions:
+      isAlive: true
+      Target:
+        targetType: SELF
+    Actions:
+    - action: SPAWN_FIREWORKS
+      Target:
+        targetType: SELF
+        offset: 1,1.5,0
+      vValue: 2,-.35,-.3
+      flicker: false
+      withTrail: false
+      power: 2
+      fireworkEffects:
+      - [ORANGE]
+      - [YELLOW]
+      fireworkEffectTypes:
+      - BALL_LARGE
+      - STAR
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - fireworkShot4
+  fireworkShot4:
+    Conditions:
+      isAlive: true
+      Target:
+        targetType: SELF
+    Actions:
+    - action: SPAWN_FIREWORKS
+      Target:
+        targetType: SELF
+        offset: 1,1.5,0
+      vValue: 2.4,-.35,.4
+      flicker: false
+      withTrail: false
+      power: 2
+      fireworkEffects:
+      - [ORANGE]
+      - [YELLOW]
+      fireworkEffectTypes:
+      - BALL_LARGE
+      - STAR
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - fireworkShot1
+  fireworkDeath:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: SPAWN_FIREWORKS
+      Target:
+        targetType: SELF
+        offset: 0,1,0
+      vValue: 0,0,0
+      flicker: false
+      withTrail: false
+      power: 3
+      fireworkEffects:
+      - [ORANGE]
+      - [YELLOW]
+      - [ORANGE]
+      - [YELLOW]
+      fireworkEffectTypes:
+      - BALL_LARGE
+      - STAR
+      - BALL_LARGE
+      - STAR

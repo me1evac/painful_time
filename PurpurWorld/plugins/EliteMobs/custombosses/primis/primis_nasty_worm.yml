@@ -1,0 +1,31 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SILVERFISH
+level: 3
+healthMultiplier: 0.35
+damageMultiplier: 0.25
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 2
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 15
+uniqueLootList:
+- primis_fish_bait.yml:1
+spawnLocations:
+- em_primis,1167.5,22.5,383.5,0.0,0.0:1786083630984
+- em_primis,1165.5,22.5,385.5,0.0,0.0:1786083621428
+- em_primis,1163.5,22.5,386.5,0.0,0.0:1786083904404
+- em_primis,1163.5,22.5,388.5,0.0,0.0:1786083630334
+- em_primis,1162.5,22.5,390.5,0.0,0.0:1786083622427
+- em_primis,1161.5,22.5,391.5,0.0,0.0:1786083639829
+- em_primis,1161.5,22.5,393.5,0.0,0.0:1697000549749
+- em_primis,1159.5,22.5,394.5,0.0,0.0:1786083658277
+- em_primis,1157.5,22.5,396.5,0.0,0.0:1697000585656
+- em_primis,1155.5,22.5,398.5,0.0,0.0:1697000654503
+- em_primis,1177.5,25.5,380.5,0.0,0.0:1786083627629
+- em_primis,1175.5,25.5,379.5,0.0,0.0:1786083654254
+- em_primis,1161.5,24.5,384.5,0.0,0.0:1786083629530
+- em_primis,1159.5,24.5,387.5,0.0,0.0:1697000579951
+- em_primis,1157.5,24.5,389.5,0.0,0.0:1786083638824

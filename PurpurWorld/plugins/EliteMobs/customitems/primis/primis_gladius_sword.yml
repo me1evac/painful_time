@@ -1,0 +1,13 @@
+isEnabled: true
+material: NETHERITE_SWORD
+name: "&5Gladius"
+lore:
+- '&8The very symbol of the Gladius Fortress.'
+enchantments:
+- DAMAGE_ALL,3
+- CRITICAL_STRIKES,3
+potionEffects:
+- HEAL,0,self,onHit
+scalability: fixed
+itemType: unique
+level: 10

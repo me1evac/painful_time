@@ -1,0 +1,10 @@
+isEnabled: true
+material: IRON_BOOTS
+name: "&4Invader's boots"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- "&aThese don't smell so good."
+itemType: unique
+level: 8
+scalability: fixed

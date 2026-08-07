@@ -1,0 +1,21 @@
+isEnabled: true
+entityType: IRON_GOLEM
+isRegionalBoss: false
+instanced: true
+name: $bossLevel &6The Fire Elemental
+level: 20
+normalizedCombat: true
+healthMultiplier: 60.0
+damageMultiplier: 0.8
+movementSpeedAttribute: 0.30
+followDistance: 150
+frozen: false
+cullReinforcements: false
+phaseSpawnLocation: same_as_boss,240.5,47,197.5,-44,0
+powers:
+- primis_bloodtemple_a3_teleport.yml
+- primis_bloodtemple_lava_launch.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- invulnerability_fall_damage.yml
+- attack_push.yml

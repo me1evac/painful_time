@@ -1,0 +1,41 @@
+entityType: DROWNED
+name: $normalLevel &bChilly Salmon
+level: '15'
+healthMultiplier: 1
+damageMultiplier: 1
+powers: []
+uniqueLootList:
+- filename=primis_ice_village_salmon.yml:amount=1:chance=1.0
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 20
+spawnCooldown: 10
+leashRadius: 20
+disguise: SALMON
+isRegionalBoss: true
+movementSpeedAttribute: 0.7
+spawnLocations:
+- em_primis,998.5,7.5,1553.5,0.0,0.0:1676132589431
+- em_primis,996.5,6.5,1544.5,0.0,0.0:1676132646353
+- em_primis,988.5,7.5,1537.5,0.0,0.0:1662483202714
+- em_primis,989.5,7.5,1553.5,0.0,0.0:1676132629357
+- em_primis,1004.5,6.5,1545.5,0.0,0.0:1676132677129
+- em_primis,1001.5,6.5,1537.5,0.0,0.0:1676132711131
+- em_primis,992.5,6.5,1547.5,0.0,0.0:1676132584627
+- em_primis,978.5,6.5,1546.5,0.0,0.0
+- em_primis,985.5,6.5,1544.5,0.0,0.0:1676132684901
+- em_primis,1015.5,6.5,1546.5,0.0,0.0:1676132592734
+- em_primis,970.5,6.5,1550.5,0.0,0.0
+- em_primis,963.5,6.5,1543.5,0.0,0.0
+- em_primis,956.5,6.5,1557.5,0.0,0.0
+- em_primis,946.5,6.5,1551.5,0.0,0.0
+- em_primis,935.5,6.5,1557.5,0.0,0.0
+- em_primis,924.5,6.5,1561.5,0.0,0.0
+- em_primis,916.5,6.5,1557.5,0.0,0.0
+- em_primis,914.5,6.5,1563.5,0.0,0.0
+- em_primis,925.5,6.5,1553.5,0.0,0.0
+- em_primis,935.5,6.5,1549.5,0.0,0.0
+- em_primis,897.5,6.5,1544.5,0.0,0.0
+

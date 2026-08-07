@@ -1,0 +1,13 @@
+isEnabled: true
+material: NETHERITE_HELMET
+name: "&5Dark Bone Cowl"
+lore:
+- "&5The cowl offers little protection,"
+- "&5it only seeks blood and death."
+enchantments: 
+- "DAMAGE_ALL,3"
+- "DAMAGE_UNDEAD,1"
+- "DAMAGE_ARTHROPODS,1"
+scalability: fixed
+itemType: unique
+level: 19

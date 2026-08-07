@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: BLAZE
+isRegionalBoss: false
+spawnCooldown: 5
+leashRadius: 15
+name: $bossLevel &9Rain Elemental
+level: 18
+disguise: BEE
+normalizedCombat: true
+healthMultiplier: 7.0
+damageMultiplier: 1.1
+movementSpeedAttribute: 0.34
+trails:
+- CLOUD
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- primis_airtemple_tornado.yml
+- primis_airtemple_teleport_players.yml

@@ -1,0 +1,10 @@
+isEnabled: true
+material: LEATHER_HELMET
+name: "&4Pirate's Helmet"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&aMissing an eye-patch.'
+itemType: unique
+level: 7
+scalability: fixed

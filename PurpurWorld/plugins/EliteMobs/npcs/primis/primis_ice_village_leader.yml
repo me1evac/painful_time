@@ -1,0 +1,24 @@
+isEnabled: true
+name: '&3Glacies Princeps'
+role: '&3<Village Leader>'
+profession: NITWIT
+greetings:
+- Hey.
+dialog:
+- Darn Ice Elemental!
+- Too many problems...
+- How are we supposed to\ncomplete the trials now.
+farewell:
+- Goodbye.
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_17.yml
+- primis_main_quest_18.yml
+- primis_main_quest_19.yml
+- primis_main_quest_20.yml
+disguise: custom:elitemobs_ice_village_leader
+customDisguiseData: player elitemobs_ice_village_leader setskin {"id":"cce7efc0-65f8-4d91-94d0-355acc1a65bb","name":"Unknown","properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1ODc4Mjk1ODk4MTgsInByb2ZpbGVJZCI6ImZkNjBmMzZmNTg2MTRmMTJiM2NkNDdjMmQ4NTUyOTlhIiwicHJvZmlsZU5hbWUiOiJSZWFkIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NmY4MjE2ODdjY2ZkNTZmNDljMjRlYzMyYTBlN2NiM2Q4OWI2NjA4YjczMGJiMTFmOTY3MTdhMDNmZWNmZjkxIn19fQ==","signature":"olnwNBYgkP/+ZKTtk3u4VPr8zC4XanYCOsY56XyR/Dr8rCmD5lzKYqklWpc92YBzBuLR/RDyLItYPHVy+BfWvtXGKWX11gJe4vSmfd2zqMjqnERQm4ZP3OZ2y//yTVhqhjRDIMhTD9zOhmFycG5Ye3NTcCuOyLbwMAMQkpYBsHvagqIy/ZBxmR7OTfjXOVAg0sj654n9eBo2YbyZtIV9fC4ZTwAbUZdqSU7AMRirktBU/40PjS0sqa7lN/2r6ZOd1wVvw1uF8x7KyqkXkurIFZDf2fvHCunCBh1Veo7k6pmDyc8jsk+J2l26bLqwtVbUQfn/6pv8O+62L5uQp4EXGRY/v05e1kiBer/KjlUH8DEOA2YGxG6enOlIDh4gXnDWRa6hPp0GzVGUGFx4AOLXVl0KnS4r6Rqz+qnTos2TFlUQQTkkaRSxsRZfe8d3GLAPBffjbejevAb4PEVBKhw4+kFGJToJFHDdJjha2ZIbBE+EvKWLtTI8pS3SGW3MbIPA7nvNWwMnczj5Q+LPrHrP/r/bJvLEtEsxHtOMkvFq+Vz/MB41Rk7Wz5cn30GKOVVbCndlThe8Gc5kRbeZs7Z+ZT4oag+VGjdcDmLacnq5fxVrL6t80GrNmkPG/v9IQyOoTkrMfIOLQIDzEKd/yrXGBEE3VwvQpcOYgydMc8F0cOo="}],"legacy":false}
+spawnLocations:
+- em_primis,924.6,46.0,1482.51,-44.09,51.51

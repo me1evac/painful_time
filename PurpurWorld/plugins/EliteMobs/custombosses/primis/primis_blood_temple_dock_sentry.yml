@@ -1,0 +1,29 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+mainHand: BOW
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+name: $normalLevel &eDock Sentry
+level: 18
+healthMultiplier: 1
+damageMultiplier: 1
+movementSpeedAttribute: 0.01
+powers:
+- invulnerability_fire.yml
+spawnCooldown: 12
+leashRadius: 50
+followDistance: 50
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+spawnLocations:
+- em_primis,697.5,19,1117.5,0.0,0.0
+- em_primis,697.5,19,1119.5,0.0,0.0
+- em_primis,725.5,19.5,1142.5,0.0,0.0
+- em_primis,733.5,19.5,1142.5,0.0,0.0
+- em_primis,741.5,19.5,1142.5,0.0,0.0

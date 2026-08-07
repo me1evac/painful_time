@@ -1,0 +1,25 @@
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &bEscaped Prisoner
+level: 15
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 15
+mainHand: STONE_SWORD
+leashRadius: 40
+powers:
+- attack_poison.yml
+- summonType: ON_COMBAT_ENTER
+  filename: primis_ice_village_wolf_summon.yml
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+isRegionalBoss: true
+followDistance: 40
+normalizedCombat: true
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_ice_village_escaped_prisoner_body.yml:amount=1:chance=1.0
+disguise: custom:primis_ice_village_escaped_prisoner
+customDisguiseData: player primis_ice_village_escaped_prisoner setskin {"id":"d28a04e8-0670-49df-ba44-e37b6b94884a","name":"Unknown","properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1ODcxNjgzNTM2NzcsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODMzZGY0NzllNjFhMDU0M2RkNDAyNTg0MWM1MmJkOTA1ZmQ5ZTNjOGQ4ZTBjM2VkZDhjOGQzNjBlNTIwNzlkOCJ9fX0=","signature":"sMogXPupP+46NbyUaTpMP/TzR4mO5rdil/oQsn9xuCEqT44aMhfIEAhA2u6InqL7Ngu7U2/95IBEF4pinca9EhxoIgwxVbU1fMZMpbmj3QQ6BfSUkDPihGvy7hytZURLSjS0kiI9TazrN3/y7HRYCZlW4jLkSJH/n9+GYLOBAck3E5OuKVLwvabKPLT5DUhSOHkpgOkoti9fMZFZ3pMVFx7Jcp/uNxDLXhkZGiX6WAWlV+ovPyZcuXBrH/aLXexacDZZm3NV7hfkUeSu36VMhWGHbya8S2HRTgz5UqwCNLU3T1x2PSN4jpkM5LkZkn0RH0srM+uv8MZFvZ8Y4F+WOzqFrDZNTcrVPul+GfjZ9dZzxlk8NUN7TUJW4UJQFBOlYFFERU3HUHxijZX9RpghoEhafqks5jaHXzdX/M7+bYfv+g9oIZR0/xe/OX3wEdFJBqQNqKpo3IAlJGXnEUahFYMw5bQ7bnMFJKfvwpx6ehtIosOyf8nk7WsNFqzv0BzZCESZQp7YGUz3ln+Slv3VX8q6ja3PCDJuRvK1sdgExOkXpeUm0zGS9sACbiQR2EqPUpNq/k1ihPbs/6wz/uOLEr26MaXHQH/ZNqoSLC6ZF6rj0X4waGzB6jreTugMrYhoeilLpP+ogKIg/PWPGhCjvkBVEoTp6SmcFr6+qrlwscU="}],"legacy":false}
+spawnLocations:
+- em_primis,1038.5,81.5,1666.5,0.0,0.0:1684313744671

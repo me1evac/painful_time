@@ -1,0 +1,24 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+restockTimer: 90
+lootList:
+- filename=primis_pontis_mines_goblin_drop_leggings.yml:chance=0.05
+- filename=primis_pontis_mines_goblin_drop_boots.yml:chance=0.05
+- filename=primis_pontis_mines_goblin_drop_chestplate.yml:chance=0.05
+- filename=primis_pontis_mines_goblin_drop_helmet.yml:chance=0.05
+- filename=primis_pontis_mines_goblin_drop_sword.yml:chance=0.05
+- filename=primis_pontis_mines_goblin_drop_spear.yml:chance=0.05
+- material=APPLE:chance=1.0
+- material=APPLE:chance=1.0
+- material=APPLE:chance=1.0
+- material=APPLE:chance=1.0
+- material=APPLE:chance=1.0
+locations:
+- em_primis,641.0,90.0,437.0,0.0,0.0:0

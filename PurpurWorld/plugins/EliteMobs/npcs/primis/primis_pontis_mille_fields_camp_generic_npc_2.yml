@@ -1,0 +1,19 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&cValador Lumus'
+role: '&c<Hunter>'
+profession: NITWIT
+greeting:
+- Fine day for a hunt!
+dialog:
+- I have hunted in\nmany places.
+- Do you travel\na lot too?
+farewell:
+- May your blade be swift.
+disguise: custom:primis_pontis__fields_camp_hunter_traveler
+customDisguiseData: player primis_pontis__fields_camp_hunter_traveler setskin {"id":"1225bae5-4d58-404d-930d-0d95a505071f","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MjA2NzM3MjE4NywKICAicHJvZmlsZUlkIiA6ICI1N2I0MTZlNjJjZGE0MTAzOTRiNzZkNmNkNDA3MjFiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSME1CSUVTIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkwYmMzNTM2MTMxZTI1OWUwYThjZjcxZTYxYzg2NzYzODBiYmRhNTUwMGQ2YmU1NTA0Mzk1ZGU5MjQ4ZDA5ZGIiCiAgICB9CiAgfQp9","signature":"frl275QIFyKn3vhyzu7liHDKsXhyWgDeD4lvvqL1D8PrwS5JZxuk92XnOebZiafjsq0VncqyFJXK9RGDnvKdwrySqXIJ8RKi4D2YtmrjP797kvD6u1GJCOny+W5tvk+ba+pzPBlRbcDfyRYl0VIips4KEMO5ySiBGZkEBF+Cn2ct68o7OB6HmG0RD9OTQqAoEOGzwt5o586DKNJuYYZjI7lpDuDE9c72dLvotH0bDGsI115t2JBUV6XOS9tYanNqiZ95WzEmQQrVPsYvcNALb/LtsTOyEW1r98SdEvB34RtkvOzs6+Pry35Y1g4pSXffF4u+AC5XEy5yL11Z6U78ujUkUmlj7h60m+hpMpjQuxu5G6VlxdgHclZCosMzFZXHhNI3ax+NHcL5e+AdRBKxlBcn+c51cBBSW00/xvMBV1dlfrMEhnmqy3MBlM2QXGf/wYP6L5OtQcyLTwREJbZxpssVv+ZQnC0k4kDEbeuSFLqn4/9UjXYPELwLH0NYOUhPZxBpy2u7EMdqvmK48Xx7psdqi8sKamw5ag8iOHaeoe1yDcBcOSDAV3sd/mYaY8ULQ77hgP29x8ULqNl16JfXuNMkr34gO+f0VmmFgoqnvasgrlVkU1AeIRRktyKUfa6R8ViFS0jSLDQ35YEH8JkJnudj5LziRV6EcchLhrejTZc="}],"legacy":false}
+interactionType: NONE
+spawnLocations:
+- em_primis,291.25,16.0,870.59,44.16,-0.41

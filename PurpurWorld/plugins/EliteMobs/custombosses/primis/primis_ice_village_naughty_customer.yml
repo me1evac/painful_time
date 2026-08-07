@@ -1,0 +1,22 @@
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &cNaughty Customer
+level: 15
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 4
+mainHand: STONE_AXE
+leashRadius: 40
+uniqueLootList: []
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+isRegionalBoss: true
+followDistance: 40
+normalizedCombat: true
+dropsRandomLoot: false
+disguise: custom:primis_ice_village_naughty_customer
+customDisguiseData: player primis_ice_village_naughty_customer setskin {"id":"9f838b76-33a9-43af-930e-80792a52c858","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwMDkzNDkzMSwKICAicHJvZmlsZUlkIiA6ICJmZTYxY2RiMjUyMTA0ODYzYTljY2E2ODAwZDRiMzgzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeVNoYWRvd3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0MjhkMDY0ZjBjMzQyYTc3NjkyZDU0ZWVlZTY5NDlhNGUwNDk1YjM4Nzc2NDYyYTI4YmQ2MTRhYzUwYzk3YiIKICAgIH0KICB9Cn0=","signature":"Cw2VAzaIHH/ELE2WVKKDvQZzIFHZWr/sMEPI6efkv0X826pUzbUSyF1lMwiJTapzCfjCQJ9PoYkSf2NF7v6cX+/S9rAMBshvwQ8aZ1AsT7jXX78lGCFnY9Br1EJ98phvglsI5BxHiuciVWOAT8BKOCDkOdefpDuCYVTC7q95qplTUgOysAkWCQndSjVpjlZUq6kStGxXPaWhFD6HarntCh70RYzyxKT/107zAt6v56K+J9Tku4klxAMbXYVaRiKnH07ZJDmPm9vbT/Z7gXN9K0blIj513x2Mg4cIxwvhaWOgrzRQOZNw64CoPhTv8zGq5+39oWvtVtopjjIos8C+kuTAGDa2hu081BzIoloc5jXkZK0k8PVIF1lH48qKy+vJwLQcJWBrqduZG8SOL6500vx6D9eg3/MbiNXJ74Dcm0km0c1wpR4GXaSUAQz8+8FJpsIiRmH/FhhQ4ti74mm4oF4z/tFpZ2aZWO2h7uDvwqySlboIeOeXbfgx/hVWA4mM8NKIaYT2AmtE7Fn8wH0674nlXEQwxvQGFqbHXORMeT+BqG5E5luWxVv5v3NnmZu0LUwjh3xx7v6qFQrhBvhRu5Vp4BhdLBFhXRLcleGkVW/sOeXf94YGQ4psQJhIP5gEyCwXnSfoOj3YUEbOINNsO50F8cG3cEKV9WyEIbAGU4o="}],"legacy":false}
+spawnLocations:
+- em_primis,1264.5,24.5,1527.5,0.0,0.0:1676293362342
+- em_primis,1264.5,24.5,1536.5,0.0,0.0:1676292551132
+- em_primis,1258.5,24.5,1545.5,0.0,0.0:1676293400588

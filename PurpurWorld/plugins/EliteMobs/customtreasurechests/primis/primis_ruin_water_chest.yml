@@ -1,0 +1,19 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 90
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+restockTimer: 90
+lootList:
+- primis_ruin_relic_boots.yml:.1
+- primis_ruin_relic_chestplate.yml:.1
+- primis_ruin_relic_leggings.yml:.1
+- primis_ruin_relic_helmet.yml:.1
+- primis_ruins_bow.yml:.1
+locations:
+- em_primis,1227.0,12.0,536.0,0.0,0.0:0

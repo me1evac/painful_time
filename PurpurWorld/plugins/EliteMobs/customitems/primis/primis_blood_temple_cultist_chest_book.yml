@@ -1,0 +1,13 @@
+name: "Weiss"
+material: BOOK
+level: 19
+lore:
+- "Strange power sealed within."
+enchantments:
+- PROTECTION_FALL,3
+- PROTECTION_FIRE,3
+potionEffects:
+- LEVITATION,0,self,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

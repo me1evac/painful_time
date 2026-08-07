@@ -1,0 +1,32 @@
+isEnabled: true
+name: '&3Ice Village Forces'
+role: '&8<Ice Mage>'
+profession: NITWIT
+greetings:
+- Heya!
+dialog:
+- Keeping it cool.
+- Just chillin...hehe.
+farewell:
+- Farewell.
+canTalk: true
+activationRadius: 3.0
+interactionType: NONE
+disguise: custom:elitemobs_ice_village_ice_mage
+customDisguiseData: player elitemobs_ice_village_ice_mage setskin {"id":"6a0dfb70-67f8-440a-9cb2-378354e7afaf","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MjExNzE2MzE5MiwKICAicHJvZmlsZUlkIiA6ICJjMGYzYjI3YTUwMDE0YzVhYjIxZDc5ZGRlMTAxZGZlMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMxYjliNjY3ZDkwOWYyMzE1NGExM2YyMDM1OTc1N2I3MDNiYzQ1ODBhZWFmM2JlYjU1YTcwYzJkMjNmOTMzYjYiCiAgICB9CiAgfQp9","signature":"w/50xLGVADn0vAMSr/PGgagYCrxgYG222DOs+CbMVpgrKzbdgBnJCs/nUV8GqpxikhvzS43Yyo9Yk9fl9kloJDZa2i//e/2OEMPD5FLTRhKRL+6BbIMKtNpPng0V2hdF0d8pzlxAyiaRZlOChR+6Sd4k9NFmOs4+mQ3o2oKKwWnqaWkl795dWiYlMBAO60Fa1DkEeSBWM150othBRZzDRN/gSUYLrZhyrccWd0JdJJOW/UiGfl6BOwFVRPyesZ7k47T0/USxBY0E3mTFjVWO7jmwKCmkq5nTLWSqL4ekE5ld9kxP+8dwZbQSlWVbWWDZ2CutM9r/xqpeS41zVuz3RDW4aNp84t/P/sSTA0hYm0aoo3k5HAbVBtqqsAEYPe9dF1gNxJkVV6L7vPzdDkTw9QmSwIq9m+QtXkxO0fPUQ60+35VzKvFA0yp7if8DE0dVvYxnP74UBQbRsjIxvHhnpiP6LoR1Zx5s2Q4kQOt3t7Q4NT7AbfOplmBKIa14ri5yZffRif+9EbSRLE9ayUhRtnCsmYXXbbA0V+x6a83aTrGJEUiAja0CLKBUDeitn2k9HjjCKMNLIZ9vtc0nm9h/7vbn+dL/l6IallPXTtvNh1tZTxLuSzVNBfagFNCCwew1IoyI//0Fi/WQeaVKQOqBMoGwgm8Y8guouh6yGR5E/Bk="}],"legacy":false}
+spawnLocations:
+- em_primis,680.24,24.5,965.38,-87.21,23.55
+- em_primis,682.31,24.5,968.7,-138.36,26.1
+- em_primis,685.41,24.5,970.03,-177.22,24.75
+- em_primis,690.05,24.5,965.92,97.57,19.5
+- em_primis,686.24,24.5,960.5,7.42,21.0
+- em_primis,683.48,24.5,961.46,-28.27,19.2
+- em_primis,704.47,23.0,961.02,42.95,24.3
+- em_primis,707.33,23.0,963.81,91.86,25.5
+- em_primis,704.48,23.0,965.49,-121.57,4.2
+- em_primis,870.69,106.0,989.82,-69.61,25.65
+- em_primis,869.89,106.0,985.68,-58.96,19.05
+- em_primis,875.42,106.0,983.89,-69.76,18.45
+
+
+

@@ -1,0 +1,34 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,760,101,413,0,0"
+        - "same_as_boss,736,101,442,0,0"
+    Actions:
+    - action: MESSAGE
+      sValue: "&2[Goblin King] &fTime for some ghostly aid!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_goblin_king_summon.yml"
+      duration: 444
+      wait: 5
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    Cooldowns:
+      local: 888
+      global: 60
+# Generated with https://magmaguy.com/webapp/webapp.html !

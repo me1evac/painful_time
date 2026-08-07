@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&aSteady Aim'
-description:
-- '&7Stand still for bonus damage.'
-- '&7Damage increases over time.'
 skillType: CROSSBOWS
 bonusType: CONDITIONAL
 unlockTier: 1

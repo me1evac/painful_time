@@ -1,0 +1,19 @@
+normalizedCombat: true
+isEnabled: true
+entityType: LLAMA
+name: $normalLevel &6Aggressive LLama
+level: 2
+healthMultiplier: 0.6
+damageMultiplier: 0.55
+spawnCooldown: 5
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnLocations:
+- em_primis,1297.5,43.5,537.5,0.0,0.0
+- em_primis,1289.5,44.5,541.5,0.0,0.0
+- em_primis,1362.5,58.5,529.5,0.0,0.0:1697825527957
+- em_primis,1366.5,37.5,469.5,0.0,0.0

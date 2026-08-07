@@ -1,0 +1,8 @@
+isEnabled: true
+material: PAPER
+name: "&2Knowledge"
+lore:
+- '&aImportant Knowledge.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_mille_arena_knowledge.yml

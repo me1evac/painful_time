@@ -1,0 +1,25 @@
+greetings: []
+activationRadius: 5.0
+isEnabled: true
+name: '&eVolumnia Zoilus'
+role: '&c<Adventurer>'
+profession: FARMER
+greeting:
+- HEEELP!!!
+dialog:
+- Watch out for its spit!
+- Its saliva is toxic.
+- Please help!
+- I hope nobody hears\nabout this...
+- Am I glad to see you!
+farewell:
+- How could I let this happen.
+disguise: custom:primis_pontis_fields_well_npc
+customDisguiseData: player primis_pontis_fields_well_npc setskin {"id":"0c261725-b8a5-4b6d-be08-c7cd7245e67a","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTY2NDk0MDY2OSwKICAicHJvZmlsZUlkIiA6ICJmZmI3NjcyZTFjN2I0OGZkOTllYmQxMWJiMDI4MWJmNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJvTWl2aWEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzRjYmJjODExNmJhOTRhZTRiNjZkY2Q5YThmYjdmM2VlMDAwNTFhZDMwNzEyMGMyOGExOWJmNDIzZGQ3NTUzNiIKICAgIH0KICB9Cn0=","signature":"H5V2BQBaJ5C/pR1Chn4PR5oKDolgoexI8PyLET+AIbNGK4cbeq6i8A1Gcarfcv0Br4Et41teBFGGU0wNahx46z/w+GXI4R3de4R0McSwzgqG3aqLBPWck51ygY/oZaAxcS/x4N4wBS/hA/x7h3k3PqvSjTbvoV19SkVyU+lQ+9SIOToQ3GYe9G12cjSmAvNqPIHI6bUMK88xy0YbQWMyflxIgLfgYRMU/wi60kMN9cIE8d0YyPYzapU7NwlEozveThTuivANeT5dvFc2zkHT2L9CqhgCJH2jW6wvLReXMC3GMBNMbMlFgy69bRolFKBFPfHubO2nuk9egPeRuu2boW1pB3H8+prFcz00+vvk7MK0xiTf4pSdjCwj0UUDikRevCy7VcU9hi0a1jMel5KWvaOeeHKiEQ7vJ7bCzTiTkZYvKNsB03YiVy1evl0+0o7/TGOqGiiCVzxs3SNWMu6F0byvBeqnDXo/mrDQg1lyyruIpkijvpH50b1Xsd80ene+zUXyhZmLBj7qvMUioyKt88r0JEBCHl8+QPxlIFfLbTf3iAA2vObSHzP8uQ3vJs/nEm1jOjLoxJhlIDzK6I79k5vJmHf5s+ehOHkYI0yGbytETHTOQF1WwdCCQ887ljCwz87ShXEeVSSy1bz/B4L8/QQ19ig9uFOxCzT7PhgRBpU="}],"legacy":false}
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fields_wellness.yml
+spawnLocations:
+- em_primis,307.68,7.0,682.75,-25.59,7.65
+

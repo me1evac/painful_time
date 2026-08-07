@@ -1,0 +1,16 @@
+farewell: []
+canTalk: true
+name: '&7Kappas'
+role: '&8<Assistant>'
+profession: TOOLSMITH
+greetings:
+- So, so, busy!
+dialog:
+- I love my job!
+activationRadius: 3
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+disguise: custom:elitemobs_pontis_scrapper
+customDisguiseData: player elitemobs_pontis_scrapper setskin {"id":"0d458142-e864-43d7-958c-cf90383542c0","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxMTUwOTg4ODY4NiwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDk2NzY0YzY5MmQ0MzhkYjEyNDQ5YWJhNTU5N2MwNjdjZGZmYmRmZWZjNWNhZjIwNTk0ODBhNzdjYmEyZGZhIgogICAgfQogIH0KfQ==","signature":"RcllLdlBSJJp3Of5U+vGrGtGVQyL5ZAe653keaBQXxVsa52I4iZdPWq97Lwkg8aQ4vVxHggn4suAc/mV8HDR7VN+aZhLRz5M110QiRd/a8da4PONTuqrRbsj7+we2ueL3bA9d2eJ2aC56cWJgzKF3+0HSLWd5FMsS27TokVbcPa/w29HVCrX9zTph1U+e0TlTLTZzYvFPB7ASibObq/NiXl0/sa8WEoK9Wjd9GQTZLLz4WfMJH6D8EEHHiOcKugeK04713mQwMRXGfsequD7VUhLFEefcBEENPWyX44QozlWKTLstZCFAFhbtFA9NUnQzz7Doqng+T5gD7UzSIZ/jqFGmgyHmaIgtcE6wNjAAqLRATzyUV/vAZVTOUk8+FsXQ9wE38/tZOxKHGW7UJxtKmat47TBCpRVqUOATCH2eYaH9RRijVCzvkwiU/YNhMk2X9jK8aqFRrW3CIlgWyhgYrb+lr9htvUSpEEsEhr5YRqtYj40QuJKyrNwfhucOfltjkAmVDMGPTDpskbA2/uzfHsO6exZpIXcBjeKrjgPdkorlVVVDAVlaLyXDNR9pLXwTSHLlCTHenUj8DRhIfGtqh1kyoebrQqQk/2SxGGZBdJFTTm5glNR8sHDDwcS93kNJBSGOZVWlo3ew5T5PlCPEhDhBT6hvmoOt9Ic1kr0UMc="}],"legacy":false}
+isEnabled: true
+spawnLocation: em_primis,533.5,38.0,745.5,42.61,34.38

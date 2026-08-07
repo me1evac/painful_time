@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&6Navita'
+role: '&c<Shogun of Pontis Mille>'
+profession: TOOLSMITH
+greetings:
+- Yes?
+dialog:
+- Can I help you?
+farewell:
+- Walk softly, and carry a big gun.
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_11.yml
+- primis_main_quest_15.yml
+- primis_main_quest_16.yml
+- primis_main_quest_25.yml
+disguise: custom:elitemobs_pontis_mille_shogun
+customDisguiseData: player elitemobs_pontis_mille_shogun setskin {"id":"b939fe62-3688-4305-870e-ed5d69cf06c4","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MTM1Mjk0NzIwMiwKICAicHJvZmlsZUlkIiA6ICJhOGJhMGY1YTFmNjQ0MTgzODZkZGI3OWExZmY5ZWRlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyOTA3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZmI1MjA3OGMxYjhmNTIwNTM1MmQ4N2UwOWM4MDdiNzRhNGJmNGZmYjg5ZGIwOTJjZDRhYjkzNTcwNDBkYzI3IgogICAgfQogIH0KfQ==","signature":"M1hyieo8My6OByo80NXCFR5eChKNszM+NIWG68OuSovRiRh/U6RH7tDcaQzAiJ4guKbnNAUt9RYgZsthXO3KQVEX2wG0bqETgEW05oMBjaXrOqsc2P6oOfqOLhCjH6LLgEgTcTuj3HY2DWjd4LcD1OXo/LJTelMEVVNugGQo7LrkkLwCBquxXxQ8xO8UpdJQqnhycM98ustptcqUQfDKtp4hWRU1rtqWWJXGIe5W0o2c4ItBC2yyIR2QtCY8vCrrxbVeV4SoeKJJzPDFufxNlkpLj+Y2nTjXYd8c9rvPnfLk/BiCJj+VdAzt0Jmd1skTD0Nw+9LAEwYK2bXVS00zN+7C0lNUEG3CO510gTRoUXZMdrIDB9NifW4k/8yO7IMIbQOhNswAZJPZ7MrW5eEKAmkMpdbtIu5/izcZSKSEviKl66DlQyt59yD65dMRYUsqMrownZTQ+JsICgdgkVLCZ1W8zDqV890jyGc2Kxik0E3VekKDvT1ucOMD6w4bKc6X4E44rWMaNsmmT7X75/hP25ivz43ROHPzcPt73sTQYARK9nFr48EdW7Ir2K4xgEorcE2uJlExf6iJw38Mh/X77k9+VMqyg+U1/sWfwGXur/dbkwTcc7moL0JB/JqHOFzt7TG4fiyFWp10bgeT/PrK3Ex7t8aGPuJX7eNWajawUG8="}],"legacy":false}
+spawnLocation: em_primis,595.5,72.0,771.7,178.14,5.1

@@ -1,0 +1,11 @@
+isEnabled: true
+material: SHIELD
+name: "&4Raider's Shield"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_EXPLOSIONS,3
+lore:
+- "&aSuspiciously bloodstained."
+itemType: unique
+level: 14
+scalability: fixed

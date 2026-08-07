@@ -1,0 +1,30 @@
+normalizedCombat: true
+isEnabled: true
+entityType: BLAZE
+name: $normalLevel &cConjured Flame
+level: 19
+healthMultiplier: 1
+damageMultiplier: 1
+powers:
+- attack_push.yml
+- invulnerability_fire.yml
+spawnCooldown: 15
+leashRadius: 40
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+followDistance: 22
+spawnLocations:
+- em_primis,980.5,91.5,997.5,0.0,0.0:1675851840396
+- em_primis,1029.5,70.5,953.5,0.0,0.0:1664906200857
+- em_primis,1005.5,70.5,941.5,0.0,0.0:1664906181717
+- em_primis,944.5,70.5,969.5,0.0,0.0:1664987711338
+- em_primis,936.5,70.5,992.5,0.0,0.0:1664987688137
+- em_primis,956.5,70.5,1010.5,0.0,0.0:1664988144237
+- em_primis,995.5,70.5,1044.5,0.0,0.0
+- em_primis,1020.5,70.5,1032.5,0.0,0.0
+- em_primis,1041.5,78.5,1039.5,0.0,0.0
+- em_primis,982.5,91.5,1059.5,0.0,0.0:1664903836856
+- em_primis,981.5,103.5,911.5,0.0,0.0:1676647201664

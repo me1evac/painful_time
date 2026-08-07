@@ -1,0 +1,34 @@
+entityType: PHANTOM
+name: $normalLevel &bSky Screecher
+level: '16'
+healthMultiplier: 4
+damageMultiplier: 0.4
+powers:
+- summonType: ON_HIT
+  filename: primis_ice_village_screecher_bomb_summon.yml
+  chance: 1.0
+- summonType: ON_HIT
+  filename: primis_ice_village_screecher_bomb_summon.yml
+  chance: 0.9
+- summonType: ON_HIT
+  filename: primis_ice_village_screecher_bomb_summon.yml
+  chance: 0.8
+- summonType: ON_HIT
+  filename: primis_ice_village_screecher_bomb_summon.yml
+  chance: 0.7
+- summonType: ON_HIT
+  filename: primis_ice_village_screecher_bomb_summon.yml
+  chance: 0.6
+uniqueLootList: []
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+spawnLocations:
+- em_primis,861.5,93.5,1405.5,0.0,0.0:1676138681979
+

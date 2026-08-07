@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_AXE
+name: "&bStorm Axe"
+enchantments:
+- "DAMAGE_ALL,2"
+- "KNOCKBACK,2"
+lore:
+- "&bThe wind shall repel them."
+itemType: unique
+level: 12
+scalability: fixed

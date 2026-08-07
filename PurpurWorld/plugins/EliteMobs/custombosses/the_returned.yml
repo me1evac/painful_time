@@ -1,6 +1,5 @@
 isEnabled: true
 entityType: HUSK
-name: $reinforcementLevel <g:#696969:#A9A9A9>The Returned</g>
 level: dynamic
 healthMultiplier: 0.5
 damageMultiplier: 0.5

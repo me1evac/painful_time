@@ -1,0 +1,22 @@
+activationRadius: 3.0
+name: '&cPhygia Gorgonius'
+role: '&c<Hole Denizen>'
+profession: NITWIT
+greetings:
+- Welcome to my home!
+- Hellos!
+dialog:
+- We have to take action!
+- Too many elves in our grove.
+farewell:
+- Visit us again!
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_groves_tree_climbing_elf_bandits.yml
+disguise: custom:primis_pontis_groves_hole_1
+customDisguiseData: player primis_pontis_groves_hole_1 setskin {"id":"f9ffeb51-6946-45f2-a00a-d3ae54067309","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2OTEzNjE5NiwKICAicHJvZmlsZUlkIiA6ICJjY2QwMTU0Yzg2OWQ0ODhmOTY1ZDJlYjMwYjU1ZTUwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dG9taXlvdWtub3ciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYyY2FhNGZhYWQ0OTcxYTcwZmU3NGQzNWE4YThjMDBjYjU5ZmQwNDU1MTJkYTlhNDJlZGQ1OTgxMTc5MDhjNyIKICAgIH0KICB9Cn0=","signature":"nFSY8oDtnjbyB4NOiCRMwHOYwl1LiCbPJJUflZsOPp3pcKLfHIb28qEKoo3V41W1FixxwNfolOC9pIxZ7QATxQ1GNNNVe+lIhkubWJl0mv61pucW2CpoF05XhIb1ro/Vhw/UiUAiVEmU7utU+1FLKUZyobGLhIqEcUuPCdhTbyL3H+yWfhXoJFo2gXrpsPFtzNBVHBZApK0WBPUhIR8GqGHzYeyWwMSB83KAwVPi+BmzF1jiDtbFqG/4ba1BSrX8oAf7I4r1+rt8fkfKJXmal87U5KLIxd2/gq/ePHayIkfU7qAaT/e0z0GfITufFYplJati/53qKqaWEqPciYh/X64SPVDNMElgp2ucSJVcWHpNmPGlJnkcCv6OYIr0WFriYSwXqGt71zAgWIA+gci2M8EuyFS937nQ2U12zhV1lLq1Yru+p/uiBRKpG5fFi5ZzxjrUkwjJLPpS0C4QPtmQAs3y3cWywHL3RAKNKkmAJ6ddL6BCwaPFiN3eaArpxwWmkd21o2xR11wz0ihcF3Y/Kg3uyS2970VWBdHgOiJ2W5ftfoDcakd9doDjm6I3lIWwsSSIWCm8qt6X+93s9gvps1fmn/vt3mcdYm4sVb8y6r9ylakk3KYp+2chk+rx8v3O+vXlyNlYayaIzQRwlcyC5yo05AQQzcuWSyjqdeEASsI="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,704.58,27.0,297.27,-53.05,15.42
+

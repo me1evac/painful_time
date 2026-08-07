@@ -1,0 +1,11 @@
+material: TURTLE_HELMET
+name: "&2Turtle Shell Helm"
+lore: 
+- "&2Makes you wanna eat some pizza."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DEPTH_STRIDER,1"
+- "WATER_WORKER,1"
+scalability: FIXED
+itemType: UNIQUE
+level: 13

@@ -1,0 +1,130 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  ScriptRunnerRepeat:
+    Cooldowns:
+      local: 300
+      global: 60
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 5
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 10
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 15
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 25
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 35
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 45
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 55
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 65
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 70
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 75
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - TranslatingRay1
+  TranslatingRay1:
+    Zone:
+      Shape: TRANSLATING_RAY
+      animationDuration: 30
+      pointRadius: 1
+      Target:
+        targetType: SELF
+        offset: 0,.5,0
+        track: false
+      Target2:
+        targetType: SELF
+        offset: 0,1,0
+        track: false
+      FinalTarget:
+        targetType: DIRECT_TARGET
+        offset: 0,.5,0
+        RelativeOffset:
+          SourceTarget:
+            targetType: SELF
+          DestinationTarget:
+            targetType: DIRECT_TARGET
+          normalize: true
+          multiplier: 5
+        track: false
+      FinalTarget2:
+        targetType: DIRECT_TARGET
+        offset: 0,1,0
+        RelativeOffset:
+          SourceTarget:
+            targetType: SELF
+          DestinationTarget:
+            targetType: DIRECT_TARGET
+          normalize: true
+          multiplier: 5
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 1
+      times: 30
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: CLOUD
+        amount: 0
+        x: 0
+        y: 0
+        z: 0
+        speed: 0.1
+    - action: DAMAGE
+      repeatEvery: 1
+      times: 30
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: 0.001

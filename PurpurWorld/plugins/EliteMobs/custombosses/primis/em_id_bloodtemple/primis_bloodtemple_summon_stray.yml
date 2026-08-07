@@ -1,0 +1,11 @@
+normalizedCombat: true
+isEnabled: true
+instanced: true
+entityType: STRAY
+name: $reinforcementLevel &6Blood Curdle
+level: 20
+healthMultiplier: 0.8
+damageMultiplier: 0.25
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false

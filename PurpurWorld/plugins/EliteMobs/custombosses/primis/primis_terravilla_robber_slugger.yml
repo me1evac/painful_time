@@ -1,0 +1,28 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &bSlugger
+level: 17
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 8
+leashRadius: 40
+followDistance: 15
+powers:
+- invulnerability_fire.yml
+uniqueLootList:
+- material=GOLD_NUGGET:chance=0.25
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+isRegionalBoss: true
+normalizedCombat: true
+movementSpeedAttribute: 0.33
+disguise: custom:primis_terravilla_robber_slugger
+customDisguiseData: player primis_terravilla_robber_slugger setskin {"id":"9a384605-a888-4827-bba7-e5195353ef7a","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MjI1NTg3MDIwNywKICAicHJvZmlsZUlkIiA6ICI1MjhlYzVmMmEzZmM0MDA0YjYwY2IwOTA5Y2JiMjdjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdWxpenppIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RmODNjYjk4NDg1NGVlZDQwMjg0ZjZlNmY2MGE3NjhhNmQxMzIwZGEzMDc1YTZhODIwNWViYjYxNWU1NGE0MjIiCiAgICB9CiAgfQp9","signature":"FFya1j0VI3y5ICY+f/vl8rrPFENWjSNWynBWwYLcAccBh0L1NpEeTScCuxGPTAK18LejWC5Y9LrRfFMcWOe71eETTQLj8CzCZnYr5mAn4O/HQ0wPOEp/6lI3kaH4JoIhfPuLrL7W/8bE8X85qdNtodYLaJCr+o/dkst/hLJXDRcD22vDMTAojBKmSSk/wU9usRwU3pHZjloCFk44AEtLTxdI5FD/1E2Hl2VGyUqqYJVEXx2Pr0/iAoSUmqyjveVCdwmHUIwYWBXYD3lctKUKd6DmJCB2LHaOQ38mhOESgCSLgg6+Vpap0oGsTq09lQFskQg8SHV3SKYUnE96HIz1EQui44jB+aCMCd9a9p8hU5g+Xjf2D8T5KlHG+fbhIlz20/mGb5SpoNRr6Wfp0kYBQM3RKfJtg1K9Neca0eb8XKe6oYQwndQpLtZcqSpUnoyfrNmnjyOrn41D+9lndk/3ZxmTT1jbDUQdAuLaLNBv0rKR/HpuBEOpnW0vrYGaj3QPin6UMc5RlhfluXMhk+qUqEedMXBUe02uwhKHFuIF+rOfML1s2o2YRGE3Xlri5zqe6hpiupLKDm1mAoDyMUhW2TfqV+ppLm7ovxruOY1mhj1J8gR1HwIl2WJqG3uEidiMdJW0Q33HOvtg39trelLPMVNakETD/9R6lHZZ+dcdF2E="}],"legacy":false}
+spawnLocations:
+- em_primis,308.5,30.5,1485.5,0.0,0.0:1676155544281
+- em_primis,312.5,30.5,1490.5,0.0,0.0:1676155595434
+- em_primis,279.5,28.5,1426.5,0.0,0.0:1676155538326
+- em_primis,281.5,29.5,1406.5,0.0,0.0:1676154911329
+- em_primis,264.5,27.5,1393.5,0.0,0.0:1676155519784
+- em_primis,263.5,27.5,1389.5,0.0,0.0:1676155519679

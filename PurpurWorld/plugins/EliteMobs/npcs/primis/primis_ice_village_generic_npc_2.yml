@@ -1,0 +1,20 @@
+isEnabled: true
+name: '&3Luxuria Tyranus'
+role: '&3<Villager>'
+profession: NITWIT
+greetings:
+- How goes it.
+dialog:
+- One more!
+farewell:
+- Bye.
+canTalk: true
+activationRadius: 3.0
+interactionType: NONE
+disguise: custom:elitemobs_ice_village_generic_1
+customDisguiseData: player elitemobs_ice_village_generic_1 setskin {"id":"353e6aa2-51ca-48cb-a5ce-71172418653c","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NTMxMjM5ODg1OCwKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQdlBUaGlldmVzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkZTVmNjNlMmMxMGM3ODEzNTQwNTc2ZWI2NzJhODdlZWQ0ODBiZDFkNjM0NTkwOGNhOTc1Njc2NDIzMDE5YjgiCiAgICB9CiAgfQp9","signature":"P5KzdEC/lUT3Fk7zglL3KueNdWQwALTcqQHw6KJM99ULj3R/lCPljfxiQWxKS/1QbSkDYEXPZfw+EPQhuYexMCX2NpuEYOUvQbheyYtHlH8FQ7tD/jBoQYuRAu/SWy3Cd3ssCO//o5p0Mpuc7eMLZBIFKpf1C/FWjOUvFSZVeCTuDxNc4a4IPnbZXogjK53x4RmXd014Ta1UuA/q2zYQsgf243i5Drjgx4N21IxLxbYYg7+9m2Lp67g5eBTkLtJTgooQJnItXlPwk8yMSwz89xp+Sy2OJXTS/iFumfqNObf9e8mOsQPVcfRvWq/FOMenKGsmmERnluRhLuvYcCfWG8ShUDNAqsJi6pk4rhtugdlZuiRprORa8ZCBkOetGSF0kSrTKXwgQuUpHTIDZKg4VCRjapX5H7jtZlTVj4SLPJH65rZ1cmWdkEjKgYEEHZBgUIAZa/gy2wzP5g7XhHmIf4eIg0+LWioeHjqnumJ0r+u7SjUV6gdMKhUX8C6x5GOpLZ91Lxin4eAtyCq63rrQanxdNR2GukFdPdS9rb6xYBm6qmsOJv0w9aPw61F8zhxyeytkxU1p2R2uhhXCKKAGdojh4tCfeV56uqwi43hi1BpE/AEAoLcIQ2lWOS4UUFcQauNqBylw4q3nxGUz/d3u34efNh7rQNgBGuESE3aOTxk="}],"legacy":false}
+spawnLocations:
+- em_primis,971.28,27.0,1525.34,-80.63,11.01
+
+
+

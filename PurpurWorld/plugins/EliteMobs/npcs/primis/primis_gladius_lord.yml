@@ -1,0 +1,24 @@
+isEnabled: true
+name: '&4General Hasta'
+role: '&c<Lord of Gladius>'
+profession: TOOLSMITH
+spawnLocation: em_primis,830.45,27.0,662.0,-90.41,1.5
+greetings:
+- Are you here to help?
+- It's a war zone out there!
+dialog:
+- They came in the night!
+- We never saw them coming!
+- Where are our reinforcements?
+farewell:
+- Watch your back!
+- Tread lightly!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_8.yml
+- primis_main_quest_9.yml
+- primis_main_quest_10.yml
+disguise: custom:elitemobs_gladius_lord
+customDisguiseData: player elitemobs_gladius_lord setskin {"id":"f051419b-fb7a-4fa3-869a-b67be6c78a5a","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTU5NTg3OTA0MDYxMywKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMTU2ZWFlNzVmZjNlZGRjOTBkOTJjYjk3NzU1MDJlY2Q3NjE5MDIyMzMwNmE5NTQ1Njk4MGVkMWNhOGYzMTYwIgogICAgfQogIH0KfQ==","signature":"jwghr9R8IDAAxe7Bj1cxxCjwAv7hjudTAgUnwhYZ/He9kUJxLq7llwVbitrcTP4S2svSkqgMgyBxqrgs0PvI8+nnkNmchKPYq6ibZ5BWCuQ3cOWeA9wrS5nXf6EMj/GIfcvuPfohQk4oDEYa04DQ+aUEQ2S21YBLOSVbx1AIfjwug0ACzl8yBPz8hJZj8aUpt6big3xnqj+7PLxmHFAtOJ7282gy3h2To2+93VUU5y6QvMKPe/RHSGPbag2yIFo2iTaSvfGkwlHXSXN6r8TgiMxvHrTgH9/MNCud57WnF3GIsnKSpIxtkmxRMa/qJhpljMxWQ+siEbtimUkKUjlxbH9dWS1g4KrU4wJmmuV1NwOlVclKGvTRamE9IQreUXE0HIt3lXOgeg3CsIgRbcOt6nl6+BiGvScZ/eG0N2buWb5nJq5fXUXgQihrpTm7N6NDTlIT0BdgjxLX7vvfsShmMNw1Kb+MOUFDaFZ3BNXVOVSlHB2cd4olLRxoKcStWHGWM+/gONnPXieH3MYUs3oRHKZDTxmwcjyT2KqX735uWNuMKHTMX3zs1krMwjcDRedVox95uzzqTb7SxQZz/12qKmgH0Wt+fH74bG29lwJ+kvBQEtFMvIAJ3Qe5M6OXmmHWsz1Gzfs8fZkAXtkDfMMdpcWE+3Lv1yVfM4vp1hrylqI="}],"legacy":false}

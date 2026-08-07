@@ -1,4 +1,5 @@
 validWorlds:
+  em_adventurers_guild: true
   world: true
   world_nether: true
   world_the_end: true

@@ -1,0 +1,14 @@
+name: "The Big Joke"
+material: WOODEN_AXE
+level: 22
+lore:
+- "Ha ha!"
+enchantments:
+- VANISHING_CURSE,0
+- KNOCKBACK,9
+potionEffects:
+- BLINDNESS,3,self,onHit
+- SLOW,5,self,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

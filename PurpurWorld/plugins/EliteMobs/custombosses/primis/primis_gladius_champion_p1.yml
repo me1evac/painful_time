@@ -1,0 +1,22 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $bossLevel &6Fallen Champion Natus
+level: 10
+healthMultiplier: 6.0
+damageMultiplier: 1.75
+spawnCooldown: 15
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 35
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- primis_sleep.yml
+phases:
+- primis_gladius_champion_p2.yml:0.9999
+damageModifiers:
+- material:NETHERITE_SWORD,multiplier:2
+spawnLocations:
+- em_primis_wormhole,-168.5,109.5,107.5,0.0,0.0:1676058547139

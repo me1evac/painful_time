@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&3Sestia Ennodius'
+role: '&3<Worried Mother>'
+profession: NITWIT
+greetings:
+- Where did she go.
+dialog:
+- Hmm, lost the trail.
+farewell:
+- Bye.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_living_nightmares.yml
+disguise: custom:elitemobs_ice_village_worried_mother
+customDisguiseData: player elitemobs_ice_village_worried_mother setskin {"id":"8b24f415-d43b-4d37-9d16-289dc8382872","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzNjQ2MjEzNTYxMSwKICAicHJvZmlsZUlkIiA6ICJhYzYxZjQwZGJhNDE0YzkwOWU0NWJkMTgwMmY5MTYxYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmlmYW5pIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4NmIzMjcwM2MwMDY5OTViNDNjMTc1NzY5OGNiNmJmZTkwMTlkMzk0MGJhY2ZiZmUyODRlNjUwMjg0ZTI0NTQiCiAgICB9CiAgfQp9","signature":"ln8XVbDGokqnqlsUgEaBf5hejhGZT5k5GXWVSORuABSnO8YrQ0mkST6YQFp4ZL/wt3goAfS4xOLiI5fcibgeBrin+VO/AUzxIZQbqQT06ChF9iXRRhDxmU3D241DFbbWvajUjKpbl4NCZwuKmtXZ6Mf2Z8LrJaR1t3s3n6L/r46a/QWxyS0U/ogdoJ9+kh/DRbYaXxsLjNTACz3RsY0H9h6E7uD0h4SQKEO6l9s8sf06UVO6sjdWHae0X+2PZR3nX5gST4Pcw/YEmYvflgvzL7dqbOx0k0H8CFq0Io58I0Li/G/QVdfZsYGrT5+SqbeCkzYAT6r5McCsG3L3RMyB0gqB17BpMqEcwfaHjdCD0qNMSOeOw/okQZ6IcQE0M6FyCHSREmjfVETCpQnQg+eGzmlgyMHSpUX+O+DugkmYqlRvdshQGSk+Gf2GOsNfmfRZ87rx2smy0C89Oll+tXOfRaXNrO5IYx8oBROSzDvC/wO5sbXHSXIfdh7sZuDmVmAgNydnvDchdhcq8pU11BH9kEdbHBIMmlNXMheULNk5VHQTDYG0ltqixrP0YiHMB8EgUpk2iVD8rofdxGXiu+cvs0YnfZnnfp3hHXWT1reXvn0hhwAqzsP/Zyn7GLSN+kxBQkrWZg3y93EDi0ZUPH1ME0U/qShTNBK10twYJVuyFxE="}],"legacy":false}
+spawnLocations:
+- em_primis,812.71,12.0,1546.98,-12.42,-26.78
+
+
+

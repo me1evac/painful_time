@@ -1,0 +1,82 @@
+isEnabled: true
+arenaName: The Elementals Arena
+corner1: em_primis_wormhole,-1,174.5,309,0,0
+corner2: em_primis_wormhole,-100,196,585,0,0
+startLocation: em_primis_wormhole,-49.5,175,422.5,0,0
+exitLocation: em_primis,582.5,107,649.5,0,0
+#permission: elitequest.primis_pontis_mille_stay_a_while_and_listen_arena.yml
+waveCount: 10
+delayBetweenWaves: 11
+spawnPoints:
+- name=north:location=em_primis_wormhole,-48.5,175,411.5
+- name=south:location=em_primis_wormhole,-48.5,175,433.5
+- name=west:location=em_primis_wormhole,-59.5,175,422.5
+- name=east:location=em_primis_wormhole,-37.5,175,422.5
+bossList:
+- wave=1:spawnPoint=north:boss=primis_pontis_mille_arena_primal_wisp.yml
+- wave=1:spawnPoint=east:boss=primis_pontis_mille_arena_primal_wisp.yml
+- wave=1:spawnPoint=west:boss=primis_pontis_mille_arena_primal_wisp.yml
+- wave=1:spawnPoint=south:boss=primis_pontis_mille_arena_primal_wisp.yml
+- wave=2:spawnPoint=north:boss=primis_pontis_mille_arena_primal_air_wisp.yml
+- wave=2:spawnPoint=east:boss=primis_pontis_mille_arena_primal_fire_wisp.yml
+- wave=2:spawnPoint=west:boss=primis_pontis_mille_arena_primal_earth_wisp.yml
+- wave=2:spawnPoint=south:boss=primis_pontis_mille_arena_primal_water_wisp.yml
+- wave=3:spawnPoint=north:boss=primis_pontis_mille_arena_primal_air_wisp_2.yml
+- wave=3:spawnPoint=east:boss=primis_pontis_mille_arena_primal_fire_wisp_2.yml
+- wave=3:spawnPoint=west:boss=primis_pontis_mille_arena_primal_earth_wisp_2.yml
+- wave=3:spawnPoint=south:boss=primis_pontis_mille_arena_primal_water_wisp_2.yml
+- wave=4:spawnPoint=north:boss=primis_pontis_mille_arena_primal_fire_wisp_3.yml
+- wave=4:spawnPoint=east:boss=primis_pontis_mille_arena_human_wave_4.yml
+- wave=4:spawnPoint=west:boss=primis_pontis_mille_arena_human_wave_4.yml
+- wave=4:spawnPoint=south:boss=primis_pontis_mille_arena_primal_water_wisp_3.yml
+- wave=5:spawnPoint=north:boss=primis_pontis_mille_arena_minor_air_elemental.yml
+- wave=5:spawnPoint=east:boss=primis_pontis_mille_arena_minor_earth_elemental.yml
+- wave=5:spawnPoint=west:boss=primis_pontis_mille_arena_minor_fire_elemental.yml
+- wave=5:spawnPoint=south:boss=primis_pontis_mille_arena_minor_water_elemental.yml
+- wave=6:spawnPoint=north:boss=primis_pontis_mille_arena_minor_air_elemental.yml
+- wave=6:spawnPoint=east:boss=primis_pontis_mille_arena_minor_earth_elemental.yml
+- wave=6:spawnPoint=west:boss=primis_pontis_mille_arena_human_wave_6.yml
+- wave=6:spawnPoint=south:boss=primis_pontis_mille_arena_human_wave_6.yml
+- wave=7:spawnPoint=north:boss=primis_pontis_mille_arena_human_wave_7.yml
+- wave=7:spawnPoint=east:boss=primis_pontis_mille_arena_human_wave_7.yml
+- wave=7:spawnPoint=west:boss=primis_pontis_mille_arena_human_wave_7.yml
+- wave=7:spawnPoint=south:boss=primis_pontis_mille_arena_human_wave_7.yml
+- wave=8:spawnPoint=north:boss=primis_pontis_mille_arena_minor_fire_elemental_prime.yml
+- wave=8:spawnPoint=east:boss=primis_pontis_mille_arena_human_wave_8.yml
+- wave=8:spawnPoint=west:boss=primis_pontis_mille_arena_human_wave_8.yml
+- wave=8:spawnPoint=south:boss=primis_pontis_mille_arena_human_wave_8.yml
+- wave=9:spawnPoint=north:boss=primis_pontis_mille_arena_water_elemental.yml
+- wave=9:spawnPoint=east:boss=primis_pontis_mille_arena_human_worshiper.yml
+- wave=9:spawnPoint=west:boss=primis_pontis_mille_arena_human_worshiper.yml
+- wave=9:spawnPoint=south:boss=primis_pontis_mille_arena_human_worshiper.yml
+- wave=10:spawnPoint=north:boss=primis_pontis_mille_arena_air_elemental.yml
+- wave=10:spawnPoint=east:boss=primis_pontis_mille_arena_human_worshiper.yml
+- wave=10:spawnPoint=west:boss=primis_pontis_mille_arena_human_worshiper.yml
+- wave=10:spawnPoint=south:boss=primis_pontis_mille_arena_human_worshiper.yml
+rawArenaReward:
+- currencyAmount=10:wave=1
+- currencyAmount=20:wave=2
+- currencyAmount=30:wave=3
+- currencyAmount=40:wave=4
+- currencyAmount=50:wave=5
+- currencyAmount=60:wave=6
+- currencyAmount=70:wave=7
+- currencyAmount=80:wave=8
+- currencyAmount=90:wave=9
+- currencyAmount=150:wave=10
+- filename=primis_pontis_mille_arena_reward_3.yml:itemlevel=15:wave=10:chance=0.2
+- filename=primis_pontis_mille_arena_reward_2.yml:itemlevel=15:wave=8:chance=0.2
+- filename=primis_pontis_mille_arena_reward_1.yml:itemlevel=15:wave=4:chance=0.2
+maximumPlayerCount: 5
+arenaMessages:
+- wave=1:message=&8[Star Gazer] &fIn the beginning the Elementals were just Primal wisps, nothing more than a collection of violent energy given form.
+- wave=2:message=&8[Star Gazer] &fAs the wisps grew their energies took on the Primal forms of Earth, Water, Fire and Air. 
+- wave=3:message=&8[Star Gazer] &fThis is when Humans appeared. At first there was harmony, but that was short-lived.
+- wave=4:message=&8[Star Gazer] &fDissent grew between primal forces and humans, resulting in the formation of factions and, eventually, wars.
+- wave=5:message=&8[Star Gazer] &fAs great wars waged, warfare evolved. The Primals developed into the elements as we know them today, and the humans adapted to these elements.
+- wave=6:message=&8[Star Gazer] &fAs a stalemate slowly made itself evident, the conflicts between the elements and the humans came to a fragile armistice.
+- wave=7:message=&8[Star Gazer] &fIn the dark, and slowly fading from Human memory, the elementals developed dark rituals through which the power of Life itself could be harnessed.
+- wave=8:message=&8[Star Gazer] &fArmed with this new terrible power, the Elementals started recruiting in the shadows, taking those with a thirst for power to their side. 
+- wave=9:message=&8[Star Gazer] &fThose who chose to follow the Elementals were rewarded with terrible power should they succeed, and with a fate worse than death when they failed.
+- wave=10:message=&8[Star Gazer] &fEmboldened by this, Elementals have now resumed the long-forgotten war, certain that this time they will overcome Humanity.
+cylindricalArena: true

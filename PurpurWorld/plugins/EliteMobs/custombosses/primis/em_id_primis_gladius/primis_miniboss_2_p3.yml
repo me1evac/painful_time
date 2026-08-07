@@ -1,0 +1,312 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &6General Tullius
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+mainHand: TRIDENT
+offHand: SHIELD
+helmet: LEATHER_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: LEATHER_BOOTS
+eliteScript:
+  ScriptRunnerStart:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - ArenaBorderZone
+      - ArenaBorderZoneEdge
+      - ArenaBorderZoneDamage
+  ScriptRunnerRepeat:
+    Cooldowns:
+      local: 360
+      global: 60
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - TranslatingRay1
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - TranslatingRay2
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - TranslatingRay3
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - TranslatingRay4
+  TranslatingRay1:
+    Zone:
+      Shape: TRANSLATING_RAY
+      animationDuration: 160
+      pointRadius: 1
+      Target:
+        targetType: SELF_SPAWN     
+        offset: 24,0,-24
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -24,0,-24
+        track: false
+      FinalTarget:
+        targetType: SELF_SPAWN
+        offset: 24,0,24
+        track: false
+      FinalTarget2:
+        targetType: SELF_SPAWN
+        offset: -24,0,24
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 80
+      Target: 
+        targetType: ZONE_FULL
+        track: false
+      particles:
+        - particle: SWEEP_ATTACK
+          amount: 0
+          x: 0
+          y: 0
+          z: 1
+          speed: 0.1
+    - action: DAMAGE
+      repeatEvery: 2
+      times: 80
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .125
+  TranslatingRay2:
+    Zone:
+      Shape: TRANSLATING_RAY
+      animationDuration: 160
+      pointRadius: 1
+      Target:
+        targetType: SELF_SPAWN     
+        offset: -24,0,24
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -24,0,-24
+        track: false
+      FinalTarget:
+        targetType: SELF_SPAWN
+        offset: 24,0,24
+        track: false
+      FinalTarget2:
+        targetType: SELF_SPAWN
+        offset: 24,0,-24
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 80
+      Target: 
+        targetType: ZONE_FULL
+        track: false
+      particles:
+        - particle: SWEEP_ATTACK
+          amount: 0
+          x: 0
+          y: 0
+          z: 1
+          speed: 0.1
+    - action: DAMAGE
+      repeatEvery: 2
+      times: 80
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .125
+  TranslatingRay3:
+    Zone:
+      Shape: TRANSLATING_RAY
+      animationDuration: 160
+      pointRadius: 1
+      Target:
+        targetType: SELF_SPAWN     
+        offset: 24,0,24
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -24,0,24
+        track: false
+      FinalTarget:
+        targetType: SELF_SPAWN
+        offset: 24,0,-24
+        track: false
+      FinalTarget2:
+        targetType: SELF_SPAWN
+        offset: -24,0,-24
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 80
+      Target: 
+        targetType: ZONE_FULL
+        track: false
+      particles:
+        - particle: SWEEP_ATTACK
+          amount: 0
+          x: 0
+          y: 0
+          z: 1
+          speed: 0.1
+    - action: DAMAGE
+      repeatEvery: 2
+      times: 80
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .125
+  TranslatingRay4:
+    Zone:
+      Shape: TRANSLATING_RAY
+      animationDuration: 160
+      pointRadius: 1
+      Target:
+        targetType: SELF_SPAWN     
+        offset: 24,0,24
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 24,0,-24
+        track: false
+      FinalTarget:
+        targetType: SELF_SPAWN
+        offset: -24,0,24
+        track: false
+      FinalTarget2:
+        targetType: SELF_SPAWN
+        offset: -24,0,-24
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 80
+      Target: 
+        targetType: ZONE_FULL
+        track: false
+      particles:
+        - particle: SWEEP_ATTACK
+          amount: 0
+          x: 0
+          y: 0
+          z: 1
+          speed: 0.1
+    - action: DAMAGE
+      repeatEvery: 2
+      times: 80
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 80
+      Target: 
+        targetType: ZONE_FULL
+        track: false
+      particles:
+        - particle: SWEEP_ATTACK
+          amount: 0
+          x: 0
+          y: 0
+          z: 1
+          speed: 0.1
+    - action: DAMAGE
+      repeatEvery: 2
+      times: 80
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .125
+  ArenaBorderZoneEdge:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      x: 47
+      y: 1
+      xBorder: 31
+      yBorder: 1
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 12
+      Target: 
+        targetType: ZONE_BORDER
+        track: false
+        offset: 0,-1,0
+      particles:
+        - particle: FLAME
+          amount: 0
+          x: 0
+          y: 1
+          z: 0
+          speed: .1
+      Conditions:
+        isAlive: true
+  ArenaBorderZone:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      x: 47
+      y: 1
+      xBorder: 31
+      yBorder: 1
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 20
+      Target: 
+        targetType: ZONE_BORDER
+        coverage: .5
+        track: false
+        offset: 0,-1,0
+      particles:
+        - particle: FLAME
+          amount: 0
+          x: 0
+          y: 1
+          z: 0
+          speed: .1
+      Conditions:
+        isAlive: true
+  ArenaBorderZoneDamage:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      x: 47
+      y: 3
+      xBorder: 31
+      yBorder: 3
+      filter: PLAYER
+    Actions:
+    - action: DAMAGE
+      repeatEvery: 20
+      Target:
+        targetType: ZONE_BORDER
+        track: false
+      multiplier: .25
+      Conditions:
+        isAlive: true

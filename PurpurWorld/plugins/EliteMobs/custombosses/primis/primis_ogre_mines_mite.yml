@@ -1,0 +1,21 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SILVERFISH
+name: $normalLevel &fMine Mite
+level: 7
+healthMultiplier: 0.4
+damageMultiplier: 0.2
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1509.5,44.5,558.5,0.0,0.0:1653276614168
+- em_primis,1528.5,48.5,553.5,0.0,0.0:1676056335127
+- em_primis,1484.5,44.5,556.5,0.0,0.0:1676056449678
+- em_primis,1454.5,44.5,562.5,0.0,0.0:1676056490288
+- em_primis,1434.5,40.5,549.5,0.0,0.0:1676056546478
+- em_primis,1434.5,40.5,546.5,0.0,0.0:1676056549529

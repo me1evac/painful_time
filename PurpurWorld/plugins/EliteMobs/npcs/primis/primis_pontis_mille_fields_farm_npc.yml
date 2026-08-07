@@ -1,0 +1,23 @@
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&9Milonia Majus'
+role: '&e<Farmer>'
+profession: FARMER
+greeting:
+- Mornin!
+dialog:
+- Get away, darn rats!
+- Stop eating my goods!
+- Sigh...
+farewell:
+- Later.
+disguise: custom:primis_pontis_fields_farmer
+customDisguiseData: player primis_pontis_fields_farmer setskin {"id":"196f6c6b-b406-4c45-b973-8a277a660fde","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTk3MjM5NzgzMCwKICAicHJvZmlsZUlkIiA6ICIwZjFjOTU0NDBmNjY0NjdkOGIzMzhiMzkwZjc3YjU2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYW5UYW5KaWFuZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hODQ1OTU4NGVjYjM1ZjJkMDI2NDdkZDM3NWIyNmQzNjBmYmM3NTY1ZTc1OTM1NmFiMzIzM2U1ODg3MjMyOGZlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"WDlBqiLeqOe0i5GqKAy3x66LMCsqh+ARoiijEJpixzWoih97Grx0NwW5jqZup+OYahGl+cAGzL761N4i3VzCzefBQi73Rm/Rz2agjZA6T105GZTpgiJ0hP+VQZJNx8XlFhyEqxEUb5TCqOBjxTSe4eCf3Umw0vdS9NhXUzefTB0itiKBfI7BlJPBJ/nM38ma2gmJNZg4VlFRrWttsk1H0dGj6+ApKiLEhjtXoszaHuddOvmUEial1V+Y2KKMYVlY7RZWstRv0CDK7fSk/7OcHLZKA0vPajiB4wZTJBKA5/L3zSYWlMTXWMZyPr3M8UV+RvIyusG787kJa8qKS+7ZML5LwmnBrLvbnj/oUvJhLRhwpSYBuzLUMWLfXwlnzLgRHaYBjaOmDu0k0rj29wMWc4xQGl1zVb0k+L6oMOwvhuZqe6gRPC02u1niFj3GKZUdtPdPWuHYvU/6xMhJzbIUdy4rYdT5lkx4rzVLnyHL74ds2E80BLbriXjzGX+tL0FV979eracWiPij24Nf9M5MoKod2lY6FhyGtruWtl2BcBh1X2E4dO6HXU/DC19GVoht+uK6gxHbJx4HMQbKj0B5m6hrqN8l9hVNtaX2W+X7S6f8mz3b0fLY91v9o68upyBIfv3fd9kwHS3htfd6xvy1FuBqytW41205xg7zcewW8g4="}],"legacy":false}
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fields_not_on_my_farm.yml
+- primis_pontis_mille_fields_surprise_me_with_flour.yml
+spawnLocations:
+- em_primis,317.68,14.0,723.05,-48.77,12.75

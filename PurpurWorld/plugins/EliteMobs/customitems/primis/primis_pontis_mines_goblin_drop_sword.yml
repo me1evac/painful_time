@@ -1,0 +1,10 @@
+isEnabled: true
+material: STONE_SWORD
+name: "&7Goblin Sword"
+lore:
+- "&7It''s just a stone club with a handle."
+enchantments: 
+- "DAMAGE_ALL,2"
+scalability: fixed
+itemType: unique
+level: 11

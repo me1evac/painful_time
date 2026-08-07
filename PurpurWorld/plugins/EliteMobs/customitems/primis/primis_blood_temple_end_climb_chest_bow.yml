@@ -1,0 +1,11 @@
+name: "Bird Swatter"
+material: BOW
+level: 19
+lore:
+- "Be quick or die."
+enchantments:
+- ARROW_DAMAGE,1
+- ARROW_FIRE,1
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

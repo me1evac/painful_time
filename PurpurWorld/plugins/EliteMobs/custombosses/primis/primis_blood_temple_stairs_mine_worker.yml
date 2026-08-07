@@ -1,0 +1,36 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+mainHand: IRON_SHOVEL
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+name: $normalLevel &eMine Worker
+level: 18
+healthMultiplier: 0.6
+damageMultiplier: 0.6
+movementSpeedAttribute: 0.26
+powers:
+- invulnerability_fire.yml
+spawnCooldown: 12
+leashRadius: 20
+followDistance: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename: primis_blood_temple_stairs_shovel_drop.yml
+  chance: 0.03
+isRegionalBoss: true
+spawnLocations:
+- em_primis,682.5,37.5,1157.5,0.0,0.0:1676368827550
+- em_primis,700.5,42.5,1112.5,0.0,0.0:1676368811914
+- em_primis,746.5,51.5,1126.5,0.0,0.0:1676368803866
+- em_primis,747.5,51.5,1132.5,0.0,0.0:1676368802468
+- em_primis,740.5,51.5,1129.5,0.0,0.0:1676368798974
+- em_primis,816.5,91.5,1059.5,0.0,0.0
+- em_primis,819.5,91.5,1062.5,0.0,0.0
+- em_primis,810.5,79.5,1010.5,0.0,0.0
+- em_primis,801.5,79.5,990.5,0.0,0.0
+- em_primis,782.5,79.5,1003.5,0.0,0.0

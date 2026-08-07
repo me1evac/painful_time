@@ -1,0 +1,37 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $normalLevel &cCharred Construct
+level: 19
+healthMultiplier: 1
+damageMultiplier: 1.1
+spawnCooldown: 15
+leashRadius: 40
+powers:
+- primis_charred_construct_dark_circle.yml
+- invulnerability_fire.yml
+mainHand: NETHERITE_AXE
+offHand: NETHERITE_AXE
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+followDistance: 15
+spawnLocations:
+- em_primis,954.5,103.5,907.5,0.0,0.0:1676647209720
+- em_primis,966.5,70.5,1034.5,0.0,0.0
+- em_primis,964.5,70.5,1007.5,0.0,0.0
+- em_primis,961.5,68.5,977.5,0.0,0.0:1676146210730
+- em_primis,984.5,70.5,944.5,0.0,0.0
+- em_primis,1017.5,70.5,938.5,0.0,0.0:1664906183758
+- em_primis,1034.5,70.5,960.5,0.0,0.0:1675703988311
+- em_primis,1036.5,75.5,1036.5,0.0,0.0
+- em_primis,1011.5,70.5,1041.5,0.0,0.0:1664906229968
+- em_primis,976.5,71.5,1050.5,0.0,0.0
+- em_primis,982.5,92.5,954.5,0.0,0.0
+- em_primis,989.5,103.5,896.5,0.0,0.0:1676647182828
+- em_primis,1162.5,116.5,984.5,0.0,0.0
+- em_primis,1162.5,116.5,1018.5,0.0,0.0
+- em_primis,1173.5,130.5,1003.5,0.0,0.0
+- em_primis,1173.5,130.5,999.5,0.0,0.0

@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&9Tidal Surge'
-description:
-- '&7Create a wave that knocks'
-- '&7back nearby enemies. 20s CD.'
 skillType: TRIDENTS
 bonusType: COOLDOWN
 unlockTier: 2

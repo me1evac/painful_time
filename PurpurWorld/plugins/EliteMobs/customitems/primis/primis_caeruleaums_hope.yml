@@ -1,0 +1,15 @@
+isEnabled: true
+material: DIAMOND_SWORD
+name: "&9Caeruleaum's Hope"
+lore:
+- '&8A relic of a bygone era, still sharp'
+- '&8enough to hurt but rusty enough to'
+- '&8belong in a museum!'
+enchantments:
+- CRITICAL_STRIKES,1
+- DAMAGE_ALL,3
+potionEffects:
+- HEAL,0,self,onHit
+scalability: fixed
+itemType: unique
+level: 5

@@ -1,0 +1,23 @@
+isEnabled: true
+entityType: HUSK
+name: $normalLevel &4Cave Dweller
+level: 18
+healthMultiplier: 0.6
+damageMultiplier: 0.5
+spawnCooldown: 20
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 30
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnLocations:
+- em_primis,795.5,165.5,1120.5,0.0,0.0
+- em_primis,790.5,156.5,1133.5,0.0,0.0
+- em_primis,762.5,134.5,1163.5,0.0,0.0:1676145208375
+- em_primis,747.5,124.5,1204.5,0.0,0.0:1676145175150
+- em_primis,752.5,85.5,1264.5,0.0,0.0
+- em_primis,734.5,59.5,1232.5,0.0,0.0
+- em_primis,750.5,38.5,1246.5,0.0,0.0:1676145100637
+- em_primis,752.5,33.5,1269.5,0.0,0.0:1676145090135

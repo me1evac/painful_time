@@ -1,0 +1,16 @@
+isEnabled: true
+name: Jeeves
+role: <Traveling Merchant>
+profession: LIBRARIAN
+spawnLocation: em_primis,1187.84,19.0,329.18,-159.56,14.7
+greetings:
+- Just traveling!
+dialog:
+- Just here to sell\nto the shop-keep.
+- I'm busy negotiating\nhere.
+- Not right now,\ncome back later.
+farewell:
+- Uhuh...
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER

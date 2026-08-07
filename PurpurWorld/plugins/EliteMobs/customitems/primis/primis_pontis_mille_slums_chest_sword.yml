@@ -1,0 +1,11 @@
+material: IRON_SWORD
+name: "&4Dull Pontis Mille Katana"
+lore: 
+- "&7Incredibly sharp"
+enchantments: 
+- "DAMAGE_ALL,2"
+- "DAMAGE_ARTHROPODS,1"
+- "DAMAGE_UNDEAD,1"
+scalability: FIXED
+level: 9
+itemType: unique

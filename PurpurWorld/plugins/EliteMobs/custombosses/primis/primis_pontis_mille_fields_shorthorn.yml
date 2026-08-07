@@ -1,0 +1,25 @@
+entityType: RAVAGER
+name: $normalLevel &6Fields Shorthorn
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 0.85
+powers: []
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 15
+spawnCooldown: 10
+leashRadius: 35
+isRegionalBoss: true
+movementSpeedAttribute: 0.24
+spawnLocations:
+- em_primis,326.5,12.5,801.5,0.0,0.0:1676070963342
+- em_primis,377.5,15.5,810.5,0.0,0.0:1676070983193
+- em_primis,354.5,14.5,893.5,0.0,0.0:1676071036893
+- em_primis,462.5,16.5,942.5,0.0,0.0:1662390137583
+- em_primis,425.5,15.5,1020.5,0.0,0.0:1676071330894
+- em_primis,432.5,13.5,1085.5,0.0,0.0
+- em_primis,396.5,16.5,961.5,0.0,0.0:1676071079943
+- em_primis,360.5,7.5,842.5,0.0,0.0:1676071016843
+

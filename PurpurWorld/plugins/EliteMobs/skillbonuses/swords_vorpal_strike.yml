@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&4Vorpal Strike'
-description:
-- '&7Critical hits can deal'
-- '&7devastating bonus damage.'
 skillType: SWORDS
 bonusType: COOLDOWN
 unlockTier: 4

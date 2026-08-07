@@ -1,0 +1,48 @@
+normalizedCombat: true
+isEnabled: true
+entityType: PILLAGER
+name: $normalLevel &bElf Bandit Ranger
+level: 12
+healthMultiplier: 1
+damageMultiplier: 0.8
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_elf_drop_helmet.yml:chance=0.02
+- filename=primis_pontis_elf_drop_chestplate.yml:chance=0.02
+- filename=primis_pontis_elf_drop_leggings.yml:chance=0.02
+- filename=primis_pontis_elf_drop_boots.yml:chance=0.02
+- filename=primis_pontis_elf_drop_crossbow.yml:chance=0.05
+- material=BREAD:chance=0.5
+spawnCooldown: 5
+mainHand: CROSSBOW
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+disguise: custom:primis_pontis_groves_elf_sharpshooter
+customDisguiseData: player primis_pontis_groves_elf_sharpshooter setskin {"id":"ad434215-e4e6-4e99-befa-aae5fcff66e4","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2NzM3NDY5OCwKICAicHJvZmlsZUlkIiA6ICI3NTA5NzZmODRmMDE0NWFhYTc0MzAwYWJhMzc5MTIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwY2hlYXRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0NTI5MGE5ZTVjMDAyZjFlODk2Mzk4NDIyNWE5YzUyYTNjMjY4NDhlYzk3ZmIwNWQ1ZTY0ZTY0YjkzZDJjODEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"sC4/mQV9tlBQiJM2ga+Nh8nw+DkTgc1cXYKXAelXCntKHovIFXTMHyJx79dpoc2iIiIAFEsnYbqzB6L8C0IXN5WFDDvTZkHOm89TwxGIuxeyzuCMLDxnqWm63V+bahkJhIT8YWSx7TbzXBZFaZhvAhqE84dEVSOhI2oVZk+VPM5NNDbfLiMsFHk1aJ/DwudjEp8IKkK/IUDsR7JXZui5SyAy5IqFsA8qVBw6rRzpGjm+22VeYyrnnj9bE5pm2lOdaFe6lGIv92sCSWATI+k+IDxNOi7KKQS2cDKgAjDtth91FzybfT1yDhiIJgQXMEUrQ2KAKONTOIMCv/1waZNVusauTmO4NOEHWsneCbkb4Tg6Er1ss8wH7OMSqL/3Wt0uojNlxoN1Q6Hin6yCejY3U9xHsmynuLwCPXfYd1v5cHCsjniMKH374/yOykI4aT8q07MQSuGPPmUP4BZ0tEqF4yUjxBb7qcXasMO/EXQ9EnVKlfQ+5sr1jIRFzSLHltEncNfl9Jbjz9qgsSO86eUc102wqe6AiBdaxmYdB5PHMTQK0PpeYxiMqZNmPg2X/moFzKNdO+t33GxuiseRzqXguJAPD92fBSl8kPkQNr899aE28n4YPQWJ1hBMwuvQFUpFcnLOc86vNs58G8p5jk5LylPN6ei5wcdgJ8XUvvPQ8ek="}],"legacy":false}
+spawnLocations:
+- em_primis,234.5,21.5,475.5,0.0,0.0:1676070092673
+- em_primis,228.5,21.5,473.5,0.0,0.0:1676070098840
+- em_primis,226.5,21.5,467.5,0.0,0.0:1676070101542
+- em_primis,231.5,21.5,461.5,0.0,0.0:1676070105740
+- em_primis,218.5,12.5,507.5,0.0,0.0:1676069827443
+- em_primis,218.5,12.5,490.5,0.0,0.0:1676070143790
+- em_primis,217.5,12.5,455.5,0.0,0.0:1676070089139
+- em_primis,232.5,12.5,456.5,0.0,0.0:1676070103840
+- em_primis,579.5,70.5,346.5,0.0,0.0:1676074260170
+- em_primis,579.5,70.5,360.5,0.0,0.0:1676073963327
+- em_primis,581.5,85.5,352.5,0.0,0.0:1676074244372
+- em_primis,584.5,85.5,358.5,0.0,0.0:1676074249872
+- em_primis,588.5,89.5,311.5,0.0,0.0:1676128011924
+- em_primis,586.5,88.5,292.5,0.0,0.0:1676074035677
+- em_primis,589.5,88.5,291.5,0.0,0.0:1676074033570
+- em_primis,572.5,69.5,250.5,0.0,0.0:1676074088123
+- em_primis,608.5,69.5,250.5,0.0,0.0:1676074156026
+- em_primis,612.5,61.5,266.5,0.0,0.0:1661541106867
+- em_primis,612.5,61.5,282.5,0.0,0.0:1676127979010
+- em_primis,614.5,61.5,294.5,0.0,0.0:1676127988809
+- em_primis,609.5,61.5,294.5,0.0,0.0:1676127983654
+- em_primis,569.5,58.5,317.5,0.0,0.0:1676073971830
+- em_primis,588.5,88.5,344.5,0.0,0.0:1676074014678

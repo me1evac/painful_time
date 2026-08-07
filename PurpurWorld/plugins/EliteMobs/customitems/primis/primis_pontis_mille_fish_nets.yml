@@ -1,0 +1,8 @@
+isEnabled: true
+material: COBWEB
+name: "&2Fish Nets"
+lore:
+- '&aCatching fish made easy!'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_mille_fish_nets.yml

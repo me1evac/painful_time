@@ -1,0 +1,14 @@
+material: "NETHERITE_CHESTPLATE"
+name: "&dHunters Pride"
+lore: 
+- "&dThose who hunt cannot be the prey."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,6"
+- "PROTECTION_EXPLOSIONS,4"
+- "PROTECTION_PROJECTILE,4"
+potionEffects:
+- DAMAGE_RESISTANCE,1,self,onHit
+- FIRE_RESISTANCE,1,self,onHit
+scalability: FIXED
+level: 17
+itemType: unique

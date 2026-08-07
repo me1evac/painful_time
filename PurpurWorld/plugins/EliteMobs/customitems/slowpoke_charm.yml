@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: CARROT_ON_A_STICK
-name: '&bSlowpoke Charm'
-lore:
-- '&aLet''s just hope it doesn''t hit'
-- '&aitself in its confusion...'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

@@ -1,0 +1,23 @@
+isEnabled: true
+entityType: HUSK
+isBaby: true
+isRegionalBoss: false
+instanced: true
+name: $bossLevel &6Blutkind
+level: 20
+normalizedCombat: true
+healthMultiplier: 60.0
+damageMultiplier: 1.3
+frozen: true
+cullReinforcements: false
+phaseSpawnLocation: same_as_boss,374.5,23,658.5,155,0
+powers:
+- primis_bloodtemple_blutkind_scorchray.yml
+- primis_bloodtemple_blutkind_summons.yml
+- primis_bloodtemple_a4_teleport.yml
+- primis_bloodtemple_clear_egg.yml
+- primis_bloodtemple_blutkind_push.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- invulnerability_fall_damage.yml
+- attack_fireball.yml

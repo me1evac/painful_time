@@ -1,0 +1,10 @@
+material: IRON_BOOTS
+name: "&4Pontis Mille Boots"
+lore: 
+- "&7Traditional Pontis Mille Boots"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "PROTECTION_FALL,2"
+scalability: FIXED
+level: 12
+itemType: unique

@@ -1,0 +1,27 @@
+isEnabled: true
+entityType: EVOKER
+name: $bossLevel &9Ice Elemental
+level: 17
+healthMultiplier: 6
+damageMultiplier: 1.75
+powers:
+- attack_freeze.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+- shield_wall.yml
+- primis_freeze_ray.yml
+- primis_channel_snowstorm.yml
+- summonType: ON_HIT
+  filename: primis_ice_village_ice_simulacrum.yml
+  chance: 0.51
+uniqueLootList:
+- primis_ice_village_ice_elemental_drop_bow.yml:1
+followDistance: 80
+spawnCooldown: 30
+leashRadius: 80
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+disguise: POLAR_BEAR
+movementSpeedAttribute: 0.45
+customModel: 04_em_minor_ice_elemental

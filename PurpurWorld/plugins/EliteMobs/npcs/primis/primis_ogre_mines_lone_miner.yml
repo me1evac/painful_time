@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&cFortis Fossores'
+role: '&c<Lone Miner>'
+profession: NITWIT
+greetings:
+- Finally, some help!
+- Don't let them see you!
+- Help me!
+dialog:
+- I've got a task for you!
+- I need your help!
+farewell:
+- Off you go!
+- Back to mining for me!
+- Stay safe!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+disguise: custom:primis_ogre_mines_lone_miner
+customDisguiseData: player primis_ogre_mines_lone_miner setskin {"id":"c0d35438-3fe7-4995-b67d-01ef4a5d84b6","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NjMzODIxNzI1MiwKICAicHJvZmlsZUlkIiA6ICIzYjA1NTdlYmVmYjc0MDdmYmFmMjVhN2IyNzYwZTZlMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcl9JY2VTcGlrZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc2Yjg0OWYyNTY3MzNiYzFkYmVjMGQzMDYyMzdlZmNiNjY2OGQ4MTUwMTQzMWEyZDBiZjIwMGMyZGQ4NDc5MyIKICAgIH0KICB9Cn0=","signature":"XtcMzcJ/qFG+NtKyiwxd2By3ikQ+mLNo8aXvAtZCJojFh60eQe1lpEo1UA4BBkwf3uxtcDDadZsKVaRgR76AMpAwUlYo49cFH5WmobYLEr1F1BliiRaCc2rIbq8L+qkLZzBsF06/N0L3wxRxbmjFpj36uHTQt2JzqyxBz7Eof+WPPzB2WB5vdvrp9nCYErDO2CowZC2b9XPxFqZ1eMrRRKcVRdxP3lkyQDl4BhUOeMvVeCc1UzZYda0crRQuJUR4qFXtANcJPfAbWzZxa2jLMBBJ+dY8hgg8eR++CfWy6F/64+afeKb6+55QN8GH/AedsHrZ145m4aE3y4zWMJtycnT1Q+f2wSOjZX6U8gwpMRfbSxMZb4/wr58BV+uZ7QimkmjcMkln4myDE1th2hi6tRm2FLiVnMYcRCazY+AoZSHeNLMZZKFi4wqInWnTXZQA7x3f+ZODxPac2erJW4NjYcP1sARSD9oymwxLRpE0AWxqRVYcvBR7l/NZ0lsp2DStUR4N0Haca305MTzCHXO7UVN5WB3CqjdNnts9sGvMguk3awD0L9z7cfCS4ktYJouEjOAystylOljMdxwcEPBbYrh7m2TBmsw+otY7ltWu7yO9NJPc+RJCXnZ7n3BBcjnAsttTslPI4Xcu/8bICkCShU/XIT4Va+rdEOW/bbcLGpc="}],"legacy":false}
+spawnLocation: em_primis,1435.32,40.0,527.11,3.41,24.02

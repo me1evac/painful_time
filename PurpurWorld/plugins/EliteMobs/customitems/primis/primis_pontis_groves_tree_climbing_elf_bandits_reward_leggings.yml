@@ -1,0 +1,10 @@
+material: DIAMOND_LEGGINGS
+name: "&aElf Pearl Leggings"
+lore: 
+- "&aProtective leggings"
+- "&aadorned with pearls."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: FIXED
+level: 13
+itemType: unique

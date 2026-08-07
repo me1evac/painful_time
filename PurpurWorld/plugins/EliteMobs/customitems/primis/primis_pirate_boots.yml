@@ -1,0 +1,11 @@
+isEnabled: true
+material: LEATHER_BOOTS
+name: "&4Pirate's boots"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- "&aThese have a few too many"
+- "&aholes to be useful."
+itemType: unique
+level: 7
+scalability: fixed

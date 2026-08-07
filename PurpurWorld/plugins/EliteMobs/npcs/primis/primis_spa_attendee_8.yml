@@ -1,0 +1,23 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&6Sheranee'
+role: '&7<Spa Attendee>'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Do you like the hot spring?
+- Just sit back and relax!
+- Nya!
+- Rawr...
+- OwO
+farewell:
+- Have fun!
+disguise: custom:primis_spa_attendee_8
+customDisguiseData: player primis_spa_attendee_8 setskin {"id":"c675609c-1677-42f0-825c-b60110a405f8","name":"Unknown","properties":[{"name":"textures","value":"eyJ0aW1lc3RhbXAiOjE1NTM4MjE3NDMwNDEsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMwZmU5NTc0NTBjZDJkYzRiNWVkNGUzNGQ2OTI4NDJhNzc1NTA3NDg0YTM4ZjlmNzJlODk4NGQ5ODFlYjVhZSJ9fX0=","signature":"N4MUXXVjnKNFcsISbvX1prdEyGAxCKqGVSyQxS1rQtnv+9HOrbOCQPT6xFnUN0TIqZe118q5Owa1epj6yfg0PJNWAhSo05O1IVm8fquFLvAtRW5SlUv8GmZIA+poTRccK5h2C4OQq/QpRwKQU+jlwGMOxWxT7XyBSH4X6nhyxunAf6dxpLbCtMYrTTH05vbQuM/M37FukjB5FFhKBHrPfEVWBbmlYVmwxnRmteOm024+42OzJH7wceBQEtZrp2UfF+vvUf8Y6NQ1bPece/8SXoal/K6cLZVs5OxB/Wzqa+6fIoCDuuDCYdHeBVXai5LHuz5kSbZFTNGA252Yyoq6rBbqmzwfZmIbNel/BJmiNRRpGcgpnvO98cjmv+Mv0sXAww5mQDn8U73B08YUf/iUR3xFGSEGKOAAF6V+VOJSy4xV49Bz4ZiWdErJmGQi79EpAaY2AAbaY68NbYxtBzeSNqvqDxJz4a+QWGe8mG2H1R+7wXib9gMYYp2McfCYfmd0nU1IwGKniJ/QYf3ocmW1ce1hfdLLEy5vlSrqPj8o5jqAnCpKRsZdQ/f2YSGJR61XicQcAl1RbWDBqX6uNDskUUZ5Ew3Qurpd2h1Jeb1j1+iLEhkkQAfYO6yiuq3gV2OcRoLAqeiqQbnDXCfM2fe0bfOT4dXvf8gZU/84koVCqbo="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1743.59,91.99,1532.33,-90.82,16.53
+

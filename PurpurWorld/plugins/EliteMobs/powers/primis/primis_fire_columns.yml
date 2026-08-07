@@ -1,0 +1,64 @@
+powerType: UNIQUE
+eliteScript:
+  FireColumnsVisual:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      borderRadius: 2
+      height: 4
+      Target:
+        targetType: LOCATIONS
+        offset: 0,-1,0
+        locations:
+        - same_as_boss,-162,109,101,0,0
+        - same_as_boss,-162,109,114,0,0
+        - same_as_boss,-175,109,114,0,0
+        - same_as_boss,-175,109,101,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: FLAME
+        y: 50
+        amount: 0
+      repeatEvery: 10
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      scripts:
+      - "FlameColumns"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  FlameColumns:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      borderRadius: 2
+      height: 4
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - same_as_boss,-162,109,101,0,0
+        - same_as_boss,-162,109,114,0,0
+        - same_as_boss,-175,109,114,0,0
+        - same_as_boss,-175,109,101,0,0
+      filter: PLAYER
+    Actions:
+    - action: SET_ON_FIRE
+      duration: 70
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,48 @@
+powerType: UNIQUE
+eliteScript:
+  Shock:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: DIRECT_TARGET
+        track: false
+      Target:
+        targetType: SELF
+        track: true
+        offset: 0,1,0
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: SELF
+        track: true
+    - action: SET_ON_FIRE
+      duration: 66
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 10
+      repeatEvery: 1
+      times: 15
+    - action: DAMAGE
+      multiplier: 1
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 10
+      repeatEvery: 10
+      times: 1
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: ELECTRIC_SPARK
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 5
+      repeatEvery: 5
+      times: 5
+    Cooldowns:
+      local: 156
+      global: 60
+# Generated with https://magmaguy.com/webapp/webapp.html !

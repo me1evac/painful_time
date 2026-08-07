@@ -1,0 +1,24 @@
+isEnabled: true
+name: '&5Venator Pabulatus'
+role: '&d<Wounded Forager>'
+profession: NITWIT
+greetings:
+- Hello, stranger.
+dialog:
+- I used to be an adventurer like you.
+- Welcome, outsider
+- Need something?
+- |-
+  You're not from around these parts,
+   are you?
+farewell:
+- See you 'round!
+- Come back soon!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_caeruleaum_foraging.yml
+disguise: custom:elitemobs_caeruleaum_forager
+customDisguiseData: player elitemobs_caeruleaum_forager setskin {"id":"0d696c1a-42c9-41ef-8ebc-f7689f3703e8","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDk2NTA1ODEzOCwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80Y2ExZTZjYWE2ODZhYjE0MjEzYzQwNzZhZmQ5YjM1NjAwYTYzNzQyZmM2NjEzZjBjMDU5MjBlMmRiMjE2NmJjIgogICAgfQogIH0KfQ==","signature":"P8sKk92INoU2IWX1HM5d1qDV5e7H6OfwTtkYadvvtSggLES/eaS6MBVx7/nceu5syCQ591ImMoDgWtI7vbZr6+8r3rCoxMFY/VzwUbDrYoxG2DrVXiPCkz+tJM/bN9E3hh8za6UcpnhdQhslx2Ax6e/N4KMswFSNWj4Sw2Tcyu6ULhETa1cRxwu4GlSXJkzX7lPBhpnRSi6jHCycQaM62qZLaq+EEzACB/ksQRqWP+rxtE8i4rua7eQOPM0Fa0TmLGfpivnuMsyJA6GCP7Pv2tx5ZxnUvteoT/g5Np9Pw/3dpI+Ms3LNucxUcgikzM5SizcVDXfL0hhOdCEw+h7kykGRW1P6uxSgZ4lceKntftc/x/6Ig2JiiQKKoeVmWc+NwvhY0PZQSfyWkrIqK/3bNcdsIZLAH/rPfTuoSr7d2NZeVH+C/zpQTecpkHEhX522heLzqySSY+FnnSv3o+lI9HwiFPmUmUMhO2BPVdSUVQeyVeDz/NtcvD52MrnXXcj85fnQISl7XRFZmE6MxzbXW5oLtpVmTZ/M75Ha/czLnLhh47LcQ5WC42x3WU11MGlhhN+3kjiDnxR8Jh5BZChuJVGGmR7oF3cjsGtZGqSwd8Sal9Y7GaCGBEja2afbdXM2cC8MuGfxO9jl8sCAx0MTi5AQji2GK1iTmZx7bBaTaI0="}],"legacy":false}
+spawnLocation: em_primis,1210.3,19.0,362.36,85.59,32.85

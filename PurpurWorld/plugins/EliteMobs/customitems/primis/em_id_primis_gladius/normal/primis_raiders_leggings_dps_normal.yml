@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_LEGGINGS
+name: "&4Raider's Leggings"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,1
+- DAMAGE_ALL,2
+lore:
+- '&aCould use some oil.'
+itemType: unique
+level: 14
+scalability: fixed

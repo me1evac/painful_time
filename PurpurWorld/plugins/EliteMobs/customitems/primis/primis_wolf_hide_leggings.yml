@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_LEGGINGS
+name: "&5Wolf Hide Pants"
+lore:
+- "&dWorn and weathered, beats"
+- "&dno armor at all!"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: UNIQUE
+level: 3
+scalability: fixed

@@ -1,0 +1,20 @@
+greetings: []
+canTalk: true
+activationRadius: 5.0
+isEnabled: true
+name: '&4Pyrgopolynices Synnodus'
+role: '&8<Outpost Officer>'
+profession: MASON
+greeting:
+- Hello!
+dialog:
+- The Blood Temple will fall!
+farewell:
+- Bye!
+questFileName:
+- primis_main_quest_26.yml
+disguise: custom:primis_pontis_royal_guard
+customDisguiseData: player primis_pontis_royal_guard setskin {"id":"ee070a09-93d1-4618-9a17-ee014e2b8366","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTU4ODM4MDQ3MTY2NCwKICAicHJvZmlsZUlkIiA6ICJlZTA3MGEwOTkzZDE0NjE4OWExN2VlMDE0ZTJiODM2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW5qYUdvbWl0YXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZjMTFmMTlmMTE2ZmJiYmEwNmMwZmEyNmRlMWE5YjM0MGQxMWE3ZTAxZjViZWI1MmI1MGZmNjkzNmU0NjBjOCIKICAgIH0KICB9Cn0=","signature":"B/ejztAN3zT0ZTMMy2oXmHRw+Mmc+b393m0zUHCOXJhGZnDG536mcbh3yiLoiDILKo+Sn/D7T2l3abG7AZ8zFk6vyG/LPcuVFRoMUAVIVoSrO9/lG25p1EuqdrPIsPnDTVbHMv7GZkj6pFM6LkAFccc4uZZYiv+3MFXrpyezfhCTI+BMy8JVUXqLb9pESSGJl4EUYgbcTO7JhCtvMO/xRl/6twIb3MNCG17UWxRX9JtSNgdQl7KCkkCHb8I2xi5wyVs0n7kZTpkOD2Xy8dELR5GUDUq0M3Y+OgyCWxtaEG/6FmfD8mHrtRKXXxa04uwmdIBt5epk0gokKH/v40YsGceZ+4JAW96E3g8Ea9Av32KljbmRwuBNOIRXQkdItKq78Xv1h8qaazUd3BjI74JctoAz0nh0QS333g7Ec4oCvLoIBljp9Won0crFFrTLnuK7QtIx1Ztrmv7+b1LoJfsv8sSBQdGt1kqc0HUw3sX9MO97/WtEJxeWrAZ2edoS+yrVbPgWjGTz9JOwE/G0jzihAeRmZZo+8l6HX3HhF7fWBoh0Y+t5wr4aNecZDD7vAdP8U9G8qKx39GDoj4upj6JAqLEIJmnKMhDBrENZMjJF7maNVgG3GZyJyXJq+E0Op5BzodwSWFUKSwLZ5NZxrX5jm+TJgHFbebfGTowHDcy8r5c="}],"legacy":false}
+interactionType: CUSTOM_QUEST_GIVER
+spawnLocations:
+- em_primis,686.57,24.0,976.91,-3.79,-18.29

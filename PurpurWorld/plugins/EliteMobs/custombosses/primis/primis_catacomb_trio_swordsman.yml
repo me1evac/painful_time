@@ -1,0 +1,43 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $normalLevel &8Catacomb Swordsman
+level: 16
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 20
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_catacomb_drop_leggings_2.yml:chance=0.02
+mainHand: IRON_SWORD
+powers:
+- invulnerability_fire.yml
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1256.5,-13.5,1345.5,0.0,0.0:1662943523828
+- em_primis,1244.5,-13.5,1345.5,0.0,0.0:1662943582473
+- em_primis,1244.5,-13.5,1363.5,0.0,0.0:1662943574770
+- em_primis,1256.5,-13.5,1363.5,0.0,0.0:1662943572032
+- em_primis,1262.5,-13.5,1333.5,0.0,0.0:1662943460567
+- em_primis,1262.5,-13.5,1315.5,0.0,0.0:1662943470819
+- em_primis,1238.5,-13.5,1315.5,0.0,0.0:1662943510323
+- em_primis,1238.5,-13.5,1333.5,0.0,0.0:1662943494375
+- em_primis,1356.5,-13.5,1301.5,0.0,0.0:1662943204023
+- em_primis,1338.5,-13.5,1301.5,0.0,0.0:1662943196874
+- em_primis,1338.5,-13.5,1277.5,0.0,0.0:1662943200972
+- em_primis,1356.5,-13.5,1277.5,0.0,0.0:1662943269724
+- em_primis,1349.5,-13.5,1372.5,0.0,0.0
+- em_primis,1349.5,-13.5,1354.5,0.0,0.0
+- em_primis,1370.5,-13.5,1387.5,0.0,0.0
+- em_primis,1370.5,-13.5,1399.5,0.0,0.0
+- em_primis,1248.5,-13.5,1401.5,0.0,0.0
+- em_primis,1242.5,-13.5,1419.5,0.0,0.0
+- em_primis,1254.5,-13.5,1419.5,0.0,0.0
+- em_primis,1242.5,-13.5,1449.5,0.0,0.0:1662943729028
+- em_primis,1242.5,-13.5,1431.5,0.0,0.0:1662943727742
+- em_primis,1254.5,-13.5,1431.5,0.0,0.0
+- em_primis,1254.5,-13.5,1449.5,0.0,0.0

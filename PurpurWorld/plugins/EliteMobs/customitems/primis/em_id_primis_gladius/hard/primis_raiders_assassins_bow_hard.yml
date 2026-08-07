@@ -1,0 +1,12 @@
+isEnabled: true
+material: BOW
+name: "&8Assassin's Bow"
+lore:
+- "&aThe perfect way to give them"
+- "&aa taste of their own medicine."
+enchantments:
+- ARROW_DAMAGE,3
+- ARROW_INFINITE,1
+itemType: unique
+level: 14
+scalability: fixed

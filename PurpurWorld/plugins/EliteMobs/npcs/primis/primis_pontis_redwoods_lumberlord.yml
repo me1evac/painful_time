@@ -1,0 +1,23 @@
+activationRadius: 3.0
+name: '&6Magnus Castorea'
+role: '&6<Lumber Lord>'
+profession: FLETCHER
+greetings:
+- HELLO!
+dialog:
+- Nothing like healthy wood.
+- |-
+  For every tree we cut,
+   we plant a new one!
+- Big brown logs, yep.
+farewell:
+- BYE!
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_to_lycan_or_not_to_lycan.yml
+disguise: custom:primis_pontis_lumberlord
+customDisguiseData: player primis_pontis_lumberlord setskin {"id":"7d3ae8a6-cbf3-4412-9321-20bb9d1a5188","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MDg5MjI0MzM3NCwKICAicHJvZmlsZUlkIiA6ICIzYTE5NDgyNTYyZTc0MzFkYmNmOGUwOWE4N2VhMmQ5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckxpYW0yNjE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlOTEyMmNiMDY0MzIxMGMzYWQxMDNiNTQyYWZiYzYxYTBlM2FlNWM1MDFkOWM4NzkwMmZjOTlmMzNhZDIxMmQiCiAgICB9CiAgfQp9","signature":"rZDAC3cGwMFtOH2UEc8yG3KaEEkQAcfvome88Pv0uiJZflPSquCXehaU+RsuhkLx5gIXdPzTaVD05/OF+angToJLz0A1i/9sDvrlX/WlgQRKsKatFkyjZvwhiCZeZ8isO+M5uLGXqH/WG8ZOeAPSK8PoJHz0M94ZBNNimtz1LcDGyDBd+yPYb6rWE5wEl+Dxo5n8JWgn5uYA9xqB3G3O2vn3N6+vKhjPxbecID0rdqxAuWieYl+zXMzjfBlC8wam0sRnfbQEfpO6rQR9YsNtC7EPRG5AikT+QMn2sdBVRycfghvPPt51pOCMiLVxekzVVU3peOR5OYXIK2kZsVi7WNXuhn1l8K8PSewTP3+XzjLpjohivUO9PK26KBjwCMy6cvvyyeyinP6KCHx7cZkp/7f58qtKhicg7lQ462GkD/cOB03UWb6ofWkgPMOyCLebcKG6NIgc9BQl03clxtOerLgT/BbiSfa7kzDpTkHQMBbhpB6irdlVc3AHbJg/nxgazW1XTAUSRqoztpxCvpwKoRE8T9Sb3kdQaY1LN8sye9ZFoIOEwggEF9MAB4ldrQn2mhCUQB7P2VrbiLlcsMHY1u/PUufhDv0eqrBXSRnja85OSQF+ASXBUbj07DwtYik32m4ZjMP0XBhL7KOv1GEpN0lILdbPilK3PW/0A5qcOng="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,390.79,26.0,516.49,-9.23,1.95

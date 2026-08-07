@@ -1,0 +1,20 @@
+normalizedCombat: true
+isEnabled: true
+entityType: GOAT
+level: 2
+healthMultiplier: 0.5
+damageMultiplier: 0.25
+spawnCooldown: 5
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnLocations:
+- em_primis,1200.5,18.5,324.5,0.0,0.0:1786083861954
+- em_primis,1206.5,18.5,332.5,0.0,0.0:1786084002359
+- em_primis,1192.5,19.5,351.5,0.0,0.0:1650143720057
+- em_primis,1123.5,23.5,560.5,0.0,0.0:1786084171382
+- em_primis,1091.5,24.5,549.5,0.0,0.0:1786084164307
+- em_primis,1239.5,30.5,513.5,0.0,0.0

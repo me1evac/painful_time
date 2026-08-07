@@ -1,0 +1,32 @@
+activationRadius: 10.0
+name: '&7Inaequaliter Hyaena'
+role: '&7<Suspicious Man>'
+profession: NITWIT
+greetings:
+- Psssst!
+dialog:
+- I heard there is great\ntreasure to be had!
+- Something wonderful awaits\nyou if you enter!
+- You should adventure\ninto this place...
+- Why not go in?
+- You should go inside...
+- Don't worry, it's\ncompletely safe.
+- No danger. I swear!
+- Take a look inside.
+- You should check\nout this place!
+- He he he he he...
+- What if somebody\ninside needs help.
+- Go in, go in!
+- Aren't you curious?
+- Surely you should\ntake a peek.
+farewell:
+- He he he, later!
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_suspicious_man
+customDisguiseData: player primis_pontis_suspicious_man setskin {"id":"9441532b-24aa-4cfd-9077-d0301e585f10","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTg3MjE4OTUwNCwKICAicHJvZmlsZUlkIiA6ICJmZTYxY2RiMjUyMTA0ODYzYTljY2E2ODAwZDRiMzgzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNeVNoYWRvd3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM5YmE3MWUyNzc3NGRlODJmOWRjYjlhMTU3MjViZjY5M2YzMTllMjYxMTJmNzc3NzY4YjZmMDUyNTAzNmJiOSIKICAgIH0KICB9Cn0=","signature":"n6e3M8f0H5CzF+aR2IvDhTduDxyS5jwP4255P9IqSGlLvTTWgBWvhBN+3nlOYTHBV7mA1qlDikirS+6YvUB8O/K5M2D8ELwtCdfdjpwSYfm5NfH6MyRopTSv3xJEZaHfjqscy8ha3TxGJAZO04hdhTcVqTDew7EYol2I5Nbl2C1JOwjlVnQ2X9NxahFsd/7MstAT/hXGNXdXZc+Enyx85N16gwptPzFwYw3JHayCZSSoFKPBiyly0+5V9KjoqlSvf+8Ahb+hdbU2mQxSnLE0rmdOR6VL5n2qMThu8NHbXXDLAGIeheL90ypjTt5poXJ0RbL4Fyk5Xm2IzjxLlvaXfARAp94Z1edfvBXVQlQ6yIoOy3BfWulWk3zCXpUfczIDJlmROYsy7e0lLsQGrWsDMTXo0OjGk0NvffmM9q+1QlFwOcLBhcflZbejtn7vaHR8S9B7020luR8F0eUHbxP2kiTgRrjjLgQSxRLQfmW6AHqUyUqsNwHpLoeQHmbv+LfpH3YKhXgoDUVbETVA9v/RcjKfwMiyUdB3bX4/GbGyuOZBkPFwM0jg2FkACNwqQJMmSem1UdrpuyvXYQpLA2Ob+IMLvQUEN8d0/U5tuDiHGmB4ISOCtTqsS6IYgGBnadg8PQ+4799V6Ch29sSUQ+Ro6uTs/dY8eTN8Rp/3LbUDnho="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,497.91,22.0,223.74,-155.4,6.75
+- em_primis,508.06,18.0,1156.51,101.96,24.89
+

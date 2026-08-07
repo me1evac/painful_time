@@ -1,0 +1,21 @@
+entityType: RAVAGER
+name: $minibossLevel &cBig ol' Bubba
+level: '13'
+healthMultiplier: 3
+damageMultiplier: 1.4
+powers:
+- attack_push.yml
+- attack_gravity.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 30
+leashRadius: 40
+isRegionalBoss: true
+movementSpeedAttribute: 0.26
+spawnLocations:
+- em_primis,439.5,15.5,1018.5,0.0,0.0:1676072526196
+
+

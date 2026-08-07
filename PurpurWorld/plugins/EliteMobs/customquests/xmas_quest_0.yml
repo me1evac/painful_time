@@ -14,18 +14,8 @@ customRewards:
 - currencyAmount=300:amount=1:chance=.3
 questAcceptPermission: ''
 questLockoutPermission: ''
-name: '&2Find the lost gifts!'
-questLore:
-- I seem to have lost some Christmas gifts along the way, would you help a poor old
-  man find them again?
-- I will let you open one of them in return!
 temporaryPermissions:
 - elitequest.xmas_quest.yml
-questAcceptDialog:
-- '&8[&cSaint Nick&8]&f Thank you! I will be waiting here for you!'
-questCompleteMessage:
-- '&8[&cSaint Nick&8]&f Thank you for your help! There are still some lost gifts out
-  there, talk to me again if you want to help out more!'
 questCompleteCommands: []
 questLevel: 10
 customObjectives:

@@ -1,0 +1,14 @@
+name: "&cBlood Carved Helm"
+material: NETHERITE_HELMET
+level: 20
+lore:
+- "&cSlowly seeps thick red liquid."
+enchantments:
+- PROTECTION_EXPLOSIONS,8
+- PROTECTION_PROJECTILE,5
+- PROTECTION_ENVIRONMENTAL,5
+potionEffects:
+- HEAL,2,self,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

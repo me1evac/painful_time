@@ -1,0 +1,36 @@
+entityType: HUSK
+name: $normalLevel &fFeathered Field Rat
+level: '11'
+healthMultiplier: 0.25
+damageMultiplier: 0.4
+powers:
+- attack_blinding.yml
+uniqueLootList:
+- filename=primis_pontis_mille_fields_rat_drop_helmet.yml:amount=1:chance=0.04
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 15
+spawnCooldown: 10
+leashRadius: 25
+helmet: DIAMOND_HELMET
+boots: IRON_BOOTS
+mainHand: IRON_AXE
+disguise: CHICKEN
+isRegionalBoss: true
+movementSpeedAttribute: 0.24
+spawnLocations:
+- em_primis,365.5,13.5,712.5,0.0,0.0:1676124528297
+- em_primis,351.5,13.5,716.5,0.0,0.0:1676124490684
+- em_primis,340.5,13.5,720.5,0.0,0.0:1676126327324
+- em_primis,329.5,14.5,722.5,0.0,0.0:1676124952785
+- em_primis,328.5,13.5,750.5,0.0,0.0:1676125017742
+- em_primis,340.5,16.5,749.5,0.0,0.0:1676125048587
+- em_primis,352.5,17.5,748.5,0.0,0.0:1676125060988
+- em_primis,360.5,16.5,747.5,0.0,0.0:1676124629786
+- em_primis,367.5,16.5,760.5,0.0,0.0:1676124637485
+- em_primis,384.5,15.5,750.5,0.0,0.0:1676124670585
+- em_primis,318.5,14.5,742.5,0.0,0.0:1676124953738
+- em_primis,368.5,16.5,763.5,0.0,0.0:1676124667136
+

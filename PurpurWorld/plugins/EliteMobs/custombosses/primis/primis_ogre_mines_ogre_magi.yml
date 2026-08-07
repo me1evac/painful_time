@@ -1,0 +1,32 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $minibossLevel &fOgre Magi
+level: 9
+healthMultiplier: 3.0
+damageMultiplier: 1
+spawnCooldown: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: GOLDEN_PICKAXE
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- invulnerability_knockback.yml
+- attack_fire.yml
+- flame_pyre.yml
+- flamethrower.yml
+uniqueLootList:
+- primis_ogre_helmet.yml:0.2
+- primis_ogre_chestplate.yml:0.2
+- primis_ogre_leggings.yml:0.2
+- primis_ogre_boots.yml:0.2
+- primis_ogre_mines_lucky_pickaxe.yml:1
+disguise: custom:elitemobs_ogre_mines_ogre_magi
+customDisguiseData: player elitemobs_ogre_mines_ogre_magi setskin {"id":"41ee0f86-8d66-487b-8179-e0e207b93bc5","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY5Nzc5MjY3NTQwNSwKICAicHJvZmlsZUlkIiA6ICJmNzk3Zjg5ZGVkMjM0YTE4YjAxOGQ2ZmZhMDQ2MGJmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBhY2FMZWU2MjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTMzZmI5NzRjNjE0MGFjMjVhZWE5ZmU5Y2Q3YTViNzJmODg0N2E4OGViYjQyZjI0NTkzODU0MTU3NmViNzY0MyIKICAgIH0KICB9Cn0=","signature":"pYsIIxI+EIM1homE7kE32odV/iUqLiJi4SmaUO4ESkk2yRT+u+h4R8X6jH02NixQV0BDtRtOi4hX/01oJdQ5Ut4cljOgNUl6r2ZUlnnR60JoJ5aFrVeWLbm5oJR1AYWmpCgN8oou/AvVV0Cibf9kh9V2lFaov2e8RpU06EiIQtn9xv67yfSnPnJJKB7J2WUdRmaejMFa4AdnKxhbZsGqj1x7+u+UFvQxlKaLZbFGpkyER0HCQa98cVvuOMTyLub9fy3jFghiZy4F4ortADgBIgPS2Ep8A0/9EcoOBKTf0R8kgmgHSrzaALWIxipVZnYEwasktOoq9D8EiotEbzlvA8D7lg+t2DjagZwXF3AN72J1tWtfnYpFfnJ3uNr2F88hW8tRLmuK5NrEowMr6b30OMbph0qBHr8iBg2sf5sd8wBu1TIjwdSLovZ/4suKnArP6uvs26Bb4h9DL3Sp37VWpidbbJMxbxdrpZ8cpV8ndQN33diNSrRMREgirNK2CC3OXfNrncHpRlwfvsP1gH30i13Y4oJp1qI+9HnbAfT2EQlWOGxNTGg2KQ45miuyl08Rqyc6VdN2fYA5zlMkGs07TmXsZhzJX0IpR5eONONJJzN6EOc7rCvbY5EzU19KE6fqXFGEKDAA7A0AZT+wA6JSAxYvaBoBWMFCAO2yknqlE50="}],"legacy":false}
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1448.5,24.5,535.5,0.0,0.0:1653277272015

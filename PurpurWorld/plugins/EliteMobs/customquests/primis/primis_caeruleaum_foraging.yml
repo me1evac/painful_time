@@ -1,0 +1,37 @@
+isEnabled: true
+customObjectives:
+  Objective1:
+    amount: '5'
+    filename: primis_feral_wolf.yml
+    objectiveType: KILL_CUSTOM
+  Objective2:
+    amount: '1'
+    filename: primis_feral_alpha_wolf.yml
+    objectiveType: KILL_CUSTOM
+customRewards:
+- currencyAmount=40:amount=1:chance=1
+- material=COOKED_BEEF:amount=10:chance=1
+- material=GOLDEN_APPLE:amount=3
+- filename=elite_scrap_tiny.yml:amount=1:chance=0.3
+- filename=elite_scrap_small.yml:amount=1:chance=0.2
+- filename=elite_scrap_medium.yml:amount=1:chance=0.1
+- filename=elite_scrap_large.yml:amount=1:chance=0.05
+- filename=elite_scrap_huge.yml:amount=1:chance=0.01
+questAcceptPermission: elitequest.primis_main_quest_2.yml
+questLockoutPermission: elitequest.primis_caeruleaum_foraging.yml
+name: '&2Wolf Bait'
+questLore:
+- I heard you were looking to help out around here.
+- There is a &dDen of Wolves&f nearby that is really impeding my foraging for the village!
+temporaryPermissions: []
+questAcceptDialog:
+- '&a[Venator Pabulatus]&f If you can get rid of those pesky &cWolves&f, I will reward
+  you handsomely!'
+- I am getting too old to be dealing with the wild things of these lands...
+- '&7&oI should go kill the &cWolves&7&o in the den to the Southeast of the village.'
+questCompleteMessage:
+- '&a[Venator Pabulatus]&f I knew I could count on you!'
+- Thank you for all of your help!
+- Here is your reward as promised.
+questCompleteCommands: []
+uestLevel: 4

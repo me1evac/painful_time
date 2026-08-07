@@ -1,0 +1,10 @@
+isEnabled: true
+material: IRON_HELMET
+name: "&4Invader's helmet"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&aBeats a concussion!'
+itemType: unique
+level: 8
+scalability: fixed

@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,512.5,42.0,724.5,-90.0,0.0
+location2: em_primis_wormhole,206.5,97.0,58.5,0.0,-1.0
+blindPlayer: true
+sizeMultiplier: 2.0
+style: CRYSTAL
+particleColor: 9830655
+permission: elitequest.primis_adv_unlock

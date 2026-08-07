@@ -1,0 +1,123 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+name: $normalLevel &fInvading Assassinator
+level: 14
+instanced: true
+healthMultiplier: 1
+damageMultiplier: 0.85
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: BOW
+helmet: LEATHER_HELMET:00000
+chestplate: LEATHER_CHESTPLATE:000000
+leggings: LEATHER_LEGGINGS:000000
+boots: LEATHER_BOOTS:0
+powers:
+- invulnerability_fire.yml
+- shield_wall.yml
+- skeleton_tracking_arrow.yml
+- filename: plasma_blaster.yml
+  difficultyID: 
+  - 1
+- filename: attack_web.yml
+  difficultyID: 
+  - 2
+uniqueLootList:
+- filename: primis_raiders_helmet_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_helmet_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_helmet_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_helmet_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_helmet_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_helmet_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_chestplate_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_chestplate_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_chestplate_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_chestplate_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_chestplate_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_chestplate_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_leggings_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_leggings_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_leggings_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_leggings_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_leggings_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_leggings_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_boots_tank_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_boots_tank_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_boots_tank_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_boots_dps_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_boots_dps_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_boots_dps_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: primis_raiders_assassins_bow_normal.yml
+  chance: 0.03
+  difficultyID: 0
+- filename: primis_raiders_assassins_bow_hard.yml
+  chance: 0.03
+  difficultyID: 1
+- filename: primis_raiders_assassins_bow_mythic.yml
+  chance: 0.03
+  difficultyID: 2
+- filename: grappling_arrow.yml
+  chance: 1
+  difficultyID:
+  - 1
+  - 2
+  - 3
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 18
+frozen: true
+spawnLocations:
+- em_id_primis_gladius,61.5,61.5,-55.5,0.0,0.0
+- em_id_primis_gladius,-46.5,65.5,29.5,0.0,0.0
+- em_id_primis_gladius,11.5,68.5,-24.5,0.0,0.0
+- em_id_primis_gladius,-2.5,67.5,-28.5,0.0,0.0

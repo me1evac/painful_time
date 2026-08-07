@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_HELMET
+name: "&aBoomers Helm"
+lore: 
+- "&aShould handle an explosion or two."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "PROTECTION_EXPLOSIONS,3"
+scalability: FIXED
+level: 16
+itemType: unique

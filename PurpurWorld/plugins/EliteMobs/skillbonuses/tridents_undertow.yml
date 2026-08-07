@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&8Undertow'
-description:
-- '&7Chance to pull enemies'
-- '&7toward you.'
 skillType: TRIDENTS
 bonusType: PROC
 unlockTier: 3

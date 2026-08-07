@@ -1,0 +1,47 @@
+entityType: POLAR_BEAR
+name: $normalLevel &9Frost Fur Ursus
+level: '16'
+healthMultiplier: 1
+damageMultiplier: 1
+powers:
+- attack_freeze.yml
+- invulnerability_knockback.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_ice_village_magical_ice_crystals.yml:amount=1:chance=0.5
+- filename=primis_ice_village_magical_ice_crystals.yml:amount=1:chance=0.25
+followDistance: 30
+spawnCooldown: 10
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+spawnLocations:
+- em_primis,1095.5,13.5,1560.5,0.0,0.0:1676133024028
+- em_primis,1063.5,12.5,1564.5,0.0,0.0:1676132968506
+- em_primis,1062.5,12.5,1552.5,0.0,0.0:1676132978655
+- em_primis,1078.5,13.5,1543.5,0.0,0.0:1676132999880
+- em_primis,1083.5,13.5,1572.5,0.0,0.0:1676133009732
+- em_primis,1113.5,14.5,1552.5,0.0,0.0:1676133067860
+- em_primis,1138.5,14.5,1538.5,0.0,0.0:1676133098529
+- em_primis,1102.5,20.5,1504.5,0.0,0.0:1662587187225
+- em_primis,1070.5,18.5,1513.5,0.0,0.0:1662587196462
+- em_primis,1083.5,18.5,1501.5,0.0,0.0:1676133264357
+- em_primis,1056.5,17.5,1488.5,0.0,0.0:1662587215123
+- em_primis,1132.5,17.5,1576.5,0.0,0.0:1676133150508
+- em_primis,1119.5,17.5,1603.5,0.0,0.0:1676133203254
+- em_primis,1171.5,17.5,1558.5,0.0,0.0:1676133130005
+- em_primis,921.5,12.5,1589.5,0.0,0.0:1676132906803
+- em_primis,900.5,12.5,1583.5,0.0,0.0:1676132869082
+- em_primis,871.5,16.5,1567.5,0.0,0.0:1676132829530
+- em_primis,833.5,14.5,1560.5,0.0,0.0:1676132846802
+- em_primis,803.5,17.5,1576.5,0.0,0.0:1662570574093
+- em_primis,782.5,13.5,1553.5,0.0,0.0:1662570568493
+- em_primis,873.5,12.5,1547.5,0.0,0.0:1676132806352
+- em_primis,1149.5,16.5,1555.5,0.0,0.0:1676133113854
+- em_primis,1123.5,17.5,1519.5,0.0,0.0:1676133084607
+- em_primis,1108.5,23.5,1490.5,0.0,0.0
+- em_primis,784.5,15.5,1567.5,0.0,0.0
+

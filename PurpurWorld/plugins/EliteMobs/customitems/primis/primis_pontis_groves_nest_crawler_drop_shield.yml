@@ -1,0 +1,11 @@
+isEnabled: true
+material: SHIELD
+name: "&7Magma's Lure"
+lore:
+- "&7When the shield is held up"
+- "&7it lures monsters into striking it."
+enchantments:
+- "DAMAGE_ARTHROPODS,2"
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: unique
+scalability: fixed

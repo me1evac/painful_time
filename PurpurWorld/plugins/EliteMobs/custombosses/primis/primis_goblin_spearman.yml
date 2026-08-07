@@ -1,0 +1,39 @@
+entityType: DROWNED
+name: $normalLevel &6Goblin Spearman
+level: '9'
+healthMultiplier: 1
+damageMultiplier: 0.85
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 5
+leashRadius: 30
+uniqueLootList:
+- filename=primis_pontis_mines_goblin_drop_leggings.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_boots.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_chestplate.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_helmet.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_spear.yml:chance=0.05
+helmet: LEATHER_HELMET
+mainHand: TRIDENT
+isRegionalBoss: true
+movementSpeedAttribute: 0.23
+spawnLocations:
+- em_primis,698.5,90.5,440.5,0.0,0.0:1676123238927
+- em_primis,689.5,90.5,412.5,0.0,0.0:1681219404528
+- em_primis,692.5,90.5,413.5,0.0,0.0:1676120295874
+- em_primis,748.5,94.5,385.5,0.0,0.0:1681220500875
+- em_primis,712.5,100.5,464.5,0.0,0.0:1681221131375
+- em_primis,749.5,76.5,430.5,0.0,0.0:1676120134452
+- em_primis,752.5,76.5,426.5,0.0,0.0:1676120159022
+- em_primis,685.5,76.5,431.5,0.0,0.0:1676120045902
+- em_primis,672.5,84.5,422.5,0.0,0.0:1676123648092
+- em_primis,650.5,84.5,422.5,0.0,0.0:1676123529779
+- em_primis,669.5,90.5,417.5,0.0,0.0:1676123527927
+- em_primis,659.5,90.5,420.5,0.0,0.0:1676123537232
+- em_primis,646.5,91.5,425.5,0.0,0.0
+- em_primis,660.5,90.5,447.5,0.0,0.0
+- em_primis,680.5,90.5,454.5,0.0,0.0:1661541365917
+- em_primis,671.5,90.5,430.5,0.0,0.0:1676123535380

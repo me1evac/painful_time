@@ -1,0 +1,29 @@
+normalizedCombat: true
+isEnabled: true
+entityType: STRAY
+name: $reinforcementLevel &bGhost Bow
+level: 12
+healthMultiplier: 10.5
+damageMultiplier: 0.09
+mainHand: BOW
+leashRadius: 60
+isRegionalBoss: false
+frozen: true
+movementSpeedAttribute: 0.05
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invisibility.yml
+eliteScript:
+  Float:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: LEVITATION
+      amplifier: 2
+      duration: 6
+      repeatEvery: 7
+      Target:
+        targetType: SELF

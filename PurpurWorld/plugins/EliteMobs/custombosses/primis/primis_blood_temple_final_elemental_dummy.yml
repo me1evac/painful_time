@@ -1,0 +1,48 @@
+isEnabled: true
+entityType: IRON_GOLEM
+isRegionalBoss: true
+spawnCooldown: 1
+followDistance: 3
+name: $eventBossLevel &6The Fire Elemental
+level: 20
+normalizedCombat: true
+healthMultiplier: 99.0
+damageMultiplier: 3.0
+frozen: false
+cullReinforcements: false
+powers:
+- invulnerability_knockback.yml
+powerType: UNIQUE
+eliteScript:
+  DummyScript:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      Target:
+        targetType: SELF
+  MessagePlayer:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: MESSAGE
+      sValue: '&7&oI should talk to the NPC to start the fight.'
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+    Cooldowns:
+      local: 100
+      global: 20
+  Heal:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HEAL
+      amplifier: 10
+      duration: 60
+      Target:
+        targetType: SELF
+spawnLocations:
+- em_primis,1196.5,151,1001.5,90.0,12.0

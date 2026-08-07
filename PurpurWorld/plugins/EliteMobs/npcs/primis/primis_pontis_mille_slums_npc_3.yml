@@ -1,0 +1,20 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&7Rufia Tertulus'
+role: '&7<Slums Dweller>'
+profession: NITWIT
+greeting:
+- Stranger.
+dialog:
+- At least something\ngood for\nthe kids.
+- Not much at\nthe market...
+- I cannot\nafford that.
+farewell:
+- Later.
+disguise: custom:primis_pontis_slums_2
+customDisguiseData: player primis_pontis_slums_2 setskin {"id":"42988aa4-8705-4a37-92fa-ff8d3442ebbd","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTk4MjU4NzMwOSwKICAicHJvZmlsZUlkIiA6ICI2NmI0ZDRlMTFlNmE0YjhjYTFkN2Q5YzliZTBhNjQ5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmFzdG9vWXNmIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlNjRmODM1OGY2ZjViMTFjNDBiYzhjYWI0MWUyNDI5MGRjMGM1ZDdlNDVkNzMwZTcxMDcyOGM3YWIzZTg4ZmEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"irP9Tq/0uhFhA6Lpj+O7nSc6R2NF2fmX4vaoBr0WsxDuR7w0NXp9G1KkkqotNRK+lnZBNtcphM/jskYqMzUiU8rwyxoJ31ES85InZdDm6Fk3Mcef5U4Yqr6YEPFmR1JPXFDqpzv+E/+7d9xL7EFdFIMZRZ4FPz0Cnd6EoX1mOEH9EPj/fl62Hbh3tmXr/QYrmed9IZGGqcI2oF+IsAB+fkvE/HntlAUY5J5q97BKoVkHhf14oMqzFfsbj//vOio77fHewCyz0nlynoo9xOOOvhKl2GNX5rCiM2srzp02mC+0o9WZ8b+Aui7UtUaoemug8FPQnRqSoA5g4Czs44AQzroQ1BvSWg2YGCqOYTw1lMJ4URqQYmj9ZR46RFEVI1EWTMLbJgPm872P5xxZbtWNPGhs4PfKXEwPqLpNT8GVJuiXWdANXFEIIiAs3+LlnRSl5ZAnYYAcMMFrqFrBLjPZUf7wr4nr8ZMnvGU5Ph8D1zBbpqVr/uDQ8p5lwd0mt6tCmdZEmkUNaHX3LPi18JbaaGhwj+az3sHlG4fykPYD94yjeUEKHR7B++3W+Ww3aZiTN4a9hr5kKF7J9k02BD3eWVAjBHyCd3Cp5mkwRwCf+cp+E1Jw1m4c50Qbwpmqm7DSme5nCsqQzxM8MlP55vcYxJ26umOcQ0W4MI1FA0vXvHA="}],"legacy":false}
+interactionType: NONE
+spawnLocations:
+- em_primis,455.98,26.0,695.37,-112.02,8.87

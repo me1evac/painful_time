@@ -1,0 +1,8 @@
+isEnabled: true
+material: CHEST
+name: "&2Supplies"
+lore:
+- '&aFit to keep a soldier fed during a war.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_gladius_supplies_1_loot.yml

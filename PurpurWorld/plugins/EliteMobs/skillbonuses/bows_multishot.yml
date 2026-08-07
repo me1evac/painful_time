@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&dMultishot'
-description:
-- '&7Chance to fire additional'
-- '&7arrows on each shot.'
 skillType: BOWS
 bonusType: PROC
 unlockTier: 2

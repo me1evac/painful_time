@@ -1,0 +1,21 @@
+farewell: []
+canTalk: true
+name: '&7Repas'
+role: '&8<Repairman>'
+profession: TOOLSMITH
+greetings:
+- I got the tools\nto fix anything!
+- Need some fixing?
+- Repair?
+dialog:
+- You break I fix!
+- I love repairing\nall your junk!
+- Got something\nthat needs repair?
+- Don't forget to give\nme some scrap too!
+- Scrap is essential\nfor repairs!
+activationRadius: 3
+interactionType: REPAIRMAN
+disguise: custom:elitemobs_pontis_fish_repairman
+customDisguiseData: player elitemobs_pontis_fish_repairman setskin {"id":"e78cebef-f359-45d0-b49e-b778923e36c5","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2OTE2MTcwMTE0MCwKICAicHJvZmlsZUlkIiA6ICJlMzcxMWU2Y2E0ZmY0NzA4YjY5ZjhiNGZlYzNhZjdhMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckJ1cnN0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5OGZlMzkyYmRkZTRlYmY3NWMxYjhlMTZkOTFkYzY1NjFlYjExZTVmMjYxMjA3YTFjMDA4MjkwYTNkNmQzYSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9","signature":"rO2MSJJMA1TMdpGDDBwjgvEc56T3oJzdiRg+jB6uyo+OgdvM8SxN6QUoszvBFlGsk7BaHMy2NFNewx25nmfqmy/TRTrpozNfhVHCzuBi01XP+HfwGyO0N10prj3uujZ7uSWxZ4b3ioexx/+aoShjT6pz7G56EWQQM4LpAuZGBlGovM/X4W4Ps/E05K7MxIMyhOhC+6wlzGfOD6np69SKjOu2UrGLP30Nd/dnjxbAsJG+o9mZbrAaE9iNcLPXJncYzwAMJ/ZNk1CTM2tCcAon99d34QVjOdhH/Ez4xX5ljQF0U9G50ODPegQlPWxi4xpXBtzO7WWL0VSYLRMMhrHPZFTOhnzZBTjzyLnaU6bwxm1l076sSHmK5/6vWOUnaQ7PXI31y3w/rMFS1RgbEMf4set3bp7umY3+0UjAbHIFJexXZt186dkYOjRnDs9VZeHhiyuriq4V7yue3P4qD3x98zzR1XzUCsQBIz/j4L5l7a2fFLC8bUIMz6Sv5GvxW6pq+6l6PKbQ3Ix+wXh4dIzhAI1QeIuuPqI9TH4v52fdgpwTnKPwPZhSpGeUlsrn+EIbhy8gupYUI7ptmOb+fWzvLjCF0mZs2ALYxPWKtw2vcMjztSV6aJGRuzIjyniQ/vmZfNw9dJycPLc/sP/7qfeRwi8IaPmnXT+Af4MzIXD8YA4="}],"legacy":false}
+isEnabled: true
+spawnLocation: em_primis,1188.5,19.0,338.5,-80.56,14.75

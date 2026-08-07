@@ -1,0 +1,151 @@
+powerType: UNIQUE
+eliteScript:
+  ElectricalDischarge1:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: TRANSLATING_RAY
+      FinalTarget:
+        targetType: SELF
+        offset: -8,0,-8
+        track: false
+      Target2:
+        targetType: SELF
+        track: false
+      FinalTarget2:
+        targetType: SELF
+        offset: 8,0,-8
+        track: false
+      animationDuration: 100
+      ignoresSolidBlocks: true
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PLAY_SOUND
+      Target:
+        targeType: ZONE_FULL
+      sValue: minecraft:block.redstone_torch.burnout
+      repeatEvery: 10
+      times: 10
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: ELECTRIC_SPARK
+        amount: 1
+      - particle: ELECTRIC_SPARK
+        amount: 1
+        speed: 0.5    
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        offset: 0,0.3,0
+      repeatEvery: 5
+      times: 20  
+    - action: RUN_SCRIPT
+      scripts:
+      - "ElectricalDischarge2"
+    - action: SET_ON_FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 20
+    - action: POTION_EFFECT
+      potionEffectType: SLOWNESS
+      amplifier: 10
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 20
+    - action: SET_MOB_AI
+      Target:
+        targetType: SELF
+      bValue: false
+      duration: 25  
+    - action: TITLE_MESSAGE
+      title: "&9ELECTROCUTED!"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      repeatEvery: 5
+      times: 20
+      Target:
+        targetType: ZONE_FULL
+    Cooldowns:
+      local: 222
+      global: 60
+  ElectricalDischarge2:
+    Zone:
+      shape: TRANSLATING_RAY
+      FinalTarget:
+        targetType: SELF
+        offset: -8,0,8
+        track: false
+      Target2:
+        targetType: SELF
+        track: false
+      FinalTarget2:
+        targetType: SELF
+        offset: 8,0,8
+        track: false
+      animationDuration: 100
+      ignoresSolidBlocks: true
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PLAY_SOUND
+      Target:
+        targeType: ZONE_FULL
+      sValue: minecraft:block.redstone_torch.burnout
+      repeatEvery: 10
+      times: 10
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: ELECTRIC_SPARK
+        amount: 1
+      - particle: ELECTRIC_SPARK
+        amount: 1
+        speed: 0.5    
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        offset: 0,0.3,0
+      repeatEvery: 5
+      times: 20  
+    - action: SET_ON_FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 20
+    - action: POTION_EFFECT
+      potionEffectType: SLOWNESS
+      amplifier: 10
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 20
+    - action: SET_MOB_AI
+      Target:
+        targetType: SELF
+      bValue: false
+      duration: 25  
+    - action: TITLE_MESSAGE
+      title: "&9ELECTROCUTED!"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      repeatEvery: 5
+      times: 20
+      Target:
+        targetType: ZONE_FULL  
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,1004 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  ScriptRunnerRepeat:
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - ScriptRunnerSet1
+      - ScriptRunnerSet2
+      - ScriptRunnerSet3
+      - ScriptRunnerSet4
+      - ScriptRunnerSet5
+      - ScriptRunnerSet6
+      - ScriptRunnerSet7
+      - ScriptRunnerSet8
+      onlyRunOneScript: true
+    Cooldowns:
+      local: 600
+      global: 60
+  ScriptRunnerSet1:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup1
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack1
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage1
+  ScriptRunnerSet2:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup2
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack2
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage2
+  ScriptRunnerSet3:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup3
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack3
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage3
+  ScriptRunnerSet4:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup4
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack4
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage4
+  ScriptRunnerSet5:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup5
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack5
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage5
+      - FlameSlamAttack2Damage5
+  ScriptRunnerSet6:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup6
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack6
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage6
+      - FlameSlamAttack2Damage6
+  ScriptRunnerSet7:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup7
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack7
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage7
+      - FlameSlamAttack2Damage7
+  ScriptRunnerSet8:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleport
+      - MobAi
+      - FlameSlamAttackStartup8
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - FlameSlamAttack8
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FlameSlamAttackDamage8
+      - FlameSlamAttack2Damage8
+  Teleport:
+    Actions:
+    - action: TELEPORT
+      Target:
+        targetType: SELF
+      FinalTarget:
+        targetType: SELF_SPAWN
+  MobAi:
+    Actions:
+    - action: SET_MOB_AI
+      Target:
+        targetType: SELF
+      bValue: false
+      duration: 80
+  FlameSlamAttackStartup1:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 14,0,0
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack1:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 14,0,0
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage1:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 7,0,0
+        track: false
+      filter: PLAYER
+      x: 14
+      y: 1
+      z: 7
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup2:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -14,0,0
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack2:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -14,0,0
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage2:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: -7,0,0
+        track: false
+      filter: PLAYER
+      x: 14
+      y: 1
+      z: 7
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup3:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 0,0,14
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack3:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 0,0,14
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage3:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,7
+        track: false
+      filter: PLAYER
+      x: 7
+      y: 1
+      z: 14
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup4:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 0,0,-14
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack4:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 0,0,-14
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: FLAME
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage4:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,-7
+        track: false
+      filter: PLAYER
+      x: 7
+      y: 1
+      z: 14
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup5:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 12,0,12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack5:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 12,0,12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage5:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,0,8
+        track: false
+      filter: PLAYER
+      radius: 7
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack2Damage5:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: 2,0,2
+        track: false
+      filter: PLAYER
+      radius: 2
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup6:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -12,0,-12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack6:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -12,0,-12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage6:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,0,-8
+        track: false
+      filter: PLAYER
+      radius: 7
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack2Damage6:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: -2,0,-2
+        track: false
+      filter: PLAYER
+      radius: 2
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup7:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 12,0,-12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack7:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 12,0,-12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage7:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,0,-8
+        track: false
+      filter: PLAYER
+      radius: 7
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack2Damage7:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: 2,0,-2
+        track: false
+      filter: PLAYER
+      radius: 2
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackStartup8:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 20
+      pitchPreRotation: -55
+      pitchRotation: 10
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -12,0,12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 10
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack8:
+    Zone:
+      Shape: ROTATING_RAY
+      filter: PLAYER
+      animationDuration: 30
+      pitchPreRotation: -45
+      pitchRotation: 45
+      ignoresSolidBlocks: true
+      pointRadius: .5
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -12,0,12
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttackDamage8:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,0,8
+        track: false
+      filter: PLAYER
+      radius: 7
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0
+  FlameSlamAttack2Damage8:
+    Zone:
+      Shape: CYLINDER
+      Target:
+        targetType: SELF_SPAWN
+        offset: -2,0,2
+        track: false
+      filter: PLAYER
+      radius: 2
+      height: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      multiplier: .25
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 3
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: .5
+      particles:
+      - particle: LAVA
+        amount: 0
+        x: .1
+        y: .1
+        z: .1
+        speed: 0

@@ -1,0 +1,14 @@
+name: "&dBlood Vest"
+material: NETHERITE_CHESTPLATE
+level: 20
+lore:
+- "&dThe plates that are attached to this"
+- "&dleather vest seem to be made out of"
+- "&dcrystallized blood."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_EXPLOSIONS,3
+- DURABILITY,3
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

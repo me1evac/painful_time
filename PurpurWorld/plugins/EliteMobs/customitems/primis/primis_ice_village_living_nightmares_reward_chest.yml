@@ -1,0 +1,10 @@
+material: LEATHER_CHESTPLATE
+name: "&3Fur Coat"
+lore: 
+- "&3Made out of the"
+- "&3toughest fur around."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+scalability: FIXED
+level: 16
+itemType: unique

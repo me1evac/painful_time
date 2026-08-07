@@ -1,0 +1,17 @@
+greetings: []
+canTalk: true
+activationRadius: 3.0
+isEnabled: true
+name: '&3Pontis Shipmate'
+role: '&8Dock Worker'
+profession: FISHERMAN
+greeting:
+- Good day!
+dialog:
+- Plenty of supplies to be moved!
+- Watch out!
+- Coming through.
+farewell:
+- See you later!
+interactionType: CHAT
+spawnLocation: em_primis,636.15,20.0,673.6,-127.44,8.85

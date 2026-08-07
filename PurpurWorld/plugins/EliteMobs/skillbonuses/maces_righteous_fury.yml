@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eRighteous Fury'
-description:
-- '&7Build fury stacks on hit,'
-- '&7increasing your damage.'
 skillType: MACES
 bonusType: STACKING
 unlockTier: 1

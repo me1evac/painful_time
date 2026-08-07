@@ -1,0 +1,88 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "MakeGlass"
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - "MakeLava"
+    - action: TITLE_MESSAGE
+      wait: 500
+      title: "&6Warning"
+      subtitle: "&6Lavasphere is heating up"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      Target:
+        targetType: WORLD_PLAYERS
+    - action: TITLE_MESSAGE
+      wait: 1500
+      title: "&6Warning"
+      subtitle: "&6Lavasphere will release soon"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      Target:
+        targetType: WORLD_PLAYERS
+    - action: TITLE_MESSAGE
+      wait: 2450
+      title: "&6WARNING"
+      subtitle: "&6LAVASPHERE RELEASED"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      Target:
+        targetType: WORLD_PLAYERS
+    - action: SET_ON_FIRE
+      wait: 3000
+      duration: 500
+      Target:
+        targetType: WORLD_PLAYERS
+    - action: POTION_EFFECT
+      wait: 3500
+      potionEffectType: WITHER
+      amplifier: 6
+      duration: 100
+      Target:
+        targetType: WORLD_PLAYERS
+  MakeGlass:
+    Zone:
+      shape: SPHERE
+      radius: 8
+      borderRadius: 7
+      Target:
+        targetType: SELF
+        offset: 0,20,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: BARRIER
+      duration: 2400
+      Target:
+        targetType: ZONE_BORDER
+  MakeLava:
+    Zone:
+      shape: SPHERE
+      radius: 7
+      Target:
+        targetType: SELF
+        offset: 0,20,0
+    Actions:
+    - action: TITLE_MESSAGE
+      title: "&6Warning"
+      subtitle: "&6Lavasphere created"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      Target:
+        targetType: WORLD_PLAYERS
+    - action: PLACE_BLOCK
+      material: LAVA
+      duration: 5000
+      Target:
+        targetType: ZONE_FULL
+# Generated with https://magmaguy.com/webapp/webapp.html !

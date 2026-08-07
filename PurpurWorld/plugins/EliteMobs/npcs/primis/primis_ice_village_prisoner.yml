@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&3Adrius Calpornius'
+role: '&3<Prisoner>'
+profession: NITWIT
+greetings:
+- I am innocent!
+dialog:
+- This is not where\nI belong!!!
+farewell:
+- Get me out of here!
+canTalk: true
+activationRadius: 7.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_objection!.yml
+disguise: custom:elitemobs_ice_village_prisoner_quest
+customDisguiseData: player elitemobs_ice_village_prisoner_quest setskin {"id":"d92dae7b-3d12-4f9d-ba65-b59d6565bce4","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0ODc0NTYxNjA0NSwKICAicHJvZmlsZUlkIiA6ICI0NmY3N2NjNmQ2MjU0NjEzYjc2NmYyZDRmMDM2MzZhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaXNzV29sZiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNmVlYzIyMzU2Zjc3Yzc4NzkyNjYyZjJkNWY0YmIxNTBkOGE2MzhkN2VhZmVlZTQ1ODkwNDhjZTdhOGE4ZDIwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"D1HRSIO1qU6Ry4JU1Q5Ad6aDXtY+hyksF6nHlrzcnMH9qNo98a0otv+xKqPZpsXJtt6pbkFLT2nVsOIE4DLIvqf3065s35uEAqX4vGC7HLFhfPebd0Mp5dFpLySC0xZP0A+X79KevSaFq9rabuOKiAuFPtr6gsGL6wyI2dZAHsdS/hvKvCP/ivPcaL+MoVpwSKG0/7RjGWQAprTuYaB4857BLrLQw46FNUPn2jCLpdBAM5kpIX7lVPTlRJjYdJP1d7rZx2y2Df2f/OnfCWQaD8lnb+nunL7QIVn2MZhhZC+FyC+66euoqlcA0TIldUQyybWg6hRQADWBx/s4LkC/8pCv0TifFtQeWl9yhKpybNFXVT3nqYFokz1MKbtlSvVVDa3LfY4/9GO2G58wfDTS+zNz2lrkaKUgVOEg9QASPxurJSXOxn6tPzjxlPjoNwLNnZSe5vAWJDqXpdwqt99TBhOpYwc0Ez+3YkkFnkSj4RWrT1GUkI/zedW4zl+4b8L4iM9CW7TDj5ZSyrZ7fEac2dsp+PQISNYFOYYZaMTMPRiSCw+iFAyVGivf/bezaGgbQHoL9dEvaBwA1h3MxZhiiEMttVA3LuiqMqi4JAVzq7dSIdjvZk3+XlNiYoqCRTLNFi4WrhyRLTcS3l2jUUEXnPULA6dyzhlq5K0fuhy20pE="}],"legacy":false}
+spawnLocations:
+- em_primis,880.01,52.0,1631.99,0.32,45.45
+
+

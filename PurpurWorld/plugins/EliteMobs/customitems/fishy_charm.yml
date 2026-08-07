@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: COD
-name: '&bFishy Charm'
-lore:
-- '&aThere''s just something not'
-- '&aquite right with this one...'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

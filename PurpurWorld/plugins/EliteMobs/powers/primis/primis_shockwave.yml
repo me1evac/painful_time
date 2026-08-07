@@ -1,0 +1,346 @@
+powerType: UNIQUE
+eliteScript:
+  ShockwaveWarningScream:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      duration: 70
+      Target:
+        targetType: SELF
+    - action: MESSAGE
+      sValue: "&7The &f[Earth Elemental]&7 let's out a horrible roar of rage. You get a feeling that you should back away."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 60
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: PLAY_SOUND
+      sValue: "entity.elder_guardian.death"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 60
+      wait: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: MESSAGE
+      sValue: "&7The &f[Earth Elemental]&7 slams the ground emitting a shock-wave."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 60
+      wait: 55
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "ShockwaveVisual"
+      - "Shockwave"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 70
+      scripts:
+      - "ShockwaveVisual2"
+      - "Shockwave2"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - "ShockwaveVisual3"
+      - "Shockwave3"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 90
+      scripts:
+      - "ShockwaveVisual4"
+      - "Shockwave4"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - "ShockwaveVisual5"
+      - "Shockwave5"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 110
+      scripts:
+      - "ShockwaveVisual6"
+      - "Shockwave6"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true    
+    Cooldowns:
+      local: 333
+      global: 60
+  ShockwaveVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 4
+      borderRadius: 2
+      height: 5
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CAMPFIRE_COSY_SMOKE
+        amount: 0
+        y: -10
+      - particle: EXPLOSION_NORMAL
+        amount: 0
+        y: 5
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.3 
+  Shockwave:
+    Zone:
+      shape: CYLINDER
+      radius: 4
+      borderRadius: 1
+      height: 5
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 0,1.6,0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 5
+      times: 4
+    - action: POTION_EFFECT
+      Target: 
+        targetType: ZONE_BORDER
+      potionEffectType: SLOWNESS
+      amplifier: 6
+      duration: 80
+      repeatEvery: 5
+      times: 4  
+  ShockwaveVisual2:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      borderRadius: 4
+      height: 4
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CAMPFIRE_COSY_SMOKE
+        amount: 0
+        y: -10
+      - particle: EXPLOSION_NORMAL
+        amount: 0
+        y: 5
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.35  
+  Shockwave2:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      borderRadius: 4
+      height: 4
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 0,1.5,0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 5
+      times: 4
+  ShockwaveVisual3:
+    Zone:
+      shape: CYLINDER
+      radius: 8
+      borderRadius: 6
+      height: 3
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CAMPFIRE_COSY_SMOKE
+        amount: 0
+        y: -10
+      - particle: EXPLOSION_NORMAL
+        amount: 0
+        y: 5
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4    
+  Shockwave3:
+    Zone:
+      shape: CYLINDER
+      radius: 8
+      borderRadius: 6
+      height: 3
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 0,1.4,0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 5
+      times: 4
+  ShockwaveVisual4:
+    Zone:
+      shape: CYLINDER
+      radius: 10
+      borderRadius: 8
+      height: 3
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CAMPFIRE_COSY_SMOKE
+        amount: 0
+        y: -10
+      - particle: EXPLOSION_NORMAL
+        amount: 0
+        y: 5
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4    
+  Shockwave4:
+    Zone:
+      shape: CYLINDER
+      radius: 10
+      borderRadius: 8
+      height: 3
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 0,1.3,0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 5
+      times: 4
+  ShockwaveVisual5:
+    Zone:
+      shape: CYLINDER
+      radius: 12
+      borderRadius: 10
+      height: 2
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CAMPFIRE_COSY_SMOKE
+        amount: 0
+        y: -10
+      - particle: EXPLOSION_NORMAL
+        amount: 0
+        y: 5
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4    
+  Shockwave5:
+    Zone:
+      shape: CYLINDER
+      radius: 12
+      borderRadius: 10
+      height: 2
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 0,1.2,0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 5
+      times: 4
+  ShockwaveVisual6:
+    Zone:
+      shape: CYLINDER
+      radius: 14
+      borderRadius: 12
+      height: 2
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CAMPFIRE_COSY_SMOKE
+        amount: 0
+        y: -10
+      - particle: EXPLOSION_NORMAL
+        amount: 0
+        y: 5
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4    
+  Shockwave6:
+    Zone:
+      shape: CYLINDER
+      radius: 15
+      borderRadius: 12
+      height: 2
+      Target:
+        targetType: SELF
+        track: false
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 0,1.1,0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 5
+      times: 4    
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,30 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+name: $minibossLevel &fOgre Archer
+level: 8
+healthMultiplier: 0.6
+damageMultiplier: 0.6
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: BOW
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- invulnerability_knockback.yml
+- attack_fire.yml
+uniqueLootList:
+- primis_ogre_helmet.yml:0.2
+- primis_ogre_chestplate.yml:0.2
+- primis_ogre_leggings.yml:0.2
+- primis_ogre_boots.yml:0.2
+disguise: custom:elitemobs_ogre_mines_ogre_archer
+customDisguiseData: player elitemobs_ogre_mines_ogre_archer setskin {"id":"0357784e-97bf-4b8b-8903-afa282e2496e","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NDI3MDQ2OTg5OSwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI0ODYyM2FkYTQyMzYyZTQzNjIyMmVkMjY5MjZjNzFkOTQyNTUyZjJlOWU2ZjBhM2ZiMjIwODQzMjJmNzliNSIKICAgIH0KICB9Cn0=","signature":"Gexm0hBdsgGcsOLC5FLJEhqZJAO3ARbxkRBX9qR9b7GWk+A5k/pEUzlfzYKvqUy4VlrhtBRqV+OnQUZILILURlAtpSRWlpKuycG8pD+8Fw28C9WIE6kxKaww9jz2mYlBEF1kl757DvyOEN30qARG2ElkQ+WmFShjpYvuycRrBXa0mffbEa2JGJRsBJAJAuziawE/VMiXCR6I3F93b4C7cAn2Ltb4Vr4yO8gDcSXf6rCq+dOX9gSmJ2G0+MJ31XblYtPyYRNVh6iq922ltxtvbcmlzyxDEtM8ZgTuZ0KTJpT1k0gVyVf6VOQSqcGYB37odjWZu8fCF+mB4zI6rFhz+/1oncOby6jbmT3cPmKgIBCsn0zNJ0znlBoc3HGI+yFVih6jUb8VtTbdJVBEoKbSm8DibUjxqsoqh3OoOgcg3twKUlVQXi6zcSTof9TBM6yQVYCQBKF1Xj1T5hXYta2drNv+xOn4+vhkU/8c1W+vamCeIf2TAbtSUFySD7G/NblfLfb43TXcNIsr/3VwsH6b+vWt1QljLJ+MKIu1iNYk011BjMJxJH+ZYP04dw/H1YrwXC2CdZuvvNj2jIYMQcc7hG6gjgFfNqdfau2np7cZeoV/uQT3vnJRNPP9pmYVE9K+8IsgzJx2owdbKtnzacaQGQ5tiASFv2lkjJ2ZyBxUEQs="}],"legacy":false}
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1471.5,26.5,545.5,0.0,0.0:1653276679471
+- em_primis,1490.5,43.5,538.5,0.0,0.0:1676056425624

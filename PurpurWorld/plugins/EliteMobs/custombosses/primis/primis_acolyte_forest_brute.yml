@@ -1,0 +1,44 @@
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &bElf Bandit Brute
+level: 12
+healthMultiplier: 1
+damageMultiplier: 0.85
+spawnCooldown: 5
+mainHand: IRON_AXE
+leashRadius: 40
+uniqueLootList:
+- filename=primis_pontis_elf_drop_helmet.yml:chance=0.02
+- filename=primis_pontis_elf_drop_chestplate.yml:chance=0.02
+- filename=primis_pontis_elf_drop_leggings.yml:chance=0.02
+- filename=primis_pontis_elf_drop_boots.yml:chance=0.02
+- material=BREAD:chance=0.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+isRegionalBoss: true
+followDistance: 15
+normalizedCombat: true
+dropsRandomLoot: false
+disguise: custom:primis_pontis_groves_elf_brute
+customDisguiseData: player primis_pontis_groves_elf_brute setskin {"id":"e1f6f0f2-57ad-4909-99c3-6c37feae8ecb","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2NzE4MTQyMCwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYzAwYjgxY2NiZDcxYzkwOGJjZDAxMGYxMjE2ZTU0MWE0ZjE2MzBjMzIyMzYzN2FlN2Q3ZjBmMjJkYTAwMWEwIgogICAgfQogIH0KfQ==","signature":"uXXA/rOZWD6X3PrJ77HTA27RNHI/rcPHhl6udg8LK/aGipS2ui+5rzIqRhTyH+x8u4r0MCo+Q6G6/K810vOrgOJvzLcOraG1t2HfdHxjSJ0Kni9cjIuHgOytxunqt5GTIX5kv+ShiDlhgwzPF7g+X7yGbrNZIbsGsTZdOZzC4g/kuGpVYI7LG5vvq6wOT1SnvfntA5Tbrm+gEYSbIsVBFX8PNwKyurfu2Uqu4E8f/mLWhk+aS5m/scuuowhJyCja696dj+5ERa+rIdelsnKK3/LprAs2ilDhh6r4z7jx1ZPBbQWl5xGtX6C/RuPoL9VSRWT/Mw4VyjqyZvqNaogXou8uGaoMrMOztIwNPli2AzvEBptEVAd3HW5EGHaFzUweiVo1u0HFLJwEnfCBMv7U7PrWmOsY8nDchFJEHNBjWjBWQuKjv89mI57UUwzkwduI7jrpit5QYgTPhtSTPcEi/viGpqCZ3uG47bnmzl90jDydU2evjGzQDNzgUGT3ho5LEHTuNxKELmz1h1e+dWzF8T4v5MeP+H54H/q9OPWL+1PhQydRXLOeBufjR0OZic5Ni93AIlxLAEx1b+ETF9/ZADVp16Mu7SxzDIwzfW/VFjPTVaANbYzLhXs+SV+QBGIp9z8UFpqIH7lakVHFq/YxU2NfiDYJRnODalIw8eZzBE4="}],"legacy":false}
+spawnLocations:
+- em_primis,256.5,22.5,477.5,0.0,0.0:1676069945139
+- em_primis,256.5,22.5,467.5,0.0,0.0:1676069945790
+- em_primis,223.5,12.5,479.5,0.0,0.0:1676070112790
+- em_primis,220.5,12.5,478.5,0.0,0.0:1676070111990
+- em_primis,209.5,12.5,478.5,0.0,0.0:1676070147690
+- em_primis,204.5,12.5,472.5,0.0,0.0:1676070155124
+- em_primis,204.5,12.5,480.5,0.0,0.0:1676070152090
+- em_primis,227.5,13.5,512.5,0.0,0.0:1676069834339
+- em_primis,576.5,70.5,361.5,0.0,0.0:1676073988579
+- em_primis,587.5,85.5,359.5,0.0,0.0:1661540858916
+- em_primis,591.5,88.5,341.5,0.0,0.0:1676074007826
+- em_primis,588.5,88.5,336.5,0.0,0.0:1676074011128
+- em_primis,598.5,78.5,283.5,0.0,0.0:1676074049574
+- em_primis,599.5,78.5,277.5,0.0,0.0:1676074050472
+- em_primis,592.5,73.5,267.5,0.0,0.0:1676074056371
+- em_primis,611.5,61.5,304.5,0.0,0.0:1676127987354
+- em_primis,616.5,61.5,303.5,0.0,0.0:1676127989805
+- em_primis,567.5,58.5,322.5,0.0,0.0:1676074282076
+- em_primis,559.5,53.5,340.5,0.0,0.0:1676074275175
+- em_primis,578.5,56.5,341.5,0.0,0.0:1676074266630

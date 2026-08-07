@@ -1,0 +1,18 @@
+isEnabled: true
+name: Emptor
+role: <Merchant>
+profession: LIBRARIAN
+spawnLocation: em_primis,1187.5,19.0,325.24,-87.55,2.25
+greetings:
+- Got something to sell?
+dialog:
+- Bandits stole my wares!
+- Got nothing to sell, I'm afraid.
+- I'll buy anything you have!
+farewell:
+- Safe travels!
+canTalk: true
+activationRadius: 6.0
+interactionType: SELL
+disguise: custom:elitemobs_caerulean_merchant
+customDisguiseData: player elitemobs_caerulean_merchant setskin {"id":"ef37b10c-6bc1-431c-a665-2a0d3a3455a0","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MDcyNjEyNDQwOCwKICAicHJvZmlsZUlkIiA6ICI4YmM3MjdlYThjZjA0YWUzYTI4MDVhY2YzNjRjMmQyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RpbnZlbnRpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRmNGFhYzEzYmU5NDM5MmFhNWE0NWZkZDEyMWI2YjMzNGY5ZTc1Yzc0ZjQ4Y2FmMjAxM2EyMDE3NGMzYTMzNyIKICAgIH0KICB9Cn0=","signature":"x+0qnBqBLY73ijEnIdJaOG7D5cNRHtTjsf0YKxs+s98Cq0Z/aQPEH26psXWjuXAp06tvDnASontSWpjdNsWtP9/S9hxymN+ql1B4+dszNGTcHLi4t7fmYwDK1GAc3S8O2hw9ljVxs+asJyodiOUcaYbo4+wRi1WAJkiQCKfGR7gQQWMjcTqX6sMIC2P6FEpkdZ6COHq4NG2sKrXhakIgbPFIXPeWP5/QdEgfj1LLmvuJlQyfV7rbQxx6ML3CQVKPUUhWgEDJxwM44qdaG7PLc332638MIRJcORpShE4U+1zuJUTzyKSl9xaLBWP8w7fMAXlBoD+R5XJNwVsjjvYUqJdOy42APVg5ret9y1/NqWfNqknxryBjQ17BKxKF/YDVN+nVtgC0agwIgo2/+eTPenrTcidjcLzMRKQxrSyK0sXTlE+Y/4L92VMy2NWk8V7L1AytCm4zvVr5qb23dbBkEJPgM5Vd8vRyz1X3FbBHRXDbVHFFTJCZ4cwqfP3LKRV1sYgt6JJeyj7TgWQcUyWOIUMxO8kcF21ufUxv6hlokYYkHU0VGBQDx69rz51itZwEKOqTlThxk7mCiK49X0/pznAxCGftIvfv0CWKuMksN6mG90cWfVSGp+y8dxUh77VXmrHDjHCBUYK7RyjbYxQmEy+By+liUBBysOjlNM9Ziuw="}],"legacy":false}

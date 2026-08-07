@@ -1,0 +1,12 @@
+isEnabled: true
+material: NETHERITE_BOOTS
+name: "&7Dark Bone Footgear"
+lore:
+- "&7Unnaturally dark bones"
+- "&7cover these boots."
+enchantments: 
+- "DAMAGE_ALL,1"
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: fixed
+itemType: unique
+level: 19

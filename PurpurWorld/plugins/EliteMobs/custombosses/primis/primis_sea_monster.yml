@@ -1,0 +1,22 @@
+normalizedCombat: true
+isEnabled: true
+entityType: GUARDIAN
+name: $bossLevel &dSea Monster
+level: 4
+healthMultiplier: 3
+damageMultiplier: 0.60
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 20
+powers:
+- skeleton_tracking_arrow.yml
+- attack_poison.yml
+damageModifiers:
+- material:TRIDENT,multiplier:2
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 30
+customModel: 02_em_sea_monster
+spawnLocations:
+- em_primis_wormhole,-186.5,32.5,-40.5,0.0,0.0:1676055389320

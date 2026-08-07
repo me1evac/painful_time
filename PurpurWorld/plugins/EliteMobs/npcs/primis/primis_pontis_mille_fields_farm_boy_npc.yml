@@ -1,0 +1,23 @@
+greetings: []
+activationRadius: 11.0
+isEnabled: true
+name: '&9Planesium Victricius'
+role: '&e<Farmer>'
+profession: FARMER
+greeting:
+- Mornin to ya!
+dialog:
+- So many rats...
+- Phew almost\ndone here.
+- This thing better hold.
+- Any more lifting and\nI'm gonna break.
+- The view from here\nis really nice.
+- OK, back to work!
+farewell:
+- Try some our berries!
+disguise: custom:primis_pontis_fields_farmer_boy
+customDisguiseData: player primis_pontis_fields_farmer_boy setskin {"id":"114accc7-d5d0-46b5-abb6-718d1ec3920e","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MTIxMjM2NjI3MSwKICAicHJvZmlsZUlkIiA6ICI3MzY0ODFkZmY2ZGY0NWUwOTA0ODg0ZjNiMWExMjY1NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd2lsaWdodFFBUSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMWM1Y2E4NjUxNTRkZGZiYzhlMzMyNjI4M2Q0YjEzZTc4ZjIxYjQ5OGIzY2I3YmI2YThlNjNhODIzNDM5NGQ2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"w+vnppT41DP+fotp7iGxdd0cLmHr4PF8wJU3GIJjbsTtmDgDQk8IGl8x8nmjyvZybdV6PN7SzcFm0QpaQBLGWjTlVbUJrpDfdxh1ncAc/aJGE3h0TYTqbJtOxlrt+QXniLmGdA11EukuN3O5f72KcZKfrqy3ynuq/Ox0VOHcZrVf+fJjx9bMGTJOQYnx9tNZPFq1ilrL7DLUl2G78BYjddKJpT1QGe+I6q89NW9zTc9nwZyH/2daeu3W5H1IxZQ6e5Y626V6XwIY7noVeGsDKWZgGdqlc0FiJGGO6rrHkq9gXCf26NEY7tcgWaCxEY4QkGaPi3WnI/5nqYl06PkWAIIMAp7Opfb2KwVXkMQa02Fty2MJA5jmn5wbxbqi+tmz3wMNkKT5M32bLo8rTJVXZrR83VXnB81FJYuGaQT115tfFrRSHGxiMGebHqthYPNNv7HeJf+2WO24AgS9oiMll2r+B9NtrjCzc9AtbpEfgDNwXjftKYV5H3dKfbQGB6iIqHR6z38KOQo0hFG3pNqI0QZNC7MSxMsXrIMXbwRXSGv83wzxUifMRw+xuUhv/yaU4gaSrXY4tjpPOFek7IH9s/dxTSzYX4v4tGTevWZI4GWezrt6J5OPLszOhJuGcZKxfJ17OYAG9Z/tVeCuOoIiAWHF/uRNPn9RgKXmrIEeuqw="}],"legacy":false}
+canTalk: true
+interactionType: NONE
+spawnLocations:
+- em_primis,315.56,23.0,726.48,158.89,49.99

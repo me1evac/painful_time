@@ -1,0 +1,13 @@
+isEnabled: true
+material: CHAINMAIL_HELMET
+name: "&bStorm Helmet"
+enchantments:
+- "PROTECTION_FIRE,1"
+- "PROTECTION_ENVIRONMENTAL,2"
+- "PROTECTION_EXPLOSIONS,1"
+lore:
+- "&bThe Storm Temple"
+- "&bspared no expense."
+itemType: unique
+level: 12
+scalability: fixed

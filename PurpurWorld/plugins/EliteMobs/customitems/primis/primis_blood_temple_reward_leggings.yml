@@ -1,0 +1,14 @@
+name: "&dBlood Leggings"
+material: NETHERITE_LEGGINGS
+level: 20
+lore:
+- "&dThe leggings are coated in mysterious"
+- "&dred ooze. The coating emits a faint"
+- "&diron odor."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_PROJECTILE,3
+- DURABILITY,3
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

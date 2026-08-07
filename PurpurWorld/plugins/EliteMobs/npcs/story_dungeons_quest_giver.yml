@@ -1,16 +1,6 @@
 isEnabled: true
-name: <g:#8A7A5A:#9A8A6A>Manager Wallitz</g>
-role: <g:#7A6A4A:#8A7A5A><Story Mode Quests></g>
 spawnLocation: em_adventurers_guild,308.5,78.0,212.5,-17.84,3.6
 spawnLocations: []
-greetings:
-- Salutations!
-- Good day.
-dialog:
-- I'm a bit busy...
-farewell:
-- Bye.
-- Until next time.
 canTalk: true
 activationRadius: 4.0
 interactionType: CUSTOM_QUEST_GIVER

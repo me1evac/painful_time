@@ -1,0 +1,15 @@
+name: "&cBlood Preserved Leggings"
+material: NETHERITE_LEGGINGS
+level: 20
+lore:
+- "&cBetter not to question what"
+- "&cthese leggings are made of."
+enchantments:
+- PROTECTION_FALL,8
+- PROTECTION_PROJECTILE,5
+- PROTECTION_ENVIRONMENTAL,5
+potionEffects:
+- ABSORPTION,2,self,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

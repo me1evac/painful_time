@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&8Heavy Bolts'
-description:
-- '&7Bolts deal bonus damage'
-- '&7and increased knockback.'
 skillType: CROSSBOWS
 bonusType: PASSIVE
 unlockTier: 3

@@ -1,0 +1,9 @@
+isEnabled: true
+material: SNOWBALL
+name: "&1Fur Ice Crystal"
+lore:
+- "Having the crystal near"
+- "snow makes it react."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_ice_village_magical_ice_crystals.yml

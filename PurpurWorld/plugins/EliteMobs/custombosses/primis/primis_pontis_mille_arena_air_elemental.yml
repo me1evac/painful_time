@@ -1,0 +1,24 @@
+isEnabled: true
+entityType: BLAZE
+name: '$minibossLevel &fAir Elemental'
+level: 15
+healthMultiplier: 3
+damageMultiplier: 1.4
+spawnCooldown: 15
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- attack_lightning.yml
+- attack_vacuum.yml
+- invulnerability_knockback.yml
+- thunderstorm.yml
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_mille_arena_knowledge.yml:amount=5:chance1.0
+leashRadius: 23
+followDistance: 23
+customModel: ''

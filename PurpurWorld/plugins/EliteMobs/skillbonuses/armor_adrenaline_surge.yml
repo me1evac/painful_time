@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&cAdrenaline Surge'
-description:
-- '&7Gain combat buffs when'
-- '&7health drops below 30%. 45s CD.'
 skillType: ARMOR
 bonusType: COOLDOWN
 unlockTier: 2

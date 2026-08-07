@@ -1,0 +1,37 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "TeleportPlayers"
+      - "BuffPlayers"
+  TeleportPlayers:
+    Actions:
+    - action: TELEPORT
+      FinalTarget:
+        targetType: LOCATION
+        location: em_primis,909,129,997,88,64
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+      wait: 5
+  BuffPlayers:
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW_FALLING
+      amplifier: 1
+      duration: 205
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 1
+      duration: 110
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+# Generated with https://magmaguy.com/webapp/webapp.html !

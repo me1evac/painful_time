@@ -1,0 +1,18 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+restockTimer: 666
+lootList:
+- material=CAKE:chance=0.05
+- material=CAKE:chance=0.04
+- material=CAKE:chance=0.03
+- material=CAKE:chance=0.02
+- material=CAKE:chance=0.01
+locations:
+- em_primis,704.0,100.0,461.0,0.0,0.0

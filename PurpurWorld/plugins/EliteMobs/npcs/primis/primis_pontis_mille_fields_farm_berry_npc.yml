@@ -1,0 +1,24 @@
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&9Dordalus Nasica'
+role: '&e<Farmer>'
+profession: FARMER
+greeting:
+- Berryo!
+dialog:
+- Berries are so tasty!
+- You should eat\nmore berries!
+- Why would they\nsteal my berries...
+farewell:
+- See'd ya later.
+disguise: custom:primis_pontis_fields_farmer_berry
+customDisguiseData: player primis_pontis_fields_farmer_berry setskin {"id":"6e5e41f6-a3b0-4a72-a32d-eade2fb3d79f","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MjA0MzQyOTE0OCwKICAicHJvZmlsZUlkIiA6ICIwNTkyNTIxZGNjZWE0NzRkYjE0M2NmMDg2MDA1Y2FkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJwdXIyNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMWIzMzBkNzIwZDZmZGRkNTUzY2NjM2Y4YzY2ZDc5Y2Q5NDdlZDkxZWIyMGEyNDVmZjJjYjY3NWY0NGI0ZTkwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"guJjvDSGBmtHhFNDb4x+qophrobzsel9pj2Vz4vZJAwFbkQERgP/RXqPqni2awWwCkTb1dKNtspfdDJHz9K6T29vfHIDqym4hA8voc2y8E+qHRO/stsrnS7UXYYGtg9lM3gOWiV3n4uI4qxJxaEB/9eqoaH0jaxG9HtCxSVMMVZi0QEE5BucPtLLM3rDPntqt9IYoMeMrA5nt6raPJxAEbuHlgZ/IJCQS/PFookSCT/EHAsOM8nZxO7JtWNAEu9mAvqjL7BDYhNRu+yQ4MnmGld5ejW8QxgDqHtaYuHf016iEdwtkgyZxL+iE6EDTgxQsG582SeR/kupo/3GYymmuhgZVyd4vU6syKlaAt8ovtnkIVPqWIhjMKpRmCEy52uobS88Y6+wI3pyhcUR5z/vz4aZxOiTZGGbBMiHgrlkThd0uLuoaYtfwT2VvVRFXLxL1wzyEsn3AYisMIlJ8wBHEFIame7At3jTeRoB3LEDgw9OLeD9hT7Ra/ikuZL2KsjwKl57Hb2PxSCamaxfm4BqgeTe8dZhwZDztcSmN42AJtl+0uZcjmSgg4AwgnvfZVQzc6YB1++odjjWNFrtQrTkuBrnuTlUKLOcWNO3pPPB6BYUn6lraHqfrx5lNXZeMqFWm+IoXVX3f0LjcPYDs+K/MKd6UkfOvsiuVxc//R6VCjI="}],"legacy":false}
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fields_berry_crazed_wolf.yml
+- primis_pontis_mille_fields_fruity_hound.yml
+spawnLocations:
+- em_primis,319.99,17.0,696.28,-144.14,53.85
+

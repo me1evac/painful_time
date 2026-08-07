@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&cRetaliation'
-description:
-- '&7Chance to reflect damage'
-- '&7back to attackers.'
 skillType: ARMOR
 bonusType: PROC
 unlockTier: 2

@@ -1,20 +1,8 @@
 isEnabled: true
-name: '&2[Dynamic] &3The Climb Dungeon'
-customInfo:
-- '&fThe perfect starter instanced dungeon!'
-- '&6Credits: MagmaGuy, Frostcone, 69OzCanOfBepis, Realm of Lotheridon'
 dungeonSizeCategory: DUNGEON
 worldName: em_id_the_climb
 environment: NORMAL
 protect: true
-playerInfo: |-
-  &aDynamic Dungeon
-  $bossCount boss encounters
-  &3Scale the heights of
-  &3this dangerous ascent!
-regionEnterMessage: '&bYou''ve been asked to investigate the path to the caves. Climb
-  your way to the top!'
-regionLeaveMessage: '&bYou have left The Climb!'
 startLocation: em_id_the_climb,379.5,36,352.5,-70,-10
 teleportLocation: em_id_the_climb,371.5,34,350.5,-70.0,-10.0
 dungeonObjectives:

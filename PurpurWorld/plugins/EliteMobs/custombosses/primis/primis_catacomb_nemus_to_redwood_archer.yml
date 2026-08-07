@@ -1,0 +1,29 @@
+normalizedCombat: true
+isEnabled: true
+entityType: STRAY
+name: $normalLevel &8Catacomb Archer
+level: 15
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_catacomb_drop_chestplate.yml:chance=0.02
+mainHand: BOW
+powers:
+- invulnerability_fire.yml
+- shield_wall.yml
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,468.5,-14.5,259.5,0.0,0.0:1661904264778
+- em_primis,468.5,-14.5,247.5,0.0,0.0:1661904270728
+- em_primis,478.5,-14.5,247.5,0.0,0.0:1661904273474
+- em_primis,479.5,-14.5,259.5,0.0,0.0:1661904256828
+- em_primis,508.5,-14.5,247.5,0.0,0.0:1661904020776
+- em_primis,508.5,-14.5,259.5,0.0,0.0:1661904109627
+- em_primis,539.5,-14.5,241.5,0.0,0.0:1661904485975
+

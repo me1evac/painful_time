@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&3Theopropides Nero'
+role: '&3<Fisherman>'
+profession: FISHERMAN
+greetings:
+- Fishy day!
+dialog:
+- A chilly day for fishing.
+- They aren't biting.
+- Just gotta be patient.
+farewell:
+- Don't fall into\nthe water!
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_taking_the_bait.yml
+disguise: custom:elitemobs_ice_village_fisherman_boat
+customDisguiseData: player elitemobs_ice_village_fisherman_boat setskin {"id":"a385d9ec-47db-4997-afe2-7ad021dbf8ee","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1NjU4MTQ3Mzk4OCwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY1Mzc4YTgxNjAzYzQwYzQwN2YxYTJhMWE4ZWZkMGJhZmJmZmMyN2ZmYmJhZGMxOTY2MjU0OWUxMDZjMzc1MmMiCiAgICB9CiAgfQp9","signature":"UqTvFwG8g93VS1Kbns1VyYVTH39eWwnJoGGPZHyS6UJxHAp/m7+2xlLuXpCSmYEpSrbzqGUAGqaCddOllRIhTmT2YEgzzvskflVbivj5iR05adO5w9CJ16JkuYRGzTZzuoJheB7enus7E0F82qVuXk9Bj8iTFP6Yo/oawx5jfeJoKwBFMbaozR4bxTCZphV3MrttkvbpQNjK0+oJzx62YUc7ar8DzrE7EQtKQist9Vqvhqdd5SGuZ5EfDZABYFMdIBOeiCZRDjFR9WIvvUBrF5ao+axCLRZMeVlQ7Tzh7sxaMTMbIGP/Xkvo7BJmU8jddL8J9MB+HbeCeuwUp1am4Y4oliVPaOtZauec17pAbnc+CcpHK12Tcj/qspeZnkxeMRTi85T+HKZKe7gxNamUiuBkPUPSwKJhmC2b3CITgwrXJAwVsDAVtHxVmn6VYAbjqPBRPVLiUSebOMglresN56E92LVn58Ob/mKduJJWlbaSvdMJc39VHSMoAdB8s0J1rhOTvAul1WI+D5CFeZrI8xEMxlQC16T0H3pXZkMPqdcC++//BDQ9ux9R1YN6Ea+7bnnOKR2q5diYUVp5WfqysnOfigmn4m7dXw+1GZMqr9M90iZG2ym/9KbHhOtKWIHfDrORr2wMsjIgUcMFmU1q0wzN4ni517DljurOk+1X4e4="}],"legacy":false}
+spawnLocations:
+- em_primis,994.3,11.0,1543.7,42.65,22.13
+

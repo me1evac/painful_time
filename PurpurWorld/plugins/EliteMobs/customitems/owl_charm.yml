@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: ELYTRA
-name: '&bOwl Charm'
-lore:
-- '&aBecome the ultimate nocturnal'
-- '&apredator!'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

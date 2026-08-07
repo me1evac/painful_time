@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&cFugit Fossores'
+role: '&c<Escaped Miner>'
+profession: NITWIT
+greetings:
+- I can't believe I made it!
+- They're everywhere!
+- Could you lend a hand?
+dialog:
+- I've got a task for you!
+- I need your help!
+farewell:
+- Off you go!
+- Be careful in there!
+- Stay safe!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ogre_mines_lost_bretheren.yml
+disguise: custom:primis_ogre_mines_escaped_miner
+customDisguiseData: player primis_ogre_mines_escaped_miner setskin {"id":"bbf6b816-3703-4395-a9a8-e2751c0139a4","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzNTgwMjEyNzczMiwKICAicHJvZmlsZUlkIiA6ICIwM2E5NjQ5NDA0NzI0MmE2YTQxYjljNGJhM2QwY2E5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcmljZXBwcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YjMyNmNhMTY1NTQxOTk2ZTc4NWM2NzNmMDkzY2U5YTc3MzI5NmU3ZDg3OWM3MDNmMGI4MDYyM2VhMWI0Yjk4IgogICAgfQogIH0KfQ==","signature":"bsRssZI5jzRToj+Bci1U/ULcIrHaifRu/7m1gsApBG7fFBZiBBEvZkjGiNo/oiA2yBeUsAjDUtRusIbsbmNRQ9mW4yAzscV0tnkgmYJhq/SFtpEO/3i++E7JAz/7x4mRr2TzakqgnpBU2JVkDAegqPHCc7JfNuNa/QQd7nWG2eVwUoPaCIxT9V6Mgx75aFUAsIacGM5FZriGebc3z4L+h2pxEmgps5Iwo9o8wEvjNXzkEk0IEAq5WgNJAcprIGiWWPbhyZF65s1iOsd0JVxA3f7lsM+PploK27LSvaL6uVPmt4IfeOj/ISo0fXu8KaLgdf7CxYqga2umKKCl8KZxlJ4JH4zUBBQp15rnvTnf52gKQQh3I+38KSli0NrkDaM4OPJ6uEz3KoCGDbavLK/BBbeqlRDLyAjBi0Mr6cOrbCFrydKbAis47HWmWWFwTne56Z/2xZmkjkt5O/Ae4ZpqISautaXYHy3Bs6pjEIhH6++6G9KvcQWV3b1LBdRXTI0ytBhc+6wkrYvb2v6zHMR9tjapkn57MF+ziVB0K2DCskSZYiowaLND/K37nj8jRCRHyZcgjI4JG6rAhJBL2uP/h/bHOwuUrz0HMi5ecNdONDzKFiQRfVXr91DFPMkM3PykADdOUF8dXv8pEr1F7TN7L7E09vhV7nMZFJ32ngAUQ/4="}],"legacy":false}
+spawnLocation: em_primis,1498.43,57.0,568.61,125.07,34.22

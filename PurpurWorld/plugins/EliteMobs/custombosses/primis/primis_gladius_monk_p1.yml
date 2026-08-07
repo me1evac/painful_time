@@ -1,0 +1,24 @@
+normalizedCombat: true
+isEnabled: true
+entityType: VINDICATOR
+name: $minibossLevel &6The Monk
+level: 10
+healthMultiplier: 3
+damageMultiplier: 1.4
+spawnCooldown: 10
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- primis_sleep.yml
+- ground_pound.yml
+- attack_gravity.yml
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 20
+phases:
+- primis_gladius_monk_p2.yml:0.9999
+disguise: custom:elitemobs_gladius_monk
+customDisguiseData: player elitemobs_gladius_monk setskin {"id":"8d6aa158-121d-4d76-a51d-f2a6ba4c07d4","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0ODcyODk1ODY5NywKICAicHJvZmlsZUlkIiA6ICJlZjJlZDE2NDA4YjU0NWQyYjAwMGM5YmE2Y2Y0MTJhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiYXNlbmVzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YzNjMDBkOTFkZjU5Yjk4M2JiNGU3ZjRmYzE1YTdiMzVhZWU5OGM1ZGM5M2Q4MWFhMGMzMjM2ZTdlNjA4NjBmIgogICAgfQogIH0KfQ==","signature":"d0idu2/fnyGYFAzCqvnB/Q45oMu540GD66N9JgfQeoFvM6D5h/PCtZd0DhF1dVq7mEUkZBVFeTdRSoFj9Zd3IeyJj4fc+mmHzI7nPdbsZz6EU676883kqe0K7dfqbjSF1Q8qWMwHfLLgJX1/rpMpyPv27FfEkQn/UWU+dAvxVgI6hgG7ElLDgiRV/TlP5QuCG+OH4v/iSKUZamZgXt2HzSF9jgsBjF1UfOa7WS14dMKZtLwDGPzf+Rz2UqloZktXzHqZha8jEDTwhAtDB3JVv1gp6VVAPihaMFhrbAKkjTzQZGW3V3KwO7PeVLDWLrKFF896N6WqOzG50O3ZfxlMCi3tO0EI2SvWt6N2dz3xhv8QpNQC3735zMWCR2oVbXOCKDj8XMGqShrJ7XaD5pWD4m3IqAU3Txk/MR4ZNnk3SLJAOVa8329dKKncg7YJiiN26rqEvr/HHndq1TMD1FH5y5bFZDHFnZc5Xd/gmu7MstOSs2/m91YMihPIHKcLYr0JMWaIxMZSoHSK1RRHBBFn+6coDvF+FHhjtj2V27O09c94h/Jlyw1LB9L4jKv0Pd01S+ud/FRjaBHdWOQ16y20QfiUpAD3k4DDDN9B8qQbG69enL0fJ75lZWWX1mLWohIxEyhZfFmzuErIQTQXP9E4V04V6tD1wEkg7ez9eyDlsJs="}],"legacy":false}
+spawnLocations:
+- em_primis,1015.5,80.5,597.5,0.0,0.0:1676066014442

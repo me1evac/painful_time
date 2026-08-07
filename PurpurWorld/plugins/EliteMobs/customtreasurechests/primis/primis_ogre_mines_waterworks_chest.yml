@@ -1,0 +1,15 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: WEST
+chestTier: 1
+dropStyle: group
+restockTimer: 999
+lootList:
+- filename=primis_ogre_mines_waterworks_chest_shield.yml:chance=1.0
+- material=APPLE:amount=6:chance=1.0
+locations:
+- em_primis,1440.0,22.0,679.0,0.0,0.0:0

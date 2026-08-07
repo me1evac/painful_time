@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bVortex Thrust'
-description:
-- '&7Pull nearby enemies toward'
-- '&7your target. 18s CD.'
 skillType: SPEARS
 bonusType: COOLDOWN
 unlockTier: 2

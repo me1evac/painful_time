@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&6Papiria Virginius'
+role: '&6<Resident>'
+profession: NITWIT
+greetings:
+- Ok then...
+dialog:
+- Hit him harder!
+- Woah! Good one!
+- Yeah! Mess him up!
+farewell:
+- Yep...
+canTalk: true
+activationRadius: 8.0
+interactionType: NONE
+disguise: custom:elitemobs_terrvilla_generic_2
+customDisguiseData: player elitemobs_terrvilla_generic_1_generic_2 setskin {"id":"71f55218-4e24-4c81-a0fc-e8a6283bcb9b","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1NDkzNDI1NDI4MiwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwMzBiZTljYjkwNjQzYjhlNzAyNzY4M2JmNDM3MWRiMjlmZjQ1OTkwYTNhNWMwNThhYjFmYTY2ZDRiMjE4MzAiCiAgICB9CiAgfQp9","signature":"EuMjL7nJVOxuGCUZO3rlh84u3vbHnfG2qKuxQeuYF5TXaa8cGImw3nOSmXaV7HOWYtIcd8p7QVMylkI1mbhIBckYCQHlyHiU8nY9RxHW/QgTU8ybanJg9uDnWWG3khLErIfWE4e4ENlm3utSSRckUeoGQ3xK6xFY5J7SfvpX7bDB2Xt9j3pGKbG/0Jn+4yQXKCkcCjZUX/umJCoiR7aap/IAdiWnG70vXHUrzfYRMfO7Rq6V3FizEiQSsOUYVXrBe/B5/hp9Hu7E7KJLnqJb9UlH2KRhgtJrCL07zV9crzXo3BRU6XYyOg1Qp/nXCV13vk6YtXeXgGM0r1laThvcAjEr8ZUw2GxcWsRHq/aflYKOCPSoJiU3vAhsHz24Bmc/dFeAwqAvTQfkRABuDll0bnCeyR+2122DNZMYmdhlmWK2eOR4W9dJ/D+5KFKyYlEUPrpHylSrlcUbPa9ZaNooXH20/GBcq3KZQh16gFcuonUxcbRMJwR+2SdikyNf9WFNikmz/cbMnXCvN1gwbPUz2WnXAI7t6aJYnnYSADpkksWbjIdsqyM78EDVTCGqsgv5RPjLct47Knw+3hO0aPtAE6kwrJQKpUnAOOgHQfMEA9+Q+kPFkEGM83GSByc1X5Dm2zxK549KJZfARBC0xEe891Qlu0OlzLb7pXcX+zC0ufY="}],"legacy":false}
+spawnLocations:
+- em_primis,351.13,27.0,1436.95,127.43,6.77
+
+
+
+

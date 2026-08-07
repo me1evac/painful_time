@@ -1,0 +1,9 @@
+isEnabled: true
+material: BONE_MEAL
+name: "&2Sewage Keys"
+lore:
+- '&aA key ring with a lot of keys on it.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_mille_sewage_keys.yml
+itemType: unique

@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_CHESTPLATE
+name: "&5Wolf Hide Gambeson"
+lore:
+- "&dWorn and weathered, beats"
+- "&dno armor at all!"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: UNIQUE
+level: 3
+scalability: fixed

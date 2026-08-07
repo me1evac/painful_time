@@ -1,0 +1,37 @@
+normalizedCombat: true
+isEnabled: true
+entityType: STRAY
+name: $normalLevel &fUndead Archer
+level: 7
+healthMultiplier: 0.6
+damageMultiplier: 0.5
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: BOW
+powers:
+- invulnerability_fire.yml
+- attack_web.yml
+uniqueLootList:
+- primis_ogre_helmet.yml:0.05
+- primis_ogre_chestplate.yml:0.05
+- primis_ogre_leggings.yml:0.05
+- primis_ogre_boots.yml:0.05
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1493.5,44.5,557.5,0.0,0.0:1676056391575
+- em_primis,1524.5,44.5,543.5,0.0,0.0:1676056312277
+- em_primis,1527.5,57.5,563.5,0.0,0.0:1676056293280
+- em_primis,1468.5,44.5,558.5,0.0,0.0:1676056405077
+- em_primis,1456.5,44.5,574.5,0.0,0.0:1676056483228
+- em_primis,1452.5,44.5,542.5,0.0,0.0:1676056446127
+- em_primis,1428.5,44.5,542.5,0.0,0.0:1676056551081
+- em_primis,1486.5,29.5,575.5,0.0,0.0:1653276692063
+- em_primis,1440.5,27.5,643.5,0.0,0.0:1676056210381
+- em_primis,1438.5,23.5,680.5,0.0,0.0
+- em_primis,1435.5,22.5,679.5,0.0,0.0
+- em_primis,1442.5,44.5,574.5,0.0,0.0:1676050230028
+- em_primis,1475.5,45.5,539.5,0.0,0.0:1676056415175

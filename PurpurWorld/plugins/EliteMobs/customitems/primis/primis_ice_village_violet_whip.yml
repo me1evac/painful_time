@@ -1,0 +1,8 @@
+isEnabled: true
+material: LEAD
+name: "&dViolet's Whip"
+lore:
+- "&dDelivers exquisite punishment."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_ice_village_violet.yml

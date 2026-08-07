@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&cFinishing Flourish'
-description:
-- '&7Deal bonus damage to enemies'
-- '&7below 30% health.'
 skillType: SWORDS
 bonusType: CONDITIONAL
 unlockTier: 3

@@ -1,0 +1,26 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 3577
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+lootList:
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+- material=GOLDEN_APPLE:amount=1:chance=0.01
+locations:
+- em_primis,962.0,51.0,611.0,0.0,0.0:0

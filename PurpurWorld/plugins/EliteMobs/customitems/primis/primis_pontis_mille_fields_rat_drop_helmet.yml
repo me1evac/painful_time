@@ -1,0 +1,16 @@
+isEnabled: true
+material: LEATHER_HELMET
+name: "&fFeathered Rat Cap"
+enchantments:
+- "PROTECTION_ENVIRONMENTAL,2"
+potionEffects: 
+- "NIGHT_VISION,0,self,onHit"
+lore:
+- "&fYou managed to make a" 
+- "&fcap out of your prey."
+- "&fHaving extracted the preys"
+- "&fblinding properties, you have made"
+- "&fit work in your favor."
+itemType: unique
+level: 10
+scalability: fixed

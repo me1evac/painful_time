@@ -1,0 +1,11 @@
+isEnabled: true
+material: LEATHER_LEGGINGS
+name: "&cOgre's leggings"
+enchantments:
+- PROTECTION_FIRE,1
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&7Smoldering slacks.'
+itemType: unique
+level: 7
+scalability: fixed

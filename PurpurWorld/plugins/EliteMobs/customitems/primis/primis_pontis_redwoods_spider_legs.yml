@@ -1,0 +1,9 @@
+isEnabled: true
+material: COBWEB
+name: "&2Spider Legs"
+lore:
+- '&aIt is just spider legs...'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_redwoods_spider_legs.yml
+itemType: unique

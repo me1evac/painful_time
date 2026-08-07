@@ -1,0 +1,27 @@
+isEnabled: true
+isRegionalBoss: true
+entityType: SILVERFISH
+name: $normalLevel &fWell Fed Rat
+level: 5
+healthMultiplier: 30
+damageMultiplier: 0.1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: true
+spawnCooldown: 60
+leashRadius: 12
+followDistance: 3
+movementSpeedAttribute: 0.55
+uniqueLootList:
+- material=CARROT:amount=5:chance=0.5
+- material=APPLE:amount=5:chance=0.5
+- material=BREAD:amount=5:chance=0.5
+- material=BAKED_POTATO:amount=5:chance=0.5
+- material=COOKIE:amount=5:chance=0.5
+- material=MELON_SLICE:amount=5:chance=0.5
+powers:
+- invulnerability_knockback.yml
+- attack_push.yml
+spawnLocations:
+- em_primis,293.5,14.5,742.5,0.0,0.0
+

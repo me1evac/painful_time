@@ -1,0 +1,22 @@
+entityType: ZOGLIN
+name: $minibossLevel &2Alpha Razorback
+level: '17'
+healthMultiplier: 4
+damageMultiplier: 1.4
+powers:
+- attack_push.yml
+- primis_sleep.yml
+phases:
+- primis_terravilla_alpha_razorback_p2.yml:0.9
+isBaby: false
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 20
+spawnCooldown: 30
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.0001
+disguise: HOGLIN
+spawnLocations:
+- em_primis,378.5,12.5,1403.5,0.0,0.0:1662676107214

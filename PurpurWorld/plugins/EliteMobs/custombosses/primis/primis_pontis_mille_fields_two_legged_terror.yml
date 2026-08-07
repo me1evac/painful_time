@@ -1,0 +1,26 @@
+entityType: ZOMBIE
+name: $normalLevel &2Two Legged Terror
+level: '16'
+healthMultiplier: 1
+damageMultiplier: 0.8
+powers:
+- attack_fire.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_terravilla_two_legged_terror_sample.yml:amount=2:chance=1.0
+- filename=primis_terravilla_two_legged_terror_growth.yml:amount=1:chance=0.2
+followDistance: 15
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.55
+disguise: STRIDER
+spawnLocations:
+- em_primis,396.5,14.5,1417.5,0.0,0.0:1676306737779
+- em_primis,358.5,12.5,1352.5,0.0,0.0:1676306725380
+- em_primis,336.5,12.5,1319.5,0.0,0.0:1676306727028
+- em_primis,337.5,12.5,1319.5,0.0,0.0:1676306854081
+- em_primis,330.5,15.5,1222.5,0.0,0.0:1676155260734

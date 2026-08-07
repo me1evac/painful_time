@@ -1,0 +1,25 @@
+restockTimer: 0
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 1
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: NORTH
+chestTier: 1
+dropStyle: group
+lootList:
+- primis_gladius_supplies.yml:0.9
+- primis_gladius_supplies.yml:0.8
+- primis_gladius_supplies.yml:0.7
+- primis_gladius_supplies.yml:0.6
+- primis_gladius_supplies.yml:0.5
+locations:
+- em_primis,902.0,20.0,699.0,0.0,0.0:0
+- em_primis,893.0,20.0,700.0,0.0,0.0:0
+- em_primis,902.0,20.0,733.0,0.0,0.0:0
+- em_primis,894.0,20.0,733.0,0.0,0.0:0
+- em_primis,905.0,27.0,730.0,0.0,0.0:0
+- em_primis,906.0,27.0,701.0,0.0,0.0:0
+- em_primis,893.0,27.0,702.0,0.0,0.0:0

@@ -1,0 +1,63 @@
+powerType: UNIQUE
+eliteScript:
+  DarknessDome:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: DOME
+      radius: 10
+      borderRadius: 9
+      Target:
+        targetType: SELF
+        track: true
+        offset: 0,-2,0
+        filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+        amount: 1
+      - particle: SMOKE_NORMAL
+        amount: 1
+        speed: 0.1
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      wait: 111
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 66
+      Target:
+        targetType: ZONE_BORDER
+      wait: 111
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: WEAKNESS
+      amplifier: 0
+      duration: 66
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      wait: 111
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: MESSAGE
+      sValue: "&6[Fallen Champion Natus] &fThe darkness, it wants out..."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+      wait: 80
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,12 @@
+material: CHAINMAIL_BOOTS
+name: "&1Spider-legs Boots"
+lore: 
+- "&1Boots made from spider legs and leather."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DAMAGE_ARTHROPODS,3"
+potionEffects: 
+- "SPEED,1,self,continuous"
+scalability: FIXED
+itemType: UNIQUE
+level: 12

@@ -1,0 +1,19 @@
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+restockTimer: 90
+lootList:
+- filename=primis_pontis_elf_drop_helmet.yml:chance=0.05
+- filename=primis_pontis_elf_drop_chestplate.yml:chance=0.05
+- filename=primis_pontis_elf_drop_leggings.yml:chance=0.05
+- filename=primis_pontis_elf_drop_boots.yml:chance=0.05
+- filename=primis_pontis_elf_drop_crossbow.yml:chance=0.05
+- material=BREAD
+- material=BREAD
+locations:
+- em_primis,204.0,20.0,462.0,0.0,0.0:0

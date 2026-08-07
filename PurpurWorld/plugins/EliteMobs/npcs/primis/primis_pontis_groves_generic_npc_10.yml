@@ -1,0 +1,20 @@
+activationRadius: 3.0
+name: '&2Hostilia Metunus'
+role: '&2<Groves Inhabitant>'
+profession: NITWIT
+greetings:
+- Hellos.
+dialog:
+- Are you bored too?
+- Ugh, there must be something to do.
+- Maybe I should brew more drinks.
+farewell:
+- See ya!
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_groves_inhabitant_alt
+customDisguiseData: player primis_pontis_groves_inhabitant_alt setskin {"id":"9c3e9174-64b4-46c8-b272-a869fbfece01","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MzMzMzA5NzcxNSwKICAicHJvZmlsZUlkIiA6ICJmYzUwMjkzYTVkMGI0NzViYWYwNDJhNzIwMWJhMzBkMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JhMTdmZjI1NGNkNzMyZmUzOTM0MDRlMjRiYTlmZGYzMGM1MzQ0MjA4MzcyOGIxNDk2MjMwNDU5Y2ZhZDU5YmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"N/ChbgRtLXNl5s+JMPgrX65T18ze+7eGOzJmm72wffMRvg3W6wmsScUH9d5iv0VHKdqYIhlAWb06UJ8VY4CHU7cVgw0fjo9Nc1PFMUawrPOxmo/zTzTcYL9AuQ/y4tJX+gQaxMaxQrB6gr8hWE4SBILautdeQ3ARu5NulbGW2seMdk5+5o2pihZ6SUfBO5U/VipQdglMO7Y5lMgvkCFw7kyr++YvIT/1PBFk0+eSaKnuROG8LxCZkaVbbn//PllTjZjuSDeq9xwAzRQltl7RPIq/84vN/k2lW8+dncDeL5p3ysIOxhCcpYwpm1vr+CJfMw4gjzzJy65iwWAfZUE1cms/3VyTRJ4zGoZl5VIkm/C0jthSbCZZfnF1GAwgTVpReVGY3A6Boz/6M7/ProI+KMdQq99CaHq8GxWUjCHiHvUnngYwn2YfVfeOc/KDJUmAjhkTL1rHwC8xf53e4y2nInl298rxIoO30alOpFvk3lkgMaeJyb2uXQuz53gYVTH+cvKAR9l3ZBKZbW9lfX2YX+Ayl243kKbBJcPT3gOzCFv4mk0r/9JkDO/8Ox8K6Ud2oqZJ4/TEhDww/nuP12gQaNsqME9sRtjvvlPVuo2JmX7t9bQLODVPG+g3ekEj4iAiPuxHSNdxWhnJv6UauZHaGBZ+qdAJt6aFAbczHu1/2HY="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,726.14,19.0,269.12,-104.0,40.89
+

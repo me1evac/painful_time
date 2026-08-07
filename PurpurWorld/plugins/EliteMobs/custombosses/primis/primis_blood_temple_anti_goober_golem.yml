@@ -1,0 +1,26 @@
+normalizedCombat: true
+isEnabled: true
+entityType: IRON_GOLEM
+name: $normalLevel &c[Pontis Magma Colossus]
+level: 19
+spawnCooldown: 5
+healthMultiplier: 8.0
+damageMultiplier: 0.25
+frozen: false
+neutral: true
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,921.5,92.5,1010.5,0.0,0.0:1693921030862
+- em_primis,912.5,95.5,1022.5,0.0,0.0:1693922582110
+- em_primis,911.5,94.5,976.5,0.0,0.0:1693987498262
+- em_primis,921.5,92.5,982.5,0.0,0.0:1693987173111
+- em_primis,932.5,92.5,997.5,0.0,0.0:1694079894806
+- em_primis,929.5,92.5,995.5,0.0,0.0:1693987186562

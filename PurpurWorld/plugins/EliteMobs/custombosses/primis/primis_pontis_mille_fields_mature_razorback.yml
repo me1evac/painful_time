@@ -1,0 +1,35 @@
+entityType: ZOGLIN
+name: $normalLevel &2Mature Razorback
+level: '16'
+healthMultiplier: 1.6
+damageMultiplier: 1
+powers:
+- death_slice.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 42
+spawnCooldown: 10
+leashRadius: 42
+isRegionalBoss: true
+movementSpeedAttribute: 0.45
+disguise: HOGLIN
+spawnLocations:
+- em_primis,425.5,11.5,1268.5,0.0,0.0:1676154191235
+- em_primis,394.5,11.5,1256.5,0.0,0.0:1676154182883
+- em_primis,437.5,16.5,1238.5,0.0,0.0:1676154348037
+- em_primis,373.5,14.5,1211.5,0.0,0.0:1676154164081
+- em_primis,343.5,14.5,1225.5,0.0,0.0:1676155270282
+- em_primis,345.5,13.5,1265.5,0.0,0.0:1676154143239
+- em_primis,384.5,14.5,1174.5,0.0,0.0:1676154263837
+- em_primis,345.5,13.5,1300.5,0.0,0.0:1676154134589
+- em_primis,426.5,15.5,1336.5,0.0,0.0:1676154116636
+- em_primis,462.5,15.5,1298.5,0.0,0.0:1676154210736
+- em_primis,489.5,21.5,1316.5,0.0,0.0:1676154376131
+- em_primis,462.5,12.5,1271.5,0.0,0.0:1676154203535
+- em_primis,458.5,11.5,1440.5,0.0,0.0:1676154410029
+- em_primis,322.5,16.5,1071.5,0.0,0.0:1676154297138
+- em_primis,352.5,16.5,1072.5,0.0,0.0:1676154487086
+- em_primis,284.5,15.5,1016.5,0.0,0.0:1676154497133
+- em_primis,279.5,14.5,1005.5,0.0,0.0:1662483837556

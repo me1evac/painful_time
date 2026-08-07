@@ -1,0 +1,29 @@
+entityType: ZOMBIE
+name: $minibossLevel &bMinor Ice Elemental
+level: '16'
+healthMultiplier: 3
+damageMultiplier: 1.4
+powers:
+- attack_freeze.yml
+- summonType: ON_HIT
+  filename: primis_ice_village_fallen_trial_warrior_summon.yml
+  chance: 0.66
+- summonType: ON_COMBAT_ENTER
+  filename: primis_ice_village_fallen_trial_warrior_summon.yml
+followDistance: 20
+spawnCooldown: 15
+leashRadius: 40
+frozen: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+isRegionalBoss: true
+disguise: custom:ice_village_minor_ice
+customDisguiseData: player ice_village_minor_ice setskin {"id":"57120bff-f6a7-47e6-b507-3b72fd1958b2","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MjQ5MTM1OTQyNywKICAicHJvZmlsZUlkIiA6ICJmMTdkOWJlZmM2NGM0YzA4ODVhYWU3NWQ0YjhiNWE0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXJCYW5kZXJzbmF0Y2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJiZTdjMjFiMmVhOTgyZTdjYTc2MTc0OTg0MTQ2MDFjZTkyMTVhYWJhYjI5YjI2ZTY2YjA0OWM3MjMzOTkxZSIKICAgIH0KICB9Cn0=","signature":"sOKBZ29wmhghNZOnp+UTJpcyjM29ZroaCYbM/YKnmglbtWuvpfPxto/sE5E+Uc74XHEIpv/K789gXc8SqGq457/2xWqomSrAb30vfHm2oL8F1MlWS1ssc4CRcQmOQSu+LwxM9DqNAPb7+lUq6PmkyHt2oSq60L2iE62RSGPP4g9yxZyUDLGlfMp/4d2Ib3qFxGvYuguNPf6GDbyju09ViPibkvu7hxgEtV+88K+VrSNpkGTHHX0hu5k301pFUOkUwxe/MMJc3HZSodPM8x2r7PiuYWaiPtWEfAGVoSkKQoEuMciMDYb9Kmi0YLbTsA8ZKNjLXNSBAVV6YaNxz2I/H50jdggUEM9+gVrMi+icjvv7IEitL/RS4xw/dE3mUje1+Bl/OoWFs+uKAyRbQdePLk9wQBUp4t7tYp1lLQ6mRg5hkEKyeA3JHXboKRSKyCC/jT901BpKHsm8pkEcFE2tyurjRjglQZOAoodnXBBFZNO92oUUkDHBU1ZHOOAWJQYf8w6XkaRkUw/RtLYPwQuPNeBz8baBOoZhVRZh3eRjzWy+3+pNdeDsfubSYeV8Cqj//poTuSMEvwfB775bNTCN0WCwtI6MvNc7xOLhUkAMXQkA55hygHGPAiAzHuTSab/jUfqaSL3MQUhv9Oa5yJDoHHdZ/tvfrDJGEUFTzixnTgY="}],"legacy":false}
+movementSpeedAttribute: 0.25
+spawnLocations:
+- em_primis_wormhole,231.5,133.5,-94.5,0.0,0.0:1676138998450
+- em_primis_wormhole,243.5,133.5,-82.5,0.0,0.0
+- em_primis_wormhole,231.5,133.5,-82.5,0.0,0.0:1676139005300
+- em_primis_wormhole,243.5,133.5,-94.5,0.0,0.0
+

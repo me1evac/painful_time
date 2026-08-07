@@ -1,0 +1,20 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&7Rutilia Placidus'
+role: '&7<Slums Dweller>'
+profession: NITWIT
+greeting:
+- Greetings!
+dialog:
+- I love it here.
+- The smell of hay\nmakes me happy.
+- My favorite place to\nrelax after a hard day.
+farewell:
+- Hay ya later!
+disguise: custom:primis_pontis_slums_generic_2
+customDisguiseData: player primis_pontis_slums_generic_1 setskin {"id":"c4b9314c-9c9c-4623-993f-b6da4b0962b4","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyMDkzMDk4NTYxNSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxOWFkNmM0MThhMzNkODRlZWIwZGM5N2YxNWVlOTg0YjAxMWM3NmYxNDlhMmUwOTJjYzY1MzZkOWZjODc1YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9","signature":"NB03KbJMsQTGZMi7T7zWzGJbI/yQOmmqox12nHDI1Q1p7VrzBlu4IXkveghjbHcDnRzSKTz6x55tKzoxY8JcgtObMP9pPs2lkodqkA1NqL2lts29EaJ4ans16iHA3E6gdz6j8xJxAoS+vYkUFZR8m165WFkqjk/81qn6A4QO3fkapLEIU731S4FKCr01PNqe3LyiG8EVmeF6oEQLZTewUpP26TogRu8rkVvi2tA821vl2K8618BU4keXDN7yvmR/74Juq7axjPdJPKlqKXu6Fo5BnjEhYtyoJt5N1g+Luu/bN8gFtW6HuAVWNbDIrK00I9+0dUl3xUDs5EJibWO5zagaL5xITYByg7elXxTMxOHULttycqI2UouuWGJeFMALoC3jgTTzLSoIjrshGG2ch1sLPcOa7mDu5ux/Im8wDc6d/CNwhdOJY9I/46ydS/vq0oXxhC0d5aEvCJ8G05NFP489eI68KFZcf+3r6YVdwwyKAdqZG5tBsWmdxD8qzmDE/V4JvzQfA9FIvkcE8biO0bCSOV0J3DS1xsYrD+yXERtCaPmcAD6DTwnT/p0+pVCX35g7n2zDW/y3Vk/ZclykCi5C6LB4ZTiZ6lQ0Phj1lXppRaSq0A1dl+3w3ZJ48NIzXThwGH2t+tfpHxoLzIRbn5FKxPs3Lrk0xsqy+e5HUZo="}],"legacy":false}
+interactionType: NONE
+spawnLocations:
+- em_primis,473.5,36.0,739.45,171.91,7.24

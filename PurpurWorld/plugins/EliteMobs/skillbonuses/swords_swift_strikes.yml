@@ -1,7 +1,4 @@
 isEnabled: true
-name: '&bSwift Strikes'
-description:
-- '&7Move faster while wielding a sword.'
 skillType: SWORDS
 bonusType: PASSIVE
 unlockTier: 1

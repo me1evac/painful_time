@@ -1,0 +1,21 @@
+normalizedCombat: true
+isEnabled: true
+entityType: POLAR_BEAR
+name: '$minibossLevel &1Water Elemental'
+level: 14
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 5
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- attack_freeze.yml
+- frost_cone.yml
+- attack_vacuum.yml
+leashRadius: 23
+followDistance: 60
+customModel: 04_em_minor_ice_elemental
+

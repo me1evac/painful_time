@@ -1,0 +1,376 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - "SpawnClearEgg1"
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "SpawnClearEgg2"
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - "SpawnClearEgg3"
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - "SpawnClearEgg4"
+    - action: RUN_SCRIPT
+      wait: 120
+      scripts:
+      - "SpawnClearEgg5"
+    - action: RUN_SCRIPT
+      wait: 140
+      scripts:
+      - "SpawnClearEgg6"
+    - action: RUN_SCRIPT
+      wait: 160
+      scripts:
+      - "SpawnClearEgg7"
+    - action: RUN_SCRIPT
+      wait: 180
+      scripts:
+      - "SpawnClearEgg8"
+    - action: RUN_SCRIPT
+      wait: 200
+      scripts:
+      - "SpawnClearEgg9"
+    - action: RUN_SCRIPT
+      wait: 220
+      scripts:
+      - "SpawnClearEgg10"
+  SpawnClearEgg1:
+    Zone:
+      shape: DOME
+      radius: 2
+      borderRadius: 1
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg2:
+    Zone:
+      shape: DOME
+      radius: 3
+      borderRadius: 2
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg3:
+    Zone:
+      shape: DOME
+      radius: 4
+      borderRadius: 3
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg4:
+    Zone:
+      shape: DOME
+      radius: 5
+      borderRadius: 4
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg5:
+    Zone:
+      shape: DOME
+      radius: 6
+      borderRadius: 5
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg6:
+    Zone:
+      shape: DOME
+      radius: 7
+      borderRadius: 6
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg7:
+    Zone:
+      shape: DOME
+      radius: 8
+      borderRadius: 7
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg8:
+    Zone:
+      shape: DOME
+      radius: 9
+      borderRadius: 8
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg9:
+    Zone:
+      shape: DOME
+      radius: 10
+      borderRadius: 9
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4
+  SpawnClearEgg10:
+    Zone:
+      shape: DOME
+      radius: 11
+      borderRadius: 10
+      Target:
+        targetType: SELF
+    Actions:
+    - action: PLAY_SOUND
+      wait: 5
+      sValue: "entity.generic.extinguish_fire"
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+      repeatEvery: 5
+      times: 4
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      potionEffectType: WITHER
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 4

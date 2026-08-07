@@ -1,0 +1,17 @@
+name: "&9Ice Queen"
+material: BOW
+level: 17
+lore:
+- "&9This bow is so freezing cold you"
+- "&9need to use gloves to handle it."
+enchantments:
+- ARROW_DAMAGE,1
+- ARROW_INFINITE,1
+- ARROW_KNOCKBACK,1
+- VANISHING_CURSE,1
+potionEffects:
+- NIGHT_VISION,1,self,continuous
+- SLOW,1,target,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

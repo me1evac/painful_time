@@ -1,0 +1,61 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "FlameShieldVisual"
+      - "FlameShield"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    Cooldowns:
+      local: 199
+      global: 60
+  FlameShieldVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      borderRadius: 1
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: FLAME
+        x: 0
+        y: 0.1
+        z: 0
+        amount: 0
+        speed: 1
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+      repeatEvery: 10
+      times: 10
+  FlameShield:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+      filter: PLAYER
+    Actions:
+    - action: SET_ON_FIRE
+      duration: 133
+      wait: 20
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 10
+      times: 8
+# Generated with https://magmaguy.com/webapp/webapp.html !

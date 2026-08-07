@@ -1,0 +1,7 @@
+isEnabled: true
+location1: em_primis,1262.415036643486,-6.2,1315.5606456338658,2.5499282,90.464966
+location2: em_primis,1356.4564461802859,-6.2,1301.5018394622277,-1.3499876,-179.70044
+blindPlayer: true
+style: CRYSTAL
+sizeMultiplier: 0.8
+particleColor: 6582506

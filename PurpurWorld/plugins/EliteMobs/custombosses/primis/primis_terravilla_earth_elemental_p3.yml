@@ -1,0 +1,42 @@
+isEnabled: true
+entityType: IRON_GOLEM
+name: $bossLevel &fEarth Elemental
+level: 18
+healthMultiplier: 7
+damageMultiplier: 1.4
+powers:
+- attack_push.yml
+- invulnerability_arrow.yml
+- invulnerability_knockback.yml
+- primis_shockwave.yml
+- primis_rock_fall.yml
+uniqueLootList: 
+- filename=primis_terravilla_strike_the_earth_reward_sword.yml:amount=1:chance=1.0
+followDistance: 70
+spawnCooldown: 30
+leashRadius: 70
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+movementSpeedAttribute: 0.31
+onRemoveBlockStates:
+- -2.5,-0.5,-20.5/minecraft:white_stained_glass
+- -2.5,0.5,-20.5/minecraft:white_stained_glass
+- -2.5,1.5,-20.5/minecraft:white_stained_glass
+- -2.5,2.5,-20.5/minecraft:white_stained_glass
+- -1.5,-0.5,-20.5/minecraft:air
+- -1.5,0.5,-20.5/minecraft:air
+- -1.5,1.5,-20.5/minecraft:air
+- -1.5,2.5,-20.5/minecraft:white_stained_glass
+- -0.5,-0.5,-20.5/minecraft:air
+- -0.5,0.5,-20.5/minecraft:air
+- -0.5,1.5,-20.5/minecraft:air
+- -0.5,2.5,-20.5/minecraft:white_stained_glass
+- 0.5,-0.5,-20.5/minecraft:air
+- 0.5,0.5,-20.5/minecraft:air
+- 0.5,1.5,-20.5/minecraft:air
+- 0.5,2.5,-20.5/minecraft:white_stained_glass
+- 1.5,-0.5,-20.5/minecraft:white_stained_glass
+- 1.5,0.5,-20.5/minecraft:white_stained_glass
+- 1.5,1.5,-20.5/minecraft:white_stained_glass
+- 1.5,2.5,-20.5/minecraft:white_stained_glass

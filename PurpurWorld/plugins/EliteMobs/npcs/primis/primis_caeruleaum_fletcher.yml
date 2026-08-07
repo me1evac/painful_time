@@ -1,0 +1,25 @@
+isEnabled: true
+name: '&6Ventus Artifex'
+role: '&e<Old Fletcher>'
+profession: NITWIT
+greetings:
+- Greetings.
+dialog:
+- I used to be an adventurer like you.
+- Welcome, outsider
+- Need something?
+- |-
+  You're not from around these parts,
+   are you?
+farewell:
+- See you 'round!
+- Come back soon!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_caeruleaum_fletching.yml
+- primis_caeruleaum_fletching_2.yml
+disguise: custom:elitemobs_caeruleaum_fletcher
+customDisguiseData: player elitemobs_caeruleaum_fletcher setskin {"id":"fc6e2edd-275d-40d8-bbd3-91c21491c0e6","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDk2NTMwODU1NSwKICAicHJvZmlsZUlkIiA6ICIwYTUzMDU0MTM4YWI0YjIyOTVhMGNlZmJiMGU4MmFkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQX0hpc2lybyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZjdlZWJhNzZjYWI3NjY2N2M4ODc3YjEwY2M3NmY5ZTMyYzhkZTE4MDAxYjBmYmEzOTU5Njc5NTYzOWM2YTI4IgogICAgfQogIH0KfQ==","signature":"WgWXezo7enbVwxMR9udWe7Aa8BxiCt8DRpQy/7HFSvTJy++URG9+VMEyuYf0dMjmowe0R1Q1T+DaBNpijd0UWDa9kFx1Y1pFj0CPWXr7auT0fZj5HgrlrP0lxq+2pZR/3AzUIX2SZ5fjLX46K7izjwCjEpdXF6n4QH/xfNKvNy7dsS5jDLqZyc8J7h5Gyw+GXZEsBySGZaYyZquGIh3/Y2ewaRSMITKq82WiNuB+74/hSRZjSMT1KK5lJjNklWjyVS7m894sMDxH71Alf5tmFEvlHuhwopzNIYshS/q53acOTCuGz2vQMDowR4yvnaCkgmrX8Vue522togP3odKir1c2dZZ8gsj2k8Cncw2B8SHl/H7niXU2fphfsLYlFQkD3HSThRxUwKKGWKgd0z76RDgudEjgTS9ZLulq1axAqn9/zPQQDi/PQ3477HFPsSQJIXFbPgWNyE8QVZbaLZT305GM51GDS1Cht49eSiM4b/pR06D1zHv6hOy98IsRwCELV0zzE4KMp4csPtT1J2WnbuwCsccDsYpFDt/66C/I83AFP6AvHCZt+WQnykFapAcamPVDvUXgy18ULGz/5FuaEGmcpjrw2JkWpR6YiZqoQDHDogll3TkagI1uGx6x0nLZYEObhk3iLpY2jpX82LBA0QgtCT5L774Ts6vSU5eXaMs="}],"legacy":false}
+spawnLocation: em_primis,1189.7,19.0,363.62,-176.46,63.15

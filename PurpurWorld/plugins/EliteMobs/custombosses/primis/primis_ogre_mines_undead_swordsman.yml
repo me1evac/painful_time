@@ -1,0 +1,38 @@
+normalizedCombat: true
+isEnabled: true
+entityType: HUSK
+name: $normalLevel &fUndead Swordsman
+level: 7
+healthMultiplier: 0.6
+damageMultiplier: 0.5
+spawnCooldown: 5
+mainHand: IRON_SWORD
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+uniqueLootList:
+- primis_ogre_helmet.yml:0.05
+- primis_ogre_chestplate.yml:0.05
+- primis_ogre_leggings.yml:0.05
+- primis_ogre_boots.yml:0.05
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1511.5,44.5,556.5,0.0,0.0:1676056361878
+- em_primis,1497.5,44.5,572.5,0.0,0.0:1676056366127
+- em_primis,1466.5,44.5,572.5,0.0,0.0:1676056470025
+- em_primis,1450.5,44.5,557.5,0.0,0.0:1676056511427
+- em_primis,1461.5,44.5,547.5,0.0,0.0:1676056415926
+- em_primis,1460.5,44.5,542.5,0.0,0.0:1676056380778
+- em_primis,1524.5,57.5,567.5,0.0,0.0:1676056288176
+- em_primis,1435.5,40.5,570.5,0.0,0.0:1676056592478
+- em_primis,1488.5,29.5,591.5,0.0,0.0:1653276697363
+- em_primis,1484.5,29.5,586.5,0.0,0.0:1653276696019
+- em_primis,1441.5,27.5,640.5,0.0,0.0:1676056220282
+- em_primis,1437.5,27.5,635.5,0.0,0.0:1676056199632
+- em_primis,1437.5,24.5,674.5,0.0,0.0
+- em_primis,1447.5,44.5,573.5,0.0,0.0:1676050233128

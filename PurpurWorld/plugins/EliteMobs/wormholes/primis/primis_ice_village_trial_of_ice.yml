@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,1209.5,212,1399.5,41.6,73.4
+location2: em_primis_wormhole,237.5,134,-88.5,-0.5,16
+blindPlayer: true
+style: CRYSTAL
+sizeMultiplier: 0.8
+particleColor: 0x6470EA
+permission: elitequest.primis_ice_village_trial_of_ice.yml

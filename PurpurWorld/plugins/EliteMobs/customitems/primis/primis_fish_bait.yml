@@ -1,0 +1,8 @@
+isEnabled: true
+material: BONE_MEAL
+name: "&2Fish Bait"
+lore:
+- '&aLooks like you could reel big fish with these.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_fish_bait.yml

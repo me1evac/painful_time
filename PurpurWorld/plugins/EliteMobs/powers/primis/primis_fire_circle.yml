@@ -1,0 +1,100 @@
+powerType: UNIQUE
+eliteScript:
+  CircleWarning:
+    Events:
+    - EliteMobEnterCombatEvent
+    Zone:
+      shape: CYLINDER
+      radius: 33
+      borderRadius: 29
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: em_primis_wormhole,0.5,57,-82.5,0,0
+    Actions:
+    - action: TAG
+      Target:
+        targetType: SELF
+      tags:
+      - "combat"
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+        amount: 1
+      - particle: SMOKE_LARGE
+        amount: 1      
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "combat"
+    - action: RUN_SCRIPT 
+      scripts:
+      - Circle
+      repeatEvery: 101
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "combat"
+  Circle:
+    Zone:
+      shape: CYLINDER
+      radius: 33
+      borderRadius: 29
+      height: 2
+      Target:
+        targetType: LOCATION
+        location: em_primis_wormhole,0.5,57,-82.5,0,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 120
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+        filter: PLAYER
+      repeatEvery: 10
+      times: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "combat"
+    - action: SPAWN_PARTICLE
+      wait: 120
+      particles:
+      - particle: FLAME
+        amount: 0
+        speed: 0.4
+        y: 0.3
+        x: 0.1
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 10
+      times: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "combat"
+  Untag:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: UNTAG
+      Target:
+        targetType: SELF
+      tags:
+      - "combat"   
+# Generated with https://magmaguy.com/webapp/webapp.html !

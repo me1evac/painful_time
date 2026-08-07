@@ -1,0 +1,31 @@
+entityType: VINDICATOR
+name: $normalLevel &dStorm Temple Axeman
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1.25
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_storm_temple_drop_leggings.yml:chance=0.02
+- filename=primis_storm_temple_drop_helmet.yml:chance=0.02
+- filename=primis_storm_temple_drop_chestplate.yml:chance=0.02
+- filename=primis_storm_temple_drop_boots.yml:chance=0.02
+- filename=primis_storm_temple_drop_axe.yml:chance=0.02
+followDistance: 10
+spawnCooldown: 5
+leashRadius: 30
+mainHand: GOLDEN_AXE
+isRegionalBoss: true
+movementSpeedAttribute: 0.35
+spawnLocations:
+- em_primis,831.5,102.5,428.5,0.0,0.0:1676129359833
+- em_primis,831.5,102.5,425.5,0.0,0.0:1676129362881
+- em_primis,849.5,102.5,445.5,0.0,0.0:1676129388082
+- em_primis,876.5,103.5,474.5,0.0,0.0:1676129410632
+- em_primis,874.5,127.5,480.5,0.0,0.0:1676129429985
+- em_primis,897.5,119.5,518.5,0.0,0.0:1676129449881
+- em_primis,909.5,119.5,518.5,0.0,0.0:1676129448574
+- em_primis,982.5,124.5,531.5,0.0,0.0:1676129480042
+- em_primis,964.5,124.5,532.5,0.0,0.0:1676129468652
+- em_primis,1021.5,128.5,568.5,0.0,0.0:1660954524611

@@ -1,0 +1,70 @@
+normalizedCombat: true
+isEnabled: true
+entityType: IRON_GOLEM
+name: $bossLevel &dQuartz Elemental
+level: 7
+healthMultiplier: 3
+damageMultiplier: 1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 15
+powers:
+- invulnerability_knockback.yml
+phases:
+- primis_quartz_elemental_p2.yml:.9999
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 20
+customModel: 03_em_quartz_elemental
+damageModifiers:
+- material:DIAMOND_SWORD,multiplier:2
+spawnLocations:
+- em_primis,1439.5,31.5,572.5,0.0,0.0:1705570451599
+eliteScript:
+  Teleport:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: TELEPORT
+      FinalTarget:
+        targetType: LOCATIONS
+        locations:
+        - same_as_boss,1439.5,33,572.5
+      Target:
+        targetType: SELF
+      wait: 10
+onSpawnBlockStates:
+- -12.5,2.5,5.5/minecraft:barrier
+- -12.5,2.5,6.5/minecraft:barrier
+- -12.5,1.5,6.5/minecraft:barrier
+- -12.5,1.5,5.5/minecraft:barrier
+- -12.5,0.5,5.5/minecraft:barrier
+- -12.5,0.5,6.5/minecraft:barrier
+- -12.5,-0.5,6.5/minecraft:barrier
+- -12.5,-0.5,5.5/minecraft:barrier
+- -11.5,-0.5,5.5/minecraft:amethyst_cluster[facing=south,waterlogged=false]
+- -11.5,0.5,5.5/minecraft:amethyst_cluster[facing=south,waterlogged=false]
+- -11.5,1.5,5.5/minecraft:amethyst_cluster[facing=south,waterlogged=false]
+- -11.5,2.5,5.5/minecraft:amethyst_cluster[facing=south,waterlogged=false]
+- -11.5,2.5,6.5/minecraft:amethyst_cluster[facing=north,waterlogged=false]
+- -11.5,1.5,6.5/minecraft:amethyst_cluster[facing=north,waterlogged=false]
+- -11.5,0.5,6.5/minecraft:amethyst_cluster[facing=north,waterlogged=false]
+- -11.5,-0.5,6.5/minecraft:amethyst_cluster[facing=north,waterlogged=false]
+- -7.5,0.5,-10.5/minecraft:air
+- -7.5,1.5,-10.5/minecraft:air
+- -7.5,2.5,-10.5/minecraft:air
+- -8.5,3.5,-9.5/minecraft:air
+- -8.5,2.5,-9.5/minecraft:air
+- -8.5,1.5,-9.5/minecraft:air
+- -8.5,0.5,-9.5/minecraft:air
+- -8.5,-0.5,-9.5/minecraft:air
+- -9.5,-0.5,-8.5/minecraft:air
+- -9.5,0.5,-8.5/minecraft:air
+- -9.5,1.5,-8.5/minecraft:air
+- -9.5,2.5,-8.5/minecraft:air
+- -9.5,3.5,-8.5/minecraft:air
+- -10.5,2.5,-7.5/minecraft:air
+- -10.5,1.5,-7.5/minecraft:air
+- -10.5,0.5,-7.5/minecraft:air
+- -8.5,4.5,-9.5/minecraft:air

@@ -1,0 +1,14 @@
+name: "&dBlood Greaves"
+material: NETHERITE_BOOTS
+level: 20
+lore:
+- "&dWhen equipped these greaves start"
+- "&demitting dark-red mist that eventually"
+- "&denvelopes your feet."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_FALL,3
+- DURABILITY,3
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

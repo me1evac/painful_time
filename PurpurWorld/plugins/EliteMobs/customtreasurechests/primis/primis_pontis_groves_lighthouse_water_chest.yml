@@ -1,0 +1,14 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 5555
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: WEST
+chestTier: 1
+dropStyle: group
+lootList:
+- filename=primis_groves_lighthouse_chest_trident.yml
+locations:
+- em_primis,968.0,11.0,163.0,0.0,0.0:0

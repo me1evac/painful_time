@@ -1,0 +1,21 @@
+entityType: ZOMBIE
+name: '$normalLevel &7Minor Earth Elemental'
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- meteor_shower.yml
+- ground_pound.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+followDistance: 60
+spawnCooldown: 5
+leashRadius: 23
+disguise: custom:primis_pontis_minor_earth
+customDisguiseData: player primis_pontis_minor_earth setskin {"id":"3a45d204-9632-41dc-b1cb-e1b802466e3c","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTQ1MDMzODc5NywKICAicHJvZmlsZUlkIiA6ICJjY2QwMTU0Yzg2OWQ0ODhmOTY1ZDJlYjMwYjU1ZTUwNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dG9taXlvdWtub3ciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE5NmQ2NTFkOGMzZmQ0NGQ3NDkyZTg1ZDNkYjQ0YjNiNmZjMGYyMmE2ZGYyNThjZmY3NzE1OTdiNjI2OTBiNSIKICAgIH0KICB9Cn0=","signature":"o+h4J0c+Doqv003oOupqjWOd2lflKSSyG5+JLprjgX8p3VcA4zYk0GfxYQL34bFTbp9np2Ol8+UCp8PDS2yhBU+mVKtvxIO4y8I9I1XKIl2QSulvWD6WZCWT7k3T3cdA08mawrsvjxSxeCkTAbQPYIArDyr8b2lr3Klqy4hQH4Eb8VWU1mInVnU+bp9DGHk7l+qXF20X+jyU+dWBnKnQ9H4tFr/lij81c//9pf7xEDCFixEkCzD+VzVZLvlT29b2s7WgOMY4OHGnspL7CgFaHXtLwoqZCXwy9JsQhA1GlOxgUpnokkBYO8DY6vBvbgRQyt15FiqOhBmI1fRyd4VL6LxsM4746MWpj/vVsEF0tys0v3WolpOTVk+t45BVMqkNcRzU9UEtsiEXAyFO+YM9jMRoKhpk8FVJwqQSWy1EG3+VeBdFWjhy+W8r+ioQX8iL4LMutanw8jvKQSF5eYWPhYNSs/W8Yq9/PtuFzzYRyFhajUtFf7depilI58TtDYyZA2PwfKKceufWVVEkppB9pVldGSVGjkWvFl0IMk1zXPSOlV5r/sw1V6nlV2O8QdMNQu15/ZbRWOO8+7xxg9qm3WxgV5qUGwWX3lcJuVaQktBXCkv+/vHGceLLRWCzXRF3dFA6HuDI+UxgSKK3twPvEf7c/nTwCjgMO6ERIeyuuZI="}],"legacy":false}
+movementSpeedAttribute: 0.23
+

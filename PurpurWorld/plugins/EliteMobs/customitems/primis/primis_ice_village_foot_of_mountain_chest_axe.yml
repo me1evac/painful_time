@@ -1,0 +1,11 @@
+material: DIAMOND_AXE
+name: "&1Dull Frost Axe"
+lore: 
+- "&1Freezing to the touch"
+enchantments: 
+- "DAMAGE_ALL,2"
+potionEffects: 
+- "POISON,1,target,onHit"
+scalability: FIXED
+level: 12
+itemType: unique

@@ -1,0 +1,37 @@
+entityType: PILLAGER
+name: $normalLevel &dStorm Temple Bowman
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_storm_temple_drop_leggings.yml:chance=0.02
+- filename=primis_storm_temple_drop_helmet.yml:chance=0.02
+- filename=primis_storm_temple_drop_chestplate.yml:chance=0.02
+- filename=primis_storm_temple_drop_boots.yml:chance=0.02
+followDistance: 20
+spawnCooldown: 5
+powers:
+- taze.yml
+leashRadius: 30
+mainHand: CROSSBOW
+isRegionalBoss: true
+movementSpeedAttribute: 0.35
+spawnLocations:
+- em_primis,834.5,102.5,427.5,0.0,0.0:1676129373639
+- em_primis,850.5,102.5,448.5,0.0,0.0:1676129389732
+- em_primis,852.5,102.5,446.5,0.0,0.0:1676129384182
+- em_primis,875.5,114.5,476.5,0.0,0.0:1676129418384
+- em_primis,904.5,119.5,527.5,0.0,0.0:1676129456883
+- em_primis,1014.5,128.5,572.5,0.0,0.0:1660954540742
+- em_primis,931.5,122.5,530.5,0.0,0.0:1660953900971
+- em_primis,894.5,123.5,496.5,0.0,0.0:1676129425432
+- em_primis,1000.5,125.5,557.5,0.0,0.0:1660954537168
+- em_primis_wormhole,-276.5,120.5,194.5,0.0,0.0:1676129574934
+- em_primis_wormhole,-276.5,120.5,247.5,0.0,0.0
+- em_primis_wormhole,-319.5,120.5,247.5,0.0,0.0
+- em_primis_wormhole,-320.5,120.5,243.5,0.0,0.0
+- em_primis_wormhole,-320.5,120.5,196.5,0.0,0.0
+- em_primis_wormhole,-319.5,120.5,192.5,0.0,0.0

@@ -1,0 +1,11 @@
+name: "&eBlood Excavator"
+material: NETHERITE_SHOVEL
+level: 18
+lore:
+- "&eIt is so short! A true back breaker!"
+enchantments:
+- DURABILITY,5
+- DRILLING,2
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

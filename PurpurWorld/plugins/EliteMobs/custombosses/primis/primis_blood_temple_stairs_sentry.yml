@@ -1,0 +1,50 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+mainHand: BOW
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+name: $normalLevel &ePath Sentry
+level: 18
+healthMultiplier: 1
+damageMultiplier: 0.05
+movementSpeedAttribute: 0.001
+powers:
+- attack_push.yml
+- invulnerability_fire.yml
+spawnCooldown: 12
+leashRadius: 50
+followDistance: 50
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+eliteScript:
+  Push:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: PUSH
+      vValue: -1.8,0.3,0
+      Target:
+        targetType: DIRECT_TARGET
+  Pause:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      duration: 40
+      Target:
+        targetType: SELF
+      wait: 222
+      repeatEvery: 90
+spawnLocations:
+- em_primis,722.5,64.5,1129.5,0.0,0.0
+- em_primis,738.5,71.5,1113.5,0.0,0.0
+- em_primis,754.5,85.5,1097.5,0.0,0.0
+- em_primis,770.5,92.5,1097.5,0.0,0.0
+- em_primis,855.5,93.5,1005.5,0.0,0.0

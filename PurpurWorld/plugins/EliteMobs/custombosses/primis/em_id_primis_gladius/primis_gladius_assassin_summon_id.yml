@@ -1,0 +1,22 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+name: $normalLevel &fInvading Assassinator
+instanced: true
+level: 13
+healthMultiplier: 0.3
+damageMultiplier: 0.3
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: BOW
+helmet: LEATHER_HELMET:00000
+chestplate: LEATHER_CHESTPLATE:000000
+leggings: LEATHER_LEGGINGS:000000
+boots: LEATHER_BOOTS:0
+powers:
+- invulnerability_fire.yml
+- skeleton_tracking_arrow.yml
+frozen: true
+leashRadius: 60
+followDistance: 20

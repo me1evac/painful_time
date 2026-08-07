@@ -1,0 +1,44 @@
+normalizedCombat: true
+isEnabled: true
+entityType: BLAZE
+name: $bossLevel &dShadow Observer
+level: 19
+healthMultiplier: 15.0
+damageMultiplier: 0.77
+powers:
+- invisibility.yml
+- invulnerability_knockback.yml
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 1.0E-4
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+eliteScript:
+  Float:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: LEVITATION
+      amplifier: 0
+      duration: 9
+      repeatEvery: 10
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      Target:
+        targetType: SELF
+      particles:
+        - particle: FLAME
+          speed: 0.1
+        - particle: FLAME
+          speed: 0.03  
+      repeatEvery: 10
+    - action: PUSH
+      wait: 250
+      Target: 
+        targetType: SELF
+      vValue: 0,-0.3,0
+      repeatEvery: 250

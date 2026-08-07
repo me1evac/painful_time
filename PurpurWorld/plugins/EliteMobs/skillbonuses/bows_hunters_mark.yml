@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eHunter''s Mark'
-description:
-- '&7Mark enemies with your arrows.'
-- '&7Marked targets take bonus damage.'
 skillType: BOWS
 bonusType: PROC
 unlockTier: 2

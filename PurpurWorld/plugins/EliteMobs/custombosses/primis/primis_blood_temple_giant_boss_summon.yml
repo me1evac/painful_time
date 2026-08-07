@@ -1,0 +1,28 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+mainHand: BOW
+name: $reinforcementLevel &cBolaskell
+level: 18
+healthMultiplier: 0.25
+damageMultiplier: 0.6
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+followDistance: 30
+eliteScript:
+  Trigger:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 3
+      duration: 111
+      Target:
+        targetType: DIRECT_TARGET
+    Cooldowns:
+      local: 111
+      global: 60

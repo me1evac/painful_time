@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&dExpose Weakness'
-description:
-- '&7Attacks have a chance to reduce'
-- '&7the target''s defense.'
 skillType: SWORDS
 bonusType: PROC
 unlockTier: 2

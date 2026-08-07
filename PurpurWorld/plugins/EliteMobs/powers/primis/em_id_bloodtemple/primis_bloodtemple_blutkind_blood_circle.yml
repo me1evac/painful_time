@@ -1,0 +1,1010 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedEvent
+    - PlayerDamagedByEliteMobEvent
+    - EliteMobTargetPlayerEvent
+    Actions:
+    - action: TITLE_MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 100
+        title: "&eBlutkind"
+        subtitle: "&eReleases a miasma of blood"
+      duration: 30
+      fadeIn: 5
+      fadeOut: 5
+    - action: RUN_SCRIPT
+      scripts:
+      - "Circle1"
+    - action: RUN_SCRIPT
+      wait: 10
+      scripts:
+      - "Circle2"
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "Circle3"
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - "Circle4"
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - "Circle5"
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - "Circle6"
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "Circle7"
+    - action: RUN_SCRIPT
+      wait: 70
+      scripts:
+      - "Circle8"
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - "Circle9"
+    - action: RUN_SCRIPT
+      wait: 90
+      scripts:
+      - "Circle10"
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - "Circle12"
+    - action: RUN_SCRIPT
+      wait: 110
+      scripts:
+      - "Circle12"
+    - action: RUN_SCRIPT
+      wait: 120
+      scripts:
+      - "Circle13"
+    - action: RUN_SCRIPT
+      wait: 130
+      scripts:
+      - "Circle14"
+    - action: RUN_SCRIPT
+      wait: 140
+      scripts:
+      - "Circle15"
+    - action: RUN_SCRIPT
+      wait: 150
+      scripts:
+      - "Circle16"
+    - action: RUN_SCRIPT
+      wait: 160
+      scripts:
+      - "Circle17"
+    - action: RUN_SCRIPT
+      wait: 170
+      scripts:
+      - "Circle18"
+    - action: RUN_SCRIPT
+      wait: 180
+      scripts:
+      - "Circle19"
+    - action: RUN_SCRIPT
+      wait: 190
+      scripts:
+      - "Circle20"
+    - action: RUN_SCRIPT
+      wait: 200
+      scripts:
+      - "Circle21"
+    - action: RUN_SCRIPT
+      wait: 210
+      scripts:
+      - "Circle22"
+    Cooldowns:
+      local: 420
+      global: 130
+  Circle1:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      borderRadius: 2
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle2:
+    Zone:
+      shape: CYLINDER
+      radius: 4
+      borderRadius: 3
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle3:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      borderRadius: 4
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle4:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      borderRadius: 5
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle5:
+    Zone:
+      shape: CYLINDER
+      radius: 7
+      borderRadius: 6
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle6:
+    Zone:
+      shape: CYLINDER
+      radius: 8
+      borderRadius: 7
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle7:
+    Zone:
+      shape: CYLINDER
+      radius: 9
+      borderRadius: 8
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle8:
+    Zone:
+      shape: CYLINDER
+      radius: 10
+      borderRadius: 9
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle9:
+    Zone:
+      shape: CYLINDER
+      radius: 11
+      borderRadius: 10
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle10:
+    Zone:
+      shape: CYLINDER
+      radius: 12
+      borderRadius: 11
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle11:
+    Zone:
+      shape: CYLINDER
+      radius: 13
+      borderRadius: 12
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle12:
+    Zone:
+      shape: CYLINDER
+      radius: 14
+      borderRadius: 13
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle13:
+    Zone:
+      shape: CYLINDER
+      radius: 15
+      borderRadius: 14
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle14:
+    Zone:
+      shape: CYLINDER
+      radius: 16
+      borderRadius: 15
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle15:
+    Zone:
+      shape: CYLINDER
+      radius: 17
+      borderRadius: 16
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle16:
+    Zone:
+      shape: CYLINDER
+      radius: 18
+      borderRadius: 17
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle17:
+    Zone:
+      shape: CYLINDER
+      radius: 19
+      borderRadius: 18
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle18:
+    Zone:
+      shape: CYLINDER
+      radius: 20
+      borderRadius: 19
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle19:
+    Zone:
+      shape: CYLINDER
+      radius: 21
+      borderRadius: 20
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle20:
+    Zone:
+      shape: CYLINDER
+      radius: 22
+      borderRadius: 21
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle21:
+    Zone:
+      shape: CYLINDER
+      radius: 23
+      borderRadius: 22
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+  Circle22:
+    Zone:
+      shape: CYLINDER
+      radius: 24
+      borderRadius: 23
+      height: 1
+      Target:
+        targetType: SELF
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: CRIMSON_SPORE
+      - particle: REDSTONE
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.75
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: ZONE_BORDER
+      repeatEvery: 5
+      times: 2
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 10
+      Target:
+        targetType: ZONE_BORDER
+# Generated with https://magmaguy.com/webapp/webapp.html !

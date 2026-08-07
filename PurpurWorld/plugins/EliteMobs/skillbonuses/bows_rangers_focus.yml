@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&6Ranger''s Focus'
-description:
-- '&7Focus on one target for'
-- '&7stacking damage. Stacks up to 8x.'
 skillType: BOWS
 bonusType: STACKING
 unlockTier: 4

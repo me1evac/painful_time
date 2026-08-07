@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&aReturning Haste'
-description:
-- '&7Consecutive throws increase'
-- '&7damage. Stacks up to 5x.'
 skillType: TRIDENTS
 bonusType: STACKING
 unlockTier: 3

@@ -1,7 +1,4 @@
 isEnabled: true
-name: '&2Free Goblins Events Pack'
-customInfo:
-- Unleash annoying little goblins all across your server!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

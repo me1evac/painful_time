@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&7Iron Stance'
-description:
-- '&7Take less damage while'
-- '&7standing still.'
 skillType: ARMOR
 bonusType: CONDITIONAL
 unlockTier: 1

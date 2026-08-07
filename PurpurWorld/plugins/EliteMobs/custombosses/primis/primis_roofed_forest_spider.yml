@@ -1,0 +1,53 @@
+entityType: CAVE_SPIDER
+name: $normalLevel &6Forest Crawler
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 0.6
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_redwoods_spider_legs.yml:chance=0.35
+- material=GOLDEN_CARROT:chance=0.01
+powers:
+- attack_web.yml
+- movement_speed.yml
+followDistance: 10
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+spawnLocations:
+- em_primis,647.5,28.5,289.5,0.0,0.0:1676073284210
+- em_primis,653.5,26.5,284.5,0.0,0.0:1676073303161
+- em_primis,663.5,34.5,293.5,0.0,0.0:1676073278159
+- em_primis,628.5,31.5,303.5,0.0,0.0
+- em_primis,623.5,28.5,289.5,0.0,0.0:1676073443660
+- em_primis,609.5,30.5,284.5,0.0,0.0:1676363133759
+- em_primis,627.5,26.5,356.5,0.0,0.0
+- em_primis,619.5,25.5,359.5,0.0,0.0
+- em_primis,616.5,22.5,364.5,0.0,0.0
+- em_primis,615.5,24.5,389.5,0.0,0.0
+- em_primis,628.5,25.5,387.5,0.0,0.0:1674655489834
+- em_primis,633.5,25.5,383.5,0.0,0.0
+- em_primis,639.5,27.5,391.5,0.0,0.0
+- em_primis,647.5,24.5,374.5,0.0,0.0:1681218287981
+- em_primis,688.5,36.5,266.5,0.0,0.0:1676073400862
+- em_primis,688.5,33.5,260.5,0.0,0.0:1676073394911
+- em_primis,685.5,27.5,252.5,0.0,0.0:1676073199510
+- em_primis,668.5,23.5,251.5,0.0,0.0:1676073070458
+- em_primis,588.5,32.5,275.5,0.0,0.0:1661538511326
+- em_primis,579.5,42.5,286.5,0.0,0.0:1661538535516
+- em_primis,587.5,40.5,294.5,0.0,0.0:1661538526208
+- em_primis,594.5,42.5,309.5,0.0,0.0:1676128008622
+- em_primis,604.5,40.5,312.5,0.0,0.0:1676123410380
+- em_primis,611.5,38.5,318.5,0.0,0.0:1676362827309
+- em_primis,620.5,35.5,315.5,0.0,0.0:1675774861143
+- em_primis,612.5,44.5,337.5,0.0,0.0:1659319409369
+- em_primis,685.5,41.5,304.5,0.0,0.0:1676362788358
+- em_primis,748.5,35.5,326.5,0.0,0.0:1681220457226
+- em_primis,747.5,21.5,319.5,0.0,0.0:1676072955458
+- em_primis,750.5,36.5,254.5,0.0,0.0:1661538688329
+- em_primis,707.5,36.5,255.5,0.0,0.0:1676073212961
+- em_primis,663.5,49.5,249.5,0.0,0.0:1676365286810
+- em_primis,663.5,50.5,245.5,0.0,0.0:1676364777160

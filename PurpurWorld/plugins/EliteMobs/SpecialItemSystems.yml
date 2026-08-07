@@ -1,3 +1,4 @@
+successAnnouncement: true
 # Sets if special loot will drop.
 dropSpecialLoot: true
 # Sets the chance of special loot dropping from any custom boss that can drop elite loot with a health multiplier over 1.0.
@@ -66,16 +67,3 @@ criticalFailureChanceV2: 0.01
 challengeChance: 0.3
 # Chance of an item being lost if a player loses the enchantment challenge. This is a percentage of the base failure chance.
 criticalFailureChanceDuringChallengeChance: 0.1
-# Sets the message sent when players do not have enough elite coins to enchant an item
-insufficientFundsMessage: '&8[EliteMobs] &c$price $currencyName is required to enchant
-  $itemName, but you only have $currentAmount!'
-# Sets the message sent when players after deducting the funds
-newFundsMessage: '&8[EliteMobs] &fYou just spent $price $currencyName! You now have
-  $currentAmount $currencyName.'
-# Sets the message announced to all players when successfully enchanting an item with more than 10 enchantments
-successAnnouncement: '&8[EliteMobs] $player &2has successfully enchanted $itemName&2!'
-# Sets the message announced to all players when they get a boss fight while trying to enchant an item with more than 10 enchantments
-challengeAnnouncement: '&8[EliteMobs] $player &6is challenging a boss to enchant $itemName&6!'
-# Sets the message announced to all players when losing an item while trying to enchant it if the item has more than 10 enchantments
-criticalFailureAnnouncement: '&8[EliteMobs] $player &clost $itemName &cwhile trying
-  to enchant it!'

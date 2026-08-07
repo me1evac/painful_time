@@ -1,0 +1,9 @@
+material: LEATHER_LEGGINGS
+name: "&7Ninja Garb Leggings"
+lore: 
+- "Now you too are a Ninja"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: FIXED
+level: 13
+itemType: unique

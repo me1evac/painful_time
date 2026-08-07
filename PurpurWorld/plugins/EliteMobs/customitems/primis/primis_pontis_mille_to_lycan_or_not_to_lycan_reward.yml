@@ -1,0 +1,13 @@
+isEnabled: true
+material: CHAINMAIL_LEGGINGS
+name: "&aFur Leggings"
+enchantments:
+- "PROTECTION_ENVIRONMENTAL,3"
+potionEffects: 
+- "SPEED,0,self,onHit"
+lore:
+- "&aTough and light"
+- "&aMade out of fur and hide."
+itemType: unique
+level: 14
+scalability: fixed

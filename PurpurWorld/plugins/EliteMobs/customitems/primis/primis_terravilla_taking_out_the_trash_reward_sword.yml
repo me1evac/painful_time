@@ -1,0 +1,10 @@
+material: NETHERITE_SWORD
+name: "&9Earth Splitter"
+lore: 
+- "&9Looks ancient and dull."
+enchantments: 
+- "DAMAGE_ALL,3"
+- "DAMAGE_UNDEAD,1"
+scalability: FIXED
+level: 18
+itemType: unique

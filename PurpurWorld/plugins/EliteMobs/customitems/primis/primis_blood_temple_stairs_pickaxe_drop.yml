@@ -1,0 +1,11 @@
+name: "&eBlood Drill"
+material: NETHERITE_PICKAXE
+level: 18
+lore:
+- "&eIt's so heavy!"
+enchantments:
+- DURABILITY,5
+- DRILLING,2
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

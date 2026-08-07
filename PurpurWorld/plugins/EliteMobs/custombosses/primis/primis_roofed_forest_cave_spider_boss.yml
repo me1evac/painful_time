@@ -1,0 +1,16 @@
+entityType: SPIDER
+name: "$bossLevel &eBrood Mother"
+level: "13"
+healthMultiplier: 6
+damageMultiplier: 1.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_groves_brood_moher_drop_charm.yml:chance=0.05
+powers: 
+- "attack_web.yml"
+- "movement_speed.yml"
+- "attack_blinding.yml"
+- "invulnerability_fall_damage.yml"
+followDistance: 30

@@ -1,0 +1,39 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &fInvading Raider
+level: 7
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: IRON_SWORD
+helmet: IRON_HELMET
+powers:
+- invulnerability_fire.yml
+- attack_poison.yml
+uniqueLootList:
+- primis_invaders_helmet.yml:0.05
+- primis_invaders_chestplate.yml:0.05
+- primis_invaders_leggings.yml:0.05
+- primis_invaders_boots.yml:0.05
+- primis_invaders_bow.yml:0.05
+leashRadius: 10
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,905.5,20.5,715.5,0.0,0.0:1676067078531
+- em_primis,905.5,27.5,715.5,0.0,0.0:1676067153431
+- em_primis,897.5,25.5,649.5,0.0,0.0:1660588584713
+- em_primis,897.5,25.5,649.5,0.0,0.0:1660588542810
+- em_primis,908.5,25.5,649.5,0.0,0.0:1660588567262
+- em_primis,863.5,32.5,709.5,0.0,0.0
+- em_primis,861.5,32.5,697.5,0.0,0.0
+- em_primis,872.5,32.5,696.5,0.0,0.0
+- em_primis,872.5,32.5,684.5,0.0,0.0
+- em_primis,878.5,32.5,682.5,0.0,0.0
+- em_primis,892.5,32.5,682.5,0.0,0.0
+- em_primis,878.5,32.5,666.5,0.0,0.0
+- em_primis,892.5,32.5,666.5,0.0,0.0

@@ -1,0 +1,40 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &fInvading Goober
+level: 14
+neutral: true
+phases:
+- primis_gladius_goober_id_p2.yml:0.99999
+instanced: true
+healthMultiplier: 0.25
+damageMultiplier: 0.30
+frozen: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: IRON_SWORD
+offHand: IRON_SWORD
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 15
+spawnLocations:
+- em_id_primis_gladius,-60.5,69.5,37.5,0.0,0.0
+- em_id_primis_gladius,-60.5,69.5,39.5,0.0,0.0
+- em_id_primis_gladius,-60.5,69.5,41.5,0.0,0.0
+- em_id_primis_gladius,-60.5,69.5,43.5,0.0,0.0
+- em_id_primis_gladius,-63.5,69.5,37.5,0.0,0.0
+- em_id_primis_gladius,-63.5,69.5,39.5,0.0,0.0
+- em_id_primis_gladius,-63.5,69.5,41.5,0.0,0.0
+- em_id_primis_gladius,-63.5,69.5,43.5,0.0,0.0
+- em_id_primis_gladius,-65.5,69.5,39.5,0.0,0.0
+- em_id_primis_gladius,-65.5,69.5,41.5,0.0,0.0
+- em_id_primis_gladius,-58.5,69.5,37.5,0.0,0.0
+- em_id_primis_gladius,-58.5,69.5,43.5,0.0,0.0

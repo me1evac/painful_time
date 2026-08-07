@@ -1,0 +1,37 @@
+isEnabled: true
+entityType: EVOKER
+name: $normalLevel &3Frost Simulacrum
+level: 17
+healthMultiplier: 1
+damageMultiplier: 1
+powers:
+- attack_freeze.yml
+followDistance: 40
+spawnCooldown: 30
+leashRadius: 40
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+disguise: POLAR_BEAR
+customModel: 04_em_minor_ice_elemental
+spawnLocations:
+- em_primis_wormhole,405.5,100.5,-131.5,0.0,0.0
+- em_primis_wormhole,391.5,100.5,-134.5,0.0,0.0
+- em_primis_wormhole,394.5,100.5,-155.5,0.0,0.0
+- em_primis_wormhole,429.5,100.5,-156.5,0.0,0.0
+- em_primis_wormhole,449.5,100.5,-164.5,0.0,0.0
+- em_primis_wormhole,449.5,101.5,-142.5,0.0,0.0
+- em_primis_wormhole,456.5,101.5,-130.5,0.0,0.0
+- em_primis_wormhole,444.5,101.5,-126.5,0.0,0.0:1676140351577
+- em_primis_wormhole,428.5,101.5,-133.5,0.0,0.0
+- em_primis_wormhole,450.5,101.5,-109.5,0.0,0.0
+- em_primis_wormhole,473.5,100.5,-121.5,0.0,0.0
+- em_primis_wormhole,469.5,100.5,-143.5,0.0,0.0
+- em_primis_wormhole,485.5,101.5,-138.5,0.0,0.0
+- em_primis_wormhole,494.5,103.5,-146.5,0.0,0.0
+- em_primis_wormhole,482.5,100.5,-173.5,0.0,0.0
+- em_primis_wormhole,475.5,100.5,-183.5,0.0,0.0
+- em_primis_wormhole,463.5,99.5,-220.5,0.0,0.0
+- em_primis_wormhole,432.5,99.5,-211.5,0.0,0.0

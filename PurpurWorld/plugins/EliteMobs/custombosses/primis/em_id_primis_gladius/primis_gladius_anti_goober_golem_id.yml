@@ -1,0 +1,77 @@
+normalizedCombat: true
+isEnabled: true
+entityType: IRON_GOLEM
+name: $normalLevel &c[Pontis Magma Colossus]
+level: 14
+instanced: true
+healthMultiplier: 10.0
+damageMultiplier: 0.45
+frozen: false
+neutral: true
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 20
+eliteScript:
+  Wait:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      radius: 16.0
+      height: 3.0
+      shape: CYLINDER
+      filter: PLAYER
+      Target:
+        targetType: SELF
+        offset: 0,-1,0
+    Actions:
+    # - action: SPAWN_PARTICLE
+      # Target:
+        # targetType: ZONE_FULL
+      # particles:
+      # - particle: FLAME
+      # - particle: SMOKE_NORMAL
+      # repeatEvery: 10
+    - action: SET_MOB_AI
+      bValue: false
+      Target:
+        targetType: SELF
+    - action: SET_MOB_AI
+      wait: 160
+      bValue: true
+      repeatEvery: 5
+      Target:
+        targetType: SELF
+      Conditions:
+        hasTags:
+        - wake
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 100
+        conditionType: FILTERING
+    - action: MESSAGE
+      wait: 300
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&c[Pontis Magma Colossus] &fBreak yourself upon Magmas body!"
+    - action: MESSAGE
+      wait: 488
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&c[Pontis Magma Colossus] &fFeel the strength of the Magma!"
+    - action: TAG
+      repeatEvery: 5
+      duration: 200
+      tags:
+      - wake
+      Target:
+        targetType: ZONE_FULL
+spawnLocations:
+- em_id_primis_gladius,-67.8,69,40.5,-90.0,0.0

@@ -1,0 +1,29 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &8Camp Warden
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 6.0
+damageMultiplier: 1.75
+mainHand: GOLDEN_SWORD
+chestplate: CHAINMAIL_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: GOLDEN_BOOTS
+powers:
+- em_primis_magma_slam_single.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+onSpawnBlockStates:
+- -1.5,-0.5,-14.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- -1.5,0.5,-14.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- -1.5,1.5,-14.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- -1.5,2.5,-14.5/minecraft:polished_blackstone_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+- -0.5,-0.5,-14.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- -0.5,0.5,-14.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- -0.5,1.5,-14.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- -0.5,2.5,-14.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- 0.5,-0.5,-14.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 0.5,0.5,-14.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 0.5,1.5,-14.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 0.5,2.5,-14.5/minecraft:polished_blackstone_stairs[facing=east,half=top,shape=straight,waterlogged=false]

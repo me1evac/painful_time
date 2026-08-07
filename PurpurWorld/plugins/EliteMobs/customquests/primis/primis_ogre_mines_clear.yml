@@ -1,0 +1,28 @@
+isEnabled: true
+customObjectives:
+  Objective1:
+    amount: '2'
+    filename: primis_ogre_mines_undead_swordsman.yml
+    objectiveType: KILL_CUSTOM
+  Objective2:
+    amount: '1'
+    filename: primis_ogre_mines_undead_archer.yml
+    objectiveType: KILL_CUSTOM
+customRewards:
+- currencyAmount=80:amount=1:chance=1
+questAcceptPermission: elitequest.primis_main_quest_6.yml
+questLockoutPermission: elitequest.primis_ogre_mines_clear.yml
+name: '&2Ogre-sized problems'
+questLore:
+- Our mining encampment was overrun! We need help!
+- I don't really know what happened, but we need someone to clear the encampment and then talk to &aOld Vetus&f!
+questAcceptDialog:
+- '&a[Metus]&f You''re going to help? Please hurry, the encampment is just beyond
+  here!'
+- '&7&oI should clear the encampment and report to &aOld Vetus&7&o.'
+questCompleteMessage:
+- '&a[Vetus Fossores]&f You helped us out? Fantastic, we absolutely needed some help right
+  now!'
+- Here's a little something for your help clearing the encampment!
+questCompleteCommands: []
+turnInNPC: primis_ogre_mines_old_miner.yml

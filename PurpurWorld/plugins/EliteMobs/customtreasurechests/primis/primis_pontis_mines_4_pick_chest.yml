@@ -1,0 +1,14 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: WEST
+chestTier: 1
+dropStyle: group
+restockTimer: 5760
+lootList:
+- filename=primis_goblin_mines_chest_pick.yml:chance=1.0
+locations:
+- em_primis,741.0,87.0,441.0,0.0,0.0

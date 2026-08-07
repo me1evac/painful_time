@@ -1,0 +1,10 @@
+isEnabled: true
+material: IRON_SWORD
+name: "&4Pirate's sword"
+enchantments:
+- DAMAGE_ALL,2
+lore:
+- "&aCurved and mean-looking."
+itemType: unique
+level: 7
+scalability: fixed

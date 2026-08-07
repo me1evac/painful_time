@@ -1,0 +1,23 @@
+greetings: []
+canTalk: true
+activationRadius: 3.0
+isEnabled: true
+name: '&7Modestus Aper'
+role: '&8Pontis Resident'
+profession: NITWIT
+greeting:
+- Hello!
+- Greetings!
+dialog:
+- Have you been to the observatory?
+- Where did you journey from?
+- You don't look like you're from around here...
+- It's a great day today.
+farewell:
+- See you around!
+- Farewell!
+disguise: custom:primis_pontis_citizen_7
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fresh_rats_coming_up.yml
+spawnLocation: em_primis,562.18,68.0,697.87,-100.21,18.64

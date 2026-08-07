@@ -1,0 +1,33 @@
+normalizedCombat: true
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &6Bar Brawler
+level: 17
+healthMultiplier: 1
+damageMultiplier: 0.6
+spawnCooldown: 5
+leashRadius: 15
+isRegionalBoss: true
+followDistance: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+onDamagedMessages:
+- That all ya got!
+- I did not even feel that!
+- Why...you!
+- I will show you!
+- Who the heck are you!
+- TAKE THAT!
+disguise: custom:elitemobs_terravilla_bar_brawler
+customDisguiseData: player elitemobs_terravilla_bar_brawler setskin {"id":"a69120e3-a97f-47ff-9214-3cd272648836","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1OTA1Nzc1MDQxNiwKICAicHJvZmlsZUlkIiA6ICJhYzM2YmVkZGQxNGQ0YjVmYmQyYzc5OThlMWMwOTg3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYWlzYWthIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3NmE0YjgxODE3ZDYyNWVlNTMwMjJlYjY3NTEzMWMzZGQzNjc2NmZlZTZkM2FlNjIyZTJiZDVmN2RhM2M0NTMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"hn655HoxaqnorA/wfUj9zFDNGVI+bHqPZgBveclQkbD5V+/FiBRgylunDsyanj/RWZBwhJrgE75sVdx2RU5hU/KwWQ8a7FsVCREtLXiqRD0y+uGiMrrDUinEiNMyEUB29s9ibF0zpp2zbR0YDwf9JLwiDJq3bTvW/DA0BW2Rexca/Ms0Zu8cfwbtgsyTcML3cs1Y7d3CKIvYlb9wlz4ssGsOwyXs3fmL34wFW6YX2gHMChdbiu6uG44Dekn6nhdwuM8WiUpEkvA9TNi54HM3yQGJ2oA6zFAhi441YZuWTcEJ/GsV5sC3YbZh2QnpgbHc16uAMqG2/s82BCoxUJnlq39ZCsE03Shc1S1gpOgcWXfrsXEXMsLMmj+KGnVNJxGO+cDuBbxoUN4xD1VkBGANp5sV0zG63E6hDjiUd0znh6Y//jNAAF36VaAlgFTIU+t1pWMIReSesBhHAX5c5RfVa95UjJF7Iegow+G34Qz4/heErXLpgPsoSLASl99kdb7Ej1lSLte/NyzLmzbd+x/9cDEJVNr9ewS/7Y1Pc98TbO0yDcycF2MpkFUvDuqU4P9UwVOThpInRnCSZJpKDPbus0RqhdV4COOgY4SPXoeDXPTsJCMpdkz7it5MGsrG2EU1GzbUBgrkEX2ORnf8GgH/mrjhHkiIBD7/u1t3TEWKd6k="}],"legacy":false}
+spawnLocations:
+- em_primis,345.5,28.5,1432.5,0.0,0.0:1676141390571
+- em_primis,346.5,28.5,1433.5,0.0,0.0:1676141378242
+- em_primis,346.5,27.5,1430.5,0.0,0.0:1676141351439
+- em_primis,346.5,27.5,1434.5,0.0,0.0:1676141406920
+- em_primis,346.5,27.5,1429.5,0.0,0.0:1676141376941
+- em_primis,345.5,27.5,1430.5,0.0,0.0:1676141352437
+- em_primis,346.5,27.5,1436.5,0.0,0.0:1676141384646
+- em_primis,347.5,27.5,1428.5,0.0,0.0:1676141379592

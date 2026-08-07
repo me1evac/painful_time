@@ -1,0 +1,17 @@
+name: "&aAllegiance"
+material: NETHERITE_SWORD
+level: 18
+lore:
+- "&aCrafted with the best ore from"
+- "&aPontis Mille by the finest"
+- "&ablacksmiths of Gladius."
+enchantments:
+- DAMAGE_ALL,5
+- DAMAGE_ARTHROPODS,4
+- DAMAGE_UNDEAD,4
+potionEffects:
+- HEAL,1,self,onHit
+- ABSORPTION,1,self,onHit
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

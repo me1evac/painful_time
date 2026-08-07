@@ -1,0 +1,18 @@
+entityType: ZOGLIN
+name: $minibossLevel &2Alpha Razorback
+level: '17'
+healthMultiplier: 4
+damageMultiplier: 1.4
+powers:
+- arrow_rain.yml
+- attack_push.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 20
+spawnCooldown: 10
+leashRadius: 30
+movementSpeedAttribute: 0.33
+disguise: HOGLIN
+frozen: false

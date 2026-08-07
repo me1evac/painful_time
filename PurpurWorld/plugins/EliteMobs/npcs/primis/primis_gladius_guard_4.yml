@@ -1,0 +1,18 @@
+dialog: []
+farewell: []
+isEnabled: true
+name: '&2Town Guard'
+role: '&a<Gladius Guard>'
+profession: TOOLSMITH
+spawnLocation: em_primis,834.38,27.0,660.67,-70.82,11.55
+greetings:
+- Tread lightly!
+- Reinforcements?
+- Damned invaders!
+- Watch your back!
+- Be careful.
+canTalk: true
+activationRadius: 6.0
+interactionType: NONE
+disguise: custom:elitemobs_gladius_guard
+customDisguiseData: player elitemobs_gladius_guard setskin {"id":"4a8c05cc-811a-4638-966f-b77e41e578af","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NzUzMjMyMTA3MCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kM2MzYTlhYTA5MWM4ZTllM2ZlNzZhMDY3ZWE1ODY1NmRlMzMwNmRiODIzNDU3NDgwMjVlZTUxZGIwYThiMDlhIgogICAgfQogIH0KfQ==","signature":"ln8HVlniey0G2whNlcbnvNgWbQNu5hUa9WqjUYY5q1BO/aQQx5kAMxtv9M93l9MMUl/NIprZX5oufkSrjOX1wjwm1o0YVmRZ2NKnSbV56tWUIveuwrcYzvqmFTEHVDXwes7WvtQZ7zZYbVxOxJvLnp/85LHNwVDm4CBhpGUS5Sn4uwqHuva9pZnf/4ZO8lxcyYWJQM745wJV+L67dywsQcv5h4IEnvfy/s6DIEDjGD514SQMEWv7IOBvfCTKh3rgFaU3KW6eT23Qbc4x6JDQe2iwwiDu7M4Dn4ugwv//crpJEg7vFU0Ca+454qyXPdKx4h9l0YdRmTVKM4IL4G9q7Hwh2L+p5lvcOvDCKaQOnPHSdY6EC6jbDRvhiZyYWGH9ps9L5PiPjpEqeQhVrO5dNjdQXkqUCM+l/AButyj/1f115Wlzc0fYAEaAQNwQcUTuiZkH+p7cgmhSg6/jyKxkQERngRp3Ss2+3dQjXTqvjJMlywITf7vZRbKWK2WlOhblObtgtdQ6dAaaPC6yYGAE0OrcrN/f0CqMxLZUu9xh2ThSbkgzn8Fm39sFatKkddoOJu+gLQ68orx/LwlK1Dn6VeEkVJRsoa5JB3hccFK7Ma/BNMXeycNrWPNJ2gUzMvOTj9h1lYC99GUD7T1ySQTksZ/udMvJ90ZyW8k75bXfjWQ="}],"legacy":false}

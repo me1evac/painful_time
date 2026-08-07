@@ -1,0 +1,27 @@
+normalizedCombat: true
+isEnabled: true
+entityType: BLAZE
+name: $normalLevel &cFlame Elemental
+level: 19
+healthMultiplier: 1.25
+damageMultiplier: 1
+powers:
+- flamethrower.yml
+- primis_flame_elemental_flame_shield.yml
+- invulnerability_fire.yml
+spawnCooldown: 10
+leashRadius: 40
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+followDistance: 22
+spawnLocations:
+- em_primis,953.5,70.5,1036.5,0.0,0.0
+- em_primis,937.5,70.5,971.5,0.0,0.0:1664987720588
+- em_primis,954.5,70.5,957.5,0.0,0.0:1664987705337
+- em_primis,981.5,69.5,951.5,0.0,0.0
+- em_primis,1023.5,79.5,1053.5,0.0,0.0
+- em_primis,943.5,103.5,1060.5,0.0,0.0:1675703504512
+- em_primis,1162.5,102.5,1001.5,0.0,0.0

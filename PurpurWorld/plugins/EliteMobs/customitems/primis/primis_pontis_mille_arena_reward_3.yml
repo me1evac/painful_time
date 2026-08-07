@@ -1,0 +1,11 @@
+material: IRON_LEGGINGS
+name: "&4Star Touched Leggings"
+lore: 
+- "&7The leggings sparkle like the stars in the sky."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+- "PROTECTION_FALL,3"
+- "PROTECTION_FIRE,1"
+scalability: FIXED
+level: 15
+itemType: unique

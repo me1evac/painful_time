@@ -1,0 +1,18 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 1440
+lootList:
+- material=DIAMOND:chance=0.05
+- material=GOLD_INGOT:chance=0.1
+- material=NETHERITE_INGOT:chance=0.01
+- material=IRON_INGOT:chance=0.1
+- material=EMERALD:chance=0.1
+locations:
+- em_primis,699.0,70.0,414.0,0.0,0.0:0

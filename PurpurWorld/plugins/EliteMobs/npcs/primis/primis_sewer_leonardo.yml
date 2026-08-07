@@ -1,0 +1,20 @@
+greetings: []
+canTalk: true
+activationRadius: 3.0
+isEnabled: true
+name: '&1Leonardo'
+role: '&9Sewer Defender'
+profession: LEATHERWORKER
+greeting:
+- Hello, stranger.
+dialog:
+- What's up?
+- How'd you manage to find us down here?
+- Beware of The Shredder!
+farewell:
+- See ya later!
+interactionType: CHAT
+disguise: custom:primis_sewer_leonardo
+customDisguiseData: player primis_sewer_leonardo setskin {"id":"d011a9ff-10bc-432f-828f-bd0cb58f614d","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MDY2MzIzNjYxNiwKICAicHJvZmlsZUlkIiA6ICI0N2RhZjU4YmJkNTM0OWU2YTI1MWYzMDZkYzhlYjc2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZeXJvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2YmNmNTBjNzQyYTUwYmZlMjg2NjRlNDRjNTMwOTM0OWMxNmRiNDhhNTc3YjUyOTMyMDkyODg5NDNiNWU1ZDQiCiAgICB9CiAgfQp9","signature":"bOKNlxJVOtus4w0UsqJvbHTu7u3gy+cX23Fdlmgbkv96A2exF/OMgodxXZ8/3adGRzBzGPF5A6SvxUP+aZK3wImPhEE9+4FD4O8nQS8o04maWuyJ76xTrLThrj8ypxbmAOO1+kTrRHzUTqXnVrIg5rR4+f+GatIrZMk9TnFvtJgijIAGVmyTtJ2KnpA5ZN+XI2/GlisIDT7USsSLRL5o8g4Mj9xfMovQPkfhBIsb2hZb/BcR26NPX5DGVvk3xAFPRMRvTVbGJ3lh3Cnrac63qxSij4jtMF57+ig0aDflanBG493YtcF0rhs7iFi8wtgLscJdKWni1pw6XWmY1YO1N35VycknVjr7rNR9RTVrnefPEZuyZkiPZL4v1NQKpp7uiTovn8xHhN4v+KIFYsVxiDXJak7ei0lWDR1nkl+PsV7kpxLgmK2J/XZIXklUxbTY2Ay+/5MKjpXa7cbxns8nr1E/SFHQk08llt4Pkae2jWZu2RiGR9yeBfoOUkr2La/umZWrnc/EyIUvYAa0CeRvCMye//8wS/XP1D0iTUgUdmZlSCCh05Tz1sKn1WyzEKA6NZAkinBhYe2Fafgy7fZy0bzAEGymnjU9orYMJeKXxalrJ7PzehCG/eBkrMX6PvX+WL7vQshQ5wqRgTqaC15GpnBPyicUiy12eSVG88u/FaM="}],"legacy":false}
+spawnLocations:
+- em_primis_wormhole,140.51,82.0,217.52,-138.77,3.0

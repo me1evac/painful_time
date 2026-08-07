@@ -1,0 +1,42 @@
+normalizedCombat: true
+isEnabled: true
+entityType: STRAY
+name: $normalLevel &8Catacomb Archer
+level: 16
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+spawnCooldown: 20
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_catacomb_drop_chestplate_2.yml:chance=0.02
+mainHand: BOW
+powers:
+- invulnerability_fire.yml
+- shield_wall.yml
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,1356.5,-6.5,1277.5,0.0,0.0:1662943645133
+- em_primis,1338.5,-6.5,1277.5,0.0,0.0:1662943657622
+- em_primis,1326.5,-6.5,1277.5,0.0,0.0:1662943327072
+- em_primis,1308.5,-6.5,1277.5,0.0,0.0:1662943316176
+- em_primis,1238.5,-6.5,1315.5,0.0,0.0:1662943622130
+- em_primis,1238.5,-6.5,1333.5,0.0,0.0:1662943626174
+- em_primis,1238.5,-6.5,1345.5,0.0,0.0:1662943696969
+- em_primis,1238.5,-6.5,1363.5,0.0,0.0:1662943598276
+- em_primis,1361.5,-6.5,1372.5,0.0,0.0
+- em_primis,1337.5,-6.5,1372.5,0.0,0.0
+- em_primis,1337.5,-6.5,1354.5,0.0,0.0
+- em_primis,1337.5,-6.5,1384.5,0.0,0.0
+- em_primis,1361.5,-6.5,1384.5,0.0,0.0
+- em_primis,1361.5,-6.5,1402.5,0.0,0.0
+- em_primis,1236.5,-6.5,1431.5,0.0,0.0:1662943709815
+- em_primis,1260.5,-6.5,1449.5,0.0,0.0:1662943719119
+- em_primis,1248.5,-6.5,1419.5,0.0,0.0
+- em_primis,1248.5,-6.5,1401.5,0.0,0.0
+- em_primis,1260.5,-6.5,1401.5,0.0,0.0
+- em_primis,1260.5,-6.5,1419.5,0.0,0.0
+- em_primis,1236.5,-6.5,1410.5,0.0,0.0

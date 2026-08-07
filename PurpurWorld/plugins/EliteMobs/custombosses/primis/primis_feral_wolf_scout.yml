@@ -1,0 +1,26 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WOLF
+level: 2
+healthMultiplier: 0.6
+damageMultiplier: 0.55
+spawnCooldown: 10
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- primis_wolf_hide_boots.yml:.1
+- primis_wolf_hide_chestplate.yml:.1
+- primis_wolf_hide_helmet.yml:.1
+- primis_wolf_hide_leggings.yml:.1
+spawnLocations:
+- em_primis,1283.5,19.5,442.5,0.0,0.0:1660946847893
+- em_primis,1279.5,19.5,446.5,0.0,0.0:1786082182954
+- em_primis,1274.5,29.5,429.5,0.0,0.0:1676900646092
+- em_primis,1269.5,29.5,431.5,0.0,0.0:1676054894928
+- em_primis,1270.5,27.5,440.5,0.0,0.0:1676054901829
+- em_primis,1259.5,28.5,426.5,0.0,0.0:1680183713871
+- em_primis,1260.5,27.5,416.5,0.0,0.0:1786084389556

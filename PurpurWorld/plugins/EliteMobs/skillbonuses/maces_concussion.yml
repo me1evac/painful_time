@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eConcussion'
-description:
-- '&7Chance to daze enemies,'
-- '&7reducing their damage output.'
 skillType: MACES
 bonusType: PROC
 unlockTier: 1

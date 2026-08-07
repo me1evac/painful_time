@@ -1,0 +1,23 @@
+isEnabled: true
+name: Peculiar Dwarf
+role: <Outsider>
+profession: TOOLSMITH
+mainHand: NETHERITE_PICKAXE
+greetings:
+- Oh! Heya!
+- Hello friend!
+dialog:
+- Did not expect anyone\nto come down here.
+- I am digging for black diamonds.
+- Seems like it is really\nhard to find black diamonds\nin your world.
+- My portable wormhole\ngenerator malfunctioned and I\nended up here.
+- I need the black diamonds\nto recharge my wormhole generator.
+farewell:
+- Stay safe friend.
+canTalk: true
+activationRadius: 6.0
+interactionType: CHAT
+disguise: custom:elitemobs_hidden_dwarf
+customDisguiseData: player elitemobs_hidden_dwarf setskin {"id":"ee70d31d-b52a-48ca-ad54-52f471eb6757","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY3NDAxODM1NDMxOSwKICAicHJvZmlsZUlkIiA6ICIwZWQ2MDFlMDhjZTM0YjRkYWUxZmI4MDljZmEwNTM5NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZWVkTW9yZUFjY291bnRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyNGI1NDYyNWZlNTQwYmJmNGMzOWIzMzY3NjZkYWYyZTA2ZGE1ZTY0NDNmODBlN2VmZjQwNDIwN2FhNWE3OWMiCiAgICB9CiAgfQp9","signature":"iE3hHGjkf7MVxcqg5li01H45UTX+NHInVVKaqMpJnm815k8MAf+nLzsTVMB09oMSMIU8Dm+WyTozIvLs7S0OK24I1diICPgPYIOaXHUHLesom81fbFmYXJqUInLa3MhmK/YzNgCcTiPKUeiJ4+ZfS1ylVjRFg1vU+gaOaJMcXAH2DfkB+4AixYxrsrarECuISCZaC2NbSpQCJFw1HcHq1CoFlfMeVIKrOyAuDg/W020W10RxslMv6CgSblWALSvVpFL8Enoty7vt1XTBhpRfp9GEMhqvfKjp2DYYaBzqinAPrK6gGrUuXzpEQgK/9qCJna/hcHU2Nnltkr/UOe6v91ksHrA+i4P8VlaFHWah5qhcrg2FqKDFP0ZKniti0W6iIravHk/L4rKH34bEi5jxjCsDjYoJlW8o1snoqSqBkUgyZaEdkIrtCwfme7ELclw04RPKefoWpjtjQj58yfWhqXHaN1DwQHGNBM+osTMTw6vyXXAud0XidgDrIxn4wGtgZQjFxLCOOgj0vAiEJV9J4mIcDnjD7OFxddES/S6DO1KioZrE0iGHhdPtfMYdhbsbepwLgJ9WWNB9NN6LqptQWwcocJwTQHYgEgHH1Sh6Aw8PqQW2vNEyvZ8F8IdkMn1UDUsOjVDFoS1+gENI+njEHzCqV0aTdG/iko5kcXPCoh0="}],"legacy":false}
+spawnLocations:
+- em_primis,743.14,62.0,1172.14,134.61,22.8

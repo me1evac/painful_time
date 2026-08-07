@@ -1,6 +1,5 @@
 isEnabled: true
 entityType: ZOMBIE
-name: $reinforcementLevel &7Summoned Zombie
 level: dynamic
 healthMultiplier: 0.3
 damageMultiplier: 0.1

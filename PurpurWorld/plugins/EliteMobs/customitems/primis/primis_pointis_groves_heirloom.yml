@@ -1,0 +1,8 @@
+isEnabled: true
+material: SPYGLASS
+name: "&2Valuable Heirloom"
+lore:
+- '&aThis is the second one of these that you retrieved.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pointis_groves_heirloom.yml

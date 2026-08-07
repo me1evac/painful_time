@@ -1,0 +1,26 @@
+entityType: ZOGLIN
+name: '$normalLevel &bAnnoyed Goat'
+level: '16'
+healthMultiplier: 1
+damageMultiplier: 1
+powers:
+- attack_push.yml
+- attack_push.yml
+- attack_push.yml
+- attack_push.yml
+- attack_push.yml
+- attack_push.yml
+- invulnerability_knockback.yml
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 5
+spawnCooldown: 10
+leashRadius: 5
+disguise: GOAT
+isRegionalBoss: true
+movementSpeedAttribute: 0.28
+spawnLocations:
+- em_primis,1065.5,114.5,1645.5,0.0,0.0
+

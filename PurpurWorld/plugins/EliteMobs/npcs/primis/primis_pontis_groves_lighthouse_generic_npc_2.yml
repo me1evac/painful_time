@@ -1,0 +1,19 @@
+activationRadius: 3.0
+name: '&3Caelia Zoilus'
+role: '&3<Lighthouse Custodian>'
+profession: NITWIT
+greetings:
+- Hey.
+dialog:
+- I hope he will\nbe alright.
+- My turn to watch\nover the light.
+- We almost ran\nout of food.
+farewell:
+- Bye.
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_groves_lighthouse_custodian_alt
+customDisguiseData: player primis_pontis_groves_lighthouse_custodian_alt setskin {"id":"01f9bab8-6e92-42e4-926a-361dc14937e0","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTg4MDQ0OTUxMCwKICAicHJvZmlsZUlkIiA6ICI4NDIzMzM5MTYwMjY0NjBiOWQ1MGFjZWU3MThiMjkxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlc2xpbmdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMGZiZTcyZTk0ZmIzYTUyNWNhOWYxZTIyOTZiNThmOWQ4ZWNjNTY1MGYwZTA1N2Q3MzRkODg1OTYwN2FjZTJlIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"SioNmm6USwLMBCHKLJKMgM64deoadr/zEUaUZR5bEUTc9H7rNhh2RTq8+3RoIcQVpFKT5wKvE6oXuIL++knfWN8Q+wn7A0p/dAiFJLy7tgn4Uylj93W2Nh7H+br3spJpfYYeZML5lGHCv+oOeSOzlaDaSyWWIcoQZ5blj5IVXMv5BeptciuOz6wIjA02IyxeJo2E2lgCthy+UJBZqvN9cwwd6yZzo1NWNFwZpSYsFfRJ25DNj8Bf//M0uu2l1CbXeOf5GljoVRJCfElLymhb7e9G6JZ88Ur3YBHRDF4/Jlj0AiPzm+h/qWLCYGgUrfpXPMCbrEXXXU9RY31G/aKpzY9xhRfJ9anHQARIBHVfA3YqWk1sCP9fMqkKLOK85YuBctgLn/b32buiE3SVBzgz7DayraxabYuq6sEnOPgfMjzjrxAYeSU64NLvJRz4wCTG/hDoUowRdOU8mqR5Cm5hKO7P3/8juRr2vL0n7mzEjiVXlzjLsX799WHAs/t0dZJq6ed/nA4L+S1myDm0oNpvCB4yCesFfbjd+JK2vntSZNlLVIDtx8LjDTJ0zTBVOy9zyjmGI4imsQTFvw5cWz3KUClhYCy7GQOCEX67aWYMdnYphk+4JnJ9vi+bH5rzv+a7DG3EJWrKZTTwNiAagmLV8xGXl6YN48O+tMLGQysCVCQ="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,932.75,22.0,267.33,-178.85,0.38

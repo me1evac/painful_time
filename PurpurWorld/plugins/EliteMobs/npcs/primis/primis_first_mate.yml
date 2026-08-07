@@ -1,0 +1,27 @@
+isEnabled: true
+name: '&cIracundi'
+role: '&c<First Mate>'
+profession: NITWIT
+spawnLocation: em_primis,1236.5,37.0,310.83,-126.09,-1.65
+greetings:
+- So you're finally awake!
+- That was a wild ride!
+- Still alive?
+- Let's not do that again!
+dialog:
+- I've got a task for you!
+- I need your help!
+- |-
+  Good thing you're here,
+   we need some help!
+farewell:
+- Off you go!
+- Don't forget about me!
+- Come back soon!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_2.yml
+disguise: custom:elitemobs_first_mate
+customDisguiseData: player elitemobs_first_mate setskin {"id":"8ea33803-e629-43ca-9b53-0d8b115e8986","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MjE1NjIyMTA0OCwKICAicHJvZmlsZUlkIiA6ICJjNjEwOTExMDhlOTQ0MWRhODQyZDA5MDVmMDAyOWVhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZVlvbm8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQwZTkxZWI4YmU2MjBlOTU4YTMxYWJkMzg1MGM0ZDk4ZGQ1MTFlZjU1Yjc1NzExN2JjZWQwNzllZDBkNjZlZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9","signature":"s/FaEvFQiM0vpyFwf2iGrIzK5v/brMGGGiRwpAksYLXhY3OOq0UHTKvi0Kjh5yarT9i9sGHJ01zd9AkEBEgGPhEPseDL0hIihbcvUgzJRnxXv0onwFf5cFfdqK+4FyYIgcrvo7BVgiXe7YxJVrO33lJ9RxFKNfJUwc+HLO6EwMXLkkc6tHvaiEmkQtjbM4Y3hWcQ8MC6YxFBSrQ8X5c3m2He3JpdRtkGWU35aF5GVnJ6hAdaDa8ggoidTzxUBAD6wiMjjKppCQ7+GaH7Gc6cHnq1eqaVwDyzRkr/HkgDsDeKBAxaJmNdL8UGUDnzcW/Q8zdiTP76CjVG/lzKxqntdxI59g7KPXPn5xUCzdQMO3lDHr4DPUD9beUXMAymDvn0ZJz0Loi/pUq6zrC/5bQhn3LrbYB0fllQCDZk3CnmjmSSG8ct2MxJp44zgWxSL6XQWhDV4s3UqKr8AKL0d0RZEADJWvpc/Dq5za3OYfpCYn31UIfjm7/EMnhXEohHjxoq7WAcfANPEbY/jpGeptrSHVWWzmMQN2hY208FD6QCNx29BQabK8pZ+FfES0Hl/ehJGnhXgHZhnjy4QnUOrj/8mxHKZIrwuiA64YJ19IN/ImP4QSiJ3iOlBJK6nEBiNsXV8jBPtdxyCI/O89XnUHCRwAcxzo0PPA1kUgwR9v1wDuY="}],"legacy":false}

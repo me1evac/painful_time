@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: WHITE_DYE
-name: '&fTiny Elite Scrap'
-lore:
-- '&fUsed to repair Elite items!'
-- '&fRepairs a small amount!'
 enchantments:
 - repair,1
 potionEffects: []

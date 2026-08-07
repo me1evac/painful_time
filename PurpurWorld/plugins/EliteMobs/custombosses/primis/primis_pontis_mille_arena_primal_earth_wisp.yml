@@ -1,0 +1,16 @@
+entityType: STRAY
+name: '$normalLevel &7Primal Earth Wisp'
+level: '10'
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- ground_pound.yml
+followDistance: 60
+spawnCooldown: 5
+leashRadius: 23
+movementSpeedAttribute: 0.23
+

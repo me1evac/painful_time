@@ -1,0 +1,28 @@
+entityType: DROWNED
+name: $normalLevel &bRegular Fish
+level: '17'
+healthMultiplier: 1.0
+damageMultiplier: 0.6
+powers:
+- attack_poison.yml
+uniqueLootList:
+- filename=primis_terravilla_perfect_sample.yml:amount=1:chance=0.17
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 5
+spawnCooldown: 10
+leashRadius: 20
+disguise: COD
+isRegionalBoss: true
+movementSpeedAttribute: 0.5
+spawnLocations:
+- em_primis,485.5,4.5,1393.5,0.0,0.0:1676155112435
+- em_primis,473.5,3.5,1392.5,0.0,0.0:1676155100285
+- em_primis,458.5,8.5,1387.5,0.0,0.0:1676155094932
+- em_primis,448.5,8.5,1378.5,0.0,0.0:1676155139781
+- em_primis,488.5,3.5,1392.5,0.0,0.0:1676155126281
+- em_primis,503.5,5.5,1387.5,0.0,0.0:1676155167833
+- em_primis,531.5,3.5,1431.5,0.0,0.0
+

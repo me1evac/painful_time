@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&4Filius'
+role: '&c<Lighthouse Keeper''s Son>'
+profession: FARMER
+spawnLocation: em_primis,1283.48,21.0,708.42,-179.85,14.55
+greetings:
+- Where do you fare from?
+- You seem like you came a long way from here.
+dialog:
+- Dangerous times we live in.
+- Have you seen my father?
+- Without a lighthouse, how will boats navigate?
+farewell:
+- Watch your back!
+- Tread lightly!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_7.yml
+disguise: custom:elitemobs_farmstead_son
+customDisguiseData: player elitemobs_farmstead_son setskin {"id":"5dcc9f99-780c-4947-ac6d-eb53794d085d","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NTY1MzU0NzU0OCwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZjUwMzk3Y2RkZjgwMTMyMDRmYWZlOTg4ZDkwNmMwZmJmOGNiYjZiOTc4OTUyNjVlNjM5ODU0ZWNlYzVjZmE0IgogICAgfQogIH0KfQ==","signature":"nxvb8gN6CN+uLsKAfpVao03whqk4ICkhTBpgAZRZAPP8O9jawO3VcGK0BbAJPSHZgbqmlqPwCveP/OtblwUK2cVu9/IJ2H/NjI6sqsKb9j6aNof4ISqaLbTYTyX/K/OB4e3ZLEJ0uz8dvC21EaOeXSpjfV5w81wzn575/TyBOWrUxbY9BaGcCyp+zuk3QO1caYcCS5ZLt5Djxrk0DpBnYhDoHm+BnPOhzJFecr99IKfr8r1lBb/h7KQxsp5StugqUgLGH/DHmovheg23JBJuHjjEeOLomWMZUmBQ8fBEhenwZKVlVEGiifQVS+eYX3nJLUogc4L4ONQyHMRtytyHMjySJzB93Th0ocnMusXeGuXB9jHPHu13201RJb9Zi5MkQrbl8KGElO6t+28375odONriR+9xXzUUmFWcjOaPA3E7FmTe/8ddEZGneKOOS+y/LjclSu/3MDAMesh7n0E09ng7xCoIYIJ1gvAyEv1ifPfwgho4Tx42TBpVCEHhqXRHlksnLwOQafVh5xNjWhEA/PTPIZbXcTW7mt/UPpNjlnn8DN+O1/39dpFVnKkVsq2BJI4iGBYJLlCZmEh7odQJzjDThu+4vpz58SDuhO6+g6dIAmv42irTtmntyC0BnjnkTGiwEwPqOC0honaL9z1dOdrgxuD222qf7D2INKHSObM="}],"legacy":false}

@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eFlurry'
-description:
-- '&7Consecutive hits increase your'
-- '&7attack speed. Stacks decay over time.'
 skillType: SWORDS
 bonusType: STACKING
 unlockTier: 2

@@ -1,0 +1,13 @@
+isEnabled: true
+material: STONE_SWORD
+name: "&aRuned Goblin Axe"
+lore:
+- "&aThere are runes etched into the axe handle."
+- "&aThey are quite faded by now."
+- "&aSeems like this axe was cursed at one point..."
+enchantments: 
+- "DAMAGE_ALL,3"
+- "FIRE_ASPECT,1"
+scalability: fixed
+itemType: unique
+level: 11

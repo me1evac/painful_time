@@ -1,0 +1,56 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &fInvading Mariner
+level: 7
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: TRIDENT
+helmet: LEATHER_HELMET:191970
+chestplate: LEATHER_CHESTPLATE:191970
+leggings: LEATHER_LEGGINGS:191970
+boots: LEATHER_BOOTS:191970
+powers:
+- invulnerability_fire.yml
+- attack_poison.yml
+uniqueLootList:
+- primis_invaders_helmet.yml:0.05
+- primis_invaders_chestplate.yml:0.05
+- primis_invaders_leggings.yml:0.05
+- primis_invaders_boots.yml:0.05
+- primis_invaders_bow.yml:0.05
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 10
+spawnLocations:
+- em_primis,963.5,18.5,773.5,0.0,0.0:1676066663276
+- em_primis,963.5,18.5,773.5,0.0,0.0:1676066716754
+- em_primis,964.5,18.5,773.5,0.0,0.0:1676066660380
+- em_primis,977.5,18.5,790.5,0.0,0.0:1676066741036
+- em_primis,977.5,18.5,790.5,0.0,0.0:1676066734635
+- em_primis,940.5,18.5,800.5,0.0,0.0:1676066756031
+- em_primis,940.5,18.5,800.5,0.0,0.0:1676066771134
+- em_primis,925.5,18.5,833.5,0.0,0.0:1660590642085
+- em_primis,925.5,18.5,833.5,0.0,0.0:1660590656083
+- em_primis,900.5,18.5,845.5,0.0,0.0:1676067375078
+- em_primis,900.5,18.5,845.5,0.0,0.0:1676067372984
+- em_primis,869.5,18.5,855.5,0.0,0.0:1651824942652
+- em_primis,869.5,18.5,855.5,0.0,0.0:1676066869381
+- em_primis,869.5,18.5,855.5,0.0,0.0
+- em_primis,839.5,18.5,852.5,0.0,0.0:1651824978463
+- em_primis,839.5,18.5,852.5,0.0,0.0
+- em_primis,820.5,18.5,822.5,0.0,0.0:1661892277385
+- em_primis,837.5,18.5,826.5,0.0,0.0:1651824969469
+- em_primis,837.5,18.5,826.5,0.0,0.0:1651824964673
+- em_primis,858.5,18.5,826.5,0.0,0.0:1651824958077
+- em_primis,883.5,18.5,836.5,0.0,0.0:1676067408524
+- em_primis,887.5,18.5,812.5,0.0,0.0:1660590367330
+- em_primis,887.5,18.5,813.5,0.0,0.0:1660590376604
+- em_primis,887.5,18.5,813.5,0.0,0.0:1660590389981
+- em_primis,910.5,18.5,816.5,0.0,0.0:1676066787934
+- em_primis,910.5,18.5,816.5,0.0,0.0:1676067339030
+- em_primis,972.5,18.5,744.5,0.0,0.0:1676066687531

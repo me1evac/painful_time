@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&aHarvester'
-description:
-- '&7Increased loot drops'
-- '&7from slain enemies.'
 skillType: HOES
 bonusType: PASSIVE
 unlockTier: 2

@@ -1,0 +1,10 @@
+entityType: WOLF
+name: '$reinforcementLevel &cTamed Wolf'
+level: '14'
+healthMultiplier: 0.5
+damageMultiplier: 0.6
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 40
+leashRadius: 40

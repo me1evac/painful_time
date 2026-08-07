@@ -1,0 +1,36 @@
+interactionType: NONE
+greetings: []
+canTalk: true
+activationRadius: 5.0
+isEnabled: true
+name: '&a'
+role: '&a<War Steed>'
+profession: MASON
+greeting:
+- Hhhhr!
+dialog:
+- Nyeeeeh
+- Nieeee
+- Nyeaaaaa
+- Mhhhr
+- Hppph
+- Hmpppph
+- Myeeeeh
+- Miyaah
+- Vrrrrrh
+- Wrrrrh
+- Mrrrrrh
+- Kyaaah
+- Hhhhhhr
+- Khhhhhr
+- What ya starin at fool!
+farewell:
+- Nyaaaah!
+disguise: HORSE
+spawnLocations:
+- em_primis,673.92,23.0,939.73,2.5,24.45
+- em_primis,670.98,23.0,940.81,-20.15,35.25
+- em_primis,677.81,22.0,948.21,69.39,36.45
+- em_primis,675.43,22.0,947.22,68.49,30.75
+- em_primis,672.98,22.0,945.72,108.54,36.3
+- em_primis,674.8,22.0,943.78,-145.26,43.8

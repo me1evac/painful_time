@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&e&lAvatar of Judgment'
-description:
-- '&7Become an avatar of divine wrath.'
-- '&7Massive damage boost for 10s. 90s CD.'
 skillType: MACES
 bonusType: COOLDOWN
 unlockTier: 4

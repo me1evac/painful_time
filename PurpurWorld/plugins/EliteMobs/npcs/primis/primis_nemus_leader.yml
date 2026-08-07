@@ -1,0 +1,20 @@
+greetings: []
+activationRadius: 3.0
+name: '&3King Nemian DUMMY'
+role: '&c<Town Leader>'
+profession: NITWIT
+greeting:
+- Greetings, traveler.
+dialog:
+- What brings you under the hill?
+- Where are you from?
+- |-
+  Have you tried our
+  delicious glow berries?
+farewell:
+- Until next time.
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+disguise: custom:elitemobs_nemus_leader
+customDisguiseData: player elitemobs_nemus_leader setskin {"id":"c77119df-c624-49ac-8dd8-857fd868eb42","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NTMwNzU5MjQwMCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jN2ZlMDcwMmViMWM5YjQ0YmZlYWE2YTI2MGVmNDMyNjI4YTU4NmJhZjk0ZWQwZGYzYmQxZDE5YTQ3NjMyNzVhIgogICAgfQogIH0KfQ==","signature":"jjLB19qs2gVEv4pcId9TcsfwLcGJG5vYx81Oth4FC5Sl0gFzMLN1pA3GdYeOWbffpT85o2PJ7ShWI6UDsPCy5VQWh9xXFS39g37ueDt0alb2uRoMIY0vXNisaJeCj5kGNYvSbJLdtUSsIPxwJbnPcvhBd0IONWdWX9LTYDIFxmKmL+snKpG0kyKdaTvS+uEjVirJELXt1jhRR9d0BmcCmLjS01yObmjvux2FvW+afglRt6PT951begKG6y6DmTxJBnai1wEW37t9g9VgQfjHOSXgZrTWpZiB4Udp5juk8xpNCWGmMiY9dY7aPgwU3pcERyWzBypYTpUJAqRANiFi5vnhlpkXhmakt5aq5VHAkJlSY+GuC4lTsE9zxnBgcnzzzcIrLsq/czMApCZ7J7kZnMxJA05LUTcLaydlOLciamAwNAV9McdjQYOoUAHG1x2Kec15tlEQJ7OpwhOll8Zmed+Fy/6rALiSFOCbs/Dq5JGdQUOAlY+OB6uswvYmL6NEp/THkaSF63tGKWGP6XGkWOxGqklGT2ApxzX6ZqxFd2CGZFdpEIFDePOGY6l+R6a0UTyKIfBAhFMyEU4vCxdhypsGWFFBlC7jjGu0tSbW3bUaXZpzLzpwnY+HQuI3412cpJUUeMxN/oJDMoKWu9NA69ibMizzwXSVIaOmM4nqSrA="}],"legacy":false}
+isEnabled: true

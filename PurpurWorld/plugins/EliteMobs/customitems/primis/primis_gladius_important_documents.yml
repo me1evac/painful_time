@@ -1,0 +1,8 @@
+isEnabled: true
+material: PAPER
+name: "&2Important Documents"
+lore:
+- '&aThe documents are sealed.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_gladius_important_documents.yml

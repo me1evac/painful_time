@@ -1,0 +1,8 @@
+isEnabled: true
+material: GOLDEN_PICKAXE
+name: "&6Lucky Lickaxe"
+lore:
+- '&eShines bright, even underground.'
+- '&eYou see LL engraved in the handle'
+scalability: fixed
+itemType: unique

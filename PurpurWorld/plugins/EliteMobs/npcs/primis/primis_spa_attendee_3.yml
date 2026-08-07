@@ -1,0 +1,22 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&3Tamika'
+role: '&7<Spa Attendee>'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Do you like the hot spring?
+- Just sit back and relax!
+- Nya!
+- uwu...
+- OwO
+farewell:
+- Have fun!
+disguise: custom:primis_spa_attendee_3
+customDisguiseData: player primis_spa_attendee_3 setskin {"id":"708f7750-030c-4753-af8f-908701b97d8e","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MzAzNzIyNzEwMiwKICAicHJvZmlsZUlkIiA6ICI3NmRjOWY4OTI3Y2Q0NzY5OWQ2NmYzYjBjZTZlOTRmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJQW1Ob3REcnVuayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80N2RjM2NkMWU4NTQxNGM0ZTZkMGM4ZWM0MTRiYzk2ZTUwNDdmYTJhZWJkM2IwNTZlNzcwMmJlMDZhMDM2N2EwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"aIJvHPETxW6GIqKT8ynCn0bJkVQig7auKyCzvZcgZncXgGf9XDCWx6gj8n3DEB2JGETu0OEoxe877HqpwG6wPXfXGzXHmk3SYhgv/U0XM/k0BcVoJS1+OYn+gBBJ819SJf7rIiXyRZSj0i+b+aC1c6bJCFKpWqP/kHp5PEnPW07JelkOmF3lwBTDGE9EElGxvNE+Uo8vuzy67A5Z6YfQ1UkhK9SuT/rca/eOCLk0RNV7mroL8RS4x0apljNy2pzCI1TGion8JRs7A+qGuvlElVbl2rOf4AO3ktv0J7dmPufRTj9B+3uV/uz+UfMceMwi41WhN185A+EIaeY00vM4RHkYpt+ae27qw4rP2Efp2WiaHMs8kzVUzJ7ii71CnSvbXZk8WwyPqCpYPj275gn8dDrDUUcvzH6EvpYi3y/pwOsmUq8fRt4PToGIEYiCGYUpuuqbukw2Us4gwyX5YXrbgCwAuiNDR/XTSgMgJ4GkLxCz8jrbhYg2qD3NDwAF37jn9FSLYzn9iaFZkHpiIqHgt26mPcTUgY5w0eGjb4Hlef37to3JaCakRDYeOha4+KPudQH0o0H9IwJYKZjuheuwhIMHHyZu9O1VaDRctTVsYaUVS/EBfrEA4nx+iW1ZaW2kACZPTp6dLofNmfgQSYRXwrSbdsz9IXPz7iWSmb3qTnM="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1745.69,91.0,1532.53,-158.7,12.74

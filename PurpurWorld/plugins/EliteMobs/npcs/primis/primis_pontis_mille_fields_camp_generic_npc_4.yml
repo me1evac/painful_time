@@ -1,0 +1,19 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&cAdrius Paterculus'
+role: '&c<Hunter>'
+profession: NITWIT
+greeting:
+- Hello.
+dialog:
+- The hunt calls!
+farewell:
+- Swift death.
+disguise: custom:primis_pontis__fields_camp_hunter_generic_npc
+customDisguiseData: player primis_pontis__fields_camp_hunter_generic_npc setskin {"id":"afc8f6c5-b304-41e6-8ae2-a5d5edba320b","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1NzM3OTg2MDg5NCwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kZDIyMTkyMjMyNzc1ZDhlOWE5MGNkNTMzNDQ0Zjk4YzJmYjZkOTM4MzFlZTY4ZDZiNDgxOTkyYWQxN2I1ZThjIgogICAgfQogIH0KfQ==","signature":"Ggx8e5o16fnsaVS0k5iTZaeigilZv55nfoFhXllAGc2/mQej/tPsk9XeJXRJYUq9WZDOb3u3XQD/QeLX4hWoiiZGYuSA8I/RM70L0Fibl34ORHmxDqXEu30ZzlA4sWdcZ/KCvhvdx3/NhFpoR8B4nI+SeGPe5wJHjb8z7WtvPFDSXQSjlghc3zNzpI+xmRW75l5jSorn6UAGSF7ee5NjDsFAxKYmB1X2vwfosI12YLLURbNVw/v4haKFuvUu8iVBT9elrl1MbuQjPNWMo44FeBvlh8wvUNII2ncUNc9Z3Uu30A4jLIrUCKFHXP0w/BZjBsH+H34t9hRxcSCV9rvbzrWmSlpppqZYVw1pPNg+UtDgo6l/YZNInx+LriFIwlgnhRrjhrJF1qulCuL7G1bvbzlLRLqztfXnQBcu/Sse+bBIAVGfLO4xZ++jIeoqudVzU/iBI2liEWmZfJAEDUlje5Dkck2AngsNeYIhGgmS737M3PZYx1XmEyeoreLXl/PBfZw4giwegoYulWp/q2p6J/c5oKhZIJv9EUtS8ycTSf4XheRqo+mnH8UQC454Mx5Yo+QwfFfseRLb3edFPFNBjJ4FXyXLg3t/F/KOItQtK0ijZEZQnE74AygFbTkE09ifydvm+W58m8U0BneMvdIh5STbPEOHupchUQYenbrTzdI="}],"legacy":false}
+interactionType: NONE
+spawnLocations:
+- em_primis,284.06,17.0,872.99,0.62,17.44
+

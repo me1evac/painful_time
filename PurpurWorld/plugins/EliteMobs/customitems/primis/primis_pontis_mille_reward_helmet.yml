@@ -1,0 +1,9 @@
+material: IRON_HELMET
+name: "&4Pontis Mille Helm"
+lore: 
+- "&7A traditional Pontis Mille Helm"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: FIXED
+itemType: UNIQUE
+level: 12

@@ -1,0 +1,66 @@
+normalizedCombat: true
+isEnabled: true
+entityType: VEX
+name: $normalLevel &bSnowball
+level: 12
+healthMultiplier: 2
+damageMultiplier: 0.1
+leashRadius: 60
+isRegionalBoss: false
+movementSpeedAttribute: 0.15
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invisibility.yml
+eliteScript:
+  SnowBallVisual:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      shape: SPHERE
+      radius: 3
+      borderRadius: 2
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.35
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      scripts:
+      - "SnowBall"
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  SnowBall:
+    Zone:
+      shape: SPHERE
+      radius: 3
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 0
+      duration: 20
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true

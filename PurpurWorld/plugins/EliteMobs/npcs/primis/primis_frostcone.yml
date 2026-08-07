@@ -1,0 +1,20 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&bFrostCone'
+role: '&9Map Maker (Gamer)'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Hope you are enjoying the map!
+- It's a pine-cone covered in snow.
+- Is Primis out yet?
+farewell:
+- Have fun!
+disguise: custom:primis_frostcone
+customDisguiseData: player primis_frostcone setskin {"id":"2a4ef3ec-c746-445c-b7a0-796e7d60cf42","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTQyNjU2NDUxNSwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NTcxZDdhY2Q3MjExZjQ2MjU3ZDc4ODgwMTM2ZjQ4Mzk4MDY0ZTg3NWY4N2EzZjkzYmRmY2U5NmUyNGRlMTFjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"XJXwOXIgOv8E2O+7HiCZvJwrT9hVDdzvU0Gr+uBIkXNsmnFqyAUraa0QiIZcXAJog5L65zXk2NZQ/xGH2oSA3QOYXn6F+696q0ppHf+Yl6TSFLTe90ZL647nr19Vgkp5YRYHlNis9/TCj7osU2P2oWfNIgHqdt3PBvWfOENR0Pd/gnSNt3/xpk0VOs3YoNlyHY/6Xsr6RKnAbwBoIFx2IYaLC+ri5fEdm8sFIQsM7E8QLLuL9zDuwxYF/BMmo540pAw2clZzDqd7JVFpjk5YPx6WWrLlFk5p/BMk7Y+lMvndYgF0oAXPzWl1YqBoyU7T67V+7U9jcS6DozLDlxYbGRzuWz/gj3qnQxxAcE1/hcjH6AN2xX4npo4R2HwxgvSwFiOxayinYDclYv6fvkE3Zp7RMYpLhg6NWKPi1cOFhffJBnV4TUMDQxB+kKwWKubnXjNsUz4g6ehpZ7gLwOQO64GibnhFqwhtQYNStsjAo5KRESEoQlK6uymufXL4nq1XfMtCit7WTxuc7bGFWWeNGFql3bEz+9N0kagl3Cuhvj4NIit4qHAFvkd2Nvn9pE9ic87GK9pTGp6SaLZCbqogttWZ7/Cy6+cY3Oa3ABbFis+jceoOxMOPh/B+vO/qvq8vsgl6eAY+xoSssmuk2JXei3FBYTXtsTM3JHQlHQhx99k="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1393.41,18.19,1053.5,-97.56,7.65

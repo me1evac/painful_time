@@ -1,0 +1,11 @@
+material: IRON_CHESTPLATE
+name: "&4Star Touched Chestplate"
+lore: 
+- "&7A thousand tiny spiky stars stretch across the Chestplate."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "PROTECTION_PROJECTILE,1"
+- "THORNS,1"
+scalability: FIXED
+level: 15
+itemType: unique

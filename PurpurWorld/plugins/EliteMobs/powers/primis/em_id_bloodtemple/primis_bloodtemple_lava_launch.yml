@@ -1,0 +1,60 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - "LavaLaunch"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: TITLE_MESSAGE
+      title: "&6Warning"
+      subtitle: "&6Elemental is summoning magma arrows"
+      duration: 40
+      fadeIn: 5
+      fadeOut: 5
+      Target:
+        targetType: WORLD_PLAYERS
+    Cooldowns:
+      local: 650
+      global: 100
+  LavaLaunch:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      borderRadius: 1
+      Target:
+        targetType: SELF
+        offset: 0,4,0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 10
+      repeatEvery: 10
+      times: 15
+      material: LAVA
+      duration: 25
+      Target:
+        targetType: ZONE_FULL
+    - action: SUMMON_ENTITY
+      Target:
+        targetType: ZONE_FULL
+      sValue: ARROW
+      wait: 10
+      repeatEvery: 20
+      times: 8
+      RelativeVector:
+        SourceTarget:
+          targetType: SELF
+          offset: 0,0,0
+        DestinationTarget:
+          targetType: NEARBY_PLAYERS
+          range: 40
+        normalize: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

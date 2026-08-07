@@ -1,0 +1,16 @@
+isEnabled: true
+material: NETHERITE_SWORD
+name: "&5Dark Bone Brand"
+lore:
+- "&5The unnaturally dark bone-brand"
+- "&5glistens in the light"
+- "&5ready to part anything"
+- "&5that stands in it's way."
+enchantments: 
+- "DAMAGE_ALL,4"
+- "DAMAGE_UNDEAD,3"
+- "DAMAGE_ARTHROPODS,2"
+- "IMPALING,1"
+scalability: fixed
+itemType: unique
+level: 14

@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&8Grit'
-description:
-- '&7Take less damage when'
-- '&7below 50% health.'
 skillType: ARMOR
 bonusType: CONDITIONAL
 unlockTier: 3

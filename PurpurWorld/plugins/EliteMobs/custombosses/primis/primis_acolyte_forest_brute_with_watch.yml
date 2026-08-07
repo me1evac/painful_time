@@ -1,0 +1,22 @@
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &bElf Bandit Brute
+level: 12
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 5
+mainHand: IRON_AXE
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+disguise: custom:primis_pontis_groves_elf_brute
+customDisguiseData: player primis_pontis_groves_elf_brute setskin {"id":"e1f6f0f2-57ad-4909-99c3-6c37feae8ecb","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2NzE4MTQyMCwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYzAwYjgxY2NiZDcxYzkwOGJjZDAxMGYxMjE2ZTU0MWE0ZjE2MzBjMzIyMzYzN2FlN2Q3ZjBmMjJkYTAwMWEwIgogICAgfQogIH0KfQ==","signature":"uXXA/rOZWD6X3PrJ77HTA27RNHI/rcPHhl6udg8LK/aGipS2ui+5rzIqRhTyH+x8u4r0MCo+Q6G6/K810vOrgOJvzLcOraG1t2HfdHxjSJ0Kni9cjIuHgOytxunqt5GTIX5kv+ShiDlhgwzPF7g+X7yGbrNZIbsGsTZdOZzC4g/kuGpVYI7LG5vvq6wOT1SnvfntA5Tbrm+gEYSbIsVBFX8PNwKyurfu2Uqu4E8f/mLWhk+aS5m/scuuowhJyCja696dj+5ERa+rIdelsnKK3/LprAs2ilDhh6r4z7jx1ZPBbQWl5xGtX6C/RuPoL9VSRWT/Mw4VyjqyZvqNaogXou8uGaoMrMOztIwNPli2AzvEBptEVAd3HW5EGHaFzUweiVo1u0HFLJwEnfCBMv7U7PrWmOsY8nDchFJEHNBjWjBWQuKjv89mI57UUwzkwduI7jrpit5QYgTPhtSTPcEi/viGpqCZ3uG47bnmzl90jDydU2evjGzQDNzgUGT3ho5LEHTuNxKELmz1h1e+dWzF8T4v5MeP+H54H/q9OPWL+1PhQydRXLOeBufjR0OZic5Ni93AIlxLAEx1b+ETF9/ZADVp16Mu7SxzDIwzfW/VFjPTVaANbYzLhXs+SV+QBGIp9z8UFpqIH7lakVHFq/YxU2NfiDYJRnODalIw8eZzBE4="}],"legacy":false}
+uniqueLootList:
+- primis_pontis_redwoods_watch.yml:1
+spawnLocations:
+- em_primis,242.5,21.5,468.5,0.0,0.0:1676070126839
+

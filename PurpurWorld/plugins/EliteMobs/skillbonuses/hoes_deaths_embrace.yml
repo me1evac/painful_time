@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&8Death''s Embrace'
-description:
-- '&7Cheat death once and'
-- '&7revive with 20% health. 60s CD.'
 skillType: HOES
 bonusType: COOLDOWN
 unlockTier: 4

@@ -1,0 +1,20 @@
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&ePyrgopolynices Perpenna'
+role: '&8Gardener'
+profession: FARMER
+greeting:
+- Good day to you!
+dialog:
+- Aren't the flowers pretty?
+- Behold, my masterpiece!
+- The flowers are blooming.
+farewell:
+- Please, don't tread on the beautiful flowers.
+- Take care now!
+disguise: custom:primis_pontis_gardener
+customDisguiseData: player primis_pontis_gardener setskin {"id":"3ab0a35b-b431-4675-ab5b-c123ae32ccbe","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyNjQ1OTAwMDQ4NSwKICAicHJvZmlsZUlkIiA6ICJiN2ZkYmU2N2NkMDA0NjgzYjlmYTllM2UxNzczODI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDVUNGTDE0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc5MmZiZjIwNGU0N2FhMGFhOTlkYjJiODhkM2Q4MTA1YTcyMGMxNDQ2MmRmMzFhNDkxMzhmMzEzY2EwNzIyZjkiCiAgICB9CiAgfQp9","signature":"RYnGxIUbOuPGIe6iD4yegsqO4DY9X2BMJEBcE1BCDX+lURNHW7ywamR6qvsQda/BDlffvC19QGgU4RiPzTjXx6h0jlD0exbOZ6AEVtf5CDZvK5EUjDIrKvnrk5k77NP0sLogO7HrUIcOc0aQCFc1wXAp0nykmTRQw6ngchqJHKYMlwRon8FTdCYh7qbnzYMfXiRfND0beKWRAtQ26/K+FTZE7G3dSAoVFsAMnCQm0x09X/v/EU8dX4ydopnwL9iRPv+IJXjAbSoy0TvcZ9VWAsQafn392V+rL1W9CFicuHxHjUUu+LETOzmzGMqGxh7S65YtvVYtjAqrWPNVtWJDrpBQNf5W7LGMPlHvYPEpoQTWYEIEv4WhOrKixFCAXljNmhp1PAuRynPKjUIm/rsL3pKty9Tdu0ABIIUuyXrQ2hZdJeAaqAdLEJ+CA1KerC9WbIvjXSxHexH5ejlRhyeMf8F82Nf2y2p2Xd6M0NU6IynKa6XHk45T7wQm+sW9RN3iQe44ScvD3fGvDE6DDUM36BLRwHZ8rBK1tnDZFXh906ggQWVGCEeSP8Ii6W+U8pl9DUUmKCG+n1EgYOUYIADZ3TGSKAXhv2WQp4Y0HASLjklR4NeQ8gNXIXhSsj4ZZm2G9D3uhk01oURmFuO4Bv9wjXu7ThWjm5Nn9sbaPyDpnqQ="}],"legacy":false}
+canTalk: true
+interactionType: CHAT
+spawnLocation: em_primis,612.66,22.0,719.54,-172.64,6.45

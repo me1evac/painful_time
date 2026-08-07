@@ -1,0 +1,34 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $minibossLevel &0Underlord
+level: 10
+healthMultiplier: 3.0
+damageMultiplier: 1.1
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: BOW
+helmet: GOLDEN_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- skeleton_tracking_arrow.yml
+- bullet_hell.yml
+- shield_wall.yml
+- ground_pound.yml
+uniqueLootList:
+- primis_invaders_helmet.yml:0.5
+- primis_invaders_chestplate.yml:0.5
+- primis_invaders_leggings.yml:0.5
+- primis_invaders_boots.yml:0.5
+- primis_invaders_captains_sword.yml:0.5
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,847.5,18.5,727.5,0.0,0.0:1660585820532

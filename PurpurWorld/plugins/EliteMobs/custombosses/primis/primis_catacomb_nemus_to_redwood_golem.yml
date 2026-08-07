@@ -1,0 +1,28 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &bCatacomb Golem
+level: 10
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_catacomb_drop_boots.yml:chance=0.02
+powers:
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+- invulnerability_fall_damage.yml
+- photon_ray.yml
+disguise: custom:primis_catacomb_golem
+customDisguiseData: player primis_catacomb_golem setskin {"id":"7d558ea7-338e-44ad-b84a-09e07b40a8bf","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyNjAxMDc3MjEyNSwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICIzOTg5OGFiODFmMjU0NmQxIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MwZTNjOTgzYTJjYWNjNjA5N2NlZjRkOTEwMjZjY2FkNjBmMTgwZWIyMWMzZTNmMTI2YWM4ODlmZWUwNWRkN2IiCiAgICB9CiAgfQp9","signature":"vZMIE1seSuM1vuKUhR0nBFwmUusZ2TB4MYL6c+IZMId0EfXqYWfKrkjo7Fta6F6jTKL2f+Zbbl11dz4dqFqNeFD1szzY3ypGX9dqhO1XkiS5HFDKK17Fh6TsrIyKW2itZwM48mmEL6COUFigrUtRHYYoq8DHwWVvONTArmmnuABLsz5lObhhI5Gkj2BtkmZLk+NyTXi+MXuKliXu7rawQ01oGuOsA0oO+SXsf/c5oqnvA3mXZgqhAHNxs5tTqkLbqsNUJE4XYBeauLWbGE/EUy9zJvYIq8z1rlyDuCdTWYZhaO9mVCdApaZaUatvOdhlDlHYz/Qf/ZM2Eqn0RMRipHLmlYxoReYl78KsSScmWfrQsc/Tf78fOmqt+Hh1sFFymvK2aJ3xyLfTsmxOaElSaKiEtGToAkiv4fOUuFy4/XTJaHo/6vrTkAt2NlJIt+D3Yrpbm3q8o5lqQ7EOFC5759p8RU/e9nYfdKpV5iFAMHM9R4bKOU7TN/rEMiglQs/HvPU6aguMg493kCgln59STpfCGkhw6I0jz5WWkiukNFv3kYJG1zKprI0jcu2+GBklt6Trs5eZqMZhdvrxden9cx2azObIMlpz6hRBTfDtmCIWX6+kTv8aWqDm684+ma6MWS2LG/bJQt0aYat018t2noqQN9QzfDGT24J/apdLFxs="}],"legacy":false}
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,496.5,-21.5,286.5,0.0,0.0:1661904450027
+- em_primis,510.5,-21.5,286.5,0.0,0.0:1661904453374
+- em_primis,496.5,-14.5,2

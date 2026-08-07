@@ -1,0 +1,10 @@
+isEnabled: true
+material: COD
+name: "&2Toxic Fish Scale"
+lore:
+- "&fThe scale is rock hard on the outside."
+- "&fThe inside is covered in"
+- "&ftoxic and acidic ooze."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_beast_scale.yml

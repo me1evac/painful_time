@@ -1,0 +1,10 @@
+isEnabled: true
+material: BOW
+name: "&8Ruined Bow"
+lore:
+- "An old bow. Might've been good at some point."
+enchantments: 
+- "ARROW_DAMAGE,2"
+scalability: fixed
+itemType: unique
+level: 3

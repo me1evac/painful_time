@@ -1,0 +1,52 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+mainHand: NETHERITE_PICKAXE
+leggings: LEATHER_LEGGINGS
+boots: LEATHER_BOOTS
+name: $normalLevel &eExhausted Miner
+level: 18
+healthMultiplier: 0.6
+damageMultiplier: 0.3
+movementSpeedAttribute: 0.26
+powers:
+- invulnerability_fire.yml
+spawnCooldown: 12
+leashRadius: 30
+followDistance: 20
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename: primis_blood_temple_stairs_pickaxe_drop.yml
+  chance: 0.01
+isRegionalBoss: true
+spawnLocations:
+- em_primis,726.5,18.5,1124.5,0.0,0.0:1676368839566
+- em_primis,736.5,18.5,1121.5,0.0,0.0:1678074754547
+- em_primis,752.5,18.5,1125.5,0.0,0.0:1676368845968
+- em_primis,761.5,18.5,1142.5,0.0,0.0
+- em_primis,762.5,18.5,1152.5,0.0,0.0:1678199232547
+- em_primis,711.5,24.5,1194.5,0.0,0.0:1679333206946
+- em_primis,713.5,24.5,1196.5,0.0,0.0:1676368926716
+- em_primis,713.5,24.5,1198.5,0.0,0.0:1676368918499
+- em_primis,710.5,24.5,1197.5,0.0,0.0:1676368922307
+- em_primis,684.5,31.5,1188.5,0.0,0.0:1676368891465
+- em_primis,675.5,29.5,1188.5,0.0,0.0:1676368904715
+- em_primis,673.5,20.5,1198.5,0.0,0.0:1676368889416
+- em_primis,728.5,27.5,1177.5,0.0,0.0:1676368858700
+- em_primis,682.5,30.5,1174.5,0.0,0.0:1676368871016
+- em_primis,672.5,30.5,1167.5,0.0,0.0:1676368869366
+- em_primis,682.5,30.5,1182.5,0.0,0.0:1676368867099
+- em_primis,679.5,19.5,1168.5,0.0,0.0:1676371206214
+- em_primis,675.5,19.5,1179.5,0.0,0.0
+- em_primis,668.5,17.5,1179.5,0.0,0.0
+- em_primis,665.5,18.5,1174.5,0.0,0.0
+- em_primis,814.5,73.5,1053.5,0.0,0.0
+- em_primis,809.5,73.5,1053.5,0.0,0.0
+- em_primis,795.5,68.5,1038.5,0.0,0.0
+- em_primis,796.5,72.5,1050.5,0.0,0.0
+- em_primis,797.5,65.5,1073.5,0.0,0.0
+- em_primis,823.5,69.5,1029.5,0.0,0.0
+- em_primis,820.5,65.5,1053.5,0.0,0.0
+- em_primis,819.5,91.5,1062.5,0.0,0.0

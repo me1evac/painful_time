@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&4Impale'
-description:
-- '&7Chance to impale enemies'
-- '&7for massive bonus damage.'
 skillType: TRIDENTS
 bonusType: PROC
 unlockTier: 1

@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_BOOTS
+name: "&4Raider's Boots"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,3
+- PROTECTION_PROJECTILE,2
+lore:
+- "&aThese don't smell so good."
+itemType: unique
+level: 14
+scalability: fixed

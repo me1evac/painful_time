@@ -1,0 +1,25 @@
+greetings: []
+canTalk: true
+activationRadius: 3
+isEnabled: true
+name: '&4Royal Guard Centurion'
+role: '&8<Guard>'
+profession: MASON
+greeting:
+- Adventurer.
+dialog:
+- No dallying!
+- Set up camp!
+- Where are our reinforcements?
+- How many have fallen?
+- We need to reorganize!
+farewell:
+- Tread lightly and carry a big sword.
+disguise: custom:primis_pontis_royal_guard_centurion
+customDisguiseData: player primis_pontis_royal_guard_centurion setskin {"id":"144a5810-7e51-4b57-aa42-f751ce4e9b71","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MDczNTUxMDI0NiwKICAicHJvZmlsZUlkIiA6ICJhMWU4OThjNWEyNmY0MTYyOTQyYmNmNmM1MzRiMTE5ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0b21keGlpaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNzcxMDA4NzAxYTc4MmY1NTdiY2NhNWFiMThjOTZmMzkzYjU0NzcwYjQ0Mzk0YzQ5NTExYWZhNDBlYzg1NmIzIgogICAgfQogIH0KfQ==","signature":"yfg/9uYeTpZDIghREQByThXtk986F2Ie3maBq8SWwR2NFjFXzc6DqYQ1GyqpV+rEOPdTdrgA6cW3e1xzqDG2xid77Pay9TNnW6yBP36dAbKkbGhkEBDxjC8m+TduwQ4UL8gMqb62DhwIJL5B7SKw3IgNXpN16RGxPWroi6ccB5neGZfw0LWJZexFlvQ3RRgvJ+m3b74aIpv0m/LvkDUB5tOdXDFN9jaPVmiDHMWD8tlDcOsEp2IvAS8uM8Th40cpjTrvXEdcOn/udFnDlhIWaipZ4yX3R92MgLr1xYzedbJVKVW+StrVQZDtktWzAKq/i6dA08j85+GR+cP8y50a88leM1P7tO2e738SwSAQd9USqdaXJNd0FIMlT1qdchwJVQ1QmMyEhRw/Ruu9PIxoNZP5T3Rihct2V7/L1qteqz0iIax9ilxdRgpy+UWTZWfTxfEuN3KIfOQ4svvLznf1I9oXbpybrDnPHOqrXw4IejyaPG3pIChH/ztfB5wlilV29Jtz30oFKgelGLHjU9kPFveprpj7ZkC49OPV/rRngUF8kX+kaVeitCMcXpzTn02WCu8LKB1PEAusnQytRyiONYdwxfV3iThIFKTKXWKJhhud+sKUwTD+XKBcWjGiE3BszDHlXePoVkY6cAeOd4cJxQxSdyt9p0pm8lQL1gI8/Kg="}],"legacy":false}
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_13.yml
+- primis_pontis_mille_mines_goblined_up_in_the_maze.yml
+spawnLocations:
+- em_primis,642.4,49.5,459.56,91.33,5.55

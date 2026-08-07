@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&3Luxuria Placidus'
+role: '&3<Friendly Villager>'
+profession: NITWIT
+greetings:
+- Hellos!
+dialog:
+- Old age will not\nslow me down!
+- Being in a good\nmood is important.
+- Hoping for some\nsnow soon.
+farewell:
+- Farewell!
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_wanna_make_a_snowman.yml
+disguise: custom:elitemobs_ice_village_friendly_villager
+customDisguiseData: player elitemobs_ice_village_friendly_villager setskin {"id":"e3b18ac3-1ebc-4e27-ad0a-8aadaffe6fcb","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NjA4MDc2OTEyOSwKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlYTM2MTdlY2YwZGM0YzNhZWI3NjEzNWFiNDBhZjJmNWMxN2RhZjdlYWY3M2YxMzg3ZDAyMzE1ZjI3MzZjZDIiCiAgICB9CiAgfQp9","signature":"WiImLCyXZ3fIvPu7S3n4F6QoYwYO63kN2RahpuLXlK56oVNtun+pgpAPF45/7DMZrQ144JQRVue+cwCavGktWaNdWMfnRhcHX6Jnm9w53buzdl9lFyogfYA/7Mfh2t78XvGb8EEiANskYCiBQTl+XThNDx4BAMyEDMfuQJHcMiR8Godh4avEAS0URNnsrKzTFRaH5arrtqOfp760fthhPyF8EiN5BB8yOz8iX28JMNMLJWD/Y0spjnHPg3Dje6ST6oW98iY4rOGjZ2jD2oRWr3hjDX3/LxJe4hPdJT0bbf/MrAbtkLZd5tP08AyYIsgRB/kQk0MXE62u0LRvUygrOu0K8KTXInsYVMx85/tuRCHavT6llMqsj4K1YH795X1xycALTamRe+aV3jsK08xapjapvx/wR6/43VmuC8pe6EMJXJYc4M6t+HK3uw5CiT/bLwzwj++oHMh10xD4fSYle4E2Zd6pLifnrw/8cekBruKDyvFlkFzEgDr3yRrKgHXqZIwbTC0wZUjTNOBnXTggcQJBnsE5vP9F6XJszDS8vy5io1b0HVxT1w/Xr2R09+LEiAF0F6dQfSkw6/HTsSt1mJ2B+LEceqOGZu0itk3gCDU+7t5d9h7qDIAK4rZ4xFGWn61vHQGS1BcOtgsq7CszVcgKF6duhsTT0Q/KP+txSfE="}],"legacy":false}
+spawnLocations:
+- em_primis,985.75,26.0,1508.19,75.27,8.68
+
+

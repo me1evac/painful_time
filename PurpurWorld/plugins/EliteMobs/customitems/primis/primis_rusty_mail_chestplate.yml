@@ -1,0 +1,11 @@
+isEnabled: true
+material: CHAINMAIL_CHESTPLATE
+name: "&3Rusty Mail Chestplate"
+lore:
+- "&9Rusty but durable, beats"
+- "&9leather scraps!"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: UNIQUE
+level: 4
+scalability: fixed

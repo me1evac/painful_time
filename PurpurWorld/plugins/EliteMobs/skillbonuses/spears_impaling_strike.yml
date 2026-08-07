@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bImpaling Strike'
-description:
-- '&7Chance to cause bleed,'
-- '&7dealing damage over time.'
 skillType: SPEARS
 bonusType: PROC
 unlockTier: 2

@@ -1,0 +1,46 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "RayV"
+      # - "Ray"
+    Cooldowns:
+      local: 400
+      global: 100
+  RayV:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: WORLD_PLAYERS
+      animationDuration: 60
+      yawPrerotation: -30
+      yawRotation: 60
+      ignoresSolidBlocks: false
+      Target:
+        targetType: SELF
+        offset: 0,1,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: ELECTRIC_SPARK
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 200
+    - action: PUSH
+      vValue: 0,0.5,0
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 12
+      # Conditions:
+        # Target:
+          # targetType: ACTION_TARGET
+        # conditionType: BLOCKING
+        # isOnFloor: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

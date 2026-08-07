@@ -1,0 +1,14 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+restockTimer: 90
+lootList:
+- filename=primis_pointis_mille_chest_dirty_note.yml:chance=1.0
+locations:
+- em_primis,583.0,34.0,704.0,0.0,0.0:0

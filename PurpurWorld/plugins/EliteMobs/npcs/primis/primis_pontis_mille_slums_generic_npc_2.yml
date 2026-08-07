@@ -1,0 +1,18 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&7Gallicles Caelistis'
+role: '&7<Slums Dweller>'
+profession: NITWIT
+greeting:
+- G'day!
+dialog:
+- Day by day...
+farewell:
+- '...'
+disguise: custom:primis_pontis_slums_generic_1
+customDisguiseData: player primis_pontis_slums_generic_1 setskin {"id":"680a7a05-23eb-49d6-82ac-533d99eaa357","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MjA2NjA3NzcyMiwKICAicHJvZmlsZUlkIiA6ICI0NDAzZGM1NDc1YmM0YjE1YTU0OGNmZGE2YjBlYjdkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYXl0b3duIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3MWFkYmZlOGY0MjljOWE5NzJkODBhOTJlNmI3ZDE0OWNiNWI4Njc4NmM3N2I4YWU1ZmI2YjQ3NzNjNTRhMWYiCiAgICB9CiAgfQp9","signature":"guGDM6y/OG+G3vXfScVlt9JakqmExQDaZ4PaJkGPQ5MFjHSFgbnZ7tSGl8Idnd5XV2ui6CI+znTwKZWRjXrS37AqKc4KFNGog/O5/kscT212jK/SpWIQthltScuRzc0ezcQdy1c3ZRL/ervwUpUrz/BO5bBLS4SOsmHFQxSMRDGjkmI3CQIyn6g5Y3h6R0Bpmg8HJy2bCIHUdhW9DHpjM9xUATmi6l76IIWWPX1IKbP8c3tkHuM5Bsi81cJJn9TyV7tS9nofYh0cVrvJ97KDEn1LD39QJkjFElqV46U2mZx3N6VxEbKi8fr3uel3daQHLbwG+8EDYzdhfpVZqBssIpjmsqoflIqewN+Ss+85h0EgDQueLd6iO/NJW1W2BXJfMVnsZeM3RzcGALB1GPaJE1/ih3oln0rS5778Ek3sS1H8luRmhsHINw1DUVKkMKdgUSz1frWcXcn3CDsL+CQ25rr7bvhEPIoT/9Ejw+tb5S+eNCdfMMtcthwrl+EFFlo9v33Hbk54jokUglNvi/A4b/QqtstOd2+ssVYlVrmUiU3k5DvYZRvSGZnx085EOfx5UMRtm4vNkUv8qsz3P4mvNXqUfsb0p3H83fEBjA3TJGoiOgYkl9zA2JfjCtJ2geaXnl56CIB2Hd3NwmctTzfCxeOn5bd7dJHdKQEL9eIt58Q="}],"legacy":false}
+interactionType: NONE
+spawnLocations:
+- em_primis,462.2,26.5,684.1,44.65,9.15

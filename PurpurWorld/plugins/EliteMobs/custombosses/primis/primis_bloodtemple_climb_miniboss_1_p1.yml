@@ -1,0 +1,67 @@
+isEnabled: true
+entityType: ZOMBIE
+isRegionalBoss: true
+spawnCooldown: 10
+leashRadius: 15
+name: $eventBossLevel &8Camp Warden
+level: 15
+normalizedCombat: true
+healthMultiplier: 6.0
+damageMultiplier: 1.75
+movementSpeedAttribute: 0.34
+mainHand: GOLDEN_SWORD
+chestplate: CHAINMAIL_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: GOLDEN_BOOTS
+frozen: true
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+phases:
+- primis_bloodtemple_climb_miniboss_1_p2.yml:.99
+- primis_bloodtemple_climb_miniboss_1_p3.yml:.66
+- primis_bloodtemple_climb_miniboss_1_p4.yml:.33
+eliteScript:
+  ScriptRunnerStart:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - TauntScript
+  TauntScript:
+    Actions:
+    - action: MESSAGE
+      Target:
+        targetType: DIRECT_TARGET
+      sValue: '&8[Camp Warden] &fThats far enough, invaders!'
+spawnLocations:
+- em_primis,673.5,57.5,1129.5,0.0,0.0:1680200273494
+onSpawnBlockStates:
+- 13.5,-0.5,-1.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 13.5,-0.5,-0.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- 13.5,-0.5,0.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 13.5,0.5,-1.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 13.5,0.5,-0.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- 13.5,0.5,0.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 13.5,1.5,-1.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 13.5,1.5,-0.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- 13.5,1.5,0.5/minecraft:red_nether_brick_slab[type=top,waterlogged=false]
+- 13.5,2.5,-1.5/minecraft:polished_blackstone_stairs[facing=north,half=top,shape=straight,waterlogged=false]
+- 13.5,2.5,-0.5/minecraft:red_nether_brick_slab[type=bottom,waterlogged=false]
+- 13.5,2.5,0.5/minecraft:polished_blackstone_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+- -1.5,-1.5,-14.5/minecraft:polished_blackstone
+- -1.5,-0.5,-14.5/minecraft:air
+- -1.5,0.5,-14.5/minecraft:air
+- -1.5,1.5,-14.5/minecraft:air
+- -1.5,2.5,-14.5/minecraft:polished_blackstone_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+- -0.5,-1.5,-14.5/minecraft:polished_blackstone
+- -0.5,-0.5,-14.5/minecraft:air
+- -0.5,0.5,-14.5/minecraft:air
+- -0.5,1.5,-14.5/minecraft:air
+- -0.5,2.5,-14.5/minecraft:air
+- 0.5,-1.5,-14.5/minecraft:polished_blackstone
+- 0.5,-0.5,-14.5/minecraft:air
+- 0.5,0.5,-14.5/minecraft:air
+- 0.5,1.5,-14.5/minecraft:air
+- 0.5,2.5,-14.5/minecraft:polished_blackstone_stairs[facing=east,half=top,shape=straight,waterlogged=false]

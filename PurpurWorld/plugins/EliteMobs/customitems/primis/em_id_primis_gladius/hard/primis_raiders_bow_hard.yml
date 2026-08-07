@@ -1,0 +1,10 @@
+isEnabled: true
+material: BOW
+name: "&8Invader's Bow"
+lore:
+- "&aOnce blotted out the Sun."
+enchantments:
+- ARROW_DAMAGE,3
+itemType: unique
+level: 14
+scalability: fixed

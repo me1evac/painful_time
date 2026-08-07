@@ -1,0 +1,10 @@
+isEnabled: true
+material: LEATHER_HELMET
+name: "&4Shipwreck's Helmet"
+lore:
+- '&aThese leather scraps barely count as armor.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: fixed
+itemType: unique
+level: 2

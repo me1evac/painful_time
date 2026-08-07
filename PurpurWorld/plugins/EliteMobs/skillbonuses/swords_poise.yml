@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&aPoise'
-description:
-- '&7Reduces knockback taken while'
-- '&7wielding a sword.'
 skillType: SWORDS
 bonusType: PASSIVE
 unlockTier: 1

@@ -1,0 +1,14 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 1
+lootList:
+- filename=primis_ice_village_chains_shipment.yml:chance=1.0
+locations:
+- em_primis,531.0,38.0,742.0,0.0,0.0:0

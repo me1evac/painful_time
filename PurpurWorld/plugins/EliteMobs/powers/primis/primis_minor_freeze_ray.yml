@@ -1,0 +1,93 @@
+powerType: UNIQUE
+eliteScript:
+  RayVisual:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 2
+      Target:
+        targetType: SELF
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+        amount: 1
+        speed: 0.1
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 3
+    - action: SET_MOB_AI
+      bValue: false
+      duration: 60
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      Target:
+        targeType: SELF
+      sValue: minecraft:entity.guardian.attack    
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - "RayFreeze"
+    Cooldowns:
+      local: 138
+      global: 60
+  RayFreeze:
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: SELF
+        offset: 0,1,0
+      ignoresSolidBlocks: true
+      Target:
+        targetType: DIRECT_TARGET
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: DRIP_WATER
+        amount: 1
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      repeatEvery: 5
+      times: 1
+    - action: PLAY_SOUND
+      Target:
+        targeType: SELF
+      sValue: minecraft:block.snow.fall
+      wait: 15
+      repeatEvery: 5
+      times: 4      
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWBALL
+      - particle: SNOWFLAKE
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 15
+      repeatEvery: 5
+      times: 4
+    - action: VISUAL_FREEZE
+      duration: 50
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 15
+      repeatEvery: 5
+      times: 4
+    - action: POTION_EFFECT
+      potionEffectType: SLOWNESS
+      amplifier: 5
+      duration: 95
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      wait: 15
+      repeatEvery: 5
+      times: 4
+# Generated with https://magmaguy.com/webapp/webapp.html !

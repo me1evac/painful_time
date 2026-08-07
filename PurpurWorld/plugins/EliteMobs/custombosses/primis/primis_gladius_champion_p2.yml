@@ -1,0 +1,22 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $bossLevel &6Fallen Champion Natus
+level: 10
+healthMultiplier: 6.0
+damageMultiplier: 1.75
+spawnCooldown: 15
+leashRadius: 30
+followDistance: 35
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+damageModifiers:
+- material:NETHERITE_SWORD,multiplier:2
+powers:
+- hyper_loot.yml
+- primis_dome_of_darkness.yml
+- primis_fire_columns.yml
+- primis_push_dome.yml
+- gold_explosion.yml
+movementSpeedAttribute: 0.34

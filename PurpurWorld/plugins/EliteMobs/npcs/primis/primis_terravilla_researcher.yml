@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&6Plautia Suilius'
+role: '&6<Researcher>'
+profession: NITWIT
+greetings:
+- Hmm...
+dialog:
+- Maybe if...
+- That can't be right
+- Not sure...
+farewell:
+- Later...
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_terravilla_bipedal_examination.yml
+- primis_terravilla_terrifying.yml
+- primis_terravilla_drowning_terror.yml
+disguise: custom:elitemobs_terravilla_researcher
+customDisguiseData: player elitemobs_terravilla_researcher setskin {"id":"932189d5-9253-428e-a8fb-fb07c8c22bc7","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTkzOTEwNjc0MSwKICAicHJvZmlsZUlkIiA6ICIzYTdhMDVjMDc0MTI0N2Q2YWVmMDMzMDNkOWNlMjMzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcXJ0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYzNTBhYzk4ZWJjNDgzM2ExOTdkOTJjZjk1M2YzNmQ1ZjkzZTE0YTkzOTA4OTJkZTM5NWJkMTM0NTY0NjE5ZDMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"TrEoGll9a1xfoVxbOZ0fOifiaQi1SHcIBf0gNzIzyeqkfCV11OfXpyELHk5vefpD6OjrLHHdJw39Nz2c3vH5nS6ROnY88m/EsX5kHT32sfLyPDUK5QABlOOA8l6riT0PgWOAkmYxjov+Rh1+7klxI76/RUMHZvgc7iSJqYaRNesnz0EdzfWj0TFlo2sw4AaihGH3C4u3Aa5ZpNc30dp1QY4RmplY8LV3R5j8ElUa4gYLJFpjC6BA6fp0kQfiztkbkGmzzsjygpi571eXK6/kqG6P+jvTfI5HRm2ymMuz4le8jV7Ds8221jfUwlIhoK2wC6aZCFGYINBIT8gDGoYWG0akvAeVK5b2i93Vx5rm2p4kTxbtligbOZju3v5yc5zNFI8v7NRx4RFT4jXNC7Jorf2ovHtbvRB/qOq78pPPkuPCIvehNyRS/s6n0c0WFrmnDY/XgR5VU/rgMqeZiEH3HaJvlUxS2Y4+0mqB7Rm30EguS2sQPZxqyYjKUqBZ/74c0sD3pZXlJgcohkN+mIBURAPvODoFvQKdelsY4F5KbMzCDteRQSsw0axYV7UU12YgryDUPJ0a7U3haeinZs0xwg4X7tWiik3wc6kj67ycSZy0uwtIcnCheVjeIot2IohNbOIdNgOCE2/Jw+bpf4jMJOociwq0ZTGX39iDUK5xrNQ="}],"legacy":false}
+spawnLocations:
+- em_primis,324.65,27.0,1430.37,9.26,29.1

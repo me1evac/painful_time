@@ -1,0 +1,9 @@
+isEnabled: true
+material: COMPASS
+name: "&2Sturdy Pocket Watch"
+lore:
+- '&aSuprisingly light and sturdy.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_redwoods_watch.yml
+itemType: unique

@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eCrushing Blow'
-description:
-- '&7Chance to ignore enemy'
-- '&7armor on hit.'
 skillType: MACES
 bonusType: PROC
 unlockTier: 1

@@ -1,0 +1,26 @@
+isEnabled: true
+name: '&4Petrae'
+role: '&c<Mountain Guide>'
+profession: NITWIT
+spawnLocation: em_primis,1367.64,56.0,574.5,129.06,52.8
+greetings:
+- Welcome to our village!
+dialog:
+- |-
+  Ask not what this village can do for you,
+  ask what you can do for this village!
+- Welcome, outsider
+- Need something?
+- |-
+  You're not from around these parts,
+   are you?
+farewell:
+- Off you go!
+- Come back soon!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_5.yml
+disguise: custom:elitemobs_mountain_guide
+customDisguiseData: player elitemobs_mountain_guide setskin {"id":"da54d537-245e-4010-8fa3-e7769aa48ddf","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDc0NzAwMzY0OCwKICAicHJvZmlsZUlkIiA6ICIwYTUzMDU0MTM4YWI0YjIyOTVhMGNlZmJiMGU4MmFkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQX0hpc2lybyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mN2VjMTNkYzIxM2JlZWY3NTJlZjMzNDk0M2I4YjdhOGFjNGNmYzg3MmMxMmZiNGE4NmYyYjQxMjQxYTE4NjIzIgogICAgfQogIH0KfQ==","signature":"o68WD1NeRQKryG28C1FUYNi/43tlnWRyhxIcDLG8F9IkAK9RyNsBxxtb4j9UgebWSz74WEVgg6ITdmerMF8vNNg5kBDC+Stch2Au4bOaWHdIExf4GlacKlESSsPLwiGR9M0ZDZLHQHIchYFotSKq7o17hrXioKA3wu5XXKOCCoH6VgfCdjeQ87EMs0mJ6QMNuebbpI+aDkPf4HKire6JY4Nq7nRuGqG3XuU7VJF4u84E1qFuAuTjPRxgcgXVHH46hbwvmEPCvr2ztnOoIhzo3SAMDwmdqiYwHXrAzPyNxDbk322WimKqKrQz92PMKwNJIFLc8ywh9XyoA+7LgPI72b69J2Y6sFzXF3cy36rH5vosLD2LqYMF0/i15Dwl3DzYqumdc0t9VOAHCQXSQpm+mh4570Azqzt/XbqUfngnY2NU8t66wDmJZtM/gJJcVPW/fN6YV3rskzRJ1Pu4KjXwhkLSDiw1AJJ6agK+I2ZXbSKNoz5uoMQH/zFwBt7DCVT47OH7g7K+l69C4XgaH/vTZsnE17xJEh9sxzJVmilYifvZoGvIaTyKZd765LO2t24lgnpkJ6+6D4M8bT/svSjOzUjq1GKQYuB5OBipeBQVLl0d7batGwYFY4m12TjQwYu6h6soIcQGhWKxnM+jO7dPX7o/hDF0BxxQlN4OfLUNaKE="}],"legacy":false}

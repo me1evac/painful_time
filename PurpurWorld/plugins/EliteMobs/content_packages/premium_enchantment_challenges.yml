@@ -1,7 +1,4 @@
 isEnabled: true
-name: '&2Premium Enchantment Challenges'
-customInfo:
-- All premium enchantment challenges!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

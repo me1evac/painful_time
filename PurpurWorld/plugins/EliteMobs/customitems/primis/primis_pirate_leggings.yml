@@ -1,0 +1,10 @@
+isEnabled: true
+material: LEATHER_LEGGINGS
+name: "&4Pirate's leggings"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&aFeels like sea legs!'
+itemType: unique
+level: 7
+scalability: fixed

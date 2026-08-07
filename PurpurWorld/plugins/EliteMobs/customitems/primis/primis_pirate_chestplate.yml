@@ -1,0 +1,10 @@
+isEnabled: true
+material: LEATHER_CHESTPLATE
+name: "&4Pirate's Chestplate"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&aBasically a t-shirt.'
+itemType: unique
+level: 7
+scalability: fixed

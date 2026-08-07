@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eStorm Caller'
-description:
-- '&7Chance to strike enemies'
-- '&7with lightning.'
 skillType: TRIDENTS
 bonusType: PROC
 unlockTier: 2

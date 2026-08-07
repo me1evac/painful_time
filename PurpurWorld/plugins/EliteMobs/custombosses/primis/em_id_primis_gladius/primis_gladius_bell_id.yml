@@ -1,0 +1,29 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &fBell
+level: 1
+instanced: true
+neutral: true
+healthMultiplier: 0.01
+damageMultiplier: 0.001
+movementSpeedAttribute: 1.0E-4
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+leashRadius: 10
+isRegionalBoss: true
+followDistance: 5
+spawnLocations:
+- em_id_primis_gladius,-43.5,74.5,-62.5,0.0,0.0
+eliteScript:
+  Bell:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "block.bell.use"
+      Target:
+        targetType: SELF
+      repeatEvery: 30
+      times: 4

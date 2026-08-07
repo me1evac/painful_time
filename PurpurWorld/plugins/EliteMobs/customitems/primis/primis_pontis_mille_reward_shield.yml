@@ -1,0 +1,10 @@
+material: SHIELD
+name: "&4Pontis Mille Shield"
+lore: 
+- "&7A traditional Pontis Mille Shield"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "PROTECTION_EXPLOSIONS,1"
+- "PROTECTION_PROJECTILE,1"
+scalability: FIXED
+itemType: UNIQUE

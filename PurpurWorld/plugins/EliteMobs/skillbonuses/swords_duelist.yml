@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&6Duelist'
-description:
-- '&7Deal bonus damage when fighting'
-- '&7a single enemy (no others nearby).'
 skillType: SWORDS
 bonusType: CONDITIONAL
 unlockTier: 3

@@ -1,5 +1,4 @@
 isEnabled: true
-name: Punch
 maxLevelV2: 2
 value: 6.0
 isEnabledForProcedurallyGeneratedItems: true

@@ -1,0 +1,8 @@
+isEnabled: true
+material: PAPER
+name: "Dirty Note"
+lore:
+- "&fThere was a really cool sword"
+- "&fin here but it's gone now."
+scalability: fixed
+itemType: unique

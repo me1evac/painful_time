@@ -1,0 +1,10 @@
+name: "&eSquare Momma"
+material: SHIELD
+level: 18
+lore:
+- "&eProtects you just like your momma."
+enchantments:
+- DURABILITY,2
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

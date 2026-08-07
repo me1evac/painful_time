@@ -1,0 +1,68 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 400
+      repeatEvery: 300
+      scripts:
+      - "Summon1"
+      - "Summon2"
+      - "Summon3"
+      onlyRunOneScript: true
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  Summon1:
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_bloodtemple_summon_stray.yml"
+      duration: 999
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 100
+        RelativeOffset:
+          SourceTarget:
+            targetType: ACTION_TARGET
+          DestinationTarget:
+            targetType: SELF
+          # normalize: true
+          multiplier: 0.5
+          offset: 0,1,0
+  Summon2:
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_bloodtemple_summon_blaze.yml"
+      duration: 999
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 100
+        RelativeOffset:
+          SourceTarget:
+            targetType: ACTION_TARGET
+          DestinationTarget:
+            targetType: SELF
+          # normalize: true
+          multiplier: 0.5
+          offset: 0,1,0
+  Summon3:
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_bloodtemple_summon_ghast.yml"
+      duration: 999
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 100
+        RelativeOffset:
+          SourceTarget:
+            targetType: ACTION_TARGET
+          DestinationTarget:
+            targetType: SELF
+          # normalize: true
+          multiplier: 0.5
+          offset: 0,1,0
+# Generated with https://magmaguy.com/webapp/webapp.html !

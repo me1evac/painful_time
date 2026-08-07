@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,325.49302173606947,17.0,1406.697530976189,23.749626,-47.607544
+location2: em_primis_wormhole,-62.5,148.0,706.5,-0.3,38.9
+blindPlayer: true
+style: CRYSTAL
+sizeMultiplier: 1.0
+particleColor: 7098401
+permission: elitequest.primis_main_quest_22.yml

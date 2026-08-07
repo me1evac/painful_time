@@ -1,0 +1,28 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &bUndead Guardian
+level: 2
+healthMultiplier: 0.6
+damageMultiplier: 0.6
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 15
+mainHand: TRIDENT
+uniqueLootList:
+- grappling_arrow.yml:.5
+- grappling_arrow.yml:.5
+- grappling_arrow.yml:.5
+- grappling_arrow.yml:.5
+- grappling_arrow.yml:.5
+- primis_roughspun_boots.yml:0.05
+- primis_roughspun_chestplate.yml:0.05
+- primis_roughspun_helmet.yml:0.05
+- primis_roughspun_leggings.yml:0.05
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 10
+spawnLocations:
+- em_primis,1104.5,19.5,447.5,0.0,0.0:1676055676082
+- em_primis,1112.5,19.5,442.5,0.0,0.0:1676055657628

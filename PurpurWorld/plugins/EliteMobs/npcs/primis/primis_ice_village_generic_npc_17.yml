@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&3Cario Fimbria'
+role: '&3<Prisoner>'
+profession: NITWIT
+greetings:
+- Hi..
+dialog:
+- Another day...
+farewell:
+- '...'
+canTalk: true
+activationRadius: 1.0
+interactionType: NONE
+disguise: custom:elitemobs_ice_village_generic_prisoner
+customDisguiseData: player elitemobs_ice_village_generic_prisoner setskin {"id":"fb3c3756-a903-4520-8a9c-e4f6d9919c8a","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzMDkxODMwODUyNiwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4ZmE1N2VkYjBhNDMxMjlmZjg2ZmJiY2UyYzczYjdlNzBhYTYwMmZhN2I3YjlmMWRhODFjYzUzZDYzMGQ1MDEiCiAgICB9CiAgfQp9","signature":"pencPshfJEIVECMdQgSlRfDGGKCgHriesZiZ91JUg++8BPBPOCD55oSoUo5WhzTRVQ+nA5OElZLvXYGlSqSmChj2uowBpCpbKDo6e192wSCXoJ1oEdy7VWbaSei3EKYv3eiua6YHJx6Jf87Uzb8JW8OaSLxUFp7s2RPlZm+s8pBDm4q1k1NLXZhbHtJztQ2dLUI5UJAm0RkxO2o791HDK9TfFPogxmmO4Izd4zKwgYIbS2/EyfaZdu7spqJIB665a+F7jg19MS7QCFhCtPNZ2NaDW9viM+JF2vN4bZtZWZnnNPD19iQxiXcNeUgyskxwf8p4YjNccK5hBKUC3tLJqggOeiLaYG025uIeQYmO21BWwdTCnOFRwLq9faFa4hU/DY3A1fwcUif0LBfTvMY6GRGmb72SD1k2BfiOk01YrG9eqzE1KBRmdDTU1UE2aow+XYtAEZ1iEx6w3aqwFqlsr+HinoTjPLnCZCcmS2gamAlZcagYlvTNEyAtGFsTJllDyR5X18jGHdjTWecOsF+iuKwSceor49Q0TarFqHEIXnV7W19uCWXMiwUAxTR+ZI4Ws9V5oC10zKDSO4gqu/WVeQhUXgSxrWNUcRg1GhSp7Vr8421PuOi5Bd1JsPOXuUSZtYoqiwwiT7WRB4YYcKR/CzYZjvj/bLuUEixc0WGom7g="}],"legacy":false}
+spawnLocations:
+- em_primis,917.4,62.5,1644.54,138.26,38.99
+
+
+
+

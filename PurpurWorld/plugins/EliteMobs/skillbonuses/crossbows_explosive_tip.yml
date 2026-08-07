@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&cExplosive Tip'
-description:
-- '&7Chance for bolts to explode'
-- '&7on impact, damaging nearby enemies.'
 skillType: CROSSBOWS
 bonusType: PROC
 unlockTier: 2

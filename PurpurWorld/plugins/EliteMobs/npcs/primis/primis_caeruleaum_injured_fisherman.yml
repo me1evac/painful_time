@@ -1,0 +1,25 @@
+isEnabled: true
+name: '&3Callidus Piscatus'
+role: '&b<Injured Fisherman>'
+profession: NITWIT
+greetings:
+- Hello, wanderer.
+dialog:
+- Caught any good fish lately?
+- Welcome, outsider
+- Need something?
+- |-
+  You're not from around these parts,
+   are you?
+farewell:
+- See you 'round!
+- Come back soon!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_caeruleaum_fishing.yml
+- primis_caeruleaum_a_can_of_worms.yml
+disguise: custom:elitemobs_caeruleaum_fisherman
+customDisguiseData: player elitemobs_caeruleaum_fisherman setskin {"id":"26cd8f5b-60c1-40c4-a16a-c06983e7ec47","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDk2NTYxOTg2OSwKICAicHJvZmlsZUlkIiA6ICIwZjczMDA3NjEyNGU0NGM3YWYxMTE1NDY5YzQ5OTY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmVfTWluZXIxMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzMyNjU0MmQ4ZjVmZGJkOWI5ODZlZTk4NzFmMGQxNzkyNDkzZjhhODBjODhjMTNkODI5NDk1ZDczOTYyZWIzMSIKICAgIH0KICB9Cn0=","signature":"FBUff+SV0aTxGZ6sfcYm9cCxS8+7V0meiXoTksTT4XWbpd7us+4OM0Fa6cC0pyUx7VTwa9P8d74uDA1TP1vgZZFiywPqNLOmxRVpCH8m5usKc2butKWQG5G7CNqQRe8u3pHL5u+xTJH7JFeO8/NUgEnTJB4YqVg+ojR/2RYNkjngsrpKJU4nVJXmnAyzQTHXHKM8/E8FvqJfQgD02XhJ9ghlCVHrQWuQ2yjSmAE7coKUCvcn2baKb8pbTc+b43+MukT13x4Su2cqq5CB8o00TSCl9t1xCbljefMPG9D61ZTT6AK4lgkGrQJJBpZLTU9/jwNfFI2L8zXWPcBH1YHmS/JgALA6TcuT2ni0Ku6D9hbTqZBpqHvXrxQ4eh5bhfJ2MTHwK1ePSWOtCwpDKO1+yuKEzBAQ5Pb3wsC5RnazSFU3eJrzr02OncZagfiB+QsprqUs7jBo5Ujm6hSP5ZYfW3djJkrbQYooUHp7tJe1vr6UfCchdC1pso8W8VBWaRzLa7epUDbRmlbAdZNBQovGdYLJbr+8+XJ18bOIVRpVGUV6fpZb/jRfXO+IrD1FTxZ1Wol6bTpGcVbzPNjCssR5sSUKCcxzNMT3L7CEkhVASEH1UhaztQVtYxx2ZHv5Pas5QtcQtH2ZviMlNzgwU4V2lTjRhDS15JtBXa8iv7CALGw="}],"legacy":false}
+spawnLocation: em_primis,1210.3,19.0,350.6,80.49,15.9

@@ -1,0 +1,34 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+mainHand: LEAD
+offHand: SHIELD
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+name: $normalLevel &eMiner Motivator
+level: 18
+healthMultiplier: 0.8
+damageMultiplier: 1
+movementSpeedAttribute: 0.29
+uniqueLootList:
+- filename: primis_blood_temple_stairs_shield_drop.yml
+  chance: 0.33
+powers:
+- invulnerability_fire.yml
+spawnCooldown: 12
+leashRadius: 30
+followDistance: 20
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+isRegionalBoss: true
+spawnLocations:
+- em_primis,753.5,19.5,1160.5,0.0,0.0:1676370710188
+- em_primis,670.5,18.5,1174.5,0.0,0.0:1676371358798
+- em_primis,698.5,37.5,1176.5,0.0,0.0:1676370695290
+- em_primis,693.5,30.5,1162.5,0.0,0.0:1676370702495
+- em_primis,677.5,37.5,1151.5,0.0,0.0:1677851996601
+- em_primis,807.5,73.5,1051.5,0.0,0.0
+- em_primis,793.5,68.5,1037.5,0.0,0.0

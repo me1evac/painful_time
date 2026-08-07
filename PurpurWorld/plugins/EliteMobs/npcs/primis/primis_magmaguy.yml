@@ -1,0 +1,18 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&4Magmaguy'
+role: '&cLead Developer (Non-gamer)'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Hope you are enjoying the map!
+farewell:
+- Have fun!
+disguise: custom:primis_magmaguy
+customDisguiseData: player primis_magmaguy setskin {"id":"198c4123-cafc-45df-ba79-02a421eb8ce7","name":"magmaguy","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTAzOTU4MzcxMiwKICAicHJvZmlsZUlkIiA6ICIxOThjNDEyM2NhZmM0NWRmYmE3OTAyYTQyMWViOGNlNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYWdtYWd1eSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYmU2ZTM5YTA5NTZjODljMGIwMmY3NmJjYjU0MjIwYmRjNDI3Y2UwZjRmYjJhMWE0ODcxM2UxZTE4ZGI2NzE4IgogICAgfQogIH0KfQ==","signature":"ihbpiH+8vYR68OC2tbxijpowHRedQ9dxETO9iQgckrYRhxo3ifDo5yRLFyDrvohU+p1KPBOhJ2sCTxcv7hcfFwso2AoiGuyE5GE9is5J5rwEx57i/NxZmfVPGNqUprS7CfAi10b41ZBVcHbtTmJD3umgbWOssuTS8/MxAjzXvf8zLdG5Iy0Vht7o4SvQakOcifzBeyV63TMCEMYQhK1t8H6lOjtYNAnADPSNrDJLy374/X52qOjO04uchjHGEAoFwONYThrSdvO+yRHQNpO/E1CIUozblUyc2EuoN9gWh4EiZ66z8WHBsw07MBns4b4Ziu6e9fmhvtDX4w/R7jJnipH8BkEjKMHXs8YhuhFIMlUqT6zd+FW66P6CEfwso51qeXsXEv24Cmy4dr84oXCIaLT5GZHsbgmigoOdq5POFN1ueYWfrnwSygrv7dkDGj5vrpWJWlZmeQu3v/MlaZMAKFnPrPv54OtaAebtIsx3Div2Ypphf+r9To9nZimSVN6t4o11g0c4pBIlh2UEr1LSlu2iQA15FgpAmNGUwiNdXKqMqb1reo3uIKWqAz9gv6GTRWqYm00mNP4T7QENiBqTOVhDTNPUzXGgTDhwvAMY8QwQ7/usb3C9/DqwF4/KEezDNma/a370k0Y74DkBPXu5/bv4ozbmS0G6SaQ8koqwJ5w="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1395.46,18.19,1044.45,-88.49,14.7

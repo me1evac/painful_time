@@ -1,0 +1,14 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 10
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+lootList:
+- primis_pointis_groves_heirloom.yml:1
+locations:
+- em_primis,586.0,73.0,257.0,0.0,0.0:0

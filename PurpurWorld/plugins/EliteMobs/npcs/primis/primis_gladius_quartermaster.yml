@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&6Cibus'
+role: '&c<Quartermaster>'
+profession: TOOLSMITH
+spawnLocation: em_primis,827.5,27.0,655.44,-44.0,4.2
+greetings:
+- Are you here to help?
+- It's a war zone out there!
+dialog:
+- They came in the night!
+- We never saw them coming!
+- Where are our reinforcements?
+farewell:
+- Watch your back!
+- Tread lightly!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_gladius_supplies_1.yml
+- primis_gladius_supplies_2.yml
+disguise: custom:elitemobs_gladius_quartermaster
+customDisguiseData: player elitemobs_gladius_quartermaster setskin {"id":"9554ec09-8e5e-41ef-a2fc-bd6b45e18b73","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0ODcwMDUyNjM2MSwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb255S0tLIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2NGU0OGM0OTdkYjQxMGY4ZDNlODVkYzIxY2E3NmQzYWI2ZjNmNzNjZjQ5OTdlMjlmNmFkZGVhNWRkNTM0NWEiCiAgICB9CiAgfQp9","signature":"F/W+8dlujwVQuRQ4RFPDCJOBm4zGuCCn/3is3OMAHp75wgfAOY0GTTcy7uT2ROz/9APuT9oz4XlcaVSeDAGlBkfrY7NedSFKAeubp7Xz9X9Km/R/xbWlyIbsRcS7FiroWHtb+NByVjoUjp7j8fHwMBVCWFKRP9Mp1WgUrAoWIb+NKWM3U/A4Xa7aat0KdfFqphHPJitOw4mD4PE6XHyyptdlLW60RyhbK2gfjjqWl3aj1Vctxy5NU5plPdRgE3ZkSSI4yws79nv1qDb9OKuaT+gsfLWnXSukZ7b4KL7O7NItusghdfKHZximS2PgdGiGGhX9QHUNhhSPZIKWoslvIF/xRjErfKSL8Iet5P3EzMIAPGH0mKTQ+0UzPSrfaFQqjQys53QtH5aq7CAcTUBtCcF3BX/fY5tiI8NYCb1vnoN2JhAx17rGNEKKdcrwChmhXD94Ko0tsF3e3LkTK2KjQJ79Qa4AAkjWL4snltn5Mp4qNSVMptnRMgGHvCE1IJ8gFmG+v+f6rR26AWDN0l60ZlTksjOEIHMaq1YNvxvuPhdf+KSu+1tcCds9iRVBqe/b0XMrR9/KxMML/hsG35o0iD0v8Hh6zgalykBeFbpfqLf4Erg24TMpe+0HXsSkDPFbk+xy//ZBZhWNpVe7K9tApeES+i4/Lc2DPlGvptneeuo="}],"legacy":false}

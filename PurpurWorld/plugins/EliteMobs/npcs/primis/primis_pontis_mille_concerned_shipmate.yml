@@ -1,0 +1,19 @@
+greetings: []
+canTalk: true
+activationRadius: 3.0
+isEnabled: true
+name: '&3Delphium Calpurnius'
+role: '&8<Concerned Shipmate>'
+profession: FISHERMAN
+greeting:
+- Hello!
+dialog:
+- Sigh.
+- So much for my\nshipments...
+farewell:
+- Safe travels!
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_late_delivery.yml
+spawnLocations:
+- em_primis,635.7,20.0,653.79,-48.51,-0.71

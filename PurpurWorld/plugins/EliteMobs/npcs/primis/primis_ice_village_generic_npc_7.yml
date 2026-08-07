@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&3Tranio Silvanus'
+role: '&3<Villager>'
+profession: NITWIT
+greetings:
+- Here somewhere..
+dialog:
+- Where is it.
+farewell:
+- I was sure I\nleft it here.
+canTalk: true
+activationRadius: 3.0
+interactionType: NONE
+disguise: custom:elitemobs_ice_village_generic_2
+customDisguiseData: player elitemobs_ice_village_generic_2 setskin {"id":"4ed321fa-32ce-4018-b0cd-b935c9f4dfc8","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MTM0MDE0MjkxMSwKICAicHJvZmlsZUlkIiA6ICJhMjk1ODZmYmU1ZDk0Nzk2OWZjOGQ4ZGE0NzlhNDNlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWVydGVsdG9hc3RpaWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNjNDFjYmUzNGUyYmVlZGE5ZDAzOTFlZDM5ZDdiNWJlYTcxMWViMGZkODQxNjMyMjVmN2UwNWY4ZjgzMTc1ZCIKICAgIH0KICB9Cn0=","signature":"IA1lFZ3yqq2BGmQ1xSTpQEvDrpxF55CtklzxDe7CuUyifOs+XsczHIFnYYfgf2uBloXjP6VpDRdvUbxZwxaYBTRe/C/Owgo8VmlWY6+tDbDcdXv4NvWtgq9p7NaXATiSHKMKnr+EYtWH8dvAMlGdADzcfk24z+QXgDPlhamNvwoJR2ST2zQEKPvz5fj5vOXfodUOniCKm/SlX7hku8RLIj1roEiRVBUvQ+sO7yVNW7h/DM/igJLZjbJW5giTPWq+29++g0ISrSnksc8hu9xz3eMbaBRA9JD9+/WswVvyiGnHDZJtXJQeXXng0szhatOypbMg907WG5SyTEGh+nERSh/E7XxEKDo19vOpswNLyBzT7yMUSiHFwjo2q6FYAnxl2GvmPznYtxCYYO/87cXaffXCdlE70ltaOtpzPKS8cRhcA3xDSc/VHYAl5NgERhBSBW/7Ne1Xt12FYWeSRDYrpNHV/48LClaYapriVku7PbfMy13kdi1gHvud6rnfFa3d4S2knnkNICJ8aNdceABKGkyUnGxI8jJIRSskbb7iOwRun9dJXD/SZnVyViBaxNoAlx8SuwBz39SAW+qSVCGAUTtUOQ5EGnpWDt27z8N97dDhApn4pVaXTIL6VO1BCKDHJ8pvUke/Gm+M5eeLxnYll2VXlyYJ64dhuXRvXYl1Aoo="}],"legacy":false}
+spawnLocations:
+- em_primis,970.09,56.0,1462.41,98.27,12.9
+
+
+
+

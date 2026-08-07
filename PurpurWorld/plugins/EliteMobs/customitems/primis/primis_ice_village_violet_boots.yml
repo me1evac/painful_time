@@ -1,0 +1,9 @@
+isEnabled: true
+material: LEATHER_BOOTS
+name: "&dViolet's Leather Boots"
+lore:
+- "&dFancy leather boots with"
+- "&da raised pointy heel."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_ice_village_violet.yml

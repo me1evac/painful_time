@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: PAPER
-name: '&7Meteor Shower Scroll'
-lore:
-- '&4Call forth destruction.'
-- '&4Single-use.'
 enchantments:
 - METEOR_SHOWER,1
 potionEffects: []

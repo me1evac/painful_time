@@ -1,0 +1,21 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&cScribonia Ingenvinus'
+role: '&c<Hunter>'
+profession: NITWIT
+greeting:
+- Hey!
+dialog:
+- The most dangerous\nweapon is the one\nbetween your ears.
+- Three arrows\nis all I need.
+farewell:
+- Catch ya later!
+disguise: custom:primis_pontis__fields_camp_hunter_bow
+customDisguiseData: player primis_pontis__fields_camp_hunter_bow setskin {"id":"8bec1146-dd6f-4b3a-af27-e3103d52339e","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MTg0ODUxMzM2MiwKICAicHJvZmlsZUlkIiA6ICJhYzIzZmEzNzRhMmM0YjU2YmYzYzU2ZTVhODY3NjIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJxdWVlbnNoYW5pd2EiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1ZjRjNTc3NjM1OTkzNzI3MzU0OTJjMjkzZjk5MjNiYmI3MDVlMzY0ODcxZTA3ZmNhMWFhMzc2MjBjMzE5NSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9","signature":"RWL/XN4JHiNYOmKTU/AtQ94V7Z2S1bImLO1/Fk7wsmbrZXi39D93x4WETw2D5QBxvJkWnt5NlSxUDmG622DRSQmFVTg8dZ4k48j2WoWUVtswYwa3KPx5EMnqDudrSAFChXFpJNregO6+o1u9C3KTl5RNZBHsHMb15zqynztq0JC2jv0SnuSSZTrDbW9BJaofnrqzUmRRk6fYRq+X78OByCdMj4SfHEJdil7/C4qML+a6s/TNG88FVC1F/SPAfXbKM/rI8XRILmMLKwpxk/ZkO2rE9iDnZeh6mtkC5sxuByZt0bcnW9/0B1K+gVKIrUPSXdzqwzZnLA9nOam6pSAatf866/Drf3bEjO7yBkJuqyOFiBf+4oRf3SYpw17xp+e6OzIe0l1VcADdmniAVAIMtzHwHksEOzbn7PgbHnHeGlJVVXIsJ0wJ2pn89/gnxB3TO87wpE1OzA1+2ocyRdIraa3rjR3K3EMLAQUkKQgcagPVlBS0XNJB6GD2L9pfLnfvmK6IMdnphEGjvPL5B7qn4iFSr4KQq9mFI2h9bSfRHN9YoKcC3C2lQNfXwYW5Ido+vw4kvbBFzvG8hs7T6qNwmqROF0vB9RFHNs/qQlXxsTbJb9fvyx98paVuKJ3sWV14GVnFkr8jdOdXZR4jIrCNfb6moOXpaUKkIYqKXeu8c8w="}],"legacy":false}
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fields_do_it_yourself.yml
+spawnLocations:
+- em_primis,292.04,16.0,882.39,145.71,4.84

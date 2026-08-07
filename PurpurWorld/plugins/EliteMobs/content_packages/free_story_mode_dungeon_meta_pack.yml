@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&2[000-055] All 10 Free Story Mode Dungeons and Sanctums!'
-customInfo:
-- The perfect set of story dungeons
-- for players new to EliteMobs!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

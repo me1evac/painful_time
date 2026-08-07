@@ -1,0 +1,11 @@
+entityType: STRAY
+name: '$reinforcementLevel &7Enslaved Soul'
+level: '15'
+healthMultiplier: 0.25
+damageMultiplier: 0.6
+mainHand: BOW
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 40
+leashRadius: 40

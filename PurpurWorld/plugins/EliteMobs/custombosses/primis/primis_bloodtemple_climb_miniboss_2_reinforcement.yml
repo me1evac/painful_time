@@ -1,0 +1,21 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+mainHand: BOW
+helmet: LEATHER_HELMET:FF0000
+chestplate: NETHERITE_CHESTPLATE
+leggings: LEATHER_LEGGINGS:FF0000
+boots: NETHERITE_BOOTS
+name: $reinforcementLevel &ePath Sentry
+level: 18
+healthMultiplier: 0.75
+damageMultiplier: 0.05
+powers:
+- attack_push.yml
+- invulnerability_fire.yml
+followDistance: 50
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+frozen: true

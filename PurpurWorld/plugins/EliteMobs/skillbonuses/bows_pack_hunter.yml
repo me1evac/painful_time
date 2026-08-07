@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&6Pack Hunter'
-description:
-- '&7Deal bonus damage when'
-- '&7allies are nearby.'
 skillType: BOWS
 bonusType: CONDITIONAL
 unlockTier: 1

@@ -1,0 +1,27 @@
+activationRadius: 3.0
+isEnabled: true
+name: "&fVir Loquax"
+role: '&fWise Man'
+profession: SHEPHERD
+greetings:
+- Hi there!
+- Hello!
+- It is good to see you!
+- Greetings!
+dialog:
+- You look strong and mighty. Talk to some \nof the villagers if you want to help us out.
+- A long time ago there was a beautiful shrine to\nthe southeast, shame what happened to it.
+- The ruins in the southwest are such a horrible place!\n Who would ever go there...
+- Met a powerful mage once,\nthey were able to summon a beautiful ice wall.\nToo bad it would break if they fainted.
+- I heard that a nasty type of\nwolf has settled in the wolf den!
+farewell:
+- Goodbye!
+- See you later!
+- Come visit me again!
+- Farewell!
+canTalk: true
+interactionType: CHAT
+disguise: custom:primis_caeruleaum_hint_giver
+customDisguiseData: player primis_caeruleaum_hint_giver setskin {"id":"a41f6abb-6531-46cb-97da-ac6f48d5c346","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxNjUzMzkyNzE3NSwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZGY3NjNlOGVkMjA0MDYyN2FjODUyYWI3YTRjMDE1MWJmMzY3NjBiMWYwYzVhZmNlNjdjNTQwY2I0YjA1NjllIgogICAgfQogIH0KfQ==","signature":"cepHoEtUM0bYitjhlqQcy3avJSsEdwIqnoI04Kz8arOPp8gI5E9AiX409pZrlpI45Ndzz1uVyUK/IXUVUHcCDTijOePLMAAZglSix1Tdd0cFak+hirnZKf7b1hmqQU9KZyw/rNj+l49twvYEpNLOBWXWXBc2kVD+0OJnVo2HZgeS1IhSK5S8DiaZI5tLtn6LNaDEOeIpUITqUvVxrm9O2XFV1aW3oiWMjyNNEwIYJZM0g3hq1VsdGrodVr0X8p8RvKYBbZ46htOARcgEqNUU1D2zMmY+6T2T6nlGR/EMcviP08i2WawAm8mfmoaqKJcNE6ePrNwbAyXueikQyQe60yuUnffMvBbSFYVDK9ZtTOkWvvqMLQ2yoAKDOiebGAsEW+vTkyWdXgeWbkTzoAUbRl8U7O+D/jAUH2W611SSeL81qxXg56yZRWBI/ybClezUQ4mg5wTLMi+QWifbLBIuYmLfwSr/shlPIkQSDs3giBK37NHDTDhQnrbBXudDUWqME7JeDJJtvU3+6qm0vV6KGe1sHutrW4Hbsf/tMLoVsyobjgp5lFvE/STMaP6uRIWjaw5mBIxug/FlgZDOyFDCvL3IFAMAsGWnJAN4noCxnyzBqT9BoJSAg5Jy5bd5gxO62a7a57me2bjUjSx5lY28fi+EnJhFG+kkbW5DiAOe8tU="}],"legacy":false}
+spawnLocations:
+- em_primis,1210.32,19.06,335.37,45.0,10.56

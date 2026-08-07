@@ -1,0 +1,204 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  ScriptRunnerRepeat:
+    Cooldowns:
+      local: 300
+      global: 60
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 10
+      scripts:
+      - BuffPlayer
+      - TornadoZone1
+      - TornadoZone2
+      - TornadoZone3
+      - TornadoZone4
+      - TornadoWarn1
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - TornadoPull1
+  BuffPlayer:
+    Actions:
+    - action: POTION_EFFECT
+      wait: 90
+      potionEffectType: SLOW_FALLING
+      amplifier: 0
+      duration: 100
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+  TornadoZone1:
+    Zone:
+      Shape: ROTATING_RAY
+      animationDuration: 120
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,0
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 3,10,0
+      yawRotation: 1080
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 60
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.15
+      particles:
+      - particle: CLOUD
+        amount: 1
+        x: 0.4
+        y: 0.4
+        z: 0.4
+        speed: 0.01
+  TornadoZone2:
+    Zone:
+      Shape: ROTATING_RAY
+      animationDuration: 120
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,0
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -3,10,0
+      yawRotation: 1080
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 60
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.15
+      particles:
+      - particle: CLOUD
+        amount: 1
+        x: 0.4
+        y: 0.4
+        z: 0.4
+        speed: 0.01
+  TornadoZone3:
+    Zone:
+      Shape: ROTATING_RAY
+      animationDuration: 120
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,6,0
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 10,16,0
+      yawRotation: 1080
+      pointRadius: 0.3
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 60
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.3
+      particles:
+      - particle: CLOUD
+        amount: 1
+        x: 0.7
+        y: 0.7
+        z: 0.7
+        speed: 0.02
+  TornadoZone4:
+    Zone:
+      Shape: ROTATING_RAY
+      animationDuration: 120
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,6,0
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -10,16,0
+      yawRotation: 1080
+      pointRadius: 0.3
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 60
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.3
+      particles:
+      - particle: CLOUD
+        amount: 1
+        x: 0.7
+        y: 0.7
+        z: 0.7
+        speed: 0.02
+  TornadoWarn1:
+    Zone:
+      Shape: CYLINDER
+      target:
+        targetType: SELF_SPAWN
+        track: true
+        offset: 0,-1,0
+      filter: PLAYER
+      radius: 5
+      height: 2
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 60
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.3
+      particles:
+      - particle: FLAME
+        RelativeVector:
+          SourceTarget:
+            targetType: ACTION_TARGET
+            track: true
+          DestinationTarget:
+            targetType: SELF_SPAWN
+            offset: 0,0,0
+        # normalize: true
+        # multiplier: 0.02
+        speed: 0.02
+  TornadoPull1:
+    Zone:
+      Shape: CYLINDER
+      target:
+        targetType: SELF_SPAWN
+        track: true
+        offset: 0,-1,0
+      filter: PLAYER
+      radius: 5
+      height: 17
+    Actions:
+    - action: PUSH
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      RelativeVector:
+        SourceTarget:
+          targetType: ACTION_TARGET
+          track: true
+        DestinationTarget:
+          targetType: SELF_SPAWN
+          offset: 0,17,0
+        # normalize: true
+        # multiplier: 0.02
+      repeatEvery: 1
+      times: 120
+      bValue: true
+    - action: POTION_EFFECT
+      duration: 10
+      potionEffectType: LEVITATION
+      amplifier: 1
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 24

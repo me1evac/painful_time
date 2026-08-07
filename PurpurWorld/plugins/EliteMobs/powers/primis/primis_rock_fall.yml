@@ -1,0 +1,107 @@
+powerType: UNIQUE
+eliteScript:
+  RockFallTrigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: MESSAGE
+      wait: 35
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7The &fEarth Elemental &7strikes the floor with his full might dislodging loose boulders from the ceiling."
+    - action: PUSH
+      wait: 3
+      Target: 
+        targetType: SELF
+      vValue: 0,2.4,0
+    - action: PUSH
+      wait: 20
+      Target: 
+        targetType: SELF
+      vValue: 0,-3,0
+    - action: PLAY_SOUND
+      sValue: "entity.generic.big_fall"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 60
+      wait: 30
+    - action: RUN_SCRIPT
+      wait: 35
+      scripts:
+      - "RockFallVisual"
+    Cooldowns:
+      local: 555
+      global: 60  
+  RockFallVisual:
+    Zone:
+      shape: SPHERE
+      radius: 3
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+        offset: 0,23,0
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      material: STONE
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      scripts:
+      - "RockFallEffect" 
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  RockFallEffect:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 2
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+        track: false
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.dragon_fireball.explode"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 60
+      wait: 35
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_LARGE
+        y: 1
+        amount: 0
+      wait: 35  
+      Target:
+        targetType: ZONE_FULL
+        track: false
+        coverage: 0.4
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 1
+      wait: 35
+      Target:
+        targetType: ZONE_FULL
+        track: false
+    - action: POTION_EFFECT
+      potionEffectType: WEAKNESS
+      wait: 35
+      amplifier: 2
+      duration: 80
+      Target:
+        targetType: ZONE_FULL      
+        track: false
+    - action: PUSH
+      wait: 35
+      Target: 
+        targetType: ZONE_FULL
+      vValue: 0,-3,0     
+# Generated with https://magmaguy.com/webapp/webapp.html !

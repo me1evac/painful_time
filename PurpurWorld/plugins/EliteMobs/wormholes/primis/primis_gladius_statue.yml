@@ -1,0 +1,7 @@
+isEnabled: true
+location1: em_primis,942.5,45,619.5,60,0
+location2: em_primis_wormhole,-185.5,111,107.5,-90,0
+blindPlayer: true
+style: ICOSAHEDRON
+particleColor: 9830655
+sizeMultiplier: 2.0

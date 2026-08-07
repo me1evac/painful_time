@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eQuick Reload'
-description:
-- '&7Gain haste after hitting'
-- '&7for faster reloading.'
 skillType: CROSSBOWS
 bonusType: PASSIVE
 unlockTier: 1

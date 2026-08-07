@@ -1,0 +1,17 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 10
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: WEST
+chestTier: 1
+dropStyle: group
+lootList:
+- material=BREAD
+- material=BREAD
+- material=BREAD
+- material=BREAD
+locations:
+- em_primis,688.0,72.0,245.0,0.0,0.0:0

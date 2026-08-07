@@ -1,0 +1,19 @@
+farewell: []
+canTalk: true
+name: '&7Frustum'
+role: '&8<Scrapper>'
+profession: TOOLSMITH
+greetings:
+- Got something to scrap?
+- Got trash?
+- Need scrappin'?
+dialog:
+- I'll scrap anything you bring!
+- Need scrap?
+- Want scrap?
+activationRadius: 3
+interactionType: SCRAPPER
+disguise: custom:elitemobs_pontis_fish_scrapper
+customDisguiseData: player elitemobs_pontis_fish_scrapper setskin {"id":"c7fdb758-c99b-4dd1-88b8-f79b0414b55d","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY3NjQ3MDExMjQ5NiwKICAicHJvZmlsZUlkIiA6ICJiZDNhNWRmY2ZkZjg0NDczOTViZDJiZmUwNGY0YzAzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJwcmVja3Jhc25vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ExMDM1MGU4Nzk3YTRmYmJiODRiODE4ZWZhODIyYTQxNjJkMWU1NmYxMDdlZmM5YTgxZjg1YjcwYmFkOWNlMWIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"tdrmOd0NeSOk37+DZK358XSm/SDqDGf5uAUn8/CfOI2nXB0fOf8d7Z62aP0gXp/roOWzdQhxHfH1Znd4tzTdbdpdQgFM9Smn7NbrFgJ+M6T4k6Qjk9SKSXlOMZrg/1qX6IWcNviMFL6MBdORPwLH8KnIJGY/ObdCK67MBjXV/lltLtIp0P18NYUXfDseMvArV95L5eoNwQRuik9eHETVqVrkkBvMG+4ExtjfpkQARNOtOXfHew7d+6ylFigTDbYOBXKvNwvMabtLqv5zCorW9uOlR84Zg9ZFU0aLHCdmRUv+dJ2xQeaD1kzF/1YjJfdSKZco6ptrqZk53X/8va6qEYismw+ywKdHNL3sYyRXX/5eJuuNnifZeROtBvMYZuVc3dAKLmol+lT/FNEWar/UTwz+ookjy0xLOYPiLwvE7w9cHG2u4fYKuz4gQBhMQoc3rStlhZm0KlZNRfTf8jeRA4xuMGRqVpL44hlpQnXmonOovuxI+hZh/TmiHbO4pL0Lnb4X/TKwJR4ojPJyoGpbMYSWdkoybisHrFRHboLBZQwGSewc9tqTsM48f38yMdBavGAvq0AGD1l92OHRT8r/+t5epTYFV0w1Zq/zvo8XksQkxaddfrO60TR6xiVTliZnzD7Rr/TamDMTmuK8q5q0CvT/T68PL3usd+FmQW9sxTQ="}],"legacy":false}
+isEnabled: true
+spawnLocation: em_primis,1188.5,19.0,335.5,-55.56,10.75

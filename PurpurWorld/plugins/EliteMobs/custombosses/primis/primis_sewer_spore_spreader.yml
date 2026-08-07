@@ -1,0 +1,41 @@
+entityType: ZOMBIE
+name: $normalLevel &4Spore Spreader
+level: '12'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- attack_wither.yml
+- gold_explosion.yml
+uniqueLootList:
+- material=BROWN_MUSHROOM:chance=0.05
+- material=RED_MUSHROOM:chance=0.05
+followDistance: 5
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.23
+disguise: custom:spore_spreader
+customDisguiseData: player spore_spreader setskin {"id":"373ae807-f4f8-4ea7-a358-92714a43875a","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzMDg4MTQ4ODY5MywKICAicHJvZmlsZUlkIiA6ICJjNTBhZmE4YWJlYjk0ZTQ1OTRiZjFiNDI1YTk4MGYwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUd29FQmFlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0N2QxZTMyMjgwNDBiN2U2ZWY3OWExZDM3ZDFiOGEyYmY5YmViOGNlMjY2ZGM0NDE1MDk3YzAyZjc3OWUxYjMiCiAgICB9CiAgfQp9","signature":"A0Y91usJY4iF9nB+VigblljO/yc4LZVtyDjRolESmm04CP5+QOAYJEAtAYWDK1VUxTavqP6MpxXf2IWw8iXtLRrlva4exNFxtyVLnVDqf1Nes3hLIcGYeplamZiv3El4EejZP7WUp3sddhNVgKbYQmQN9q5iMrdu/6mq9p3jQULZk4KtFgVvC742yOEt9pPADFH5/HFdsA2JeHJNecT8zYsDbm9ssxM+DNHBDiUViFtAYghLqqeVTXlsCaCyn2v0sbBwDeMuOtC0XQEL6crhbKscplPKz5vVOAsb+Bp8i04Rw8UW8Q/MEwXotIJCADcaYdMnLBbeEyUjDH/VNAf7jZZGQDDIYO51J5ju3x1nNCx5kFR0sJ7MoFqZAdt5g04GTu+pwVm+TDt4kZInKfmn0BN/xK0o4pGUAjzYyRBXpdtvkFMbHWWMa28+GrC2F8drveW8zpa1IdpHGrSC/0kjsSxzf1YEIW+pdHybsZrgj1ehK58/wzBbZAn5l8wfw5s6i5yByelj+iIoiqJ1bWk7IVC/Xu8vNq9Qi/im5blceXx3erquNyBZnRE/8Aa8Zy6Bcu7i1BIrZsSrAxtiPt+PUzR7JRGleLPfmMhHKDT2yyE2Pq/i+P1ShxJMEg/Af0FTkaTByiYUyl7nY6SMh+StXak4R2iIztRFeRUyoo3OkJY="}],"legacy":false}
+spawnLocations:
+- em_primis_wormhole,212.5,72.5,202.5,0.0,0.0:1676071305398
+- em_primis_wormhole,212.5,72.5,214.5,0.0,0.0:1676071401047
+- em_primis_wormhole,212.5,72.5,231.5,0.0,0.0:1676071409649
+- em_primis_wormhole,223.5,87.5,243.5,0.0,0.0
+- em_primis_wormhole,222.5,87.5,228.5,0.0,0.0
+- em_primis_wormhole,192.5,74.5,237.5,0.0,0.0:1676071447697
+- em_primis_wormhole,217.5,72.5,254.5,0.0,0.0:1676071476497
+- em_primis_wormhole,201.5,72.5,260.5,0.0,0.0:1676071425147
+- em_primis_wormhole,219.5,72.5,170.5,0.0,0.0:1676071377652
+- em_primis_wormhole,169.5,80.5,220.5,0.0,0.0:1676071465247
+- em_primis_wormhole,153.5,82.5,232.5,0.0,0.0:1661537954575
+- em_primis_wormhole,239.5,87.5,215.5,0.0,0.0
+- em_primis_wormhole,237.5,87.5,229.5,0.0,0.0
+- em_primis_wormhole,233.5,87.5,238.5,0.0,0.0
+- em_primis_wormhole,255.5,88.5,259.5,0.0,0.0
+- em_primis_wormhole,250.5,87.5,235.5,0.0,0.0
+- em_primis_wormhole,242.5,87.5,229.5,0.0,0.0
+- em_primis_wormhole,222.5,87.5,179.5,0.0,0.0
+- em_primis_wormhole,222.5,87.5,222.5,0.0,0.0

@@ -1,0 +1,25 @@
+isEnabled: true
+entityType: VINDICATOR
+level: 4
+healthMultiplier: 0.6
+damageMultiplier: 0.45
+spawnCooldown: 5
+mainHand: IRON_AXE
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- primis_rusty_mail_boots.yml:.05
+- primis_rusty_mail_helmet.yml:.05
+- primis_rusty_mail_leggings.yml:.05
+- primis_rusty_mail_chestplate.yml:.05
+spawnLocations:
+- em_primis,1128.5,23.5,556.5,0.0,0.0:1786084213233
+- em_primis,1125.5,23.5,552.5,0.0,0.0:1786084204327
+- em_primis,1092.5,24.5,540.5,0.0,0.0:1786084096287
+- em_primis,1095.5,22.5,526.5,0.0,0.0:1786084115981
+- em_primis,1098.5,22.5,527.5,0.0,0.0:1786084126531

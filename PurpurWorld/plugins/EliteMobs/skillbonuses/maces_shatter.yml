@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&eShatter'
-description:
-- '&7Slam the ground, damaging'
-- '&7and slowing nearby enemies. 15s CD.'
 skillType: MACES
 bonusType: COOLDOWN
 unlockTier: 2

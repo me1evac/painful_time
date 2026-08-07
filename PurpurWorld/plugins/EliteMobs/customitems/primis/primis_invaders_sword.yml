@@ -1,0 +1,10 @@
+isEnabled: true
+material: IRON_SWORD
+name: "&4Invader's sword"
+enchantments:
+- DAMAGE_ALL,2
+lore:
+- "&aSuspiciously bloodstained."
+itemType: unique
+level: 8
+scalability: fixed

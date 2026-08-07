@@ -1,0 +1,35 @@
+entityType: ZOGLIN
+name: $normalLevel &2Juvenile Razorback
+level: '13'
+healthMultiplier: 0.8
+damageMultiplier: 0.6
+powers: []
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_ice_village_alanus_dagger.yml:amount=1:chance=0.07
+followDistance: 35
+spawnCooldown: 10
+leashRadius: 34
+isRegionalBoss: true
+movementSpeedAttribute: 0.35
+disguise: HOGLIN
+spawnLocations:
+- em_primis,540.5,17.5,1489.5,0.0,0.0:1676134493210
+- em_primis,512.5,12.5,1460.5,0.0,0.0:1676134506462
+- em_primis,530.5,16.5,1378.5,0.0,0.0:1676134602612
+- em_primis,562.5,11.5,1440.5,0.0,0.0:1676134417660
+- em_primis,586.5,12.5,1440.5,0.0,0.0:1676134409181
+- em_primis,624.5,12.5,1467.5,0.0,0.0:1676134398220
+- em_primis,632.5,12.5,1426.5,0.0,0.0:1676134379527
+- em_primis,669.5,12.5,1417.5,0.0,0.0:1676134367229
+- em_primis,660.5,14.5,1360.5,0.0,0.0:1676134443021
+- em_primis,608.5,13.5,1384.5,0.0,0.0:1676134429780
+- em_primis,724.5,14.5,1391.5,0.0,0.0:1676134350120
+- em_primis,755.5,12.5,1457.5,0.0,0.0:1676134310580
+- em_primis,284.5,14.5,1003.5,0.0,0.0:1662483834207
+- em_primis,292.5,15.5,1010.5,0.0,0.0:1662400302662
+- em_primis,296.5,14.5,974.5,0.0,0.0
+- em_primis,397.5,14.5,1128.5,0.0,0.0:1676154314786

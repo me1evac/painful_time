@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&aSecond Wind'
-description:
-- '&7Heal when health drops'
-- '&7below 25%. 60s cooldown.'
 skillType: ARMOR
 bonusType: COOLDOWN
 unlockTier: 3

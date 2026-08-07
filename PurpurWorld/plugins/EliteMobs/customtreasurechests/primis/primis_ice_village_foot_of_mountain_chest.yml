@@ -1,0 +1,14 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 1111
+lootList:
+- filename=primis_ice_village_island_chest_trident.yml:chance=1.0
+locations:
+- em_primis,1528.0,20.0,1659.0,0.0,0.0:0

@@ -1,0 +1,392 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "RunSets"
+      - "RunSets2"
+      - "RunSets3"
+      - "RunSets4"
+      - "RunSets5"
+      - "RunSets6"
+      onlyRunOneScript: true
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    Cooldowns:
+      local: 222
+      global: 60
+  RunSets:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "DropVisual"
+      - "Drop"
+  RunSets2:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "DropVisual2"
+      - "Drop2"
+  RunSets3:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "DropVisual3"
+      - "Drop3"
+  RunSets4:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "DropVisual4"
+      - "Drop4"
+  RunSets5:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "DropVisual5"
+      - "Drop5"
+  RunSets6:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "DropVisual6"
+      - "Drop6"
+  DropVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,996,127,859,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 20
+  Drop:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,996,127,859,0,0
+      filter: PLAYER
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A tome of powerful magic has fallen down from one of the bookshelves!"
+    - action: TAG
+      tags:
+      - "HarmAura"
+      duration: 200
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 40
+    - action: RUN_SCRIPT
+      repeatEvery: 20
+      times: 20
+      scripts:
+      - "HarmAuraVisual"
+      - "HarmAura"
+  DropVisual2:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,996,127,867,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 20
+  Drop2:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,996,127,867,0,0
+      filter: PLAYER
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A tome of powerful magic has fallen down from one of the bookshelves!"
+    - action: TAG
+      tags:
+      - "HarmAura"
+      duration: 200
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 40
+    - action: RUN_SCRIPT
+      repeatEvery: 20
+      times: 20
+      scripts:
+      - "HarmAuraVisual"
+      - "HarmAura"
+  DropVisual3:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,996,127,875,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 20
+  Drop3:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,996,127,875,0,0
+      filter: PLAYER
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A tome of powerful magic has fallen down from one of the bookshelves!"
+    - action: TAG
+      tags:
+      - "HarmAura"
+      duration: 200
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 40
+    - action: RUN_SCRIPT
+      repeatEvery: 20
+      times: 20
+      scripts:
+      - "HarmAuraVisual"
+      - "HarmAura"
+  DropVisual4:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,984,127,874,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 20
+  Drop4:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,984,127,874,0,0
+      filter: PLAYER
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A tome of powerful magic has fallen down from one of the bookshelves!"
+    - action: TAG
+      tags:
+      - "HarmAura"
+      duration: 200
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 40
+    - action: RUN_SCRIPT
+      repeatEvery: 20
+      times: 20
+      scripts:
+      - "HarmAuraVisual"
+      - "HarmAura"
+  DropVisual5:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,984,127,866,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 20
+  Drop5:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,984,127,866,0,0
+      filter: PLAYER
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A tome of powerful magic has fallen down from one of the bookshelves!"
+    - action: TAG
+      tags:
+      - "HarmAura"
+      duration: 200
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 40
+    - action: RUN_SCRIPT
+      repeatEvery: 20
+      times: 20
+      scripts:
+      - "HarmAuraVisual"
+      - "HarmAura"
+  DropVisual6:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,984,127,858,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 20
+  Drop6:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,984,127,858,0,0
+      filter: PLAYER
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A tome of powerful magic has fallen down from one of the bookshelves!"
+    - action: TAG
+      tags:
+      - "HarmAura"
+      duration: 200
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 40
+    - action: RUN_SCRIPT
+      repeatEvery: 20
+      times: 20
+      scripts:
+      - "HarmAuraVisual"
+      - "HarmAura"
+  HarmAuraVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 4
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+        track: true
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&7A damaging aura surrounds you!"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: FILTERING
+        hasTags:
+        - "HarmAuraBoss"
+  HarmAura:
+    Zone:
+      shape: CYLINDER
+      radius: 4
+      height: 2
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+        track: true
+      filter: LIVING
+    Actions:
+    - action: TAG
+      tags:
+      - "HarmAuraBoss"
+      duration: 200
+      Target:
+        targetType: SELF
+      Conditions:
+        Target:
+          targetType: ZONE_FULL
+        conditionType: FILTERING
+        hasTags:
+        - "HarmAura"
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 3
+      duration: 20
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+         targetType: ACTION_TARGET
+        conditionType: FILTERING
+        hasTags:
+        - "HarmAuraBoss"
+# Generated with https://magmaguy.com/webapp/webapp.html !

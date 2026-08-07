@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&6Reap What You Sow'
-description:
-- '&7Deal more damage when'
-- '&7your health is low.'
 skillType: HOES
 bonusType: CONDITIONAL
 unlockTier: 3

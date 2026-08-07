@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&7Suppressing Fire'
-description:
-- '&7Chance to weaken and slow'
-- '&7enemies with your bolts.'
 skillType: CROSSBOWS
 bonusType: PROC
 unlockTier: 3

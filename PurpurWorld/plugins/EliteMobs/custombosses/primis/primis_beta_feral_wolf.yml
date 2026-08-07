@@ -1,0 +1,11 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WOLF
+name: $reinforcementLevel &8Beta Feral Wolf
+level: 3
+healthMultiplier: 0.40
+damageMultiplier: 0.33
+followDistance: 15
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false

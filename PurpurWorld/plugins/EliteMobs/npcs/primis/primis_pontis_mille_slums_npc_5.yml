@@ -1,0 +1,21 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&7Augustina Verrucosis'
+role: '&7<Slums Dweller>'
+profession: NITWIT
+greeting:
+- There is always\nhope.
+dialog:
+- So many mouths\nto feed.
+- Maybe some fruit\nfor the little\nones.
+farewell:
+- Bye.
+disguise: custom:primis_pontis_slums_3
+customDisguiseData: player primis_pontis_slums_3 setskin {"id":"6e306c23-57cc-4217-9e6c-697ad040cda9","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyODI1MTExNjg3NywKICAicHJvZmlsZUlkIiA6ICJiMWMyNWQ0YjMwZDU0N2Y4YTk3NmZlYTllOGU1YzBjMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJvd29FbmRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNDllMTlmYWIxYWU1NzA0MzllZTQ0MzhiZTFmNDE1MmE4N2ZkNjU4ODExOWViYzQzOTJmNWU2OTZjOWNmZGQ4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"IksG8Y4cotGTIZMSWylvChXA+vYAHLwl7Az6GV5W+CnpgvXv2MdWA+HqPwl3slwUI8eHOR0eV3aCgbrEKAOqhVsgsBpMR7OH2mhlWhx7MtEGqd4MslXH7yFcturJPcy+Pe8JFRjc5y9kLEvQWTEK04QnsNTpZaBn/u1zN0AcqgOxLupLDl9xBCDngNea/AvRBz1ZMMBKvBuj4r1poUYzr20XiJHjHVoW92LQdrubR8qSnmw0iDhBQQZqvcH203sL7Flr9htC+9Ok9Zb6Bi4z7RC1fIq0nSL5AAdM/k6tDDiYpymdp0YE7Kl2tPEPuxnyaNLJNKnh21fXG8aFOwt9iSlyXx97rKEuAdDENYvK1a0JD8vIujBESAmkcMn2ZnpNB5lLc4EHJKCk4HKdcCzxQ3Ss5tQr+jNLBFlKjEgXw2BN33VqiOBPqz8jMEl4XTd9W5C+iOgHPcnqLuNLd0ktERy8TotJPMGRleaUll1uKhQklfriJqnPi3+GZMl2QQm4OrHRKvqZw8hJguhpeuuLFgU3oxE0TziU71ueViDl2n2rpfVxtrdJ1L7J0A43HRWALJxjo0OCYkfWyMit3RzcaqmhNygSdl+qv1R/uP3zbaiaAfpeDrgLn8kBzE0RXwlFfnzbHvTD0c8iKPTbFmU2cRyjAbySuY6Pv5DVBcfwF5w="}],"legacy":false}
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_fields_camping_hunters.yml
+spawnLocations:
+- em_primis,466.26,29.5,721.97,89.48,26.42

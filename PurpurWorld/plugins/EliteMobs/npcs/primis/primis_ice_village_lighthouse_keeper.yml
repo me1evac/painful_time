@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&3Severinus Martius'
+role: '&3<Lighthouse Keeper>'
+profession: TOOLSMITH
+greetings:
+- Well met stranger.
+dialog:
+- Calm day today.
+- Watch out for\nthe Ursus!
+farewell:
+- Take it easy.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_gotta_see_jeeves.yml
+disguise: custom:elitemobs_ice_village_lightkeeper
+customDisguiseData: player elitemobs_ice_village_lightkeeper setskin {"id":"b509db93-4799-4da9-8659-9a178a9067b6","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzMzYxOTE3ODE4NSwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YTVhOWViMmUzMDY1ZDNlNTlhY2MyZDJjOTY3N2I1MDEyYTZlYTZiMjAwMDM5YmYwNTIxY2IxOTBiOGQyZDUwIgogICAgfQogIH0KfQ==","signature":"GtOHyEaz3GXT1MssIAwYxF8jqhmpjV8RZCr3N9B2aSR3ujU2Quvr2ifpDKZyd07JukhfA/bO6eilJbmqeY9DBEDr7EBXcCcTNdGh93fkrPws+nCIsuhrJ2JQyAVWmZ4ZuOVW3pGlE7W47acrsmxBfSjviLKmE8o6S9gP33/Yt7LZcL5jQJGo646b9YI/K4uv0E4r/6VffZvAWkFmzKs108zutekNIWV+35UrRPU6W/imYNEfEsWP+qFgLWgjiHlvwpWG8BRg4p0OIyq8AR0SXy1SxFBXzgNMJjh1V/BweAJy+cIDvFSCOXtD9agDSrE8I9KBS7cYiaPziAdTkP0GQjEpjGekKSgNClu4BS+BSzaLbrAd5SAaBWmkb8MK9vAMhLVODchsN6GibZNuhhNRw1h6/PTuTQKFpK6CmYQi/bzrZEp8MIVvEqkP74/Iuqktrs5pJbXVSSaWGH2Er81iLVxdE17Yrf3RFxvC0rHvIrOhp0HWzWYl1nt6YK+2+SUADgzJLlgjvCEcJnA6y58zoZO17VA6vu7C0b3WP9qGc6k1/CXvytBj/eGEE7qKsjJo5RuWgfoBQ/G+LxJT+82OC4ZxkZVJhAcOe4WvVUtPLoLcdjgGki7D8Tu/hbOLqWQsCpqCJoQ7e3ItCN1WpRoxgxqmSFfiGZ8p/6JOzB72FJg="}],"legacy":false}
+spawnLocations:
+- em_primis,1057.31,38.0,1517.63,14.42,8.35
+

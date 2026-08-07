@@ -1,6 +1,5 @@
 isEnabled: true
 entityType: SKELETON
-name: $reinforcementLevel &7Zombie Dad
 level: dynamic
 healthMultiplier: 0.5
 damageMultiplier: 0.5

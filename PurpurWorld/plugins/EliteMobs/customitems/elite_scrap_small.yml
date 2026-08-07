@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: GREEN_DYE
-name: '&9Small Elite Scrap'
-lore:
-- '&fUsed to repair Elite items!'
-- '&fRepairs a medium amount!'
 enchantments:
 - repair,2
 potionEffects: []

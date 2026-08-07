@@ -1,0 +1,95 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  ScriptRunnerRepeat:
+    Cooldowns:
+      local: 200
+      global: 60
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - GrappleCharge
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - GrappleLaunch
+  GrappleCharge:
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 1
+      times: 40
+      Target:
+        targetType: SELF
+        offset: 0,1,0
+        track: true
+      particles:
+      - particle: FLAME
+        amount: 1
+        x: .3
+        y: .3
+        z: .3
+        speed: 0.1
+  GrappleLaunch:
+    Zone:
+      Shape: TRANSLATING_RAY
+      animationDuration: 20
+      pointRadius: 1
+      Target:
+        targetType: SELF
+        offset: 0,.5,0
+        track: false
+      Target2:
+        targetType: SELF
+        offset: 0,1,0
+        track: false
+      FinalTarget:
+        targetType: DIRECT_TARGET
+        offset: 0,.5,0
+        RelativeOffset:
+          SourceTarget:
+            targetType: SELF
+          DestinationTarget:
+            targetType: DIRECT_TARGET
+          normalize: true
+          multiplier: 1
+        track: false
+      FinalTarget2:
+        targetType: DIRECT_TARGET
+        offset: 0,1,0
+        RelativeOffset:
+          SourceTarget:
+            targetType: SELF
+          DestinationTarget:
+            targetType: DIRECT_TARGET
+          normalize: true
+          multiplier: 1
+        track: false
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 1
+      times: 20
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: EXPLOSION_LARGE
+        amount: 0
+        x: 0
+        y: 0
+        z: 0
+        speed: 0.1
+    - action: PUSH
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20
+      RelativeVector:
+        SourceTarget:
+          targetType: DIRECT_TARGET
+        DestinationTarget:
+          targetType: SELF
+        offset: 0,.5,0
+        normalize: false
+        multiplier: .1

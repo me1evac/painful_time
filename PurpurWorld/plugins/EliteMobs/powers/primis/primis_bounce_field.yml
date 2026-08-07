@@ -1,0 +1,54 @@
+powerType: UNIQUE
+eliteScript:
+  BounceFieldVisual:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 16      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      scripts:
+      - BounceField      
+    Cooldowns:
+      local: 333
+      global: 60
+  BounceField:
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+      filter: PLAYER
+    Actions:
+    - action: PUSH
+      vValue: 1,0.2,-1
+      Target:
+        targetType: ZONE_FULL
+      wait: 5
+      repeatEvery: 5
+      times: 16
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true  
+# Generated with https://magmaguy.com/webapp/webapp.html !

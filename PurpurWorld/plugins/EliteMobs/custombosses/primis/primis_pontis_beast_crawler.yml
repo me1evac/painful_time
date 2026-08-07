@@ -1,0 +1,23 @@
+entityType: CAVE_SPIDER
+name: $minibossLevel &dCrawler Beast Megdun
+level: '13'
+healthMultiplier: 4.0
+damageMultiplier: 1.4
+powers:
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+- attack_vacuum.yml
+uniqueLootList:
+- filename=primis_pontis_beast_silk.yml:amount=1:chance=1.0
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 40
+spawnCooldown: 30
+leashRadius: 40
+isRegionalBoss: true
+movementSpeedAttribute: 0.32
+spawnLocations:
+- em_primis,553.5,129.5,310.5,0.0,0.0:1676129600456
+

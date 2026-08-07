@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&3Riptide Mastery'
-description:
-- '&7Bonus damage in water or rain.'
-- '&7Extra bonus when both!'
 skillType: TRIDENTS
 bonusType: CONDITIONAL
 unlockTier: 3

@@ -1,0 +1,24 @@
+isEnabled: true
+name: '&4Amavit'
+role: '&c<Lighthouse Keeper''s Wife>'
+profession: FARMER
+spawnLocation: em_primis,1272.19,21.0,703.39,-87.15,-0.6
+greetings:
+- I haven't seen you before!
+- Any news from Pontis Mille?
+dialog:
+- Have you seen my husband?
+- I need your help!
+- What dangerous times we live in.
+- Something is amiss!
+farewell:
+- Safe travels!
+- Thank you!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_farmstead_lighthouse_keeper.yml
+- primis_farmstead_lighthouse_keeper_2.yml
+disguise: custom:elitemobs_farmstead_wife
+customDisguiseData: player elitemobs_farmstead_wife setskin {"id":"e09d1bdf-298e-4b43-9507-e8c2d86e95b9","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NjAxNzY0ODU3NSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxM2VlNDcxNWEwNzRjYzBmNTRhNWZiNWNhZjc4Yjc5MzdkMzJiOWIwNGM3NjU1ZTIzMDIxYjZiM2JlYWU3YzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"wDYOGAROcs19hWl1ec7c7h7NfvV3MW49ObtRyOhpDsefO8FqR7rCsTaaAhYKEctQzyF3HCh+hSc8/7SFapmvAq+6FTGbRuHFid0ph263aYBkElURZqEHNW5Zz7shA0/50PWXJbKY1kyxdTc1rcRbDKEa8TJX2eN6jmUDlkJZKjdk74ii9f8b5mrbGu6kC7besru4hvWH96eyLfsJdOlA70OK2Dqk6a9ViLvF+9Zgw9/L6K9ZJFbvZuD2FZxeue6C2vX60k0QyUe6ujwVhFTnSB+05LhJ/Yviswj97IUZ88/+Du7CAKZaaTFrxnV05azMg/uPrxDpP2jlbZQKIlUAj3kEGzoAAB/FALoCi01b9BzP4ytnb3deDF7NVxkgFN3GRB6rvFHNZJNU0oWJfGGwTOFtIBzasrEfTmF6ZqEkG1UtgsXTkGlSPXjwO1j4o1J7YRiUKgcD+EbrVllvOeEmsGbUIB/w+N/fQZKmtTXTkHvzzGP89ctH6+sSlAZJTfkxIFiBeCbtGX/LMyVZtZQBw+9WLyr1OEtNIpGRlml2PdgZOQsHVdsIcRjSejovUa6lKGR3KYL9+4u3H/3lCUNuOjsO9EdTa96t3+PUTYlhJjclNiltzsWZ9BqS38B3UWJN7XDoSJgXOmyS+D3Dg2BTPA0g1VXP8a38gUs4cUY40ZY="}],"legacy":false}

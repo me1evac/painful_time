@@ -1,10 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: STICK
-name: '&bVampiric Charm'
-lore:
-- '&aNo one can remember where this'
-- '&acame from, and no one can,'
-- '&aforget how dangerous it is...'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

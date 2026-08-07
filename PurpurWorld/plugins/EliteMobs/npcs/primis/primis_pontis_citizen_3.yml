@@ -1,0 +1,22 @@
+greetings: []
+canTalk: true
+activationRadius: 3.0
+isEnabled: true
+name: '&7Tycho Sellic'
+role: '&8Pontis Resident'
+profession: NITWIT
+greeting:
+- Hello!
+- Greetings!
+dialog:
+- Have you been to the observatory?
+- Where did you journey from?
+- You don't look like you're from around here...
+- It's a great day today.
+farewell:
+- See you around!
+- Farewell!
+disguise: custom:primis_pontis_citizen_3
+customDisguiseData: player primis_pontis_citizen_3 setskin {"id":"631b0373-d210-4952-abc9-e9aecbaf3516","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MDI2MzYyMDE5OCwKICAicHJvZmlsZUlkIiA6ICIwOGJhMWI0YmEyOGI0ODNlYjk3MzQ2ZDFlMmVhMjlhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJaZVJ1czYxMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMTEyODM0OGNlZTk2ZmFjYjI4NTg1Y2M4ODM2ODlhYWZjZjU4YTFjZmZlNjM1ZmM4MWE2NWY2YWJiZjc2NmUxIgogICAgfQogIH0KfQ==","signature":"bGNEmfcEmoUtiSDr/dsDLpLSwbnltHksvUlhDHhR+t1iwZWuTUgyz0xeQriEJWNgh/iL05u3avu0DLZanfdnYXOoAibrmlqIS/ThK0olfv9gCs0A9aJ8LcJCTj+5Vp5JvgR7cEgT/okpegXtALlyl/sk3Dr+OGVrtnfB6Dq/LWDPOjaDrEi4ZfbSgN9Wg6czX/s7qSYaSz0PetCXX2p1DY4qjeyImFZUk074lnes90dC3w5yZiN7VgaeCCymLcn3DW6yXtFY3uBXw03q0OURMNQPhECm4F6q7LrcK8dAt7cB3+RWQef/N3DgCYu+fPYyldOCIiZOnKOu8fLwVlsgeAyOx/JfldLdsyRR4sj1LBBbWNFixIMi47zIaTPMBF1pYJ/DFgAwvat6iUjEUcy5OmYeCgi6SLnsUPN/TN9tOVGReXANBhB+Q2iWLAiOTgjtDwutpUieXvEwpze0jJOU6wsDOg6vv4mS5xNIi+oBONUEy2LVl0LuZgGLQlux+28mVN2nT7xnhqK+Tg/kPh1gN0TeCzBpFhD/74gcdMFxaI9QMAedU2azDiGrEj/ivwhB47xBr2H764zNUAosOLTumsuS12R8aTBP/H3KuMOuqH3ilnbxkw1ptWy+8aTGs8JjELGNOLAWohD5v6YdizT8REnIVclZEu796HfUQADLUyg="}],"legacy":false}
+interactionType: CHAT
+spawnLocation: em_primis,541.48,38.0,730.86,-117.75,2.4

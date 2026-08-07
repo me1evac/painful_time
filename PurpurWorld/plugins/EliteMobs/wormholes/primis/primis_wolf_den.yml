@@ -1,0 +1,6 @@
+isEnabled: true
+location1: em_primis,1288.5,19,452.5,135,-23
+location2: em_primis_wormhole,0.5,54,2.5,-180,-1
+blindPlayer: true
+style: CRYSTAL
+particleColor: 9830655

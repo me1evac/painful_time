@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_CHESTPLATE
+name: "&4Raider's Chestplate"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,1
+- DAMAGE_ALL,2
+lore:
+- '&aRusty, ugly and smelly. Lovely!'
+itemType: unique
+level: 14
+scalability: fixed

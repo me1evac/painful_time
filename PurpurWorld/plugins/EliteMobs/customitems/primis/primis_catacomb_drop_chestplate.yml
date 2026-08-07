@@ -1,0 +1,14 @@
+isEnabled: true
+material: NETHERITE_CHESTPLATE
+name: "&7Dark Bone Armor"
+lore:
+- "&7Bones as dark as the abyss"
+- "&7adorn this armor."
+- "&7The arrows will make quite a"
+- "&7noise as they bounce off the bones."
+enchantments: 
+- "DAMAGE_ALL,1"
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: fixed
+itemType: unique
+level: 14

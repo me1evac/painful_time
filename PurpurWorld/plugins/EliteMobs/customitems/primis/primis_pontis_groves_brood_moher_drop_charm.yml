@@ -1,0 +1,8 @@
+material: STRING
+name: "&aCrawlers Torment"
+lore: 
+- "&aThe silk radiates strong energy."
+enchantments: 
+- "DAMAGE_ARTHROPODS,3"
+itemType: unique
+scalability: fixed

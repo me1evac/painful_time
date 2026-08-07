@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_HELMET
+name: "&4Raider's Helmet"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,1
+- DAMAGE_ALL,2
+lore:
+- '&aBeats a concussion!'
+itemType: unique
+level: 14
+scalability: fixed

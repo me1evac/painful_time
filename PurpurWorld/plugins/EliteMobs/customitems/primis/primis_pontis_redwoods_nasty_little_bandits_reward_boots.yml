@@ -1,0 +1,12 @@
+material: DIAMOND_BOOTS
+name: "&2Forest Boots"
+lore: 
+- "&2The boots seem to be made"
+- "&2out of soft bark, leaves"
+- "&2and crystallized tree sap."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "PROTECTION_FALL,2"
+scalability: FIXED
+level: 13
+itemType: unique

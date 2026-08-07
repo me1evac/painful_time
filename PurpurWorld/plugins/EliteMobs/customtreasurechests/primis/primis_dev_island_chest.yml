@@ -1,0 +1,14 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 2880
+lootList:
+- material=ENCHANTED_GOLDEN_APPLE:chance=1.0
+locations:
+- em_primis,1391.0,18.0,1046.0,0.0,0.0:0

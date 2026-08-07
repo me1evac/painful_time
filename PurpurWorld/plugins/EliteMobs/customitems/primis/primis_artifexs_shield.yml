@@ -1,0 +1,12 @@
+isEnabled: true
+material: SHIELD
+name: "&6Artifex's Shield"
+lore:
+- "&eAn old relic from a more"
+- "&edangerous time. It has been"
+- "&erestored to its glory!"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+scalability: fixed
+itemType: unique
+level: 3

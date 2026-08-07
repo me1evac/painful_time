@@ -1,0 +1,24 @@
+normalizedCombat: true
+isEnabled: true
+entityType: PILLAGER
+level: 4
+healthMultiplier: 0.6
+damageMultiplier: 0.45
+spawnCooldown: 5
+mainHand: CROSSBOW
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- primis_rusty_mail_boots.yml:.05
+- primis_rusty_mail_helmet.yml:.05
+- primis_rusty_mail_leggings.yml:.05
+- primis_rusty_mail_chestplate.yml:.05
+spawnLocations:
+- em_primis,1122.5,23.5,561.5,0.0,0.0:1786084201135
+- em_primis,1094.5,24.5,545.5,0.0,0.0:1786083909879
+- em_primis,1094.5,24.5,543.5,0.0,0.0:1786083916629
+- em_primis,1100.5,22.5,526.5,0.0,0.0:1786084103885

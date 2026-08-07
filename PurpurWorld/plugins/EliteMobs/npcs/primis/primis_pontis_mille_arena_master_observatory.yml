@@ -1,0 +1,22 @@
+isEnabled: true
+name: Stella Hominis
+role: <Star Gazer>
+profession: ARMORER
+greetings:
+- Hellos!
+dialog:
+- I hope to see many stars.
+- Such heavenly bodies!
+- The cosmos calls to me.
+- Infinite possibilities.
+- The ancient knowledge...
+- I have tales to tell.
+- If only you knew...
+farewell:
+- May the stars bless you.
+canTalk: true
+activationRadius: 3.0
+interactionType: ARENA_MASTER
+arena: primis_pontis_mille_arena.yml
+spawnLocations:
+- em_primis,578.49,107.0,649.62,-138.44,-51.75

@@ -1,0 +1,38 @@
+entityType: VINDICATOR
+name: $normalLevel &2Noxious Ninja
+level: '13'
+healthMultiplier: 1
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- plasma_blaster.yml
+- attack_poison.yml
+uniqueLootList:
+- filename=primis_pontis_mille_sewers_ninja_drop_chestplate.yml:chance=0.05
+- filename=primis_pontis_mille_sewers_ninja_drop_leggings.yml:chance=0.05
+followDistance: 10
+spawnCooldown: 5
+leashRadius: 30
+mainHand: IRON_SWORD
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+disguise: custom:noxious_ninja
+customDisguiseData: player noxious_ninja setskin {"id":"30a8546f-7793-438c-bb5b-418f59347e96","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTU5Mjc0NDQ1NjU1MiwKICAicHJvZmlsZUlkIiA6ICJmNWQwYjFhZTQxNmU0YTE5ODEyMTRmZGQzMWU3MzA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXRjaFRoZVdhdmUxMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kNDMyM2EwNzE3Y2YxNjhlNTk5OTM0NWIxMmRiZDlkNzFiYWFjMzNmZDZlMTg2YmMxNjFkYzVjYTliODc0NzQiCiAgICB9CiAgfQp9","signature":"vvt2R6GcHBc2uBivVKZnpHyyjIcGQyxivy2u9hhloF7kLWqwDArVNREgeTX5mSQNsGjf0UUAoWKOwrnFtEhA5qsFiQU83kJz29k8YVEMJr3NwnHBzvuCBcrmPKiGR3IrLJIxmvdqIa6R0p4c0tk38sMOaDCjr8NpIw4JyX0x1RzgzXMqKn2rH9MK0H/xL7mcx4WS81EKxZjWq924v+uOIZNWgRqGhCaxKllc1w+H9pr2vm3QVkmiQGmKmhzvfFwG7+hQiepy3X6Mzn6y27bOwx9dkpOdLoXrzxSX12nuznc6tfNpZpQKjfS8OQEseAaAvBXZUU/sxe4yq2dOyMJCc2YMGSlOguWWwJeWP82P29T7Q3vP0AyGG7g+QgCKn6NWXUMWWQ4nDsgemNl9Y8Wrdjo0YriNELFW0q04aDwUvAbS1FTjdox9Z27w/ZWy6dnojaIu84nCpeIPdP9vtObRgZb1GWcLphQdBGGGFJ0XkvRYE9Xb1xTldRR6zgchuJArFwH0iKKu0TC/ofurkP45ZO0UlaFYJ+Izjku/NInxlh+Ey233EzWJqoaQmmA4Pf1VDg5kp3mbKFqY2WyF5jr0vYbLgnsIZCdMmzQzS+2jEvlw6dO5OzczKHC9GYkpmvOhPF69lpYgwQwsxCzRAb3VS5wbq4XC49tWLZyc0GfugUk="}],"legacy":false}
+spawnLocations:
+- em_primis_wormhole,202.5,72.5,188.5,0.0,0.0:1676071383847
+- em_primis_wormhole,202.5,72.5,235.5,0.0,0.0:1676071419197
+- em_primis_wormhole,188.5,87.5,247.5,0.0,0.0:1661538041070
+- em_primis_wormhole,193.5,87.5,243.5,0.0,0.0:1661538035020
+- em_primis_wormhole,187.5,74.5,184.5,0.0,0.0:1676071586555
+- em_primis_wormhole,201.5,72.5,208.5,0.0,0.0:1676071385363
+- em_primis_wormhole,162.5,82.5,228.5,0.0,0.0:1676071643548
+- em_primis_wormhole,161.5,82.5,237.5,0.0,0.0:1676071649099
+- em_primis_wormhole,242.5,87.5,237.5,0.0,0.0
+- em_primis_wormhole,246.5,87.5,218.5,0.0,0.0
+- em_primis_wormhole,236.5,87.5,256.5,0.0,0.0
+- em_primis_wormhole,226.5,87.5,200.5,0.0,0.0
+- em_primis_wormhole,226.5,87.5,188.5,0.0,0.0
+- em_primis_wormhole,225.5,87.5,188.5,0.0,0.0
+- em_primis_wormhole,225.5,87.5,200.5,0.0,0.0

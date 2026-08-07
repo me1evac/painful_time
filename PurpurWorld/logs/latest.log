@@ -1,6 +1,698 @@
-[16:11:23] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Microsoft Microsoft-13106412) on Linux 6.8.0-1052-azure (amd64)
-[16:11:23] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
-[16:11:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:11:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[16:11:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - EliteMobs (10.2.0), WorldEdit (7.3.9+6959-7adf70b)
+[07:45:39] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.10+7-LTS; Microsoft Microsoft-13106412) on Linux 6.8.0-1052-azure (amd64)
+[07:45:39] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) for Minecraft 1.21.1
+[07:45:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:45:41] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.12-dist.jar'...
+[07:45:43] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.12-dist.jar' in 2901ms.
+[07:45:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 4 plugins
+[07:45:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+ - EliteMobs (10.2.0), FreeMinecraftModels (2.3.18), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[07:45:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:45:56] [ServerMain/INFO]: Loaded 1290 recipes
+[07:45:56] [ServerMain/INFO]: Loaded 1399 advancements
+[07:45:56] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:45:56] [Server thread/INFO]: Loading properties
+[07:45:56] [Server thread/INFO]: This server is running Purpur version 1.21.1-2329-ver/1.21.1@803bf62 (2024-10-31T20:25:04Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[07:45:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:45:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:45:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:45:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[07:46:00] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[07:46:00] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[07:46:00] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[07:46:00] [Server thread/WARN]: [Pufferfish] Debug: Java: 21.0.10, test run: true
+[07:46:00] [Server thread/INFO]: Default game type: SURVIVAL
+[07:46:00] [Server thread/INFO]: Generating keypair
+[07:46:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:46:00] [Server thread/INFO]: Using epoll channel type
+[07:46:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:46:00] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:46:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[07:46:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2a0df7e2]
+[07:46:03] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[07:46:03] [Server thread/INFO]: [FreeMinecraftModels] Loading server plugin FreeMinecraftModels v2.3.18
+[07:46:03] [Server thread/INFO]: [FreeMinecraftModels] MagmaCore v1.13-SNAPSHOT initialized!
+[07:46:03] [Server thread/INFO]: [FreeMinecraftModels] Registered /logify command
+[07:46:03] [Server thread/INFO]: [FreeMinecraftModels] Registered /nightbreakLogin command
+[07:46:03] [Server thread/INFO]: [FreeMinecraftModels] Nightbreak account loaded successfully!
+[07:46:03] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v10.2.0
+[07:46:03] [Server thread/INFO]: [EliteMobs] MagmaCore v1.29-SNAPSHOT initialized!
+[07:46:03] [Server thread/INFO]: [EliteMobs] /logify is already registered, skipping.
+[07:46:03] [Server thread/INFO]: [EliteMobs] /nightbreaklogin is already registered, skipping.
+[07:46:03] [Server thread/INFO]: [EliteMobs] Nightbreak account loaded successfully!
+[07:46:03] [Server thread/INFO]: [EliteMobs]  WorldGuard detected.
+[07:46:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:46:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[07:46:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:46:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:46:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[07:46:07] [Server thread/INFO]: [FreeMinecraftModels] Enabling FreeMinecraftModels v2.3.18
+[07:46:07] [Server thread/INFO]:  _______ __                               ___ __   _______           __         __        
+[07:46:07] [Server thread/INFO]: |   |   |__|.-----.-----.----.----.---.-.'  _|  |_|   |   |.-----.--|  |.-----.|  |.-----.
+[07:46:07] [Server thread/INFO]: |       |  ||     |  -__|  __|   _|  _  |   _|   _|       ||  _  |  _  ||  -__||  ||__ --|
+[07:46:07] [Server thread/INFO]: |__|_|__|__||__|__|_____|____|__| |___._|__| |____|__|_|__||_____|_____||_____||__||_____|
+[07:46:07] [Server thread/INFO]: Version 2.3.18
+[07:46:08] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: adventurersguild_portal.png
+[07:46:08] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: nether_portal.png
+[07:46:08] [Server thread/WARN]: File EM_Oasis_Portal.yml should not be in the models folder!
+[07:46:08] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: primis_portal.png
+[07:46:08] [Server thread/WARN]: File EM_Primis_Portal.yml should not be in the models folder!
+[07:46:08] [Server thread/WARN]: [FreeMinecraftModels] Failed to parse supposed number value - in animation hurt for model 02_em_sea_monster!
+[07:46:08] [Server thread/WARN]: [FreeMinecraftModels] Model 09_em_earth_model has a cube with no from position. This is not allowed. The model will appear with the debug black and purple cube texture until fixed.
+[07:46:08] [Server thread/WARN]: [FreeMinecraftModels] Model 09_em_earth_model has an invalid configuration for its cubes!
+[07:46:09] [Server thread/WARN]: [FreeMinecraftModels] Model 09_em_earth_model has a cube with no from position. This is not allowed. The model will appear with the debug black and purple cube texture until fixed.
+[07:46:09] [Server thread/WARN]: [FreeMinecraftModels] Model 09_em_earth_model has an invalid configuration for its cubes!
+[07:46:09] [Server thread/INFO]: [FreeMinecraftModels] Supported server version detected: v1_21_R1
+[07:46:09] [Server thread/INFO]: [com.magmaguy.org.reflections.Reflections] Reflections took 189 ms to scan 112 urls, producing 0 keys and 0 values
+[07:46:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:46:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:46:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:46:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:46:10] [Server thread/INFO]: Preparing level "world"
+[07:46:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:46:16] [Server thread/INFO]: Time elapsed: 2202 ms
+[07:46:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:46:17] [Server thread/INFO]: Time elapsed: 954 ms
+[07:46:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:46:17] [Server thread/INFO]: Time elapsed: 309 ms
+[07:46:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:46:19] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[07:46:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[07:46:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:46:19] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[07:46:19] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[07:46:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:46:19] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[07:46:19] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v10.2.0
+[07:46:19] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[07:46:19] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[07:46:19] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[07:46:19] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[07:46:19] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[07:46:19] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[07:46:19] [Server thread/INFO]: By MagmaGuy - v. 10.2.0
+[07:46:19] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_21_R1
+[07:46:20] [Server thread/INFO]: [spark] Starting background profiler...
+[07:46:21] [Server thread/INFO]: Done preparing level "world" (10.736s)
+[07:46:21] [Server thread/INFO]: Running delayed init tasks
+[07:46:21] [Server thread/INFO]: Done (43.464s)! For help, type "help"
+[07:46:21] [Craft Scheduler Thread - 3 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Latest public release is 2.10.2
+[07:46:21] [Craft Scheduler Thread - 3 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Your version is 2.3.18
+[07:46:21] [Craft Scheduler Thread - 3 - FreeMinecraftModels/WARN]: [FreeMinecraftModels] A newer version of this plugin is available for download!
+[07:46:21] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] Loaded translations from vietnamese.csv
+[07:46:21] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] Deleting unused config values.
+[07:46:22] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 231 ms to scan 1 urls, producing 1 keys and 61 values
+[07:46:22] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 44 ms to scan 1 urls, producing 1 keys and 17 values
+[07:46:32] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 54 ms to scan 1 urls, producing 5 keys and 72 values
+[07:46:32] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 3 values
+[07:46:33] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 69 ms to scan 1 urls, producing 15 keys and 99 values
+[07:46:33] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 108 ms to scan 112 urls, producing 0 keys and 0 values
+[07:46:33] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 17 ms to scan 1 urls, producing 1 keys and 84 values
+[07:46:34] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] Loaded 84 skill bonus configurations.
+[07:46:34] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 30 ms to scan 1 urls, producing 1 keys and 72 values
+[07:46:41] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 69 values
+[07:46:42] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 12 values
+[07:46:43] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 14 ms to scan 1 urls, producing 1 keys and 58 values
+[07:46:43] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 5 values
+[07:46:44] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 36 ms to scan 112 urls, producing 0 keys and 0 values
+[07:46:44] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 4 values
+[07:46:44] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is enabled!
+[07:46:44] [Server thread/WARN]: [EliteMobs] "EliteMobs v10.2.0" has registered a listener for org.bukkit.event.entity.EntityRemoveEvent on method "public void com.magmaguy.elitemobs.entitytracker.EntityTracker.onRemove(org.bukkit.event.entity.EntityRemoveEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [MagmaGuy].
+[07:46:45] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[07:46:45] [Server thread/INFO]: [EliteMobs] [Skills] Skill system migration already complete.
+[07:46:45] [Server thread/INFO]: [EliteMobs] Initializing skill bonuses...
+[07:46:45] [Server thread/INFO]: [EliteMobs] Registered 84 skill bonuses.
+[07:46:45] [Server thread/INFO]: [EliteMobs] Loading world em_primis !
+[07:46:45] [Server thread/INFO]: [EliteMobs] Creating world em_primis !
+[07:46:46] [Server thread/INFO]: Preparing start region for dimension minecraft:em_primis
+[07:46:46] [Server thread/INFO]: Time elapsed: 0 ms
+[07:46:46] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:46:46] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis) TNT ignition is PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis) Lighters are PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis) Lava fire is PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis) Fire spread is UNRESTRICTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_primis'
+[07:46:46] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_primis !
+[07:46:46] [Server thread/INFO]: [EliteMobs] Loading world em_primis_wormhole !
+[07:46:46] [Server thread/INFO]: [EliteMobs] Creating world em_primis_wormhole !
+[07:46:46] [Server thread/INFO]: Preparing start region for dimension minecraft:em_primis_wormhole
+[07:46:46] [Server thread/INFO]: Time elapsed: 2 ms
+[07:46:46] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:46:46] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis_wormhole) TNT ignition is PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis_wormhole) Lighters are PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis_wormhole) Lava fire is PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_primis_wormhole) Fire spread is UNRESTRICTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_primis_wormhole'
+[07:46:46] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_primis_wormhole !
+[07:46:46] [Server thread/INFO]: [EliteMobs] Loading world em_adventurers_guild !
+[07:46:46] [Server thread/INFO]: [EliteMobs] Creating world em_adventurers_guild !
+[07:46:46] [Server thread/INFO]: Preparing start region for dimension minecraft:em_adventurers_guild
+[07:46:46] [Server thread/INFO]: Time elapsed: 0 ms
+[07:46:46] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:46:46] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) TNT ignition is PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lighters are PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lava fire is PERMITTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Fire spread is UNRESTRICTED.
+[07:46:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_adventurers_guild'
+[07:46:46] [Server thread/INFO]: [EliteMobs] Successfully loaded world em_adventurers_guild !
+[07:46:46] [Server thread/WARN]: [EliteMobs] Failed to bridge dungeon locator into FreeMinecraftModels — the installed FMM jar is older than 2.4.0 (missing LocationAPI). is_in_dungeon in FMM scripts will not see EliteMobs dungeons.
+[07:46:47] [Server thread/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[07:46:48] [Server thread/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 13 ms to scan 1 urls, producing 1 keys and 8 values
+[07:46:52] [Server thread/INFO]: [EliteMobs] EliteMobs fully initialized!
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/ERROR]: Could not pass event EliteMobSpawnEvent to EliteMobs v10.2.0
+java.lang.NoSuchFieldError: Class org.bukkit.attribute.Attribute does not have member field 'org.bukkit.attribute.Attribute MAX_HEALTH'
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createLivingEntityTable(LuaPowerEntityTables.java:295) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaBossTableBuilder.build(LuaBossTableBuilder.java:63) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerEntityTables.createBossTable(LuaPowerEntityTables.java:82) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.resolveContextValue(LuaPowerInstance.java:175) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance$2.invoke(LuaPowerInstance.java:157) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.lib.VarArgFunction.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaValue.gettable(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaTable.get(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.execute(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.shaded.luaj.vm2.LuaClosure.call(Unknown Source) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaPowerInstance.handleEvent(LuaPowerInstance.java:124) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.lua.LuaElitePower.check(LuaElitePower.java:52) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.runEvent(ScriptListener.java:142) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.powers.scripts.ScriptListener.onEliteMobSpawnEvent(ScriptListener.java:98) ~[EliteMobs.jar:?]
+	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor255.execute(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:630) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.utils.EventCaller.<init>(EventCaller.java:8) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.entitytracker.EntityTracker.registerEliteMob(EntityTracker.java:45) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.EliteEntity.setLivingEntity(EliteEntity.java:366) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossMegaConsumer.spawn(CustomBossMegaConsumer.java:88) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.CustomBossEntity.spawn(CustomBossEntity.java:258) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity.spawn(RegionalBossEntity.java:261) ~[EliteMobs.jar:?]
+	at EliteMobs.jar/com.magmaguy.elitemobs.mobconstructor.custombosses.RegionalBossEntity$2.run(RegionalBossEntity.java:201) ~[EliteMobs.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1770) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:513) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1642) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1342) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:333) ~[purpur-1.21.1.jar:1.21.1-2329-803bf62]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:46:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6138ms or 122 ticks behind
+[07:46:52] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] Latest public release is 10.7.3
+[07:46:52] [Craft Scheduler Thread - 6 - EliteMobs/INFO]: [EliteMobs] Your version is 10.2.0
+[07:46:52] [Craft Scheduler Thread - 6 - EliteMobs/WARN]: [EliteMobs] [EliteMobs] A newer version of this plugin is available for download!
+[07:46:54] [Craft Scheduler Thread - 1 - EliteMobs/INFO]: [EliteMobs] Parsed 58 content versions from Nightbreak API
+[07:47:03] [Craft Scheduler Thread - 1 - EliteMobs/INFO]: [EliteMobs] Prefetched Nightbreak access info for 67 content packages
+[07:51:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3134ms or 62 ticks behind
+[08:01:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2821ms or 56 ticks behind
+[08:06:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2808ms or 56 ticks behind
+[08:08:59] [Server thread/INFO]: Stopping the server
+[08:08:59] [Server thread/INFO]: Stopping server
+[08:08:59] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v10.2.0
+[08:08:59] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[08:09:00] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[08:09:00] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[08:09:00] [Server thread/INFO]: [FreeMinecraftModels] Disabling FreeMinecraftModels v2.3.18
+[08:09:00] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.12+829a4a4
+[08:09:00] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[08:09:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[08:09:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[08:09:00] [Server thread/INFO]: Saving players
+[08:09:00] [Server thread/INFO]: Saving worlds
+[08:09:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:09:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[08:09:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[08:09:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[08:09:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'world' in 0.31s
+[08:09:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[08:09:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[08:09:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[08:09:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[08:09:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[08:09:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[08:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[08:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[08:09:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[08:09:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.45s
+[08:09:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_primis]'/minecraft:em_primis
+[08:09:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_primis'
+[08:09:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_primis'
+[08:09:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_primis'
+[08:09:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_primis' in 0.44s
+[08:09:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_primis_wormhole]'/minecraft:em_primis_wormhole
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_primis_wormhole'
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_primis_wormhole'
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_primis_wormhole'
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_primis_wormhole' in 0.00s
+[08:09:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
+[08:09:05] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0.00s
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_primis): All chunks are saved
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_primis_wormhole): All chunks are saved
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
+[08:09:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

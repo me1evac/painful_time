@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&dSoul Siphon'
-description:
-- '&7Kills grant soul stacks.'
-- '&7Stacks increase damage.'
 skillType: HOES
 bonusType: STACKING
 unlockTier: 2

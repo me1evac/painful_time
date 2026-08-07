@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&3Alanus Isatis'
+role: '&3<Razorback Hunter>'
+profession: BUTCHER
+greetings:
+- Hey!
+dialog:
+- Hoping for a good\nday tomorrow.
+- Sure are many Razorbacks\nout this season.
+farewell:
+- Be seeing you.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_get_them_off_my_back.yml
+disguise: custom:elitemobs_ice_village_razorback_hunter
+customDisguiseData: player elitemobs_ice_village_razorback_hunter setskin {"id":"1fa86a09-cee9-4d4f-8b7d-d625b292bc78","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYwNTMxMjgwMTcyNywKICAicHJvZmlsZUlkIiA6ICI5MThhMDI5NTU5ZGQ0Y2U2YjE2ZjdhNWQ1M2VmYjQxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWV2ZWxvcGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q0MTQ3MGVlOGJlMWE5NGVkZGVlZWVlNWU1MmNlMzY1ZTkxOTRkMjdjMTlkZTc2MTFlY2EzZjBmMjhiMTRjYzciCiAgICB9CiAgfQp9","signature":"pFXqNW2/EnJTVM+xGmvrZzOuBAbL7+CTqo/e2rc+RhlC5ZCcQJARbziSf9H1JjMS5+3Fgl1Z68QrZ6OoV6pXGk/at6TUNnm/4U9Do98FU4iFxAI8LhOM/Jp7Zjq1w+h2s8WQfRTiF2P5B7/Lq0s+dK3O2PqR67dHPvCf/STP5SnEnZeLnY5MAPHlEWazHBZ6V3qRyEx8xbOTNCJOYmeDcgwb/74FMGPvqhNCKmyPn7D2N6V9PAzfs2TrSD5TeOpPBYOB804ectn9aCRa4vaI8j/TVHeOg8WC7Z21tkwezLZuvQ5Q6ZgSIKuPoU/aiHTrQuBqn7gPBA2VnC1592HTsbOsT5Q1CBVOIFRqUUvWN4mKuKkL/+ps/aU8HY04bsPHOiZJucvpe5wzN+AK2j3wQ/hZB0DEEkOuuVF7SEHoCSz4kpmxi/5DrS+2UZSNDNdE+1LVt8qzOcV1PNaJSQnCK1DFqddfOSZN/W8KxJLQnBQUxZSuT3OxKjc4jHg5P9lLnfTNdf5YLmyu2VFYtuFDmNnJIOkILQslfocVp8bSdOi8zY20QeaM6g+yC+pxN2M5DAf43T3LG812n4aQfwekiv7NZPRpilDg+GGQaabKzvwDwSPGM/IN6kfskpFDSeDpv6Mz7HPSt+LacA/TcsqAubXLudvsziVkVPhj/bKBQII="}],"legacy":false}
+spawnLocations:
+- em_primis,873.9,38.0,1459.72,98.95,15.92
+

@@ -1,0 +1,26 @@
+normalizedCombat: true
+isEnabled: true
+entityType: EVOKER
+name: $bossLevel &0The Robed Shadow
+level: 19
+healthMultiplier: 0.3
+damageMultiplier: 0.01
+spawnCooldown: 30
+leashRadius: 40
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: false
+followDistance: 40
+disguise: custom:primis_blood_temple_cultist
+customDisguiseData: player primis_blood_temple_cultist setskin {"id":"ccf4cf65-989b-4b4f-88c0-b47143f9c1a1","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2OTE3ODUxODEzNSwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MmZkM2JlYzJkNWRjZDE5MTEyMDQ4ZTA1MGUxMDA3MDI3Yjk3YmY0YWEwM2M4OGYwMjdmM2Q3ZWVlZmFhNDY2IgogICAgfQogIH0KfQ==","signature":"bZI14jqiI0WUsQfG+4DV4bd9rQMiJLqDoqr1FDHrqNs4Iw06wSxgbzOgXFzbJLgvKRluYsPRebXWLcrJq1lgyNsUBNyjZUAplwSN3wd3T8gVvthJ5DUt/DuD4ULq+UjrdkIOUUz1d4NKEqK6ajVFtEOEI1H2ylQ3l4N7DrfhvJdLdcJCuCsuovrj+HbFHtyCiAHY8fvNtZIy8V5pRc/NLNlbU2JcjglIwKjdqHiZZK29S6fBaKYn6IIdhJZORVLhgo6m7f4NdbP6GEhYnKyUnn6uluqWm4pQEjNFBt32s1YBOGJjsgKETFIl+jpdTy8kFRu/3qQSwueluRtUH8SNWLLooJe6WDuyKpkx3gGjrS/v5jER9cpZvnvItqdHiBRLI3XXvygbbKeIwjZ7M3lfcIWmFo3E+oZhcBCUGyUtckHzYVdxFhoevsHkbq6O2ZGDrzKHletyrvVVWfrtjalG4C4Ef3pTFABuyy+iw5ZGuGQ+/QEfnLw4be4pfFNkBZr+WUjhjIQt2u/zqaoKO57T1DjnSCtCQfXkyVuBk+OYkhPAsPiA4hSQ85UJO6YygnsLF3WB/RPr+o7m+SPby9hLtBWVYzsZK+dgNYiLfDhMyFUJbUl+HM5ClyOMayyZB5EBVFRyfZXGelSBVuLaaxHKWORG933/x4hGs747yGJWu1Y="}],"legacy":false}
+eliteScript:
+  MirrorImageDummy:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SET_MOB_AI
+      Target:
+        targetType: SELF
+      bValue: false

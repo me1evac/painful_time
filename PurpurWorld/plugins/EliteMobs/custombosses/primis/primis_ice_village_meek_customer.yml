@@ -1,0 +1,21 @@
+isEnabled: true
+entityType: WITCH
+name: $normalLevel &cMeek Customer
+level: 15
+healthMultiplier: 1
+damageMultiplier: 0.75
+spawnCooldown: 4
+leashRadius: 40
+uniqueLootList: []
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+isRegionalBoss: true
+followDistance: 40
+normalizedCombat: true
+dropsRandomLoot: false
+disguise: custom:primis_ice_village_meek_customer
+customDisguiseData: player primis_ice_village_meek_customer_customer setskin {"id":"3f596ae4-3fd2-4413-8461-1282f4d9df77","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1ODA2OTQ3MDUwNywKICAicHJvZmlsZUlkIiA6ICJjMTNkYzkxZjg1YjA0ZWM4OGU2NDk5YzdjZDc4Zjk3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjYXNzdGhlY3J5cHRpZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yZjYyMWY5NGQyNzYwMTNjMDg0NzIxZjY2YjRhNjkxNDM5NmRkMWY2YzFkOTI5YjU3ZGEyMGRhODMyMTMyZDQwIgogICAgfQogIH0KfQ==","signature":"Kf/S5nj1CiWdyfsL/GMhuEgKiUzE8MRMMmvKgyIzvBgr/vKmU1JzLoboWiMX3m4L7UGS+dTuF27DawekdURuDOYbxQGfH/IVrqDaYJ2KJdhRx/m5LAoG8OXWmuLmV7d93v68XceXPPcbki+4rVJYv8WAL/712XKl/fQr2v7G68DUIgqk37J3gCeyCZNm3fUbJW2pDRCMIGdNPN/INY2sLfG6sers0XSkUZInj5T872nadwfXzGoykb4rFNLEyVdcRi8HwnW1/oEatF1MPcyu25N0GICnjph5VwW/+3oQ8ar/bdg0PslDoN5cuuuwbGNtk8gKNvmevm924V3uoL2aXm656EM/WruhEtc1X2PS6GoMwE9U0aDziT2tn3w3gzmjuX3VoJiMvL0H+taDRReNEg62Hic2pF7gyc5uPs9QMmWEXZCBtcerkS7eU/eHoogEtCvm7Z1E3UwgdBY6kTHYJ2TguowUK2t1TTP9vzdBEprtgJWl1b7xshpfKaNVUTgqrVcskzXv3/mQKJKisq5n54+bEOjsLjmf2W8ZnGyY2tJXJEinQeWiUFzsxI2B8HZjeT5gEa/bUBxK9tqOwW+wOkyZ5jxMErX0xeOX+zrwYz3hgy1F12phxWUHbPUEsv8f+O0bIv6vx++5SxdGz6CeQMlYiAd2vXZQyxyEiu+fIHQ="}],"legacy":false}
+spawnLocations:
+- em_primis,1266.5,24.5,1531.5,0.0,0.0:1676291505685
+- em_primis,1253.5,23.5,1537.5,0.0,0.0:1676292523229
+- em_primis,1248.5,23.5,1539.5,0.0,0.0:1676292540879

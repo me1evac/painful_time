@@ -1,0 +1,14 @@
+entityType: CREEPER
+name: '$reinforcementLevel &dScreecher Droppings'
+level: '15'
+healthMultiplier: 0.25
+damageMultiplier: 0.25
+powers:
+- attack_push.yml
+disguise: CHICKEN:baby
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 100
+leashRadius: 100
+movementSpeedAttribute: 0.90

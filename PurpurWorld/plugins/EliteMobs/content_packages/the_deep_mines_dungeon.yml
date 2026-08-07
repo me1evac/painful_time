@@ -1,19 +1,8 @@
 isEnabled: true
-name: '&2[Dynamic] &3The Deep Mines Dungeon'
-customInfo:
-- '&fBelow lies the deepest mine ever dug.'
-- '&6Credits: Dali, MagmaGuy, FrostCone'
 dungeonSizeCategory: SANCTUM
 worldName: em_id_the_deep_mines
 environment: NORMAL
 protect: true
-playerInfo: |-
-  &aDynamic Sanctum
-  $bossCount boss encounters
-  &8Below lies the deepest
-  &8mine ever dug.
-regionEnterMessage: '&bVenture far down and find out how deep the deep mines are.'
-regionLeaveMessage: '&bYou have left The Deep Mines!'
 startLocation: em_id_the_deep_mines,-207.5,154,-68.5,0,0
 teleportLocation: em_id_the_deep_mines,-205.5,154,-85.5,0,0
 dungeonObjectives:

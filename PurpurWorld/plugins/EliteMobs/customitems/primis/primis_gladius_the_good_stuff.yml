@@ -1,0 +1,8 @@
+isEnabled: true
+material: HONEY_BOTTLE
+name: "&2The Good Stuff"
+lore:
+- '&aSmells... strong.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_gladius_supplies_2_loot.yml

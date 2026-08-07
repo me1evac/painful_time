@@ -1,0 +1,43 @@
+isEnabled: true
+isRegionalBoss: true
+entityType: SILVERFISH
+name: $normalLevel &fRat
+level: 11
+healthMultiplier: 0.25
+damageMultiplier: 0.25
+spawnCooldown: 10
+leashRadius: 20
+followDistance: 5
+movementSpeedAttribute: 0.33
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_mille_fresh_rat.yml:amount=1:chance=1.0
+spawnLocations:
+- em_primis_wormhole,-0.5,85.5,-185.5,0.0,0.0:1697792319631
+- em_primis_wormhole,-0.5,85.5,-188.5,0.0,0.0:1662645830994
+- em_primis_wormhole,-0.5,85.5,-190.5,0.0,0.0:1662645814741
+- em_primis_wormhole,-1.5,85.5,-192.5,0.0,0.0:1697791940876
+- em_primis_wormhole,0.5,85.5,-192.5,0.0,0.0:1672758570046
+- em_primis_wormhole,2.5,85.5,-192.5,0.0,0.0:1697791940625
+- em_primis_wormhole,2.5,85.5,-190.5,0.0,0.0:1662645488954
+- em_primis_wormhole,1.5,85.5,-188.5,0.0,0.0:1662645816641
+- em_primis_wormhole,2.5,85.5,-187.5,0.0,0.0:1662645817703
+- em_primis_wormhole,2.5,85.5,-185.5,0.0,0.0:1697792319631
+- em_primis_wormhole,1.5,85.5,-185.5,0.0,0.0:1673448551742
+- em_primis_wormhole,-0.5,85.5,-185.5,0.0,0.0:1697792319631
+- em_primis_wormhole,0.5,85.5,-186.5,0.0,0.0:1662645811297
+- em_primis_wormhole,0.5,85.5,-188.5,0.0,0.0:1662645834202
+- em_primis_wormhole,0.5,85.5,-191.5,0.0,0.0:1662645801348
+- em_primis_wormhole,1.5,85.5,-191.5,0.0,0.0:1662645794646
+- em_primis_wormhole,2.5,85.5,-189.5,0.0,0.0:1662645797101
+- em_primis_wormhole,3.5,85.5,-188.5,0.0,0.0:1662645797098
+- em_primis_wormhole,3.5,85.5,-190.5,0.0,0.0:1662645489558
+- em_primis_wormhole,-0.5,85.5,-185.5,0.0,0.0:1697792319631
+- em_primis_wormhole,-1.5,85.5,-191.5,0.0,0.0:1697792319631
+- em_primis_wormhole,0.5,85.5,-189.5,0.0,0.0
+- em_primis_wormhole,0.5,85.5,-187.5,0.0,0.0
+- em_primis_wormhole,-0.5,85.5,-189.5,0.0,0.0:1662645820248
+- em_primis_wormhole,1.5,85.5,-186.5,0.0,0.0:1662645658446
+

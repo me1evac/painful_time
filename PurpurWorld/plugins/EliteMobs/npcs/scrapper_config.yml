@@ -1,25 +1,7 @@
 isEnabled: true
-name: <g:#5A6A4A:#6A7A5A>Kelly</g>
-role: <g:#4A5A3A:#5A6A4A><Scrapper></g>
 profession: WEAPONSMITH
 spawnLocation: em_adventurers_guild,297.5,78,254.5,90,0
 spawnLocations: []
-greetings:
-- Want to get rid of items?
-- Need to recycle items?
-- Looking to scrap?
-- It's scrap 'o clock!
-- Scrap time!
-dialog:
-- Scrappy deals!
-- Get your scrap here!
-- 75% chance to work!
-- There are no refunds.
-- Recycle, reuse, reduce!
-farewell:
-- Come back when you have\nmore to scrap
-- Don't forget to make that\nscrap useful!
-- Happy scrapping!
 canTalk: true
 activationRadius: 3.0
 interactionType: SCRAPPER

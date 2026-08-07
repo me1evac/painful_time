@@ -1,0 +1,20 @@
+entityType: GUARDIAN
+name: '$normalLevel &9Goblin Piranah'
+level: 9
+healthMultiplier: 0.3
+damageMultiplier: 0.2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.5
+spawnLocations:
+- em_primis,738.5,65.5,450.5,0.0,0.0:1654694411887
+- em_primis,718.5,65.5,426.5,0.0,0.0:1654694410539
+- em_primis,728.5,65.5,409.5,0.0,0.0:1654694403488
+- em_primis,756.5,66.5,407.5,0.0,0.0
+- em_primis,765.5,66.5,420.5,0.0,0.0
+- em_primis,756.5,67.5,447.5,0.0,0.0

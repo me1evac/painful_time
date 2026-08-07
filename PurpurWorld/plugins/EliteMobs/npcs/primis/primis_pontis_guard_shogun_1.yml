@@ -1,0 +1,61 @@
+greetings: []
+canTalk: true
+activationRadius: 0.1
+isEnabled: true
+name: '&4Royal Guard'
+role: '&8<Guard>'
+profession: MASON
+greeting:
+- Adventurer.
+dialog:
+- Don't go getting into trouble.
+- Don't mind me, just keeping the peace.
+- No funny business here.
+- I've got my eye on you, adventurer.
+- No questions, and no one gets hurt!
+- Ain't got no time for messing around.
+farewell:
+- Safe travels, adventurer.
+disguise: custom:primis_pontis_royal_guard
+customDisguiseData: player primis_pontis_royal_guard setskin {"id":"ee070a09-93d1-4618-9a17-ee014e2b8366","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTU4ODM4MDQ3MTY2NCwKICAicHJvZmlsZUlkIiA6ICJlZTA3MGEwOTkzZDE0NjE4OWExN2VlMDE0ZTJiODM2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW5qYUdvbWl0YXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZjMTFmMTlmMTE2ZmJiYmEwNmMwZmEyNmRlMWE5YjM0MGQxMWE3ZTAxZjViZWI1MmI1MGZmNjkzNmU0NjBjOCIKICAgIH0KICB9Cn0=","signature":"B/ejztAN3zT0ZTMMy2oXmHRw+Mmc+b393m0zUHCOXJhGZnDG536mcbh3yiLoiDILKo+Sn/D7T2l3abG7AZ8zFk6vyG/LPcuVFRoMUAVIVoSrO9/lG25p1EuqdrPIsPnDTVbHMv7GZkj6pFM6LkAFccc4uZZYiv+3MFXrpyezfhCTI+BMy8JVUXqLb9pESSGJl4EUYgbcTO7JhCtvMO/xRl/6twIb3MNCG17UWxRX9JtSNgdQl7KCkkCHb8I2xi5wyVs0n7kZTpkOD2Xy8dELR5GUDUq0M3Y+OgyCWxtaEG/6FmfD8mHrtRKXXxa04uwmdIBt5epk0gokKH/v40YsGceZ+4JAW96E3g8Ea9Av32KljbmRwuBNOIRXQkdItKq78Xv1h8qaazUd3BjI74JctoAz0nh0QS333g7Ec4oCvLoIBljp9Won0crFFrTLnuK7QtIx1Ztrmv7+b1LoJfsv8sSBQdGt1kqc0HUw3sX9MO97/WtEJxeWrAZ2edoS+yrVbPgWjGTz9JOwE/G0jzihAeRmZZo+8l6HX3HhF7fWBoh0Y+t5wr4aNecZDD7vAdP8U9G8qKx39GDoj4upj6JAqLEIJmnKMhDBrENZMjJF7maNVgG3GZyJyXJq+E0Op5BzodwSWFUKSwLZ5NZxrX5jm+TJgHFbebfGTowHDcy8r5c="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,568.41,57.0,722.34,-6.36,18.15
+- em_primis,612.0,68.0,765.32,-96.06,19.8
+- em_primis,539.77,38.0,757.51,-149.46,6.3
+- em_primis,562.93,38.0,740.46,103.89,13.5
+- em_primis,548.15,38.0,683.29,-160.56,18.45
+- em_primis,603.58,22.0,712.4,-87.37,27.75
+- em_primis,643.63,22.0,726.99,-130.87,15.45
+- em_primis,563.45,48.0,726.49,-114.08,6.6
+- em_primis,586.4,59.0,780.31,-44.77,-4.35
+- em_primis,570.39,57.0,787.19,121.13,22.05
+- em_primis,579.84,69.0,761.39,81.08,0.15
+- em_primis,594.07,69.0,740.37,93.69,7.35
+- em_primis,567.24,69.0,726.29,-110.31,18.75
+- em_primis,634.07,73.0,728.72,2.94,-1.65
+- em_primis,632.7,73.0,780.57,87.39,14.85
+- em_primis,615.42,61.0,791.58,-4.12,2.1
+- em_primis,604.96,48.0,787.56,115.89,13.2
+- em_primis,567.3,34.0,800.7,-67.86,2.1
+- em_primis,573.87,48.0,747.3,162.54,4.8
+- em_primis,627.63,20.0,677.74,-91.11,4.65
+- em_primis,597.3,78.0,742.44,-138.47,9.04
+- em_primis,635.57,48.5,458.49,-89.56,-5.4
+- em_primis,635.59,48.5,460.53,-90.01,-10.8
+- em_primis,633.51,47.5,460.56,-89.86,-5.85
+- em_primis,633.39,47.5,458.42,-88.06,-4.35
+- em_primis,631.42,46.5,460.58,-89.56,-7.5
+- em_primis,631.64,46.5,458.47,-88.81,8.7
+- em_primis,629.37,45.5,460.64,-90.31,4.35
+- em_primis,629.37,45.5,458.49,-90.31,4.35
+- em_primis,627.16,44.5,460.66,-89.72,-10.35
+- em_primis,627.16,44.5,458.6,-89.72,-10.35
+- em_primis,625.52,43.5,460.69,-90.47,0.3
+- em_primis,625.51,43.5,458.49,-90.47,0.3
+- em_primis,637.44,49.0,460.69,-91.67,21.45
+- em_primis,639.72,49.0,460.47,-90.15,-10.95
+- em_primis,639.59,49.0,458.46,-89.56,-15.3
+- em_primis,623.46,42.5,458.5,-89.41,22.5
+- em_primis,623.45,42.5,460.5,-89.41,22.5
+- em_primis,637.44,48.5,458.66,-92.42,-9.45

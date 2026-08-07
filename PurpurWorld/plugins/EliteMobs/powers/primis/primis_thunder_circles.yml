@@ -1,0 +1,448 @@
+powerType: UNIQUE
+eliteScript:
+  CircleVisual:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 8
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-413,123,223,0,0"
+        - "same_as_boss,-398,123,233,0,0"
+        - "same_as_boss,-396,123,208,0,0"
+        offset: 0,-0.5,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: ELECTRIC_SPARK
+        y: 50
+        amount: 0
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.3
+      repeatEvery: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 111
+      scripts:
+      - "ThunderCircleSets"
+      - "ThunderCircleSets2"
+      - "ThunderCircleSets3"
+      - "ThunderCircleSets4"
+      - "ThunderCircleSets5"
+      - "ThunderCircleSets6"
+      - "ThunderCircleSets7"
+      - "ThunderCircleSets8"
+      - "ThunderCircleSets9"
+      onlyRunOneScript: true
+      repeatEvery: 111
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    Cooldowns:
+      local: 60
+      global: 60
+  ThunderCircleSets:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual"
+      - "ThunderCircle"
+  ThunderCircleSets2:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual2"
+      - "ThunderCircle2"
+  ThunderCircleSets4:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual3"
+      - "ThunderCircle3"
+  ThunderCircleSets4:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual4"
+      - "ThunderCircle4"
+  ThunderCircleSets5:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual5"
+      - "ThunderCircle5"
+  ThunderCircleSets6:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual6"
+      - "ThunderCircle6"
+  ThunderCircleSets7:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual7"
+      - "ThunderCircle7"
+  ThunderCircleSets8:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual8"
+      - "ThunderCircle8"
+  ThunderCircleSets9:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "ThunderCircleVisual9"
+      - "ThunderCircle9"       
+  ThunderCircleVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-415,123,221,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle:
+    Zone:
+      shape: DOME
+      radius: 2
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-415,123,221,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual2:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-411,123,226,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle2:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-411,123,226,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual3:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-417,123,218,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle3:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-417,123,218,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual4:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-398,123,208,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle4:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-398,123,208,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual5:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-394,123,201,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle5:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-394,123,201,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual6:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-391,123,210,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle6:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-391,123,210,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual7:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-399,123,232,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle7:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-399,123,232,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual8:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-404,123,236,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle8:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-404,123,236,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60
+  ThunderCircleVisual9:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-395,123,230,0,0"
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  ThunderCircle9:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,-395,123,230,0,0"
+        offset: 0,-1,0
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 3
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 6      
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+      duration: 60     
+# Generated with https://magmaguy.com/webapp/webapp.html !

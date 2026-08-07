@@ -1,0 +1,19 @@
+isEnabled: true
+name: '&cMetus'
+role: '&c<Panicked Miner>'
+profession: NITWIT
+greetings:
+- The mine is overrun!
+dialog:
+- There's ogres everywhere!
+- Can you help us?
+farewell:
+- Be careful!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ogre_mines_clear.yml
+disguise: custom:primis_ogre_mines_panicked_miner
+customDisguiseData: player primis_ogre_mines_panicked_miner setskin {"id":"461bee33-f3be-4537-af09-084c9f078e9a","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0ODg0NzU1MzI0OSwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NhY2Y3NzU5YTA4ODc5MTk2ODJlOGJkNzEwMzc2ZWJhNjg5OGM4ZTA1YmNhYjE0NzIwNzBiMWU2ZDQzNjliYzYiCiAgICB9CiAgfQp9","signature":"hq/VFezRz8OCOAP4UIrhLOZZ8ZIenSSQi7VPF7kG6hsz7Kqx/aquNfjRjc89Fz6OnKNXseSFvqWMK36jlmXEOhUVeuJZmzGTk99Gunpvk7a9LjtRy5fJobVdcQI14Hpj7F2rjyvmeNPirgQej7ZNdMg3aHhLtuHf2Noy0bmpoeilbpXPgKuX6bhtRoKoGWfS2KYaLPw2m7Wjc57IQ8dyIKBsrVRXefkpTr+kC1zawnO9rn9Twx14gjU/MGmFLrcq4RNPhV6rKB2WOd4xLiEp9KXRRMMVYGSyX19Ik3VKQq9qq4OgcYO6POqiBKIsyXRLpGYews1IfaSV38iYkQXKmignpZFe3bY/UCmNtxG9/jQTv/kQ+olfDFIGxGqSaXUlVP65JUlau6aeuzaE0uR3+fguzl6KjOCSLiJ0dRNeucJOljfG5hK5ny0w5Q/27wU+FHgt+MhzuyPVzOEMbYkjA5qlVJ53GFNqFHp0oCwqgygzo63dxZwnndb+zKEZKvalSutSh9Vkif5V4Zo7IySLLsj19oLCrb2snajq7tAwp3KMMdXbvCwGg8vTVLPPpojrmcbShiYO5o4IMuqnqfP7rqK02j/BO59+ctUroUyWegvQIixoOf2B0rpXLpmTgmlZdFyw499nr/lypoxV6+XeQCLbo9D4/LQRGhKBNQVWQdE="}],"legacy":false}
+spawnLocation: em_primis,1412.68,28.94,621.6,157.35,-0.6

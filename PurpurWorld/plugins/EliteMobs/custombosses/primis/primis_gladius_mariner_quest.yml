@@ -1,0 +1,31 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &fInvading Mariner
+level: 8
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 10
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: TRIDENT
+helmet: LEATHER_HELMET:191970
+chestplate: LEATHER_CHESTPLATE:191970
+leggings: LEATHER_LEGGINGS:191970
+boots: LEATHER_BOOTS:191970
+powers:
+- invulnerability_fire.yml
+- attack_poison.yml
+uniqueLootList:
+- primis_invaders_helmet.yml:0.05
+- primis_invaders_chestplate.yml:0.05
+- primis_invaders_leggings.yml:0.05
+- primis_invaders_boots.yml:0.05
+- primis_invaders_bow.yml:0.05
+leashRadius: 15
+isRegionalBoss: true
+followDistance: 10
+spawnLocations:
+- em_primis,830.5,18.5,908.5,0.0,0.0:1676067795682
+- em_primis,831.5,18.5,903.5,0.0,0.0:1676067776684

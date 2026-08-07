@@ -1,0 +1,10 @@
+material: LEATHER_LEGGINGS
+name: "&dViolet's Spare Leggings"
+lore: 
+- "&dMakes you wanna strut down the"
+- "&droad and do some punishment."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+scalability: FIXED
+level: 15
+itemType: unique

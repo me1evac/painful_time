@@ -1,0 +1,14 @@
+material: NETHERITE_SWORD
+name: "&5Earth Splitter"
+lore: 
+- "&5You pulled this blade out of"
+- "&5the Earth Elementals corpse."
+- "&5Unlike it's dull twin, this"
+- "&5blade is in pristine condition."
+enchantments: 
+- "DAMAGE_ALL,5"
+- "DAMAGE_UNDEAD,3"
+scalability: FIXED
+level: 19
+itemType: unique
+permission: elitequest.primis_terravilla_strike_the_earth_reward_sword.yml

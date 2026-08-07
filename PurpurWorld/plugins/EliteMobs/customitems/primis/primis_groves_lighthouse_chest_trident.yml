@@ -1,0 +1,12 @@
+name: "Cold Howl"
+material: TRIDENT
+level: 13
+lore:
+- "Bestowed with the cold curse."
+enchantments:
+- ICE_BREAKER,1
+- VANISHING_CURSE,0
+- LOYALTY,0
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

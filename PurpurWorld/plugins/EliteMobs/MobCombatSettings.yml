@@ -39,27 +39,17 @@ damageToEliteMobMultiplierV2: 1.0
 damageToPlayerMultiplierV2: 1.0
 # Sets if special bosses can be tracked.
 showCustomBossLocation: true
-# Sets the message sent to players to track a boss location.
-bossLocationMessage: '&7[EM] &2[Click to track!]'
 # Sets the commands that run when an elite dies. Valid placeholders are:
 # $level for the level of the boss
 # $name for the name of the boss
 # $players will make the command run for each player that participated in the kill. As an example, if Bob and Steve killed a boss, 'broadcast $players killed the boss!' will run 'bob killed the boss' and 'steve killed the boss!'
 commandsOnEliteMobDeath: []
-# Sets the message sent to players that participate in big boss kills.
-bossKillParticipationMessage: '&eYour damage: &2$playerDamage'
 # Sets if bosses regenerate health when they go out of combat. Strongly recommended.
 regenerateCustomBossHealthOnCombatEnd: true
-# Sets the message sent to players that are trying to track bosses currently in a different world.
-defaultOtherWorldBossLocationMessage: '$name: In different world!'
 # Sets the prefix added to damage indicators when players hit a boss with something that boss is weak against.
 weakTextColor: '&9'
 # Sets the prefix added to damage indicators when players hit a boss with something that boss is strong against.
 resistTextColor: '&c'
-# Sets the message that appears when players hit the boss with something that boss is weak against.
-weakText: '&9&lWeak!'
-# Sets the message that appears when players hit the boss with something that boss is strong against.
-resistText: '&c&lResist!'
 # Sets if visuals will be used to show that a boss is weak against an attack.
 doWeakEffect: true
 # Sets if visuals will be used to show that a boss is strong against an attack.
@@ -95,16 +85,6 @@ scaledDamageToPlayerMultiplier: 1.0
 # False is no longer recommended because it makes player progression feel flatter and players will feel their power growth much less clearly.
 # This setting does not change normalized regional boss combat.
 useRecommendedHealthScaling: true
-# Sets the symbol shown in place of a numeric level for scaled entities with no custom health multiplier.
-# This is only used for scaled entities.
-# Default: 「⚔」
-scaledStandardLevelSymbol: 「⚔」
-# Sets the symbol shown in place of a numeric level for scaled entities with a health multiplier above 1.
-# This is only used for scaled entities and is intended to signal higher event-style threat.
-# Default: ☠
-scaledHighThreatLevelSymbol: ☠
-# Sets the message that appears when a boss heals from going out of combat.
-fullHealMessage: '&2FULL HEAL!'
 # Sets the damage reduction per resistance level applied to elite mob damage.
 # Resistance I = (1 * this value), Resistance II = (2 * this value), etc.
 # Default of 0.2 matches vanilla: Resistance I = 20% reduction, Resistance V = 100% reduction (immune).
@@ -139,14 +119,6 @@ combatDisplayTimeoutSeconds: 30
 # When false (default), the health bar scales with the boss health multiplier, adding more bars and rows for tankier bosses.
 # When true, the health bar is always a single row of 10 bars.
 useFixedHealthBarSize: false
-# Format for the heal popup text when a boss partially heals.
-# Use $amount for the heal amount. Color is applied automatically.
-healPopupFormat: +$amount HP
-# Format for the XP gain popup text.
-# Use $amount for the XP amount.
-xpPopupFormat: +$amount ✦XP
-# Separator between current and max health in the numeric health display.
-healthDisplaySeparator: ' &7/ '
 # Sets if EliteMobs will penalize players who hit elites faster than legitimate clicking allows (autoclickers).
 # When a player lands more than autoclickerThrottleMaxHitsPerSecond melee hits on elites within one second, they are locked out of dealing damage to elites for autoclickerThrottlePenaltySeconds seconds and warned in chat.
 autoclickerThrottleEnabled: true
@@ -154,6 +126,3 @@ autoclickerThrottleEnabled: true
 autoclickerThrottleMaxHitsPerSecond: 5
 # Sets how many seconds a player is locked out of dealing damage to elites after tripping the autoclicker throttle.
 autoclickerThrottlePenaltySeconds: 5
-# Sets the message sent to players when the autoclicker throttle fires. Placeholder: $seconds for the remaining penalty duration.
-autoclickerThrottleMessage: '&c[EliteMobs] &7You are attacking too fast. Damage to
-  elites disabled for &e$seconds&7s.'

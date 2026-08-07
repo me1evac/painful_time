@@ -1,22 +1,6 @@
 isEnabled: true
-name: <g:#7A5A3A:#8A6A4A>Jeeves</g>
-role: <g:#6A4A2A:#7A5A3A><Travelling Merchant></g>
 profession: LIBRARIAN
 spawnLocations: []
-greetings:
-- Got something to sell?
-- You called?
-- Huh?
-dialog:
-- I'll buy it on the cheap!
-- Got something for me?
-- Time is money!
-farewell:
-- Call me again anytime!
-- Was that all?
-- Safe travels!
-- Don't get yourself killed!
-- Good hunting!
 canTalk: true
 activationRadius: 3.0
 interactionType: SELL

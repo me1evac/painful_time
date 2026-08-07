@@ -1,0 +1,22 @@
+entityType: HUSK
+name: $minibossLevel &6Undead
+level: '16'
+healthMultiplier: 4
+damageMultiplier: 1.4
+powers:
+- attack_push.yml
+- attack_push.yml
+- attack_push.yml
+- attack_push.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 5
+spawnCooldown: 10
+leashRadius: 5
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+spawnLocations:
+- em_primis,887.5,85.5,1453.5,0.0,0.0:1676136194631
+

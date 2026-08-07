@@ -1,0 +1,21 @@
+normalizedCombat: true
+isEnabled: true
+instanced: true
+entityType: GHAST
+name: $reinforcementLevel &6Crimson Ghost
+level: 20
+healthMultiplier: 0.8
+damageMultiplier: 0.25
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+eliteScript:
+  PushDown:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: PUSH
+      vValue: 0,-1,0
+      Target:
+        targetType: SELF
+      repeatEvery: 30

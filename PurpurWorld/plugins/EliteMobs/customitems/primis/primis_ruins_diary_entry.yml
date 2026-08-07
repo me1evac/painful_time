@@ -1,0 +1,10 @@
+isEnabled: true
+material: PAPER
+name: "Diary page"
+lore:
+- '... I now regret chasing after the treasure in these ruins.'
+- 'Now that I have fallen and broken my legs, it would seem'
+- 'as though I am fated to die under the treasure I sought.'
+- 'If only I had paid more attention during parkour class!'
+scalability: fixed
+itemType: unique

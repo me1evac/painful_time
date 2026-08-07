@@ -1,0 +1,13 @@
+name: "&dBlood Hood"
+material: NETHERITE_HELMET
+level: 20
+lore:
+- "&dIt would seem that this item was"
+- "&dfashioned out of blood and fibers."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_FIRE,3
+- DURABILITY,3
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

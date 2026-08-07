@@ -1,0 +1,38 @@
+normalizedCombat: true
+isEnabled: true
+entityType: EVOKER
+name: $normalLevel &cFire Conjurer
+level: 19
+healthMultiplier: 1
+damageMultiplier: 1
+powers:
+- attack_fireball.yml
+- attack_fire.yml
+- invulnerability_fire.yml
+spawnCooldown: 10
+leashRadius: 40
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+followDistance: 15
+disguise: custom:primis_blood_temple_conjurer
+customDisguiseData: player primis_blood_temple_conjurer setskin {"id":"24cbe42d-ff26-48ab-a7b2-aab2cafc6f5b","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDEyMDM0ODIzMiwKICAicHJvZmlsZUlkIiA6ICI0ZGU4MjQxNjJkZTU0MzU5YWFlMDBmMzQ1ZmMyZTY0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXRoYW5fS2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjU5ZjA5N2UxMDhiMTY4OWEyYTM4ZjI0OWMxZDI5MjI5MGE1OGZjN2E5YjU0OThiMWRhZTYxNGU4YmI1YjEiCiAgICB9CiAgfQp9","signature":"GTEVL7IbHnYRNluIGveB+r2p7SglW2WJzMBJDsZWhkincrASuidvdm7MBUhEH3MKmWUi1rkyGfLQn3dk2DRk0xmBB05uZ6oNDu5QH2kBXw0VA7qz4lYUPtC0xkq1iLrCpOEXOgp6oMBHSHma6u8i83W9pMYCbfAekwlIV2yhNCGscuBSzUS6xCiJNn4rdhuL0pTiU+DzayowZX+13KBPczJHjmJUMzGi+Zr0PkGqwLiDKtHZdeEhnJAoqQi48XKqUp+e/G7OOQKAUADSrJJIsfO60gLeCbr1y+/DnC3IjnlAWiDt3TpdAKc6M+a1q1HANtmFakehX60HEQ7N4P98Lb5005uouJX37uPEq9SSw8SXQr9dOwmQBCz1DKnnZCvkdXuCqeocyOvKMWKJHWXAaGLjqs4BXV86z5u3D+WEyVIFLDedcSgJidPpMEghqYe95cHWAhOzn8SJOcv800We34zinPvv6IYWV3MaUbvaAAzSKjM0cERWXS0q7QvvCsKhSm6ooGZ4tMwL2MHOIK96A3NoIuvIuG1Q1yR5ht5+YgwdtMzTzaI8ErWB2p32NY9hOj237jMSo5pvRQZbEAJcFg5FbsYIgCTc9wJcFZL+dE+tHqobvNSGHxKnVu0r/OH683OYY2cYNu3U8oZSF0eeVLcKZiJzATyFiXkyFm2zNtM="}],"legacy":false}
+spawnLocations:
+- em_primis,973.5,92.5,997.5,0.0,0.0
+- em_primis,982.5,92.5,1004.5,0.0,0.0
+- em_primis,989.5,92.5,997.5,0.0,0.0
+- em_primis,982.5,92.5,991.5,0.0,0.0
+- em_primis,924.5,83.5,946.5,0.0,0.0
+- em_primis,924.5,83.5,1047.5,0.0,0.0
+- em_primis,914.5,103.5,1056.5,0.0,0.0:1675703516042
+- em_primis,910.5,103.5,933.5,0.0,0.0:1664906059252
+- em_primis,955.5,103.5,931.5,0.0,0.0
+- em_primis,979.5,103.5,911.5,0.0,0.0
+- em_primis,983.5,103.5,907.5,0.0,0.0:1664905911503
+- em_primis,987.5,103.5,911.5,0.0,0.0:1676646894918
+- em_primis,1031.5,103.5,913.5,0.0,0.0
+- em_primis,1031.5,103.5,907.5,0.0,0.0
+- em_primis,976.5,96.5,1059.5,0.0,0.0
+- em_primis,1051.5,103.5,918.5,0.0,0.0

@@ -1,0 +1,43 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      borderRadius: 1
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+    Cooldowns:
+      local: 555
+      global: 60    
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      sValue: "primis_blood_temple_cultist_boss_summon.yml"
+      duration: 15
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.2
+      repeatEvery: 20
+      times: 10
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: FILTERING
+        isAlive: true
+        locationIsAir: true
+    - action: POTION_EFFECT
+      Target: 
+        targetType: SELF
+      potionEffectType: INVISIBILITY
+      amplifier: 1
+      duration: 202
+      Conditions:
+        Target:
+          targetType: SELF        
+        isAlive: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

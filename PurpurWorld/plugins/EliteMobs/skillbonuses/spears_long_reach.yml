@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bLong Reach'
-description:
-- '&7Attacks have slightly'
-- '&7increased range.'
 skillType: SPEARS
 bonusType: PASSIVE
 unlockTier: 1

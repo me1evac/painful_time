@@ -1,0 +1,29 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $minibossLevel &fUndead Captain
+level: 8
+healthMultiplier: 3.0
+damageMultiplier: 1.2
+spawnCooldown: 10
+mainHand: TRIDENT
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- bullet_hell.yml
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+- primis_fire_sphere.yml
+uniqueLootList:
+- primis_pirate_helmet.yml:0.05
+- primis_pirate_chestplate.yml:0.05
+- primis_pirate_leggings.yml:0.05
+- primis_pirate_boots.yml:0.05
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 20
+disguise: custom:elitemobs_primis_undead_captain
+customDisguiseData: player elitemobs_primis_undead_captain setskin {"id":"7d0ab5a8-0408-466c-9055-bd4d6a04140e","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyMzgxNjAyNDczNywKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MzNhOGYwYzAxOTA5ZDA1Mzc3ZDUwNTYzZmZiYjA5NmE1MTgyZjVmODEyOTJkNjkzMjM1YjA2MDg4M2IyM2NkIgogICAgfQogIH0KfQ==","signature":"sx+lgK6rZE5QDQ88LYpPROg32Z6x40ZKwZULBe1fNa0nect8YOFbwYoDBajyCsvofCaOxwIccbRycDEovXuOdbxeeijPl5Fgy+kcezNID8SfzRVk4V0st/C4BbS/xLoifgM1Gr64XIonY2vnV9a+MpmUmtsJ7HBqFfO6kf21Ti0hgxWMS3j7757NWIA+5HWdW/+YA9B90FdU9ecktrnE+ggZEMx+9HDo+RTeluLhEfnhEkIslbMSC6lj79Rqj/1gr/8FP95E6Mh+36x2t4U+wlGQRPcXTqBtcN8F83wmlNgqyzvK/ZTNvkX3JGBcFSWeWaINBbZjBf0UeqvLwuSungQFhyx3mXXoj/ZxKdDmqyWk9KIjdt3YHVOkXHnGgjDCLqBoE/a4JUE4p4yyDX4OUoF6Rq1Bw+1d0zSUJ1Qlg/nrG4HVt/zQ/04Wezh1ikChsHyZtZ0qUB26cPsaQjwa+z1C4HZ6S8QYjrLTxz3kEKX4kfYvZqihP3gQ7SP79M4U6LSwgRfN5caU8fzy5u7jNkl7Vm93Q3mMcbS+Y+jCbp/dk+bCxv76TU/X5/x4v3WabYojNxw4DC7huDg1jBs7TkJ7x8M+c52c9Amp7zaVDtaA0WzM91+/HiW9tPh2UP0SypU0eNlxKFv2cLFAI+CaPlxQZfC/l4uy52DRvF60t7c="}],"legacy":false}
+spawnLocations:
+- em_primis,1055.5,39.5,685.5,0.0,0.0:1676057571934

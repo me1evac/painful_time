@@ -1,0 +1,45 @@
+normalizedCombat: true
+isEnabled: true
+entityType: IRON_GOLEM
+name: $bossLevel &aThe Blood Alchemist
+level: 19
+healthMultiplier: 6.0
+damageMultiplier: 1.5
+movementSpeedAttribute: 0.36
+powers:
+- primis_toxic_puddles.yml
+- attack_arrow.yml
+- attack_push.yml
+spawnCooldown: 30
+leashRadius: 40
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+followDistance: 40
+disguise: custom:primis_blood_temple_toxic
+customDisguiseData: player primis_blood_temple_toxic setskin {"id":"7387fce3-8a7c-439d-a035-ed738fd06652","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzMjMyNTgwMDQyNCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yYzllYzYyMTI5YjAyNWRhODVjYThhNTZkN2FiNzkzY2FjYTY0YThiOGUwYTY2NjkwZGEyMjM4ZTVhZTlhNTRiIgogICAgfQogIH0KfQ==","signature":"pRgZxCgcy/FOCDitzo8bv2l0jzwOvV8Tj1V5RLjjxz8o2F3cd4UZtZLZRPVqjR70zADpEQC+oLf7M0UWzncvN2iJwr7ibB/3KB1qJz4xTY67h9waZvC5nc1JVh7+GTVaWgm++wM8CdkgBzpLANqm5MpBlwPTxKF9RU8Jccmilhf7WMmgNEYKDFfvb+Z+DUx1RoSKEUgWhEXYPjbF91bXNjP+HnyRsoQohw0MU1Sqhfx4f3vUzsEzxKqQgAUw7KxnRe7up5AXjyoTyNVQXelnOFy1akQ+n4IerajTxLg5hY4wv2Sdz4MEHnpLB/+7Hc/O4h6moXcmzNQxDk2aaCTZlQ+qpzIegRyz27vlZTwvwfx/KpOAq/VboNSkk2z3dx1mNGFfKyaVmJHl0EzhmdWaXCpvzlP2ppM/aLMGzessi9DFIF0TLq391zNiafuREUWB5M1vQtMlVji0VrWdcBQxg8ujsk83Z+oI0R3glRh6nqfTUIqPnFV8MHvl0fwfE3o6jMq6g4S4XFI2SUKcCXbuIOnbMCq+F3N3FmHdcQlrlR+mLsbxydlFVYrQPJ3kOTUbd+mYzlKzpgP/pMKsNWsoEySOs2eEvIuSQAaPRfPUby3QdR4Bp8z03B7zo5PV31I8HNZbt+id41Q4DH50peaXN0R0zX+nx2i0xPdU37pw08o="}],"legacy":false}
+eliteScript:
+  WallArena:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CUBOID
+      x: 4
+      y: 3
+      z: 1
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,974,110,1083,0,0"
+        - "same_as_boss,929,110,1083,0,0"
+    Actions:
+    - action: PLACE_BLOCK
+      material: GLASS
+      duration: 99999
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: ZONE_FULL
+        locationIsAir: true

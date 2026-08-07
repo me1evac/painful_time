@@ -1,1 +1,15 @@
-dungeonVersion: 16 #Fixed two of the dummies having no hitboxes
+isEnabled: true
+dungeonSizeCategory: LAIR
+worldName: em_adventurers_guild
+environment: NORMAL
+protect: true
+teleportLocation: em_adventurers_guild,208.5,88,236.5,-80,0
+contentType: HUB
+dungeonConfigFolderName: em_adventurers_guild
+setupMenuDescription:
+- '&2The highly recommended Elitemobs Hub!'
+- '&2It does not replace your worlds, it just'
+- '&2adds an isolated world with all the NPCs'
+- '&2and portals for EliteMobs!'
+dungeonLockoutMinutes: 0
+dungeonVersion: 16 # Fixed two of the dummies having no hitboxes

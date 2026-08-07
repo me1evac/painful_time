@@ -1,0 +1,12 @@
+normalizedCombat: true
+entityType: WITHER_SKELETON
+name: $reinforcementLevel &8Catacomb Soul
+level: 15
+healthMultiplier: 0.6
+damageMultiplier: 0.8
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+powers:
+- invulnerability_fire.yml

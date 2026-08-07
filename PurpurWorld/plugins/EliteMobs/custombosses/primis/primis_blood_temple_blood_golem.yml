@@ -1,0 +1,44 @@
+normalizedCombat: true
+isEnabled: true
+entityType: RAVAGER
+disguise: IRON_GOLEM
+name: $normalLevel &cBlood Golem
+level: 19
+healthMultiplier: 1.2
+damageMultiplier: 1
+powers:
+- primis_blood_golem_blood_pool.yml
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+spawnCooldown: 15
+leashRadius: 40
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+followDistance: 40
+spawnLocations:
+- em_primis,982.5,92.5,1054.5,0.0,0.0:1675703747858
+- em_primis,987.5,92.5,1059.5,0.0,0.0
+- em_primis,971.5,101.5,1059.5,0.0,0.0:1675703771638
+- em_primis,1021.5,92.5,997.5,0.0,0.0
+- em_primis,994.5,103.5,895.5,0.0,0.0:1676647173870
+- em_primis,1043.5,103.5,910.5,0.0,0.0
+- em_primis,1028.5,77.5,1047.5,0.0,0.0
+- em_primis,931.5,78.5,1010.5,0.0,0.0
+- em_primis,924.5,83.5,1051.5,0.0,0.0:1679360645187
+- em_primis,967.5,70.5,919.5,0.0,0.0
+- em_primis,987.5,70.5,931.5,0.0,0.0:1664906166599
+- em_primis,1051.5,92.5,1021.5,0.0,0.0
+- em_primis,989.5,70.5,1050.5,0.0,0.0:1664988178918
+eliteScript:
+  Boop:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: PUSH
+      vValue: 0,0.65,0
+      Target:
+        targetType: DIRECT_TARGET

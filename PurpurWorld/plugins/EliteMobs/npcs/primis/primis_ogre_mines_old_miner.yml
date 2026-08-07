@@ -1,0 +1,23 @@
+isEnabled: true
+name: '&cVetus Fossores'
+role: '&c<Old Miner>'
+profession: NITWIT
+greetings:
+- Hey there sonny!
+- You're lookin' a little lost!
+- What brings you over here?
+dialog:
+- I've got a task for you!
+- I need your help!
+farewell:
+- Off you go!
+- Don't let the mine mites bite!
+- Stay safe!
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ogre_mines_old_miner_quest.yml
+disguise: custom:primis_ogre_mines_old_miner
+customDisguiseData: player primis_ogre_mines_old_miner setskin {"id":"1f240b78-6f47-4901-b935-8d8580c9178d","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDI3MzQxMjI0NiwKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQyNDllZDliMThhYzMyYjI3ODcyZWM0NDUyYmU0OTY2ZThjMmY5ZmU2ZjMxNTUzZGExZWE1YjU2Mzg5YTI0MCIKICAgIH0KICB9Cn0=","signature":"GAaPt6ZUCy2YM7HLdQJtB43ykpfRzgajAxyT0iWS362YCaWxbUhs6Cyymeudzc94Zp3H1VDXSRcbqkWy1cTgE9fOtYYSh8TnGY5MA/lMCKMn7VP/unsZUjEHwDTpLTqDSEPFuVwryPJvf8YjmqGgrb8Nryuxc2/BMXs7pgD+aGFLTFuq3SNvvurYpUD340LzghGjG+8B76CvJFsSMK6XT5YqPviF1TNpQB5pyXFAwzYcZYcaXiPw5abFuXNtGzS6wk1+sT0Q0ZW6Ec1VdRueJv782xwVOJj6BvJMBCfezgPK45mC7hp3WEbxcrkWcavE9qHJk9MbLZIi8Y8b4z0ShyNNcUY9QEVTya3lkrRLBiDxVgKHDXFL4Byq2Rae9WRuFHMgRnU5PQ9n2wnsu6rm1bZukHSu2OmDzvGd934Nx0UlBl/MOj2fOprc52xyXQNI+oveqDKkdGzJbkCL7l1TsNomwjrVVnE4j7oEE5a+Sp5W0wkOg/ZONMrvFlLGb/p+53TPi0vJQYfoiyfTZM6MiDPESC7nLIhDcaVzWisvzqKom0AOUeNDUTzbLsT9EZngdeLEHYjd2LclhfnVaQKway6ka6wDhvHecAkkHVqS2/tKYVGUDrokK7Bbr89mfIiU/kUevc25aM4HifvpstqY0AQ/R6MLXoQqYaBPamobCmI="}],"legacy":false}
+spawnLocation: em_primis,1469.62,60.0,557.43,-96.93,37.22

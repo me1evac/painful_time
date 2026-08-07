@@ -1,0 +1,11 @@
+isEnabled: true
+material: LEATHER_CHESTPLATE
+name: "&cOgre's chestplate"
+enchantments:
+- PROTECTION_FIRE,1
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&7Hot to the touch'
+itemType: unique
+level: 7
+scalability: fixed

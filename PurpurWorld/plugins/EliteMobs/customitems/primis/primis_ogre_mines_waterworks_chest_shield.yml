@@ -1,0 +1,9 @@
+isEnabled: true
+material: SHIELD
+name: "&aSturdy Door"
+lore:
+- "&aIt's just a door."
+enchantments:
+- "PROTECTION_ENVIRONMENTAL,1"
+scalability: fixed
+itemType: unique

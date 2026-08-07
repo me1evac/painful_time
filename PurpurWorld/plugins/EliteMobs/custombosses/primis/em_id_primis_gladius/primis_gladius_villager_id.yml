@@ -1,0 +1,34 @@
+normalizedCombat: true
+isEnabled: true
+entityType: SKELETON
+name: $normalLevel &fRotted Villager
+level: 13
+instanced: true
+healthMultiplier: 0.5
+damageMultiplier: 0.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+helmet: LEATHER_HELMET
+boots: LEATHER_BOOTS
+powers:
+- invulnerability_fire.yml
+- filename: corpse.yml
+  difficultyID: 
+  - 1
+- filename: movement_speed.yml
+  difficultyID: 
+  - 2
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 20
+movementSpeedAttribute: 0.4
+spawnLocations:
+- em_id_primis_gladius,28.5,67.5,-1.5,0.0,0.0
+- em_id_primis_gladius,13.5,65.5,-6.5,0.0,0.0
+- em_id_primis_gladius,-8.5,65.5,-1.5,0.0,0.0
+- em_id_primis_gladius,2.5,72.5,-29.5,0.0,0.0
+- em_id_primis_gladius,-1.5,69.5,-8.5,0.0,0.0
+- em_id_primis_gladius,38.5,63.5,-19.5,0.0,0.0
+- em_id_primis_gladius,38.5,61.5,-41.5,0.0,0.0
+- em_id_primis_gladius,66.5,80.5,-97.5,0.0,0.0

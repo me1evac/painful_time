@@ -1,0 +1,17 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &8Camp Warden
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 6.0
+damageMultiplier: 1.75
+movementSpeedAttribute: 0.34
+mainHand: GOLDEN_SWORD
+chestplate: CHAINMAIL_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: GOLDEN_BOOTS
+powers:
+- em_primis_magma_slam_double.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml

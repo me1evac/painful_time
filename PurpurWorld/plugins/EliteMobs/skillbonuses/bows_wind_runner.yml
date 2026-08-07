@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&fWind Runner'
-description:
-- '&7Gain speed boost when'
-- '&7hitting enemies with arrows.'
 skillType: BOWS
 bonusType: PASSIVE
 unlockTier: 3

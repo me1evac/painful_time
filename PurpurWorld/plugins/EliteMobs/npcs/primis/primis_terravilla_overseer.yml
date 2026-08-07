@@ -1,0 +1,24 @@
+isEnabled: true
+name: '&6Lutum Princeps'
+role: '&6<Overseer>'
+profession: NITWIT
+greetings:
+- Yes?
+dialog:
+- What is it\nnow...
+- I need to check\nup on them.
+- At least I\nam not bored.
+farewell:
+- Good luck.
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_21.yml
+- primis_main_quest_22.yml
+- primis_main_quest_23.yml
+- primis_main_quest_24.yml
+disguise: custom:elitemobs_terravilla_overseer
+customDisguiseData: player elitemobs_terravilla_overseer setskin {"id":"bc5b64fb-6707-48a7-a241-518fb9519e91","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MDk1OTkyNDQyMCwKICAicHJvZmlsZUlkIiA6ICI4YWFlYTdlYjViOWM0ZWEwODUxNWU3MDhhZGIxODBkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYVBhODA3MTEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkODc2N2IwNTc1MzM1ZjRhNzAyOTBmMzJhN2RhMDE3M2Y3MjQ5ZTA5OGM0NTk4MTE1Mzc3MTliM2I3ZmM1MCIKICAgIH0KICB9Cn0=","signature":"HxLTJZz+0ZkWlUO+lCxZdZArmXrSF3AiacLks+s1o15zlVEqh4CGuHQ3ThhuW4pVofnNSLPMikO/r6s5aNmmCtdBIrZ0eyFTBQyMCi2xUeqfVbKBPPp8Jd7E2wFbFaBOLKIaTiuXpLP0W16mU6sMCZKgHrLReBQer+vokkwCLhp7EAiURjMaGlGzWdqqxwktKJd8QinYO0mblSan5/TLSwVKU3aYuHFpeb4+0JZfzNFFhLJmWeD/SUsR36NMSQbmPqCg/Z6N5vZS0DbN/AeQA4s8fRi/eNi8MGIkQP0i7U48qYXNFTixi3/BCCMMSrAg/inT9tpbY6zKYvLKWPKD2W9JFbgg0DqqL/VpJmwkTdMR+ThY9xJMeO3fH4r4eXWZ28hUbtbCs5YvET7g7k8989SwOl8SXSTxSnE7shhZratl5NDHrfd7n2q+IX92IZSs8sC+03DbH322mFQCgpF478U8hE5lVVCgzC4b1e9CUUe8kY31EGNy6dvQ2EnbSbT53mJ5gBrb/FU7cLf47GBbTCioLRylYR6E/TEFwmihRJHPmc81nXbIy/l/x3dz4zPt60gNvhZDgrD7NYpVsEkq5KPPCfrWwTfkqiIaar78p3fdDeRDV/iwJBaXd2i0DnIJVH4MQ5/mM96UtaqtQMSAaqGbGoz0unG7QG5aw/nb3uE="}],"legacy":false}
+spawnLocations:
+- em_primis,337.73,44.0,1388.0,57.22,36.98

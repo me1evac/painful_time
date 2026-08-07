@@ -1,23 +1,7 @@
 isEnabled: true
-name: <g:#6A4A7A:#7A5A8A>Eden</g>
-role: <g:#5A3A6A:#6A4A7A><Enchanter></g>
 profession: TOOLSMITH
 spawnLocation: em_adventurers_guild,284.5,74,246.5,0,0
 spawnLocations: []
-greetings:
-- Need something enchanted?
-- Feeling lucky?
-- Got an item to improve?
-- Got enchanted books?
-dialog:
-- Enchantment results are\nnot guaranteed!
-- Don't complain if it fails!
-- Got an enchanted book?
-- Higher quality items are\nriskier to enchant!
-farewell:
-- Got what you wanted!
-- How's your karma?
-- If at first you fail,\ntry and try again!
 canTalk: true
 activationRadius: 3.0
 interactionType: ENCHANTER

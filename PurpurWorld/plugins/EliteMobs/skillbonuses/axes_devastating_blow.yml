@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&4Devastating Blow'
-description:
-- '&7Chance to deal massive'
-- '&7bonus damage on hit.'
 skillType: AXES
 bonusType: PROC
 unlockTier: 1

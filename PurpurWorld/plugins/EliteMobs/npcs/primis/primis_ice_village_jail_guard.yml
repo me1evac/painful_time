@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&3Eleusium Festus'
+role: '&3<Jail Guard>'
+profession: TOOLSMITH
+greetings:
+- Climbed the\ntower eh.
+dialog:
+- Everything seems in order.
+- Almost everything...
+farewell:
+- Take care.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_bell_banger.yml
+disguise: custom:elitemobs_ice_village_jail_guard
+customDisguiseData: player elitemobs_ice_village_jail_guard setskin {"id":"dc310287-9297-4758-9c1d-77ad268ccf9b","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxOTAwMjkzOTkzMiwKICAicHJvZmlsZUlkIiA6ICIwYWFjMWRlZjUwZmI0N2RjODNmOGU2Njk3MTg1ODRkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQZW50YWdyaWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNmNDViMDY0MTQwNWRmOWM0ZDM3YWRmYTAyZjdjNDBiZDE2Y2E5Y2Y0NTk0YmVkNGRjYjcxMjIzNmM5OWNmNiIKICAgIH0KICB9Cn0=","signature":"gTwrVRKjUYEY19omCwm5MLu4F3Nxj8ww3XrdjBev8y98dJZJrduJITPWPZVn/WEihVxlUUSR8YHAfrI/N44FBUpU5sadvlh+4Bqm9csgM1nMjbKv9CIKtS+x8isUf9NmhC9pzEmhbx1hPJQBIfJhhlAvcXV/T0QUkoRa+EnZhEM7KdPlCraCTRje7GwdAzvjscU33ZKz4exb/deEJAQ/nudHGYGD01vTrlUCf3R35d6A7ODaIU612PTlxPtrQe3emsyrKFZXI4a/V6b1elYAaYsL+8xSVHUZc6K8Q79LW9YlfURZjlN16FFLOmEBXKSGXOXN/I/L1OTewk6Jpp6AI8NORh38PD3tN2gjS2s9n0BMvjhSGjX1hQu4HwCQUuEpOfv/wdOieyNBah1S/gCehMrIFru1nslwZgwZziCg1JUkrRiWv179xCAneVrWC5aG1d2mCGGEhdErF5JGtipILWifqsRDlTY/OG7EjntubkgeOJhsbDiiyXs4bTyL2w39idvawkTq++LUYpYCx7MumblLC2n6mUfDDtZVG1szH3NVUmlK1rvpPh7uiPQRxwn7ZtGa+ykyUNupTdoZkkmdU9oANgynjInfVRUvWaS1a6soXUZUoXhE8G6vSO+xLvw9COs3+k9eDmQbDZcZ99yoOEs52I6Ab3S/jtD/1eSb9G4="}],"legacy":false}
+spawnLocations:
+- em_primis,871.99,97.0,1649.78,-175.46,3.7
+
+

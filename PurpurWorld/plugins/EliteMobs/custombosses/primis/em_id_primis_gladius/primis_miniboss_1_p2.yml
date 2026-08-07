@@ -1,0 +1,128 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &5General Darius
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+mainHand: IRON_SWORD
+offHand: IRON_SWORD
+helmet: CHAINMAIL_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: CHAINMAIL_BOOTS
+eliteScript:
+  ScriptRunnerStart:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - Teleporter
+  Teleporter:
+    Actions:
+    - action: TELEPORT
+      Target:
+        targetType: WORLD_PLAYERS
+      FinalTarget:
+        targetType: LOCATION
+        location: same_as_boss,-35.5,65,40,-90,0
+  ScriptRunnerRandomizer:
+    Cooldowns:
+      local: 260
+      global: 60
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - SummonReinforcement
+  SummonReinforcement:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,.5,-1.5
+        track: false
+      x: 21
+      y: 1
+      z: 12
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.005
+      sValue: primis_miniboss_1_reinforcement.yml
+onSpawnBlockStates:
+- -24.5,-1.5,-3.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,-2.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,-1.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,-0.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,0.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,1.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,2.5/minecraft:deepslate[axis=y]
+- -24.5,-0.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -24.5,-0.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,-0.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,-0.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,-0.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,-0.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,-0.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- -24.5,0.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -24.5,0.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,0.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,0.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,0.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,0.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,0.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- -24.5,1.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -24.5,1.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,1.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,1.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,1.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,1.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,1.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- -24.5,2.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- 23.5,-1.5,-3.5/minecraft:coarse_dirt
+- 23.5,-1.5,-2.5/minecraft:rooted_dirt
+- 23.5,-1.5,-1.5/minecraft:coarse_dirt
+- 23.5,-1.5,-0.5/minecraft:rooted_dirt
+- 23.5,-1.5,0.5/minecraft:rooted_dirt
+- 23.5,-1.5,1.5/minecraft:podzol[snowy=false]
+- 23.5,-1.5,2.5/minecraft:rooted_dirt
+- 23.5,-0.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- 23.5,-0.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,-0.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,-0.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,-0.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,-0.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,-0.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- 23.5,0.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- 23.5,0.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,0.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,0.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,0.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,0.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,0.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- 23.5,1.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- 23.5,1.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,1.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,1.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,1.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,1.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,1.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- 23.5,2.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]

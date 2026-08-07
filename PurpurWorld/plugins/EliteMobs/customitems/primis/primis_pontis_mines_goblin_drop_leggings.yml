@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_LEGGINGS
+name: "&7Goblin Leggings"
+lore:
+- "&7It looks like someone took an iron ingot"
+- "&7and pummeled it into the correct shape."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: fixed
+itemType: unique
+level: 10

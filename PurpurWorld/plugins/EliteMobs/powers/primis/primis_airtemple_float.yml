@@ -1,0 +1,111 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  ScriptRunnerRepeat:
+    Cooldowns:
+      local: 300
+      global: 60
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 10
+      scripts:
+      - FloatZone
+    - action: RUN_SCRIPT
+      wait: 10
+      scripts:
+      - DamageModifier
+    - action: RUN_SCRIPT
+      wait: 70
+      scripts:
+      - ArrowStrike
+    - action: RUN_SCRIPT
+      wait: 75
+      scripts:
+      - ArrowStrike
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - ArrowStrike
+  DamageModifier:
+    Actions:
+    - action: TAG
+      Target:
+        targetType: SELF
+      tags:
+      - damagereduction
+      duration: 80
+  FloatZone:
+    Zone:
+      Shape: CYLINDER
+      target:
+        targetType: DIRECT_TARGET
+        offset: 0,-.5,0
+      filter: PLAYER
+      radius: 3
+      height: 2
+    Actions:
+    - action: MODIFY_DAMAGE
+      multiplier: 0.5
+      Conditions:
+        hasTags:
+        - "damagereduction"
+      Target:
+        targetType: DIRECT_TARGET
+    - action: SPAWN_PARTICLE
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: CLOUD
+        amount: 1
+        x: 0.2
+        y: 0.2
+        z: 0.2
+        speed: 0.1
+    - action: SPAWN_PARTICLE
+      wait: 30
+      repeatEvery: 2
+      times: 15
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      particles:
+      - particle: SPIT
+        amount: 0
+        x: 0
+        y: 1
+        z: 0
+        speed: 0.6
+    - action: PUSH
+      wait: 30
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      vValue: 0,0.6,0
+      repeatEvery: 2
+      times: 15
+    - action: POTION_EFFECT
+      wait: 30
+      target:
+        targetType: ZONE_FULL
+        track: false
+      potionEffectType: SLOW_FALLING
+      amplifier: 0
+      duration: 100
+  ArrowStrike:
+    Actions:
+    - sValue: ARROW
+      action: SUMMON_ENTITY
+      Target:
+        targetType: SELF
+      RelativeVector:
+        SourceTarget:
+          targetType: SELF
+        DestinationTarget:
+          targetType: DIRECT_TARGET
+        normalize: true
+        multiplier: 1

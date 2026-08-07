@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&fEvasion'
-description:
-- '&7Chance to completely'
-- '&7dodge incoming attacks.'
 skillType: ARMOR
 bonusType: PROC
 unlockTier: 1

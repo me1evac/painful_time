@@ -1,0 +1,8 @@
+isEnabled: true
+blindPlayer: true
+style: ICOSAHEDRON
+particleColor: 9830655
+sizeMultiplier: 2.0
+location2: em_primis,599.5,110.0,724.5,0,-90
+location1: em_primis_wormhole,-42.5,119.0,142.5,6.0,0
+permission: elitequest.primis_pontis_mille_lighthouse_1.yml

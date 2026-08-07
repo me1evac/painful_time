@@ -1,9 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: GOLDEN_SWORD
-name: <g:#FFD700:#FFA500>The Stinger</g>
-lore:
-- '&aFloat like a butterfly,'
-- '&asting like a bee!'
 enchantments:
 - SHARPNESS,1
 - UNBREAKING,1

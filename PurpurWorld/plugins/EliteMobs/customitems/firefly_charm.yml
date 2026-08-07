@@ -1,8 +1,5 @@
-isEnabled: true
+isEnabled: false
 material: GLASS_BOTTLE
-name: '&bFirefly Charm'
-lore:
-- '&aLight up the night!'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

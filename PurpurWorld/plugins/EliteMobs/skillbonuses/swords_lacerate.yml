@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&cLacerate'
-description:
-- '&7Attacks have a chance to cause'
-- '&7bleeding, dealing damage over time.'
 skillType: SWORDS
 bonusType: PROC
 unlockTier: 1

@@ -1,0 +1,19 @@
+# MagmaCore Shared Configuration
+#
+# This folder is a common config folder for plugins created by MagmaGuy, including:
+# - EliteMobs
+# - BetterStructures
+# - FreeMinecraftModels
+# - BetterFood
+# - ResourcePackManager
+# - ExtractionCraft
+# - EternalTD
+# - MegaBlock Survivors
+# - And others!
+#
+# This folder can be deleted without causing too many problems,
+# but you may need to reconfigure shared settings like your Nightbreak token.
+#
+# Get your token at: https://nightbreak.io/account
+
+token: nbk_Ywga5hzrycdtutmv54qyDSvbK1f1QG17

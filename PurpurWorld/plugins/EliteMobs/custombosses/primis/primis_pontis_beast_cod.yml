@@ -1,0 +1,25 @@
+entityType: GUARDIAN
+name: $minibossLevel &dBeast Cod Furiosa
+level: '13'
+healthMultiplier: 4.0
+damageMultiplier: 1.4
+powers:
+- attack_blinding.yml
+- attack_arrow.yml
+- invulnerability_arrow.yml
+- plasma_blaster.yml
+uniqueLootList:
+- filename=primis_pontis_beast_scale.yml:amount=1:chance=1.0
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 40
+spawnCooldown: 30
+leashRadius: 40
+disguise: COD
+isRegionalBoss: true
+movementSpeedAttribute: 0.25
+spawnLocations:
+- em_primis,807.5,13.5,466.5,0.0,0.0:1676129342804
+

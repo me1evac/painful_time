@@ -1,0 +1,9 @@
+isEnabled: true
+material: GOLDEN_PICKAXE
+name: "&eLucky Pickaxe"
+lore:
+- '&aLucky, but useless.'
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_ogre_mines_lucky_pickaxe.yml
+level: 7

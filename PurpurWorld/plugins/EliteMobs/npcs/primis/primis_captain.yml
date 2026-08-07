@@ -1,0 +1,25 @@
+isEnabled: true
+name: '&4Captain Squalus'
+role: '&c<Expedition Leader>'
+profession: NITWIT
+spawnLocation: em_primis,1398.64,19.0,372.32,-124.84,3.6
+greetings:
+- "So you're finally awake!"
+- "That was a wild ride!"
+- "Still alive?"
+- "Let's not do that again!"
+dialog:
+- "I've got a task for you!"
+- "I need your help!"
+- "Good thing you're here,\n we need some help!"
+farewell:
+- "Off you go!"
+- "Don't forget about me!"
+- "Come back soon!"
+canTalk: true
+activationRadius: 6.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_main_quest_1.yml
+disguise: custom:elitemobs_expedition_leader
+customDisguiseData: player elitemobs_expedition_leader setskin {"id":"43f225ad-e7d5-4091-8248-6c74ef6f7646","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MDczODc5NjI2OCwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jOTY1NDY2OWFhZTIzYWRkMzViMDExYTM3NDkyZTM2YjgyZTY2ZDg0NGFiNWE4MjI0Zjc1MjkwMmI0YzQyNzAyIgogICAgfQogIH0KfQ==","signature":"Mc2GR5dW+ZVDqHgkkmfZY2eq38V6NBZdlstaIW5GN2l33utaua02KfG3if9RgmN+Mt+C7dbpdJhbVTvx8hqg1wfzXf7eRVxBz6XyYfy0yluXTQFpkaSZXVHHJ/EkH/n1snytAL4tyns7ox9QlqCjN89h3taOUEwVSAV/7DkAvWljMUqJIqpGJJQAEGu8K7yu5utWAtuowNnEscOcidDiwjRWlNTpmBkjEc7XDx7uxPFZWIIt/nnpMk1Fh6u+atZDEGBeCiPlX7UyDcdPn9+S3dZ9WksMN32EsZwVbsCyoaUoXycqKsZfNjEYJ0giU3ck5vqpOu42fZKc04cw1eu2jgElSIVsGsrQEUzXvzY18vmry5KwurX+DI9vGUNnJrf4Wz6ofJce3H4U6U4cNKKBTz5ZwxU/k2jBOSSnMqRqrcGlkwJkIB621Je19MX3T1LRMnfnA8e3v/SWZXwtx9X0R1UWB1wxSxUC5gOOfn0AyCAR+9B2wGUi9styKn/ylN17n7M/BlPZku8TpVkC8/pMybEVl+Gk0e5PW3F0/8SiFjZpF90xSITjl01caG5ZLvheLgy4Ai4hXFU6BFDAMHljau8kvVdm7IRdzWmL3haW4FucB/xpGlNc9dzQdoRWCLvHKcrSuxhivEOu/vvqxC/UNTrIzpkNCPW2cDpRirUNWu8="}],"legacy":false}

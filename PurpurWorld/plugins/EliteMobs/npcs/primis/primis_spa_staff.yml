@@ -1,0 +1,22 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&cAozora'
+role: '&7<Spa Staff>'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Enjoy the hot spring!
+- Nya!
+- uwu...
+- OwO
+farewell:
+- Have fun!
+disguise: custom:primis_spa_staff_1
+customDisguiseData: player primis_spa_staff_1 setskin {"id":"81bceac2-13e7-4ad2-a144-65a0325d826b","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MzAzNjQ1NzE1NCwKICAicHJvZmlsZUlkIiA6ICI4NDIzMzM5MTYwMjY0NjBiOWQ1MGFjZWU3MThiMjkxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJmaXJlc2xpbmdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xN2M1MzgwZDI1YTc1MzVjNzgxMGI0YjIxYmUzNzJmODIwYTNiNGExNDI1ZjI1MGEzZWJhNGM0Yjk1YmJjOTM3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"mT60VGzL0iGxlkwKv0PM5h2b2lx9C9JrNsg+aWk9Xa8urz9/0jGGiqj5XKzYHVGTul/RfF95mhhCF3/B4j/MpDsAmP/fwJ796DQuaehij5a9pBWVZxRuueDIlYvz4E9epa1C9tCGmubxkojH8Vxw4vQZif8Bs1EGttV6gdJZsYEfrxwA3NL0/btuJw8wlhOw70ksvq+iTMlhugBvbnHRW94ymNRD3dYfdjm7L6Ttt8WBgjI3BelgK+hzkhVI07RD7UuUBrrHoUax4UMTchhM48Kbk7uo+FKlxhV1QpzMgC2aml394KGUUOFPCKUCYjBxwYcB8uUt9cFLrxDKZL0uVOuJWO2AdAv9libY2UDoGMnfjclqSBpAAXsbL4LE5VbmGjgK4PJQL4mMlniyGFD5aATC5/AjlgSGHcMwub9i63ivcE+0jJu7Ajn3GpxCBhWG8IRrQMK1LhhtjyfFsDcreWlS5Q+dkP1jQBeuoj46nHZXH5y+0ei34TDcYIOuq1FytY98KCh0YOXcEvEsLbWtssI3UzIbl11DaEupYSfof2yXXBN0hzgOLFEG3VLbTnRDqnwYPCzesI0ts+Tar+ryQbHty7wDZHOm129J6LJFj8liSrr+DwqNayNs5Ekkt2X7EsX8DNwdfYHQdFhRUFW9BCVBbJ4mXnmcnnf3RHKzNdM="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1755.63,92.0,1511.57,176.4,3.44
+

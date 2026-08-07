@@ -1,0 +1,9 @@
+isEnabled: true
+material: COD
+name: "&ePerfect Sample"
+lore:
+- "&eIt looks like a fish..."
+- "&eBut it sure isn't..."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_terravilla_perfect_sample.yml

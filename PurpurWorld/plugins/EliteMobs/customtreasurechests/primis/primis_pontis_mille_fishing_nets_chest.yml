@@ -1,0 +1,14 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimer: 10
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: NORTH
+chestTier: 1
+dropStyle: group
+lootList:
+- filename=primis_pontis_mille_fish_nets.yml:amount=4:chance=1.0
+locations:
+- em_primis,805.0,15.0,904.0,0.0,0.0:0

@@ -1,0 +1,8 @@
+material: COD
+name: "&aFish Charm"
+lore: 
+- "&aFishy."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+itemType: unique
+scalability: fixed

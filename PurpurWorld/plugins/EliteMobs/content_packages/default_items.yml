@@ -1,7 +1,4 @@
 isEnabled: true
-name: '&2Default EliteMobs Custom Items'
-customInfo:
-- All default custom items from EliteMobs!
 dungeonSizeCategory: LAIR
 environment: NORMAL
 protect: true

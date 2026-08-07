@@ -1,0 +1,39 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &4Commander Niall
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+mainHand: IRON_AXE
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+powers:
+- invulnerability_fire.yml
+- invulnerability_fireworks.yml
+- invulnerability_arrow.yml
+- taze.yml
+onRemoveBlockStates:
+- -19.5,2.5,-1.5/minecraft:cobbled_deepslate
+- -19.5,2.5,-0.5/minecraft:cobbled_deepslate
+- -19.5,2.5,0.5/minecraft:cobbled_deepslate
+- -19.5,2.5,1.5/minecraft:cobbled_deepslate
+- -19.5,3.5,-1.5/minecraft:air
+- -19.5,3.5,-0.5/minecraft:air
+- -19.5,3.5,0.5/minecraft:air
+- -19.5,3.5,1.5/minecraft:air
+- -19.5,4.5,-1.5/minecraft:air
+- -19.5,4.5,-0.5/minecraft:air
+- -19.5,4.5,0.5/minecraft:air
+- -19.5,4.5,1.5/minecraft:air
+- -19.5,5.5,-1.5/minecraft:air
+- -19.5,5.5,-0.5/minecraft:air
+- -19.5,5.5,0.5/minecraft:air
+- -19.5,5.5,1.5/minecraft:air
+- -19.5,6.5,-1.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -19.5,6.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -19.5,6.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -19.5,6.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]

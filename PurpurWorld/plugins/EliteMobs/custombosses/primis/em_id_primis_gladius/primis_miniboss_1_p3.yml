@@ -1,0 +1,453 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &5General Darius
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+mainHand: IRON_SWORD
+offHand: IRON_SWORD
+helmet: CHAINMAIL_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: CHAINMAIL_BOOTS
+eliteScript:
+  ScriptRunnerSpawn:
+    Cooldowns:
+      local: 260
+      global: 60
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - SummonReinforcement
+  ScriptRunnerRandomizer:
+    Cooldowns:
+      local: 200
+      global: 60
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - ScriptRunnerRepeat1
+      - ScriptRunnerRepeat2
+      - ScriptRunnerRepeat3
+      onlyRunOneScript: true
+  ScriptRunnerRepeat1:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 110
+      scripts:
+      - FallingBlockGroup1
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - FallingBlockGroupLightning1
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - FallingBlockGroupBridgeRemoval1
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FallingBlockGroupParticle1
+  ScriptRunnerRepeat2:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 110
+      scripts:
+      - FallingBlockGroup2
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - FallingBlockGroupLightning2
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - FallingBlockGroupBridgeRemoval2
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FallingBlockGroupParticle2
+  ScriptRunnerRepeat3:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 110
+      scripts:
+      - FallingBlockGroup3
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - FallingBlockGroupLightning3
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - FallingBlockGroupBridgeRemoval3
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - FallingBlockGroupParticle3
+  FallingBlockGroup1:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: -12.5,8,0
+        track: false
+      x: 4
+      y: 1
+      z: 8
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.5
+      material: CRACKED_STONE_BRICKS
+      landingScripts:
+      - FallingBlockGroupDamage1
+  FallingBlockGroupDamage1:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: LANDING_LOCATION
+      x: 1
+      y: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+      multiplier: 0.35
+  FallingBlockGroupParticle1:
+    Zone:
+      Shape: CUBOID
+      animationDuration: 80
+      Target:
+        targetType: SELF_SPAWN
+        offset: -12.5,0,0
+        track: false
+      x: 5
+      y: 1
+      z: 7
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 8
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+        track: false
+        offset: 0,3,0
+      particles:
+      - particle: FLAME
+        amount: 0
+        x: 0
+        y: 1
+        z: 0
+        speed: -0.1
+  FallingBlockGroupLightning1:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: -12.5,12,0
+        track: false
+      x: 4
+      y: 1
+      z: 8
+      filter: PLAYER
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.2
+  FallingBlockGroupBridgeRemoval1:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: -12.5,8,0
+        track: false
+      x: 5
+      y: 6
+      z: 7
+    Actions:
+    - action: PLACE_BLOCK
+      Target:
+        targetType: ZONE_FULL
+      duration: 100
+      material: AIR
+  FallingBlockGroup2:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 13,8,0
+        track: false
+      x: 5
+      y: 1
+      z: 7
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.5
+      material: CRACKED_STONE_BRICKS
+      landingScripts:
+      - FallingBlockGroupDamage2
+  FallingBlockGroupDamage2:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: LANDING_LOCATION
+      x: 1
+      y: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+      multiplier: 0.35
+  FallingBlockGroupParticle2:
+    Zone:
+      Shape: CUBOID
+      animationDuration: 80
+      Target:
+        targetType: SELF_SPAWN
+        offset: 13.5,0,0
+        track: false
+      x: 5
+      y: 1
+      z: 7
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 8
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+        track: false
+        offset: 0,3,0
+      particles:
+      - particle: FLAME
+        amount: 0
+        x: 0
+        y: 1
+        z: 0
+        speed: -0.1
+  FallingBlockGroupLightning2:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 12.5,12,0
+        track: false
+      x: 4
+      y: 1
+      z: 8
+      filter: PLAYER
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.2
+  FallingBlockGroupBridgeRemoval2:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 13,8,0
+        track: false
+      x: 5
+      y: 6
+      z: 7
+    Actions:
+    - action: PLACE_BLOCK
+      Target:
+        targetType: ZONE_FULL
+      duration: 100
+      material: AIR
+  FallingBlockGroup3:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,8,-8.5
+        track: false
+      x: 14
+      y: 1
+      z: 4
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.5
+      material: CRACKED_STONE_BRICKS
+      landingScripts:
+      - FallingBlockGroupDamage3
+  FallingBlockGroupDamage3:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: LANDING_LOCATION
+      x: 1
+      y: 1
+    Actions:
+    - action: DAMAGE
+      Target:
+        targetType: ZONE_FULL
+      multiplier: 0.35
+  FallingBlockGroupParticle3:
+    Zone:
+      Shape: CUBOID
+      animationDuration: 80
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,-9
+        track: false
+      x: 12.5
+      y: 1
+      z: 4
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      repeatEvery: 10
+      times: 8
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.5
+        track: false
+        offset: 0,3,0
+      particles:
+      - particle: FLAME
+        amount: 0
+        x: 0
+        y: 1
+        z: 0
+        speed: -0.1
+  FallingBlockGroupLightning3:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,12,-8.5
+        track: false
+      x: 14
+      y: 1
+      z: 4
+      filter: PLAYER
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.2
+  FallingBlockGroupBridgeRemoval3:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,8,-9
+        track: false
+      x: 13
+      y: 6
+      z: 4
+    Actions:
+    - action: PLACE_BLOCK
+      Target:
+        targetType: ZONE_FULL
+      duration: 100
+      material: AIR
+  SummonReinforcement:
+    Zone:
+      Shape: CUBOID
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,.5,-1.5
+        track: false
+      x: 21
+      y: 1
+      z: 12
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.005
+      sValue: primis_miniboss_1_reinforcement.yml
+onRemoveBlockStates:
+- 23.5,-1.5,-3.5/minecraft:coarse_dirt
+- 23.5,-1.5,-2.5/minecraft:rooted_dirt
+- 23.5,-1.5,-1.5/minecraft:coarse_dirt
+- 23.5,-1.5,-0.5/minecraft:rooted_dirt
+- 23.5,-1.5,0.5/minecraft:rooted_dirt
+- 23.5,-1.5,1.5/minecraft:podzol[snowy=false]
+- 23.5,-1.5,2.5/minecraft:rooted_dirt
+- 23.5,-0.5,-3.5/minecraft:air
+- 23.5,-0.5,-2.5/minecraft:air
+- 23.5,-0.5,-1.5/minecraft:air
+- 23.5,-0.5,-0.5/minecraft:air
+- 23.5,-0.5,0.5/minecraft:air
+- 23.5,-0.5,1.5/minecraft:air
+- 23.5,-0.5,2.5/minecraft:air
+- 23.5,0.5,-3.5/minecraft:air
+- 23.5,0.5,-2.5/minecraft:air
+- 23.5,0.5,-1.5/minecraft:air
+- 23.5,0.5,-0.5/minecraft:air
+- 23.5,0.5,0.5/minecraft:air
+- 23.5,0.5,1.5/minecraft:air
+- 23.5,0.5,2.5/minecraft:air
+- 23.5,1.5,-3.5/minecraft:air
+- 23.5,1.5,-2.5/minecraft:air
+- 23.5,1.5,-1.5/minecraft:air
+- 23.5,1.5,-0.5/minecraft:air
+- 23.5,1.5,0.5/minecraft:air
+- 23.5,1.5,1.5/minecraft:air
+- 23.5,1.5,2.5/minecraft:air
+- 23.5,2.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- 23.5,2.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]
+- -24.5,-1.5,-3.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,-2.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,-1.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,-0.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,0.5/minecraft:cobbled_deepslate
+- -24.5,-1.5,1.5/minecraft:deepslate[axis=y]
+- -24.5,-1.5,2.5/minecraft:deepslate[axis=y]
+- -24.5,-0.5,-3.5/minecraft:air
+- -24.5,-0.5,-2.5/minecraft:air
+- -24.5,-0.5,-1.5/minecraft:air
+- -24.5,-0.5,-0.5/minecraft:air
+- -24.5,-0.5,0.5/minecraft:air
+- -24.5,-0.5,1.5/minecraft:air
+- -24.5,-0.5,2.5/minecraft:air
+- -24.5,0.5,-3.5/minecraft:air
+- -24.5,0.5,-2.5/minecraft:air
+- -24.5,0.5,-1.5/minecraft:air
+- -24.5,0.5,-0.5/minecraft:air
+- -24.5,0.5,0.5/minecraft:air
+- -24.5,0.5,1.5/minecraft:air
+- -24.5,0.5,2.5/minecraft:air
+- -24.5,1.5,-3.5/minecraft:air
+- -24.5,1.5,-2.5/minecraft:air
+- -24.5,1.5,-1.5/minecraft:air
+- -24.5,1.5,-0.5/minecraft:air
+- -24.5,1.5,0.5/minecraft:air
+- -24.5,1.5,1.5/minecraft:air
+- -24.5,1.5,2.5/minecraft:air
+- -24.5,2.5,-3.5/minecraft:dark_oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-2.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,-0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,0.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,1.5/minecraft:dark_oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]
+- -24.5,2.5,2.5/minecraft:dark_oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]

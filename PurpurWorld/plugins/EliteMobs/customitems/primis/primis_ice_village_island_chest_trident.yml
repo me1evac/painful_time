@@ -1,0 +1,13 @@
+isEnabled: true
+material: TRIDENT
+name: "&3Magma's Delight"
+lore:
+- "&3Those who look, shall find."
+potionEffects:
+- CONDUIT_POWER,0,self,continuous
+enchantments:
+- "DAMAGE_ALL,2"
+- "IMPALING,2"
+scalability: fixed
+itemType: unique
+level: 10

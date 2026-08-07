@@ -1,0 +1,35 @@
+entityType: PIGLIN_BRUTE
+name: $bossLevel &5The Shredder
+level: '15'
+healthMultiplier: 6
+damageMultiplier: 1.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- ground_pound.yml
+- skeleton_tracking_arrow.yml
+- attack_push.yml
+uniqueLootList:
+- filename=primis_pontis_mille_sewage_keys.yml:chance=1.0
+- filename=primis_pontis_mille_sewers_shredder_drop.yml:chance=0.10
+followDistance: 40
+movementSpeedAttribute: 0.3
+disguise: custom:the_shredder
+customDisguiseData: player the_shredder setskin {"id":"7d68d915-604f-428d-82ba-488af4e884d7","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1MjU2NjIxODk3NiwKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWFmMWQzZDI4MmYxNTM1MWYzZDI5MjAyNTRkMjhmMDIxMTNlMTE0OWRkYmYxZWMzYWZiNWY1YjM4NTY2YjM2NCIKICAgIH0KICB9Cn0=","signature":"QJlHYAFZLyNyOt/MoSUTRaHOmsaiDKKxRfUdvg9jQvB1ZilTnaN+akBBdrp0oSqjpcVzD2LP7lFnkCByHFl/L1ZQoRR1QIenYxuDzuYe9n/lTyD32tuTHNnOcQ2ipeb/o9kjkZI6556r2vEPjRERexx5KCYtEz2e8ikg5l8wg8IwFaQrC90V+ZWYl9ZFqgB4xxy+jQqSwUl5qbkT0oKc78KkMqsyPYmd2dyVEAuAx32XLBzPQ0yZrjgZUbuEt8AZUt1V4OXDGAphk0WPpH8uLhnoqaOuQb+KR3dnfWjUAflWajQYX+ced6/SM8sy0xSBWhOB13Rv20UGO8vGBZJx9NaVg4t5UUFPdOe7C/ZjQnTCfv2dhloL7/NjSpoUulxBAgrWGbypTCxBiiLE1O6DQQDZc7v03M0msR6Rrns62XzCRITZdcf9/0Ytx9KzjHeWIRSzKzO0T8DsLi/1RRFWMTwGr0tMD5FJhgPiMMDrqCxgRop2jVWMY0/awnT7zF/ei+QILQsjjgiFJ0Q6py2zJul1Ak0Hy8Glznya0eBA6gWJJ7T+0eBzdmE4d7F2jXqlQU36DboanUFbliK/H+8TF0n0IuadFXEH36Tl/fpmVEizNwUvRE8Ie8XKxpPx0ow2g3MLznsoZ3yLZEnucJsTHmgjarrj+ylvWVxoxncE4a4="}],"legacy":false}
+onRemoveBlockStates:
+- 8.5,-0.5,-2.5/minecraft:purple_stained_glass
+- 8.5,-0.5,-1.5/minecraft:air
+- 8.5,-0.5,-0.5/minecraft:air
+- 8.5,-0.5,0.5/minecraft:air
+- 8.5,-0.5,1.5/minecraft:purple_stained_glass
+- 8.5,0.5,-2.5/minecraft:purple_stained_glass
+- 8.5,0.5,-1.5/minecraft:air
+- 8.5,0.5,-0.5/minecraft:air
+- 8.5,0.5,0.5/minecraft:air
+- 8.5,0.5,1.5/minecraft:purple_stained_glass
+- 8.5,1.5,-2.5/minecraft:purple_stained_glass
+- 8.5,1.5,-1.5/minecraft:air
+- 8.5,1.5,-0.5/minecraft:air
+- 8.5,1.5,0.5/minecraft:air
+- 8.5,1.5,1.5/minecraft:purple_stained_glass

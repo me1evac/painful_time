@@ -1,0 +1,131 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITCH
+name: $minibossLevel &fCounselor Machiavelli
+level: 13
+healthMultiplier: 3
+damageMultiplier: 1.4
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- shield_wall.yml
+- primis_special_levitate.yml
+- summonType: ON_COMBAT_ENTER
+  filename: primis_pontis_counselor_twisted_copy.yml
+- summonType: ON_COMBAT_ENTER
+  filename: primis_pontis_counselor_twisted_copy.yml
+- summonType: ON_COMBAT_ENTER
+  filename: primis_pontis_counselor_twisted_copy.yml
+- summonType: ON_COMBAT_ENTER
+  filename: primis_pontis_counselor_twisted_copy.yml
+- summonType: ON_COMBAT_ENTER
+  filename: primis_pontis_counselor_twisted_copy.yml
+- summonType: ON_HIT
+  filename: primis_pontis_counselor_twisted_copy.yml
+  chance: 0.35
+customModel: 07_em_corrupted_advisor_2
+uniqueLootList:
+- primis_pontis_mille_counselor_sword.yml:1
+followDistance: 45
+onRemoveBlockStates:
+- 52.5,-1.5,7.5/minecraft:air
+- 52.5,-0.5,7.5/minecraft:air
+- 52.5,0.5,7.5/minecraft:air
+- 52.5,1.5,7.5/minecraft:air
+- 52.5,2.5,7.5/minecraft:air
+- 52.5,3.5,6.5/minecraft:air
+- 52.5,2.5,6.5/minecraft:air
+- 52.5,1.5,6.5/minecraft:air
+- 52.5,0.5,6.5/minecraft:air
+- 52.5,-0.5,6.5/minecraft:air
+- 52.5,-1.5,6.5/minecraft:air
+- 53.5,-1.5,6.5/minecraft:air
+- 53.5,-0.5,6.5/minecraft:air
+- 53.5,0.5,6.5/minecraft:air
+- 53.5,1.5,6.5/minecraft:air
+- 53.5,2.5,6.5/minecraft:air
+- 53.5,3.5,6.5/minecraft:air
+- 53.5,3.5,5.5/minecraft:air
+- 53.5,2.5,5.5/minecraft:air
+- 53.5,1.5,5.5/minecraft:air
+- 53.5,0.5,5.5/minecraft:air
+- 53.5,-0.5,5.5/minecraft:air
+- 53.5,-1.5,5.5/minecraft:air
+- 53.5,-1.5,4.5/minecraft:air
+- 53.5,-0.5,4.5/minecraft:air
+- 53.5,0.5,4.5/minecraft:air
+- 53.5,1.5,4.5/minecraft:air
+- 53.5,2.5,4.5/minecraft:air
+- 53.5,3.5,4.5/minecraft:air
+- 53.5,4.5,3.5/minecraft:air
+- 53.5,3.5,3.5/minecraft:air
+- 53.5,2.5,3.5/minecraft:air
+- 53.5,1.5,3.5/minecraft:air
+- 53.5,0.5,3.5/minecraft:air
+- 53.5,-0.5,3.5/minecraft:air
+- 53.5,-1.5,3.5/minecraft:air
+- 53.5,-1.5,2.5/minecraft:air
+- 53.5,-0.5,2.5/minecraft:air
+- 53.5,0.5,2.5/minecraft:air
+- 53.5,1.5,2.5/minecraft:air
+- 53.5,2.5,2.5/minecraft:air
+- 53.5,3.5,2.5/minecraft:air
+- 53.5,4.5,2.5/minecraft:air
+- 53.5,4.5,1.5/minecraft:air
+- 53.5,3.5,1.5/minecraft:air
+- 53.5,2.5,1.5/minecraft:air
+- 53.5,1.5,1.5/minecraft:air
+- 53.5,0.5,1.5/minecraft:air
+- 53.5,-0.5,1.5/minecraft:air
+- 53.5,-1.5,1.5/minecraft:air
+- 53.5,-1.5,-2.5/minecraft:air
+- 53.5,-0.5,-2.5/minecraft:air
+- 53.5,0.5,-2.5/minecraft:air
+- 53.5,1.5,-2.5/minecraft:air
+- 53.5,2.5,-2.5/minecraft:air
+- 53.5,3.5,-2.5/minecraft:air
+- 53.5,4.5,-2.5/minecraft:air
+- 53.5,4.5,-3.5/minecraft:air
+- 53.5,3.5,-3.5/minecraft:air
+- 53.5,2.5,-3.5/minecraft:air
+- 53.5,1.5,-3.5/minecraft:air
+- 53.5,0.5,-3.5/minecraft:air
+- 53.5,-0.5,-3.5/minecraft:air
+- 53.5,-1.5,-3.5/minecraft:air
+- 53.5,-1.5,-4.5/minecraft:air
+- 53.5,-0.5,-4.5/minecraft:air
+- 53.5,0.5,-4.5/minecraft:air
+- 53.5,1.5,-4.5/minecraft:air
+- 53.5,2.5,-4.5/minecraft:air
+- 53.5,3.5,-4.5/minecraft:air
+- 53.5,4.5,-4.5/minecraft:air
+- 53.5,3.5,-5.5/minecraft:air
+- 53.5,2.5,-5.5/minecraft:air
+- 53.5,1.5,-5.5/minecraft:air
+- 53.5,0.5,-5.5/minecraft:air
+- 53.5,-0.5,-5.5/minecraft:air
+- 53.5,-1.5,-5.5/minecraft:air
+- 53.5,-1.5,-6.5/minecraft:air
+- 53.5,-0.5,-6.5/minecraft:air
+- 53.5,0.5,-6.5/minecraft:air
+- 53.5,1.5,-6.5/minecraft:air
+- 53.5,2.5,-6.5/minecraft:air
+- 53.5,3.5,-6.5/minecraft:air
+- 53.5,3.5,-7.5/minecraft:air
+- 53.5,2.5,-7.5/minecraft:air
+- 53.5,1.5,-7.5/minecraft:air
+- 53.5,0.5,-7.5/minecraft:air
+- 53.5,-0.5,-7.5/minecraft:air
+- 53.5,-1.5,-7.5/minecraft:air
+- 52.5,-1.5,-7.5/minecraft:air
+- 52.5,-0.5,-7.5/minecraft:air
+- 52.5,0.5,-7.5/minecraft:air
+- 52.5,1.5,-7.5/minecraft:air
+- 52.5,2.5,-7.5/minecraft:air
+- 52.5,3.5,-7.5/minecraft:air
+- 52.5,2.5,-8.5/minecraft:air
+- 52.5,1.5,-8.5/minecraft:air
+- 52.5,0.5,-8.5/minecraft:air
+- 52.5,-0.5,-8.5/minecraft:air
+- 52.5,-1.5,-8.5/minecraft:air

@@ -1,0 +1,26 @@
+normalizedCombat: true
+isEnabled: true
+entityType: ZOMBIE
+level: 2
+powers:
+- invulnerability_fire.yml
+healthMultiplier: 0.6
+damageMultiplier: 0.55
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 5
+mainHand: IRON_SWORD
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 10
+uniqueLootList:
+- primis_roughspun_boots.yml:0.05
+- primis_roughspun_chestplate.yml:0.05
+- primis_roughspun_helmet.yml:0.05
+- primis_roughspun_leggings.yml:0.05
+spawnLocations:
+- em_primis,1146.5,25.5,459.5,0.0,0.0:1786084107157
+- em_primis,1132.5,22.5,470.5,0.0,0.0:1786084100356
+- em_primis,1133.5,22.5,468.5,0.0,0.0:1786084101457
+- em_primis,1123.5,25.5,483.5,0.0,0.0:1786084116462

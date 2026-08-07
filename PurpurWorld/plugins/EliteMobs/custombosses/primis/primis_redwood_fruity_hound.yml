@@ -1,0 +1,20 @@
+entityType: WOLF
+name: $normalLevel &2Fruity Hound
+level: '12'
+healthMultiplier: 2
+damageMultiplier: 1
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- shield_wall.yml
+uniqueLootList:
+- filename=primis_pontis_mille_fields_contest_berry.yml:amount=1:chance=1.0
+followDistance: 30
+spawnCooldown: 30
+leashRadius: 35
+isRegionalBoss: true
+spawnLocations:
+- em_primis,189.5,12.5,622.5,0.0,0.0:1676126706340
+
+

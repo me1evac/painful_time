@@ -1,0 +1,13 @@
+isEnabled: true
+material: BOW
+name: "&cHunters Bow"
+lore:
+- "&cA finely crafted bow."
+- "&cArrows fired from this"
+- "&cbow will hurt any beast."
+enchantments:
+- "ARROW_DAMAGE,3"
+- "ARROW_FIRE,1"
+itemType: unique
+level: 11
+scalability: fixed

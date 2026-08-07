@@ -1,0 +1,18 @@
+canTalk: true
+greetings: []
+activationRadius: 3.0
+isEnabled: true
+name: '&7Lena Lucan'
+role: '&7<Slums Dweller>'
+profession: NITWIT
+greeting:
+- Made it another day...
+dialog:
+- Just one loaf of bread...
+farewell:
+- Wonder what tomorrow brings.
+disguise: custom:primis_pontis_slums_1
+customDisguiseData: player primis_pontis_slums_1 setskin {"id":"6a0bdd81-93f9-44b3-99bf-359652672cfd","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0MzM4ODI3NTc4MCwKICAicHJvZmlsZUlkIiA6ICJmMTA0NzMxZjljYTU0NmI0OTkzNjM4NTlkZWY5N2NjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ6aWFkODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUxNWIzNzdkNWU1OTA3MWQ1MWM2YjlmZTQ1YjdjYWMzYWNmNTFmOTExNDA5NWUzMTQ4YzkzNDM5NTgwODkzNSIKICAgIH0KICB9Cn0=","signature":"RVPkAGbHhNAEaa2C8SaSDPOtL5k9m/qpHXUTKxEkKvkSU1vvJfsHIpiZdRki8TfvMx1BTUIPnU1Xmyn9ooAbA5nRHnN7bWZ3OL/MZnI/fUwshlv0uGImMloFdPNIu9Z+6D0Gz1LHbeGU7BlDbz5/6I1cXkPAbPZUsKndhdfV6I+j3WBMZVofZ7poN8N38Wipuyzqx4Y3Zy9rf5JH97ISoP4PxTrsQdWZC6G5HOGZd6wRXYHY+PyRwTeYAF5mqAjnCl+PSfJiMwMWvBiiOHOqnCHQ/sgz8FWf8iaDXu2dxxJ5fuoA0g6hUPDbmxHW2ax6JzWIzKFdan+5iskxHihMmOKwhGmP5Rlt+Co4Z2oMsJvxniRG5fWNW5KnNTyhDp8mMsmnq22z/8ES4tQPHpiTkKlj2dUNtk+965PWoIOdfsDEGoumFO9VAVN1QMHgKb/bW5BCurznzxH328PmxdajR25YxiN2M4Sp+Kg3auDVbN1Q2UphnhnZnYzQnPCjbAYekKoE5Xl5ZoZ+y8PRh3bzTTxoXc0L0po356XLRYaBkz9qrCX02Z7x7K6ZEXR36p9ro6mtBA6WyWYyOeiOIQHE8qEcYjUgR8xtuUmHCNLQQiaH9sdfubDQuDjQ9FNJdhdXqdIbVNh6iFScnIFaaw0kqCJZ+Fmu7AXZOh8edK9QxcY="}],"legacy":false}
+interactionType: NONE
+spawnLocations:
+- em_primis,481.93,42.0,666.39,73.3,9.58

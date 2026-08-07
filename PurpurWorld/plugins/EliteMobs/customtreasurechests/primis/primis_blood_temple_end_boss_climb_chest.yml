@@ -1,0 +1,14 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: SOUTH
+chestTier: 1
+dropStyle: group
+restockTimer: 4444
+lootList:
+- filename=primis_blood_temple_end_climb_chest_bow.yml:amount=1:chance=1.0
+locations:
+- em_primis,1157.0,92.0,993.0,0.0,0.0:0

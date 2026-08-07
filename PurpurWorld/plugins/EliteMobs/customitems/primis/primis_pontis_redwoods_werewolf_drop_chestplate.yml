@@ -1,0 +1,13 @@
+isEnabled: true
+material: CHAINMAIL_CHESTPLATE
+name: "&7Fur Chest-Plate"
+lore:
+- "&7Made out of tough fur and hide."
+- "&7Light, but very tough."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+potionEffects: 
+- "SPEED,0,self,onHit"
+scalability: fixed
+itemType: unique
+level: 13

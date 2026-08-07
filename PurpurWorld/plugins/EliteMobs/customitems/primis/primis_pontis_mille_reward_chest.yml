@@ -1,0 +1,9 @@
+material: IRON_CHESTPLATE
+name: "&4Pontis Mille Chestplate"
+lore: 
+- "&7A traditional Pontis Mille Chestplate"
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: FIXED
+level: 14
+itemType: unique

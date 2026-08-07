@@ -1,0 +1,25 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &fInvading Admiral
+level: 7
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: TRIDENT
+helmet: LEATHER_HELMET:000080
+chestplate: LEATHER_CHESTPLATE:000080
+leggings: LEATHER_LEGGINGS:000080
+boots: LEATHER_BOOTS:000080
+powers:
+- invulnerability_fire.yml
+- attack_poison.yml
+- bullet_hell.yml
+leashRadius: 20
+isRegionalBoss: true
+followDistance: 12
+spawnLocations:
+- em_primis,899.5,18.5,845.5,0.0,0.0:1676067365582

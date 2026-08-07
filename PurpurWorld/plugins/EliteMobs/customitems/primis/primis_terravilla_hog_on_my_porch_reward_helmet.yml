@@ -1,0 +1,10 @@
+isEnabled: true
+material: LEATHER_HELMET
+name: "&6Hog Helmet"
+lore: 
+- "&6Made out of tough Razorback leather."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+scalability: FIXED
+level: 17
+itemType: unique

@@ -1,0 +1,36 @@
+entityType: HUSK
+name: $normalLevel &6Goblin Warrior
+level: '11'
+healthMultiplier: 1
+damageMultiplier: 1
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 5
+leashRadius: 30
+uniqueLootList:
+- filename=primis_pontis_mines_goblin_drop_leggings.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_boots.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_chestplate.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_helmet.yml:chance=0.02
+- filename=primis_pontis_mines_goblin_drop_sword.yml:chance=0.05
+helmet: CHAINMAIL_HELMET
+boots: LEATHER_BOOTS
+mainHand: STONE_AXE
+isRegionalBoss: true
+movementSpeedAttribute: 0.23
+spawnLocations:
+- em_primis,698.5,90.5,440.5,0.0,0.0:1661791409609
+- em_primis,689.5,90.5,412.5,0.0,0.0:1661534679225
+- em_primis,692.5,90.5,413.5,0.0,0.0:1676120283625
+- em_primis,748.5,94.5,385.5,0.0,0.0:1681289773714
+- em_primis,712.5,100.5,464.5,0.0,0.0:1676120189154
+- em_primis,749.5,76.5,430.5,0.0,0.0:1676120069652
+- em_primis,752.5,76.5,426.5,0.0,0.0:1676120152856
+- em_primis,685.5,76.5,431.5,0.0,0.0:1676120040820
+- em_primis,677.5,84.5,414.5,0.0,0.0:1661541424266
+- em_primis,646.5,91.5,425.5,0.0,0.0:1661541358564
+- em_primis,629.5,90.5,426.5,0.0,0.0
+- em_primis,674.5,89.5,453.5,0.0,0.0:1661541370369

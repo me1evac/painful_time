@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bPrecision Thrust'
-description:
-- '&7Chance to deal'
-- '&7critical damage.'
 skillType: SPEARS
 bonusType: PROC
 unlockTier: 1

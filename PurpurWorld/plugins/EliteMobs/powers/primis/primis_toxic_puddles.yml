@@ -1,0 +1,1407 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: TAG
+      tags:
+      - "p2"
+      Target:
+        targetType: SELF
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "ToxicPuddlesVisual"
+      - "ToxicPuddles"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 520
+      scripts:
+      - "ToxicPuddlesVisual2"
+      - "ToxicPuddles2"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 1020
+      scripts:
+      - "ToxicPuddlesVisual3"
+      - "ToxicPuddles3"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 1520
+      scripts:
+      - "ToxicPuddlesVisual4"
+      - "ToxicPuddles4"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 2020
+      scripts:
+      - "ToxicPuddlesVisual5"
+      - "ToxicPuddles5"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 2520
+      scripts:
+      - "ToxicPuddlesVisual6"
+      - "ToxicPuddles6"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 3020
+      scripts:
+      - "ToxicPuddlesVisual7"
+      - "ToxicPuddles7"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 3520
+      scripts:
+      - "ToxicPuddlesVisual8"
+      - "ToxicPuddles8"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 4020
+      scripts:
+      - "ToxicPuddlesVisual9"
+      - "ToxicPuddles9"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 4520
+      scripts:
+      - "ToxicPuddlesVisual10"
+      - "ToxicPuddles10"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 5020
+      scripts:
+      - "ToxicPuddlesVisual11"
+      - "ToxicPuddles11"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 5520
+      scripts:
+      - "ToxicPuddlesVisual12"
+      - "ToxicPuddles12"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 6020
+      scripts:
+      - "ToxicPuddlesVisual13"
+      - "ToxicPuddles13"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 6520
+      scripts:
+      - "ToxicPuddlesVisual14"
+      - "ToxicPuddles14"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+    - action: RUN_SCRIPT
+      wait: 7020
+      scripts:
+      - "ToxicPuddlesVisual15"
+      - "ToxicPuddles15"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL  
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.65
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual2:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles2:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual3:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles3:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual4:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles4:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual5:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles5:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual6:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles6:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual7:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles7:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual8:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles8:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual9:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles9:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual10:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles10:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual11:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles11:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual12:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles12:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual13:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles13:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual14:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles14:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddlesVisual15:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Actions:
+    - action: PLAY_SOUND
+      sValue: "entity.lingering_potion.throw"
+      Target:
+        targetType: SELF
+    - action: PLAY_SOUND
+      sValue: "entity.splash_potion.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        track: false
+        range: 20
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+      - particle: SMOKE_LARGE
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 20
+      repeatEvery: 10
+      times: 4
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SLIME
+        amount: 1
+        x: 0
+        y: 0.5
+        z: 0
+      - particle: SMOKE_NORMAL
+      Target:
+        track: false
+        targetType: ZONE_FULL
+        coverage: 0.5
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+  ToxicPuddles15:
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 6
+      filter: PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+        offset: 0,-2,0
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 2
+      Target:
+        track: false
+        targetType: ZONE_FULL
+      wait: 60
+      repeatEvery: 20
+      times: 12000
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+        hasTags:
+        - "p2"
+# Generated with https://magmaguy.com/webapp/webapp.html !

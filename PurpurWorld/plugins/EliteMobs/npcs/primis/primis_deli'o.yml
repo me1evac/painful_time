@@ -1,0 +1,18 @@
+greetings: []
+canTalk: true
+activationRadius: 4.0
+isEnabled: true
+name: '&eDéli''O'
+role: '&6Map Maker (Gamer)'
+profession: NITWIT
+greeting:
+- Hello!
+dialog:
+- Hope you are enjoying the map!
+farewell:
+- Have fun!
+disguise: custom:primis_delio
+customDisguiseData: player primis_delio setskin {"id":"d029d46f-49b8-4fd7-b21c-5a43bf56636d","name":"Dali_","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTAzNDAwMzA1MCwKICAicHJvZmlsZUlkIiA6ICJkMDI5ZDQ2ZjQ5Yjg0ZmQ3YjIxYzVhNDNiZjU2NjM2ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYWxpXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MGJkNmI3NjM1ZmYzNzVhNGNlZGRkYzQwYzk0N2NkZjZmYzBmMGIxZTc3M2NiYjU4YmQxYTk0OTNjOTIzZjAxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"iFUj2z+OPVHUU9Gq3SgFRkaRP83uQoKJ3Q2DTveE7/tyKwcRRl0SQAtuq8zmT7htvLMEeAmWoSJUcGdEDQ1tEQqky3f4fUdZ+a9rCnVrHOE3i7bz8yjykqgPnx033vHdXAryh6ci4Sh8be0Lh4NTasIhoNkk/8q9u9BD47mdsLdXAQOIGcXZakw9N2cE9W9jCgUMQKE0YWo0lxUl4e5i0mhkl8Q4EhBdRtblKI2KcRK56gMNmVa3Vsakc+X1RVrTCoS7XYKoqAZhmikJHyS7HrfuoM8eNpsbJApM5y+Z3lUlYjsjQ38iAVD3hX8OlfsGk6iaLmW6kUW3hFbjTQ98A4qo/r5aG5mHqs4z3BudxqNuHq9nct1ssPGvrJQevXT8z0dH4Z8gTaiaDUwrt//9y6IGff09sCB+YTYG1x2gKresRzjLPQ1JLeaaCwKNpDOVR9WG4Pm1NviMYSKNZ25wC3qlxWf++XsTiVB0Hs3jajgzVahA6yAnsTSO9tnCDdU7cBw/QZSy4g+x9x79yYCvLWmEgKbnc5qEaCPvROTq+1Izgofb/Br8+pmV7D2TLe4HlHrjMsEGmp2RKh6KGQz9RcBHdu12kVUjeiz96DJqGday7uJVbAy944Aj0cdl/y3dt1NAErP2Isdi/0i/5F8EmG9zW9pdVbqAbOw52O1E1NI="}],"legacy":false}
+interactionType: CHAT
+spawnLocations:
+- em_primis,1394.39,18.19,1050.56,-81.96,8.55

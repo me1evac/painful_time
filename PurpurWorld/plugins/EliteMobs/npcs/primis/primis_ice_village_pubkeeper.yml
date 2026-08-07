@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&3Grania Cecilius'
+role: '&3<Pubkeeper>'
+profession: TOOLSMITH
+greetings:
+- Welcome!
+dialog:
+- Coming right up!
+- Try our black ale!
+- Need a drink?
+farewell:
+- One coming up!
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_gotta_keep_warm.yml
+disguise: custom:elitemobs_ice_village_pubkeeper
+customDisguiseData: player elitemobs_ice_village_pubkeeper setskin {"id":"d7aef27d-6eb8-426f-b05a-5cf78f66f2b0","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYyNzI3MDI3OTUzNCwKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJJb3lhbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMzRhOWY5YjExMDdkN2UwMzVhNTA2ZTg4YzcyYWFlMGQwYjJiOGRmYWEzZTFiZDYwNTg0M2JjYTM5YjE0YjZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"Z7sfO9Tqjc+3t0mClPdk/adDeCY9Q5bhELirC+Qq5D0W+qyzMkYG2dHJ0pyObjAaHEPa2qu1fMbirl4I/BPYGO8iEWs5PGjLgqK3zDiCYjBOyh07AsOUw0ebWWZ0Jh7p9SlhaRA5YhGgvSiZvxQ4wGQtX4Zpkuj5lNukdXjXch0SklizgFxzenIFUdj/huWZP4tR+a2EZRl8nyfKxukmU4QP1j5RFbChxjkhRB3RIS5FmtuQwiU0Ydvaepa3qMirZUiIBj8OO2FxhAstF3UeFOUS6eXmEy31kyoWnE0tPNpRMkNhIu/r6xxHrIanFjj+e52qVM5sNoZAenRPT0wbD+E8jZjDm6ABozVjcAEJ1FgSwyqGIzKK80OcgC6LIF1aq0B5I3c4GOmjAXKfA5HeocDDovkPONWx0fXnJ1LAenNtHKWKN+3oh0unjxFTDLhihbma5ESF9Xhb4CXWCdoDiV+17qQRtM82Quxba4a4DB2skWlN2xhlBeRHHbymfXsq3ZceZNZkL51YU15rC5b0aEVuTxIHQewQ+LUypZcJ3xr1sPJnsORbEe2c+fxC5hA+sVc3CIR6+6KGKqbkFpKhPQNgFf8p59aZDGzj72YWEbF46Nd4K5rKFIsSkoTBz+7gEuoq2whHtiC9y7WZFJ0dY3sKUqjgNJ9Oo8u68H+yDzs="}],"legacy":false}
+spawnLocations:
+- em_primis,973.3,27.0,1526.44,107.11,6.7
+

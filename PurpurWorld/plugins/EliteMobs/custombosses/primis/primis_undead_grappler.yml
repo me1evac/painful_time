@@ -1,0 +1,21 @@
+normalizedCombat: true
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &3Undead Grappler
+level: 3
+healthMultiplier: 0.6
+damageMultiplier: 0.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+spawnCooldown: 15
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 10
+uniqueLootList:
+- primis_roughspun_boots.yml:0.05
+- primis_roughspun_chestplate.yml:0.05
+- primis_roughspun_helmet.yml:0.05
+- primis_roughspun_leggings.yml:0.05
+spawnLocations:
+- em_primis,1110.5,19.5,453.5,0.0,0.0:1676055663280

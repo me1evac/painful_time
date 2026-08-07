@@ -1,0 +1,41 @@
+normalizedCombat: true
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &cEradicator
+level: 19
+healthMultiplier: 1.2
+damageMultiplier: 1
+powers:
+- attack_push.yml
+- invulnerability_fire.yml
+spawnCooldown: 10
+leashRadius: 40
+mainHand: NETHERITE_SWORD
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList: []
+isRegionalBoss: true
+followDistance: 15
+disguise: custom:primis_blood_temple_eradicator
+customDisguiseData: player primis_blood_temple_eradicator setskin {"id":"1d084597-d767-4a5f-8eed-138d7919bacc","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYzMTk1NTAxNzI4NSwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyZjA2MmM1OWFhNjBlMGYxYThmNTVmOGZkYzRiM2VjYTVhMjQ4ZTBkYWM0OGRkMDJiODEwNmJkYzhkNjNjN2MiCiAgICB9CiAgfQp9","signature":"TToNWNBuO/j/j08gAk4juFJ67SGnZDbhS574vqQAxk3bU5crHXcLUyQuFOjnsRo2kCpDmP6VEJq6CY2t8go16TSduX2Fhnm4Eu9p+8VOdyXoYCfgkKIRhWiHjfwnpKyBx4CgBVhsHre1bzkmx3yLKmatHgZgL9yvxtpYR9xF2Nm+o8Ft8O6DM2tST2UZP+iL+vaa10cSHS1jXMjU454mQrmOFsmVR54PLtitvDELGe4Ik6X9RTpoP3AyRHUQsFh/y3EuVUONhFzNJ7Vyom/3FsMalwzyCzrQAWqveKQLUn87zuzFLX3+p/I0djt6XaqQADpwGdHPzIg9fvbU2pO4fzUTNyAjC2gG3tLWwPUh3tZJbhJPswx8X4L74Ui35zkfICEbvnL4OCAJopyZGbG5J74lSQbu1v6hfxUO38X5w6l8wpjpyhZlUTk6h918DVdODu1c7qu8BJEhFUvkAaIpZ1J/YxIHcg5I9juxOAOvwlOkJOYYauM1S8Zy1LcDWyZrL2csqKf2hJq7UqgHG2mhSESJ8XCpkzoi86xyZvFQg45nMP+qEVHYS4X0PhidFdhZav2fGAaxoIBmMIwPTV33+YJ7vfWNvs+GVZK/AjPtq0F9taFxqRPCPbJTZyFWVy7v9KYbyWW1IKlsaIxk0S7ZEpMf5/H5YeVZIrb1ioXTTdA="}],"legacy":false}
+spawnLocations:
+- em_primis,908.5,103.5,1054.5,0.0,0.0:1676146069619
+- em_primis,915.5,103.5,939.5,0.0,0.0:1664906037318
+- em_primis,960.5,103.5,936.5,0.0,0.0:1676646908825
+- em_primis,950.5,92.5,994.5,0.0,0.0:1698237566169
+- em_primis,950.5,92.5,999.5,0.0,0.0:1698237585719
+- em_primis,982.5,92.5,1052.5,0.0,0.0:1664903822853
+- em_primis,1047.5,92.5,997.5,0.0,0.0
+- em_primis,1044.5,92.5,1044.5,0.0,0.0:1698237587055
+- em_primis,982.5,92.5,917.5,0.0,0.0
+- em_primis,1014.5,92.5,1059.5,0.0,0.0
+- em_primis,920.5,83.5,1051.5,0.0,0.0:1676146719220
+- em_primis,920.5,83.5,942.5,0.0,0.0
+- em_primis,963.5,74.5,940.5,0.0,0.0
+- em_primis,963.5,74.5,946.5,0.0,0.0
+- em_primis,1060.5,106.5,945.5,0.0,0.0:1676145638322
+- em_primis,1060.5,106.5,960.5,0.0,0.0:1676145634725
+- em_primis,1083.5,106.5,937.5,0.0,0.0
+- em_primis,1083.5,106.5,968.5,0.0,0.0:1676145625878
+- em_primis,1073.5,106.5,953.5,0.0,0.0:1676145631779

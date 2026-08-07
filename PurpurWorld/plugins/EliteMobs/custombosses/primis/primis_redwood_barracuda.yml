@@ -1,0 +1,29 @@
+entityType: GUARDIAN
+name: $normalLevel &3Redwood Barracuda
+level: '12'
+healthMultiplier: 0.6
+damageMultiplier: 0.45
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+spawnLocations:
+- em_primis,322.5,-30.5,470.5,0.0,0.0
+- em_primis,320.5,-31.5,465.5,0.0,0.0
+- em_primis,313.5,-31.5,470.5,0.0,0.0
+- em_primis,302.5,-30.5,459.5,0.0,0.0
+- em_primis,333.5,-30.5,474.5,0.0,0.0:1676069608690
+- em_primis,299.5,12.5,466.5,0.0,0.0
+- em_primis,278.5,12.5,465.5,0.0,0.0
+- em_primis,281.5,12.5,486.5,0.0,0.0
+- em_primis,267.5,12.5,500.5,0.0,0.0:1676069238189
+- em_primis,249.5,11.5,510.5,0.0,0.0
+- em_primis,222.5,10.5,519.5,0.0,0.0
+- em_primis,299.5,11.5,472.5,0.0,0.0
+- em_primis,354.5,18.5,470.5,0.0,0.0
+- em_primis,411.5,25.5,457.5,0.0,0.0
+- em_primis,444.5,21.5,485.5,0.0,0.0
+- em_primis,456.5,20.5,476.5,0.0,0.0

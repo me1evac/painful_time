@@ -1,0 +1,14 @@
+mimicChance: 0.0
+effects: []
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: NORTH
+chestTier: 1
+dropStyle: group
+restockTimer: 1000
+lootList:
+- filename=primis_pontis_mille_slums_chest_sword.yml:chance=1.0
+locations:
+- em_primis,492.0,46.0,671.0,0.0,0.0:0

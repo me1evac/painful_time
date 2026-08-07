@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&bFrostbite'
-description:
-- '&7Arrows can freeze enemies,'
-- '&7slowing their movement.'
 skillType: BOWS
 bonusType: PROC
 unlockTier: 1

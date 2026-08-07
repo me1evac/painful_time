@@ -1,0 +1,38 @@
+powerType: UNIQUE
+eliteScript:
+  Howl:
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&fThe &8Feral Alpha Wolf &flet's out a loud howl."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: PLAY_SOUND
+      sValue: "entity.wolf.howl"
+      Target:
+        targetType: SELF
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true    
+    - action: POTION_EFFECT
+      potionEffectType: WEAKNESS
+      amplifier: 3
+      duration: 66
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    Cooldowns:
+      local: 321
+      global: 60    
+# Generated with https://magmaguy.com/webapp/webapp.html !

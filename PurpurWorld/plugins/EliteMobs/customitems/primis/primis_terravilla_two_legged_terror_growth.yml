@@ -1,0 +1,8 @@
+isEnabled: true
+material: PHANTOM_MEMBRANE
+name: "&eTwo Legged Terror Growth"
+lore:
+- "&eLarge fleshy growth."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_terravilla_two_legged_terror_growth.yml

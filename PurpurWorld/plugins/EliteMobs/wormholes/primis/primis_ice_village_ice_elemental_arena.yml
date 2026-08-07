@@ -1,0 +1,8 @@
+isEnabled: true
+blindPlayer: true
+style: ICOSAHEDRON
+sizeMultiplier: 2.5
+particleColor: 5268223
+permission: elitequest.primis_main_quest_18.yml
+location2: em_primis_wormhole,417.9300444802417,103.0,-109.3894233068222,20.549715,137.10042
+location1: em_primis,975.4128687954003,42.0,1655.5371991020736,14.849447,-179.25005

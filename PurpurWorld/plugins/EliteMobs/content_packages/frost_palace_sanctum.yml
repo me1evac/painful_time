@@ -1,20 +1,8 @@
 isEnabled: true
-name: '&2[Dynamic] &3The Frost Palace'
-customInfo:
-- '&fA 7 phase fight against'
-- the queen of ice!
-- '&6Credits: MagmaGuy, Delio'
 dungeonSizeCategory: SANCTUM
 worldName: em_id_frost_palace
 environment: NORMAL
 protect: true
-playerInfo: |-
-  &aDynamic Sanctum
-  $bossCount boss encounters
-  &bA 7 phase fight against
-  &bthe queen of ice!
-regionEnterMessage: '&bYou are stepping into the Frost Palace! Stay frosty!'
-regionLeaveMessage: '&bYou have left the Frost Palace!'
 startLocation: em_id_frost_palace,183.5,-58,-51.5,90.0,0.0
 teleportLocation: em_id_frost_palace,195.5,-31,-51.5,90,30
 dungeonObjectives:

@@ -1,0 +1,19 @@
+isEnabled: true
+name: Virgo Dexippus
+role: <Star Gazer>
+profession: ARMORER
+greetings:
+- Hi!
+dialog:
+- Stella knows a lot.
+- Stars have so much to tell.
+- The light tells all.
+farewell:
+- May the moon light your way.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_mille_stay_a_while_and_listen.yml
+spawnLocations:
+- em_primis,583.3,107.0,647.05,92.84,23.55

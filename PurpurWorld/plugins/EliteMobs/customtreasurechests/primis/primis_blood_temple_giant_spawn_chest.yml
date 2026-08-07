@@ -1,0 +1,14 @@
+effects: []
+mimicChance: 0.0
+mimicCustomBossesList: []
+restockTimers: []
+isEnabled: true
+chestType: CHEST
+facing: EAST
+chestTier: 1
+dropStyle: group
+restockTimer: 6666
+lootList:
+- material=GOLD_BLOCK:amount=1:chance=1.0
+locations:
+- em_primis,1056.0,64.0,988.0,0.0,0.0:0

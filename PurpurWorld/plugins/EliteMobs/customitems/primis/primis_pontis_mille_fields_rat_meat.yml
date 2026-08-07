@@ -1,0 +1,7 @@
+isEnabled: true
+material: COOKED_RABBIT
+name: "&cRat Meat"
+lore:
+- "Raw rat meat. No need to cook."
+scalability: fixed
+itemType: unique

@@ -1,0 +1,29 @@
+entityType: GUARDIAN
+name: $normalLevel &dFeathered Nightmare Rat
+level: '12'
+healthMultiplier: 1.0
+damageMultiplier: 0.6
+powers:
+- attack_blinding.yml
+- attack_poison.yml
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+uniqueLootList:
+- filename=primis_pontis_mille_fields_rat_drop_helmet.yml:amount=1:chance=0.10
+isBaby: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 7
+spawnCooldown: 60
+leashRadius: 7
+helmet: DIAMOND_HELMET
+boots: IRON_BOOTS
+mainHand: IRON_AXE
+disguise: CHICKEN
+isRegionalBoss: true
+movementSpeedAttribute: 0.33
+spawnLocations: 
+- em_primis,309.5,5.5,685.5,0.0,0.0:1662156551880
+

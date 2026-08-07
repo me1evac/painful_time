@@ -1,0 +1,39 @@
+entityType: CAVE_SPIDER
+name: $normalLevel &6Nest Crawler
+level: '12'
+healthMultiplier: 0.5
+damageMultiplier: 0.6
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename=primis_pontis_groves_nest_crawler_drop_shield.yml:chance=1.0
+powers:
+- attack_web.yml
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_cave_spider_boss.yml
+  location: 6,12,0
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_spider_reinforcement.yml
+  location: 23,7,2
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_spider_reinforcement.yml
+  location: 23,7,2
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_spider_reinforcement.yml
+  location: 10,9,-4
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_spider_reinforcement.yml
+  location: 10,9,-4
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_spider_reinforcement.yml
+  location: 20,12,-9
+- summonType: ON_DEATH
+  filename: primis_roofed_forest_spider_reinforcement.yml
+  location: 20,12,-9
+followDistance: 30
+spawnCooldown: 5
+leashRadius: 30
+isRegionalBoss: true
+spawnLocations:
+- em_primis,647.5,3.5,269.5,0.0,0.0:1676073401862

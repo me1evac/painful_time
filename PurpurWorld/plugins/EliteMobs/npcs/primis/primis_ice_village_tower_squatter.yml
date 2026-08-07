@@ -1,0 +1,22 @@
+isEnabled: true
+name: '&3Modestus Eulogius'
+role: '&3<Villager>'
+profession: NITWIT
+greetings:
+- The noise!
+dialog:
+- So much screeching!
+- Just trying to\nenjoy the peace.
+farewell:
+- Bye.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_silence.yml
+disguise: custom:elitemobs_ice_village_tower_squatter
+customDisguiseData: player elitemobs_ice_village_tower_squatter setskin {"id":"e7a58c37-047a-4726-bd8d-b0a4a4d14b74","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MDkwNDk4MjIxMCwKICAicHJvZmlsZUlkIiA6ICI5NTE3OTkxNjljYzE0MGY1OGM2MmRjOGZmZTU3NjBiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZdWFyaWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc2ODA4MzY0NWRjZGU1ODA0NjcxZThmYTA5ZWE1MWZlODRlMjA4YjJhMjlkOGRhZTNhYTM3YTcxNzgzMmY5OSIKICAgIH0KICB9Cn0=","signature":"yZ0Sg/ZgTVKLrC/YtEwpYTn9+NYaiJLZezSWoeny+PSGJr/OZsfKg8p0zXdtAIhXUP30K46qY/f4ykg2oJ1ibP9wf8tGvjT/j57bzxy7L666mB0+1M1+FsoC5bEIOMMbicYMHLN7nb4T5/7JREwcAprEDUNox+jvV62Q5xHRoT6aln43utz3iRsiLvogkcGe2eflUvtALarPLXbVp4HvBLnvkvemRf36bZagilDHhmlT6Y/iFtKrymj0a27xXWE/ZLmn/iTGYWkskQsAZjwm6aYaU/e4zISUU5E/pUR66zepEaERuY7u700jrVhfGBIoPShOVCBk+ENr36B4TLFVWK290kNOeUlez9KF4sY6MQlGjy9UlFUQcGLu/GhVD2Er5jmEboZQsrjwA4o2x5f3D2w8b7CN1Lzkl74RAoTGGfJU60ktpoUjAZwGurOUI2fa1SO7fZTBC2omILnZDCdYpjscK3529YbDX0gIKB5n+nII76tjuIjpyOXQqmvjs4J+H+UnPYlwx2/s3sJ3Pr9LWGkujJl+rME2SIkNwE8QyBosLUaBxhLGiGoKgXD9c3k4wvEROTYHTm29bgZ9ruc/eLmhcgHw+NPTGfH43z8gEgkSepSJZ9iSnTNrWk++EykZUsAjcVQdkliqiu3pZnWRARuLaPFENsQerQsqLdYkwnY="}],"legacy":false}
+spawnLocations:
+- em_primis,895.05,66.0,1452.05,-18.27,14.25
+
+

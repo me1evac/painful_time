@@ -1,0 +1,16 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &0Sumo
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 7.0
+damageMultiplier: 1.55
+leggings: LEATHER_LEGGINGS:F5F5DC
+movementSpeedAttribute: 0.25
+powers:
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+- em_primis_rapid_push_medium.yml
+- em_primis_grapple.yml
+cullReinforcements: false

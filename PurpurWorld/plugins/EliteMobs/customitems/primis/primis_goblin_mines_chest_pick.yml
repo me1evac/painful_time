@@ -1,0 +1,14 @@
+name: "Black Diamond Pickaxe"
+material: DIAMOND_PICKAXE
+level: 10
+lore:
+- "Made out of very tough black diamonds."
+- "This tool does not belong in this world."
+enchantments:
+- DIG_SPEED,3
+- DURABILITY,3
+- LOOT_BONUS_BLOCKS,1
+- DRILLING,3
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

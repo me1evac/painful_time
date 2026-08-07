@@ -1,0 +1,77 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $eventBossLevel &6General Tullius
+level: 15
+instanced: true
+normalizedCombat: true
+healthMultiplier: 3.0
+damageMultiplier: 1.4
+movementSpeedAttribute: 0.34
+isRegionalBoss: true
+mainHand: TRIDENT
+offHand: SHIELD
+helmet: LEATHER_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: LEATHER_BOOTS
+phases:
+- primis_miniboss_2_p2.yml:.99
+- primis_miniboss_2_p3.yml:.66
+- primis_miniboss_2_p4.yml:.33
+eliteScript:
+  ScriptRunnerStart:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - TauntScript
+  TauntScript:
+    Actions:
+    - action: MESSAGE
+      Target:
+        targetType: DIRECT_TARGET
+      sValue: '&6[General Tullius] &fThe way is shut, there is no escape!'
+spawnLocations:
+- em_id_primis_gladius,78.5,58.2,-85.5,0.0,0.0:1673371545850
+onSpawnBlockStates:
+- -2.5,-0.5,-24.5/minecraft:barrier
+- -2.5,-0.5,-23.5/minecraft:andesite_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+- -2.5,0.5,-24.5/minecraft:barrier
+- -2.5,0.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- -2.5,1.5,-24.5/minecraft:barrier
+- -2.5,1.5,-23.5/minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=low]
+- -2.5,2.5,-24.5/minecraft:stone_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+- -2.5,2.5,-23.5/minecraft:stone_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+- -1.5,-0.5,-24.5/minecraft:barrier
+- -1.5,-0.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- -1.5,0.5,-24.5/minecraft:barrier
+- -1.5,0.5,-23.5/minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+- -1.5,1.5,-24.5/minecraft:barrier
+- -1.5,1.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- -1.5,2.5,-24.5/minecraft:barrier
+- -1.5,2.5,-23.5/minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+- -0.5,-0.5,-24.5/minecraft:barrier
+- -0.5,-0.5,-23.5/minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+- -0.5,0.5,-24.5/minecraft:barrier
+- -0.5,0.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- -0.5,1.5,-24.5/minecraft:barrier
+- -0.5,1.5,-23.5/minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+- -0.5,2.5,-24.5/minecraft:barrier
+- -0.5,2.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- 0.5,-0.5,-24.5/minecraft:barrier
+- 0.5,-0.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- 0.5,0.5,-24.5/minecraft:barrier
+- 0.5,0.5,-23.5/minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+- 0.5,1.5,-24.5/minecraft:barrier
+- 0.5,1.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- 0.5,2.5,-24.5/minecraft:barrier
+- 0.5,2.5,-23.5/minecraft:stone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+- 1.5,-0.5,-24.5/minecraft:barrier
+- 1.5,-0.5,-23.5/minecraft:cobblestone_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+- 1.5,0.5,-24.5/minecraft:barrier
+- 1.5,0.5,-23.5/minecraft:chain[axis=y,waterlogged=false]
+- 1.5,1.5,-24.5/minecraft:barrier
+- 1.5,1.5,-23.5/minecraft:stone_brick_wall[east=low,north=none,south=none,up=true,waterlogged=false,west=none]
+- 1.5,2.5,-24.5/minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+- 1.5,2.5,-23.5/minecraft:andesite_stairs[facing=east,half=top,shape=straight,waterlogged=false]

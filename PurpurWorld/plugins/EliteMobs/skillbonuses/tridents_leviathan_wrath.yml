@@ -1,8 +1,4 @@
 isEnabled: true
-name: '&5Leviathan''s Wrath'
-description:
-- '&7Unleash devastating AOE attack'
-- '&7with lightning. 60s CD.'
 skillType: TRIDENTS
 bonusType: COOLDOWN
 unlockTier: 4

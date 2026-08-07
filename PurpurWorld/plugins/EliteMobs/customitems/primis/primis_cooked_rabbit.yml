@@ -1,0 +1,7 @@
+isEnabled: true
+material: COOKED_RABBIT
+name: "&cCooked Rabbit"
+lore:
+- 'Huh, did this rabbit overheat?'
+scalability: fixed
+itemType: unique

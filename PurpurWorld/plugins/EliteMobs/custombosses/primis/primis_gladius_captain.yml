@@ -1,0 +1,38 @@
+normalizedCombat: true
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $normalLevel &fInvading Captain
+level: 9
+healthMultiplier: 1
+damageMultiplier: 1
+spawnCooldown: 5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+mainHand: NETHERITE_SWORD
+offHand: SHIELD
+helmet: GOLDEN_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+powers:
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- skeleton_tracking_arrow.yml
+- shield_wall.yml
+- bonus_coins.yml
+uniqueLootList:
+- primis_invaders_helmet.yml:0.05
+- primis_invaders_chestplate.yml:0.05
+- primis_invaders_leggings.yml:0.05
+- primis_invaders_boots.yml:0.05
+- primis_invaders_captains_sword.yml:0.05
+leashRadius: 30
+isRegionalBoss: true
+followDistance: 20
+spawnLocations:
+- em_primis,925.5,39.5,624.5,0.0,0.0:1660591215406
+- em_primis,881.5,18.5,718.5,0.0,0.0:1676067146660
+- em_primis,898.5,34.5,678.5,0.0,0.0:1651364810916
+- em_primis,895.5,18.5,749.5,0.0,0.0:1676065922696
+- em_primis,815.5,22.5,757.5,0.0,0.0:1676066034595

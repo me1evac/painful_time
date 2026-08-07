@@ -1,0 +1,15 @@
+name: "&cBlood Starved Armor"
+material: NETHERITE_CHESTPLATE
+level: 20
+lore:
+- "&cThis armor will absorb any blood that"
+- "&cgets splattered across it."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,5
+- PROTECTION_FIRE,3
+- PROTECTION_EXPLOSIONS,3
+potionEffects:
+- LUCK,2,self,continuous
+scalability: fixed
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

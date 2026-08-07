@@ -1,0 +1,10 @@
+isEnabled: true
+material: IRON_CHESTPLATE
+name: "&4Invader's chestplate"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,2
+lore:
+- '&aRusty, ugly and smelly. Lovely!'
+itemType: unique
+level: 8
+scalability: fixed

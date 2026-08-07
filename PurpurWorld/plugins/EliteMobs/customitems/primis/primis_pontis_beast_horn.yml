@@ -1,0 +1,11 @@
+isEnabled: true
+material: STICK
+name: "&2Blood Drenched Horn"
+lore:
+- "&fOn closer inspection the horn isn't"
+- "&fcovered in blood but seems to"
+- "&fbe made out of it."
+- "&fThe crystallized blood is incredibly sharp."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_pontis_beast_horn.yml

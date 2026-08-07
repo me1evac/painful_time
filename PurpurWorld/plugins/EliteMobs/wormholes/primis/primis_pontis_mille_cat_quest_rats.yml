@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,644.5,23,763.5,-89,2
+location2: em_primis_wormhole,19.5,91,-195.5,90,70
+blindPlayer: true
+style: CRYSTAL
+sizeMultiplier: 0.8
+particleColor: 0xff0000
+permission: elitequest.primis_pontis_mille_hungry_friend.yml

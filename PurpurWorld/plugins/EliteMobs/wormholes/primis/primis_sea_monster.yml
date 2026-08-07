@@ -1,0 +1,8 @@
+isEnabled: true
+location1: em_primis,1291.5,16.5,272.5,61,0
+location2: em_primis_wormhole,-183.5,61.5,-40.5,90,-1
+blindPlayer: true
+style: ICOSAHEDRON
+sizeMultiplier: 1.5
+particleColor: 0x01A4DD
+permission: elitequest.primis_caeruleaum_a_can_of_worms.yml

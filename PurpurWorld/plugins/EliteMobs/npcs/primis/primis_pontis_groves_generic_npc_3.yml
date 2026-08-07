@@ -1,0 +1,20 @@
+activationRadius: 3.0
+name: '&2Felicius Surius'
+role: '&2<Groves Inhabitant>'
+profession: NITWIT
+greetings:
+- Hi there!
+dialog:
+- The ocean is so pretty.
+- I could stand here for days.
+- The spiders sure are annoying.
+farewell:
+- Bye.
+canTalk: true
+interactionType: NONE
+disguise: custom:primis_pontis_groves_inhabitant
+customDisguiseData: player primis_pontis_groves_inhabitant setskin {"id":"afb36ef2-c4cd-4f37-a0d5-01af536f8e3d","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1OTY4MzIzMDkzNywKICAicHJvZmlsZUlkIiA6ICJlMDQ1YTMxN2Y1MTk0YWQyOGE2NjM2YzdkNzMwNjY3YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUc3VOX01DIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M3NTk4OGIzYzM3ZGYxZTQxYzZhNTM0YmMxNzljZGM2YTQyN2JlNWZlMDQ3OTQzNTExMGZjNDBlYzRlOWM2M2QiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==","signature":"S9xWxDXg+V8liVVNVV+Mxr5TiLckKIiQ8SfLhDB9AtB/rjuGuIb/m42zRB58rz63GeVTm/1v8mLwY0kIGV487wYCiHeg6DEhIrWGKg8gB2j+fACPOxGtLkNPa0WziV3uTInBmnr1KExuloEoMD+FvrmxxpB/X2B70yMi+YrM/SYB3f1x28CjvldcMmWBtQa2ce/nVut4Gm79whT4Qgb4992fJzQOrBW8xcLU90/j6353QnsUft4tpCmytGDvtG+fZ+m5/2dij61zDR3BPa0yTzRmYTL/cJEhLxSX+p2p+wlEYxdQVJitihRgZJgWCLGnlmaEqig0emx4u7q10CHPsWMEHrQ6sKJPZVnma6Cue4IgRUAxfVVCN7L4DHNADgonNJi98RUVGVzN8qb2B325JxEkO2r2QAsjCMS+Gt32oeliIivRXCgEjettL6ixsbUbMgFWGoiiPzy7VCdOEAt7WSIQRiUdY0xItwU5Bb/xX9HxVR1vRTVROSwt1NBJIGk3ikmDShM0lXN2osGz+SU58N1vqkHYMYiqPo7xzgy0vVcmLHNUFvGiCN0u94KBhTQ1FFu2L1Vm3HFWOO7WG/Q+03+bbuzMCWKHWmDJ81pAhYePfrTMGWGjjMlQg5LyP52GxQrn7xsNEw1lI8a80OdDqybawhsZlhnx9akzNYctuSc="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,720.53,36.0,254.14,-177.4,15.73
+

@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_BOOTS
+name: "&bRuin Relic Boots"
+lore:
+- "&6Buried with the ruins."
+- "&6Imbued with ancient power."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+itemType: UNIQUE
+level: 3
+scalability: fixed

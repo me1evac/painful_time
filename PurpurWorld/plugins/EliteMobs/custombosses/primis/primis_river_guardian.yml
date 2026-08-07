@@ -1,0 +1,16 @@
+normalizedCombat: true
+isEnabled: true
+entityType: GUARDIAN
+name: $normalLevel &5River Guardian
+level: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+healthMultiplier: 1
+damageMultiplier: 0.50
+spawnCooldown: 5
+leashRadius: 40
+isRegionalBoss: true
+followDistance: 15
+spawnLocations: 
+- em_primis,1223.5,12.5,536.5,0.0,0.0:1651818364140

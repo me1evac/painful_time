@@ -1,0 +1,17 @@
+farewell: []
+canTalk: true
+name: '&cPontis Elite Guard'
+role: '&8<Elite Guard>'
+profession: TOOLSMITH
+greetings:
+- What's taking\nso long.
+dialog:
+- We got this\nunder control.
+- Do not worry,\nthe elite guard\nis on the case!
+activationRadius: 3
+interactionType: NONE
+disguise: custom:elitemobs_pontis_guard
+customDisguiseData: player elitemobs_pontis_guard setskin {"id":"d767ea42-ee79-429b-bc0c-b9ae21d608ae","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1NTkyNzI3NDQzOCwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzdiZmRiYmI5NjNjZjliZmRmNzEwNDc2Y2VjODYzMTI1MmJlOTA0N2IwOThlMzJjZjI5NzgwMjMwMWNlYWRlNyIKICAgIH0KICB9Cn0=","signature":"v+ov7tGwWia01psQh2/7X7aovsVUs7EUBicpsRhdp6uCRms+gFPkK/8RxIxGbY7reClmZuJ24XeFp8x7S0sUT+lnGD6bW+KzIC5gpmP+vyO+yzaX3lqXrcYPdE+lj01YE2y/zZcKWTuDo8WD+dMMbaBcUYYeTI6ElEAp/bR2kp2opN9YFO08z3vkQAtWVHd0GKWZx2/KS94VYCSejcD3GbAfo7nBpclE/6gIfLTIkvRvk70ow/C3LC4QhZUs8HGjdaSidhMXqRlgfW+mI6Dn+asVMmwjgF/qvaOQunm5rd5Shh0z7NfmTmSbdqlfm+iuzJm/eYC8qeRbd5pdQ4thXO2HUEOnXWLxICKzmNZeYC/fdIM0QgzyKEBoBCGmGDEUBlHksgT4ZysQEOWuMuiFGVAs0bCqrLqxsnAhb0LFa9olr3s9M2FUfzdXRGUEOOYGe9NmGJEFzK9cwrA8prnApNDZKMqmEIIR4/VyQlFaEsscTcwpjNqleoN7Fk0I0qqFd+tcAoRPXBi0QDZqpLkNz86GIomGHSeMcpsBwwR/dvHKj2iL4eQYizfrgvoFoB9P8pdXqE03VR82ATVKHUKNEobsIi+aP7bo13wQldfjA+XJqHuYZHwZPr0HWZNg5VwWAkokopAnuhIPL31UKAEdlXqeVaHAxik2gZfxmvtFK3I="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,648.46,22.0,764.28,-106.25,15.95

@@ -1,10 +1,6 @@
 isEnabled: true
-shopName: '[EM] Custom Shop'
 rerollButton:
   material: PLAYER_HEAD
-  name: §4§lEliteMobs §cby §4§lMagmaGuy
-  lore:
-  - §8Support the plugins you enjoy!
 rerollButtonSlot: 4
 storeItemSlots:
 - 9
@@ -52,5 +48,3 @@ storeItemSlots:
 - 51
 - 52
 - 53
-fullInventoryMessage: '[EliteMobs] &4Your inventory is full! You can''t buy items
-  until you get some free space.'

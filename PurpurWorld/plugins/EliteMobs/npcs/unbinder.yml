@@ -1,22 +1,7 @@
 isEnabled: true
-name: <g:#5A4A6A:#6A5A7A>Ulfric</g>
-role: <g:#4A3A5A:#5A4A6A><Unbinder></g>
 profession: WEAPONSMITH
 spawnLocation: em_adventurers_guild,307.5,78,266.5,90,0
 spawnLocations: []
-greetings:
-- Greetings.
-- Well met.
-- Hail, friend.
-- Yes?
-- May I help you?
-dialog:
-- I will unbind your items\nfor an extremely rare unbind scroll.
-- I am the only one qualified\nto unbind your goods.
-- Have an unbind scroll?
-farewell:
-- 'Remember: Use unbind\nscrolls wisely.'
-- Safe travels, friend.
 canTalk: true
 activationRadius: 3.0
 interactionType: UNBINDER

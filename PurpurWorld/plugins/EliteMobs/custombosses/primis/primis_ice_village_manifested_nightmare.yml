@@ -1,0 +1,24 @@
+entityType: ENDERMAN
+name: $normalLevel &bManifested Nightmare
+level: '16'
+healthMultiplier: 1
+damageMultiplier: 0.75
+powers:
+- attack_blinding.yml
+isBaby: false
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 30
+spawnCooldown: 10
+leashRadius: 30
+isRegionalBoss: true
+movementSpeedAttribute: 0.3
+spawnLocations:
+- em_primis,677.5,37.5,1612.5,0.0,0.0:1676134134759
+- em_primis,679.5,37.5,1608.5,0.0,0.0:1676134155211
+- em_primis,681.5,37.5,1611.5,0.0,0.0:1676134139208
+- em_primis,683.5,38.5,1606.5,0.0,0.0:1676134146609
+- em_primis,687.5,38.5,1607.5,0.0,0.0:1676134152411
+- em_primis,687.5,39.5,1603.5,0.0,0.0:1676134149509
+

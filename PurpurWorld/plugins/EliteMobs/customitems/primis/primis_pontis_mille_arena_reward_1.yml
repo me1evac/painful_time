@@ -1,0 +1,11 @@
+material: SHIELD
+name: "&4Star Touched Shield"
+lore: 
+- "&7An ornate shield with a cosmos motive."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+- "PROTECTION_EXPLOSIONS,2"
+- "PROTECTION_PROJECTILE,2"
+scalability: FIXED
+itemType: UNIQUE
+level: 15

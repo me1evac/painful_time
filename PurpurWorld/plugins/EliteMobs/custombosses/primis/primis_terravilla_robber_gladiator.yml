@@ -1,0 +1,27 @@
+isEnabled: true
+entityType: VINDICATOR
+name: $normalLevel &bRobber Gladiator
+level: 17
+healthMultiplier: 1.5
+damageMultiplier: 1
+spawnCooldown: 10
+leashRadius: 40
+followDistance: 15
+uniqueLootList:
+- material=GOLD_NUGGET:chance=0.25
+mainHand: IRON_SWORD
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+isRegionalBoss: true
+normalizedCombat: true
+movementSpeedAttribute: 0.33
+disguise: custom:primis_terravilla_robber_gladiator
+customDisguiseData: player primis_terravilla_robber_gladiator setskin {"id":"bff1b51d-32af-49ab-a38e-689be3837a49","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTc4NDkzOTMwOCwKICAicHJvZmlsZUlkIiA6ICI4YmM3MjdlYThjZjA0YWUzYTI4MDVhY2YzNjRjMmQyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RpbnZlbnRpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRkNTc3ODBjNjg3NjJjMmNiMjE0NjUyNmZiNjU0MGFiZTFmY2EzNDZiN2U2NjJmMzEzNmY0NDVhZDU2MGY1YyIKICAgIH0KICB9Cn0=","signature":"I9vHZ8spwBk6vrymQ1At8ahYooX57602Q6KdLKzTmubqOfPdjGk+jplIVWqQ1507/0NHctYeymUvEh/PyEyK5/y7XBCs1fb9Y4mkZO8YnpEcJd3L+KIZ0sO9szIgeDCQ0McpvfsqvnfUFjaHWekdUy/KW5thE97r5SDNJj4xCy/dIXbpFB6dR24Q9JyDCaFSkfqSngivrotnxvjvsTeFJocyyPbyA/851j6UrpiqPaE3OVU886d3OLsnPJfAQRphq15G+BSQZ3S22ybhObPmcB7iqXBFyvJMtrW5p/No26d3vs87bZ8Pss7XdWyJlaMvHQQEScS6OLKdMnoJl7jle8tLy96sn5K6Yd0INVGIdjns4F6ryZ91Kycw4zA6ZNcLwengrSf6Nn2z1U0p+v6qQjBZlXRKDOD3u/95yHmo5JKdx2Ob4c1wlPW1A4oz+J3/3C0SfjgYO6PkRvScLRSI6ElMCvDXz2gH7Ln1tb4vsrvk0KVlyDI0Vn1Dr5ry95W/LkaU8NC1gWCHspbFSls/u5+rmgsml3Lik6ezxOQJ7ws8pFZYkUxCQhQgb/wbjUBj2jvzIwPTsI/j/2lPj8LBZ8E0eVAYvainYhcnrkjHX31MulBIw957zPVmEJYn3Z2J3fS68nrJCGUROv7xSYwnmSdPqS349VS+fY57AUiHbqQ="}],"legacy":false}
+spawnLocations:
+- em_primis,276.5,30.5,1413.5,0.0,0.0:1676141498937
+- em_primis,279.5,30.5,1421.5,0.0,0.0:1676141509740
+- em_primis,266.5,27.5,1391.5,0.0,0.0:1676141501289
+- em_primis,264.5,27.5,1385.5,0.0,0.0:1676141270010
+- em_primis,310.5,30.5,1487.5,0.0,0.0:1676141320511
+- em_primis,314.5,30.5,1490.5,0.0,0.0:1676141317609

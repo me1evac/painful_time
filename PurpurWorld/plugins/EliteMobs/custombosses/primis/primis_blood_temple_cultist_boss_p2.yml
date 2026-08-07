@@ -1,0 +1,68 @@
+normalizedCombat: true
+isEnabled: true
+entityType: EVOKER
+name: $bossLevel &0The Robed Shadow
+level: 19
+healthMultiplier: 6 #19
+damageMultiplier: 1.75
+movementSpeedAttribute: 0.25
+powers:
+- primis_harm_aura.yml
+- primis_mirror_image.yml
+- invulnerability_knockback.yml
+- attack_poison.yml
+- arrow_rain.yml
+- plasma_blaster.yml
+leashRadius: 40
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+followDistance: 40
+disguise: custom:primis_blood_temple_cultist
+customDisguiseData: player primis_blood_temple_cultist setskin {"id":"ccf4cf65-989b-4b4f-88c0-b47143f9c1a1","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2OTE3ODUxODEzNSwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84MmZkM2JlYzJkNWRjZDE5MTEyMDQ4ZTA1MGUxMDA3MDI3Yjk3YmY0YWEwM2M4OGYwMjdmM2Q3ZWVlZmFhNDY2IgogICAgfQogIH0KfQ==","signature":"bZI14jqiI0WUsQfG+4DV4bd9rQMiJLqDoqr1FDHrqNs4Iw06wSxgbzOgXFzbJLgvKRluYsPRebXWLcrJq1lgyNsUBNyjZUAplwSN3wd3T8gVvthJ5DUt/DuD4ULq+UjrdkIOUUz1d4NKEqK6ajVFtEOEI1H2ylQ3l4N7DrfhvJdLdcJCuCsuovrj+HbFHtyCiAHY8fvNtZIy8V5pRc/NLNlbU2JcjglIwKjdqHiZZK29S6fBaKYn6IIdhJZORVLhgo6m7f4NdbP6GEhYnKyUnn6uluqWm4pQEjNFBt32s1YBOGJjsgKETFIl+jpdTy8kFRu/3qQSwueluRtUH8SNWLLooJe6WDuyKpkx3gGjrS/v5jER9cpZvnvItqdHiBRLI3XXvygbbKeIwjZ7M3lfcIWmFo3E+oZhcBCUGyUtckHzYVdxFhoevsHkbq6O2ZGDrzKHletyrvVVWfrtjalG4C4Ef3pTFABuyy+iw5ZGuGQ+/QEfnLw4be4pfFNkBZr+WUjhjIQt2u/zqaoKO57T1DjnSCtCQfXkyVuBk+OYkhPAsPiA4hSQ85UJO6YygnsLF3WB/RPr+o7m+SPby9hLtBWVYzsZK+dgNYiLfDhMyFUJbUl+HM5ClyOMayyZB5EBVFRyfZXGelSBVuLaaxHKWORG933/x4hGs747yGJWu1Y="}],"legacy":false}
+eliteScript:
+  BlockChestArea:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 5
+      z: 2
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,983,127,869,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 60
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      wait: 60
+      Target:
+        targeType: ZONE_FULL
+      sValue: minecraft:block.gravel.fall
+      repeatEvery: 10
+      times: 4
+onRemoveBlockStates:
+- 104.5,-35.0,168.5/minecraft:air
+- 104.5,-35.0,169.5/minecraft:air
+- 104.5,-35.0,170.5/minecraft:air
+- 104.5,-35.0,171.5/minecraft:air
+- 104.5,-35.0,172.5/minecraft:air
+- 104.5,-34.0,168.5/minecraft:air
+- 104.5,-34.0,169.5/minecraft:air
+- 104.5,-34.0,170.5/minecraft:air
+- 104.5,-34.0,171.5/minecraft:air
+- 104.5,-34.0,172.5/minecraft:air
+- 104.5,-33.0,168.5/minecraft:air
+- 104.5,-33.0,169.5/minecraft:air
+- 104.5,-33.0,170.5/minecraft:air
+- 104.5,-33.0,171.5/minecraft:air
+- 104.5,-33.0,172.5/minecraft:air
+- 104.5,-32.0,168.5/minecraft:air
+- 104.5,-32.0,169.5/minecraft:air
+- 104.5,-32.0,170.5/minecraft:air
+- 104.5,-32.0,171.5/minecraft:air
+- 104.5,-32.0,172.5/minecraft:air

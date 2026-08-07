@@ -1,0 +1,8 @@
+isEnabled: true
+material: ROTTEN_FLESH
+name: "&eTwo Legged Terror Sample"
+lore:
+- "&eIt's a simple sample."
+scalability: fixed
+itemType: unique
+permission: elitequest.primis_terravilla_two_legged_terror_sample.yml

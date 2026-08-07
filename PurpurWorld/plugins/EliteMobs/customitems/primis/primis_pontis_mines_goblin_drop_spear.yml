@@ -1,0 +1,10 @@
+isEnabled: true
+material: TRIDENT
+name: "&7Goblin Spear"
+lore:
+- "&7A nice and sharp stone at the end."
+enchantments: 
+- "DAMAGE_ALL,2"
+scalability: fixed
+itemType: unique
+level: 10

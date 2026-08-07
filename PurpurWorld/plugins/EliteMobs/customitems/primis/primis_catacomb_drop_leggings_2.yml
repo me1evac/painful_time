@@ -1,0 +1,13 @@
+isEnabled: true
+material: NETHERITE_LEGGINGS
+name: "&7Dark Bone Leggings"
+lore:
+- "&7The dark bones covering the"
+- "&7leggings will make dangerous"
+- "&7falls more survivable."
+enchantments: 
+- "PROTECTION_FALL,2"
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: fixed
+itemType: unique
+level: 19

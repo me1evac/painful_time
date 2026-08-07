@@ -1,0 +1,22 @@
+activationRadius: 3.0
+name: '&cLuxuria Gorgonius'
+role: '&c<Hole Denizen>'
+profession: NITWIT
+greetings:
+- Hi there!
+- Hellos!
+dialog:
+- Life is all about taking it easy.
+- Why stress.
+farewell:
+- Visit us again!
+canTalk: true
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_pontis_groves_elf_stole_from_my_shelf.yml
+disguise: custom:primis_pontis_groves_hole_2
+customDisguiseData: player primis_pontis_groves_hole_2 setskin {"id":"96f93b14-c0db-4615-aacb-9a3bd8dec611","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MTM2OTM5ODM1MSwKICAicHJvZmlsZUlkIiA6ICI4YmM3MjdlYThjZjA0YWUzYTI4MDVhY2YzNjRjMmQyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3RpbnZlbnRpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBjZDJkZjdjMjA2MzM1ODkyZGIxOGZlNTMyM2M3ZmUwYzM2OWEzMmNhNDVlOTMxNWE4MDA2YTI5MTk4MTZjZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9","signature":"kH7O0jyIkWfn/CN84Fq0rFmVDWtj9mhwwgJh+9DjOzNVfyT/HghEhVND+nDwqbvAI/Di3DoukjzoVuVbZQ6H/gpR31VfwVBC2UctjgNdk3f2BpaW7tEcjZ2n9yn7gjW+SoWE99QZ7LzJuwZkaqLO+4CsCulO3I3UB27jLs7z+Mhh5NyVJkr96U1qmMf/OD0/OFeICxhEdm/etVuV23qKTiclSsE5nfZOTqhe8m5OBQEpTWCChQXPZhPCRwEGC0Pnz74EzFz/o5FfuJi/xL8LrigCeX43AxSQ5FoR/48m+1Vw57/RKzsvyIKZ0kTLqcjVrvib7SQxcwEuwbIADLUM3kRT/gSZ6QmqiDdBNf+hoc9Q6ubvyOF0oyWrQywuOWAyNnQYU6Bbu6N9n33eDUX0wy3cdc42u978Q6nR4pLImP8j5Wb6iWwTgT4FWu87cpGOz3i6eSQnhDKczzB1LTAfZaEmrD3GijvYgbyUATIFZM/UfI4VZL9azRf2htoiMJEGBtA0xIyh/uhH6qergm0VpXAYfyeUSxaG+CG7bjczKSw+dsANKnaikaHgfL0GCBgFulGa7gtetjl+RNmnoQrb6iwUmKRUFJDf9AoWbQ+zbJMl+SDs0iEgmXEx8L66tRZkJQ5nqBkhFEZaAchs1jmy2K+fnredaLFuttWwxa7gD4I="}],"legacy":false}
+isEnabled: true
+spawnLocations:
+- em_primis,685.12,23.0,296.16,143.3,29.67
+

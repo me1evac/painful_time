@@ -1,6 +1,5 @@
 isEnabled: true
 entityType: HUSK
-name: '&8[&6Lv.50 &7Damage Test Dummy&8]'
 level: '50'
 healthMultiplier: 1000.0
 dropsEliteMobsLoot: false

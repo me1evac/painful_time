@@ -1,0 +1,320 @@
+powerType: UNIQUE
+eliteScript:
+  SnowstormWarning:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      duration: 999
+      Target:
+        targetType: SELF
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+        speed: 0.09
+      Target:
+        targetType: ZONE_FULL
+        track: true
+        coverage: 0.6
+      repeatEvery: 5
+      times: 6
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - "SnowstormVisual"
+      - "Snowstorm"
+    - action: RUN_SCRIPT
+      wait: 45
+      scripts:
+      - "SnowstormVisual2"
+      - "Snowstorm2"
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "SnowstormVisual3"
+      - "Snowstorm3"
+    - action: RUN_SCRIPT
+      wait: 75
+      scripts:
+      - "SnowstormVisual4"
+      - "Snowstorm4"  
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    Cooldowns:
+      local: 456
+      global: 60
+  SnowstormVisual:
+    Zone:
+      shape: DOME
+      radius: 3
+      borderRadius: 2
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+        y: -10
+        amount: 0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  Snowstorm:
+    Zone:
+      shape: DOME
+      radius: 3
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: VISUAL_FREEZE
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 2
+      duration: 66
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  SnowstormVisual2:
+    Zone:
+      shape: DOME
+      radius: 4
+      borderRadius: 3
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+        y: -10
+        amount: 0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  Snowstorm2:
+    Zone:
+      shape: DOME
+      radius: 4
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: VISUAL_FREEZE
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 2
+      duration: 66
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  SnowstormVisual3:
+    Zone:
+      shape: DOME
+      radius: 5
+      borderRadius: 4
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+        y: -10
+        amount: 0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  Snowstorm3:
+    Zone:
+      shape: DOME
+      radius: 5
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: VISUAL_FREEZE
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 2
+      duration: 66
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  SnowstormVisual4:
+    Zone:
+      shape: DOME
+      radius: 6
+      borderRadius: 5
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+        y: -10
+        amount: 0
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.4
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+  Snowstorm4:
+    Zone:
+      shape: DOME
+      radius: 6
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: VISUAL_FREEZE
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 2
+      duration: 66
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 3
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 1
+      Target:
+        targetType: ZONE_FULL
+      Conditions:
+        Target:
+          targetType: SELF
+        isAlive: true      
+# Generated with https://magmaguy.com/webapp/webapp.html !

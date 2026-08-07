@@ -1,0 +1,21 @@
+isEnabled: true
+name: '&3Philolaches Triferus'
+role: '&3<Jail Caretaker>'
+profession: TOOLSMITH
+greetings:
+- Hey there.
+dialog:
+- What else needs\nfixing.
+- I should check up\non the cages.
+farewell:
+- Later.
+canTalk: true
+activationRadius: 3.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- primis_ice_village_all_out_of_chains.yml
+disguise: custom:elitemobs_ice_village_jail_master
+customDisguiseData: player elitemobs_ice_village_jail_master setskin {"id":"cdf99a7f-33ff-4c16-b233-c47872eeb767","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2MjQ3NzU4NTE1MSwKICAicHJvZmlsZUlkIiA6ICJmODFhNzJhZWZjMjY0MjU0YTQ5NzE0OWYzMjJiZjJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXJsYW5fODgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg4Mjk0YzI4Y2Y0MDFiM2JjNTNjMWJmYTgyNjFlYjdmMGM1YTk4ZmJkNThiYjRhZGQ2ZTdkZGRmYTMyYmVlIgogICAgfQogIH0KfQ==","signature":"DFptfZMf2rA8QLg/nm0kC3xHuyp01LRD/RJz3SIRrkoROwmnycZbVR6N6GLelI5ah0o4Y01v/YC441a8HqWjm31quAhSQX4lQhIIns/QoKiZnwKNrf+j33vnO+reaj30bin39qWeFDCCedn3hSouYh4ZHQI4li7p3x2nftIV80yEM+BIKDTPy+MThtOAsln9VHC90LBVTFZSZ8c6kJWHPjDlCIGR0TKqi+JamHTAVbCIdDH/YcIrH7le2IL/ZhcgYqnGBk2uKV15Lq7y8CINiDMwtQAfHx8RtqY9EamY/DgdGO0MTP5SatHsgVvu/iw1GwfwWFOHz0o1xdErzcPzj1fEMnRwxIwbX2AbI1nuuyLQHBZ4esmm5oSx04fcqCqxurK/a8UhkHVrNqJvGN+pqW+mvVyeYKUWjkamrpCPzN96RxI3tuWT57Z97SIcV++yUwyOWyD9pB8JGYmZ42CeJSHrZVe3kta/0exH164WKiQRLfoQmb2yjvDgQJu1pvdRwztpv7B4wDV5r/dCVXdIqwDhJTmjR6PJWFl3sh1OHBsPG/BHiEuelfnXdDew1kFDTMQDshK/GPxZ7YxM+U4u5SpKQOwK1dMxSER4GFiLv35XshdOWQYLHNBN5uyjd89imKamljRBcopjRVUZD9XkaXjgMbH/NfxerVSIwJU050c="}],"legacy":false}
+spawnLocations:
+- em_primis,921.3,72.0,1637.89,119.4,29.28
+

@@ -1,5 +1,4 @@
 isEnabled: true
-name: Lightning
 maxLevelV2: 5
 value: 15.0
 isEnabledForProcedurallyGeneratedItems: true
