@@ -1,0 +1,263 @@
+# ============================================================================
+#                      ASTRAL SWORDS - MASTER CONFIGURATION
+# ============================================================================
+
+# ============================================================================
+#                           GENERAL SETTINGS
+# ============================================================================
+general:
+  # Enable debug logging
+  debug: false
+  
+  # Check for updates on startup
+  check-updates: true
+
+# ============================================================================
+#                           PROTECTION SETTINGS
+# ============================================================================
+protection:
+  # Prevent storing astral swords in containers (chests, barrels, etc.)
+  # When false: Swords can only be placed in anvils
+  # When true: Swords can be placed in any container
+  allow-container-storage: false
+  
+  # Allow placing astral swords in item frames
+  # When false: Players cannot place swords in item frames
+  # When true: Players can place swords in item frames
+  allow-item-frames: false
+  
+  # Allow hoppers to pick up astral swords
+  # When false: Hoppers cannot pick up swords from the ground
+  # When true: Hoppers can pick up swords
+  allow-hopper-pickup: false
+  
+  # Allow swords to be renamed in anvils
+  # When false: Players cannot rename swords in anvils
+  # When true: Players can rename swords in anvils
+  allow-anvil-renaming: false
+  
+  # Allow swords to be enchanted in anvils using enchantment books
+  # When false: Players cannot add enchantments to swords in anvils
+  # When true: Players can add enchantments to swords in anvils
+  allow-anvil-enchanting: false
+
+# ============================================================================
+#                           ABILITY SETTINGS
+# ============================================================================
+abilities:
+  skyfall-blade:
+    cooldown-seconds: 30
+    launch-power: 2.5
+    ground-explosion:
+      radius: 8.0
+      damage: 15.0
+      power: 2.0
+      create-fire: true
+      break-blocks: true
+    airborne-explosion:
+      base-radius: 8.0
+      base-damage: 15.0
+      velocity-damage-factor: 0.5
+      max-velocity-multiplier: 3.0
+      base-power: 2.0
+      max-power: 4.0
+      create-fire: true
+      break-blocks: true
+
+  eclipse-blade:
+    lunar-edge:
+      max-light-level: 7
+      damage-multiplier: 1.2
+
+  soul-reaver:
+    soul-harvest:
+      cooldown-seconds: 30
+      radius: 6.0
+      damage: 6.0
+      heal-ratio: 0.5
+      max-heal: 10.0
+
+  wardens-oath:
+    echo-sense:
+      radius: 16.0
+      glow-duration-ticks: 30
+      refresh-ticks: 20
+
+  power-house:
+    smash:
+      minimum-fall-distance: 1.5
+      damage-per-block: 1.0
+      max-bonus-damage: 10.0
+
+# ============================================================================
+#                           SWORD ENCHANTMENTS
+# ============================================================================
+# Configure enchantments for each celestial sword
+# Format: enchantment_name: level
+sword-enchants:
+  skyfall_blade:
+    sharpness: 8
+    unbreaking: 4
+  
+  thunderstrike:
+    sharpness: 8
+    unbreaking: 4
+  
+  venom_edge:
+    sharpness: 8
+    unbreaking: 4
+    sweeping_edge: 5
+  
+  eclipse_blade:
+    sharpness: 8
+    unbreaking: 4
+  
+  soul_reaver:
+    sharpness: 8
+    unbreaking: 4
+  
+  phoenix_talon:
+    sharpness: 8
+    unbreaking: 4
+    fire_aspect: 5
+  
+  wardens_oath:
+    sharpness: 8
+    unbreaking: 4
+  
+  windblade:
+    sharpness: 8
+    unbreaking: 4
+  
+  power_house:
+    sharpness: 8
+    unbreaking: 4
+    knockback: 3
+    wind_burst: 1
+
+# ============================================================================
+#                           SWORD RECIPES
+# ============================================================================
+# Configure crafting recipes for each celestial sword
+# Format: slot (0-8): MATERIAL_NAME
+# Slots are arranged as:
+#   0 1 2
+#   3 4 5
+#   6 7 8
+sword-recipes:
+  skyfall_blade:
+    enabled: true
+    recipe:
+      0: ELYTRA
+      1: NETHER_STAR
+      2: ELYTRA
+      3: SHULKER_SHELL
+      4: NETHERITE_INGOT
+      5: SHULKER_SHELL
+      6: END_CRYSTAL
+      7: STICK
+      8: END_CRYSTAL
+  
+  thunderstrike:
+    enabled: true
+    recipe:
+      0: BEACON
+      1: LIGHTNING_ROD
+      2: BEACON
+      3: HEART_OF_THE_SEA
+      4: NETHERITE_INGOT
+      5: HEART_OF_THE_SEA
+      6: CONDUIT
+      7: STICK
+      8: CONDUIT
+  
+  venom_edge:
+    enabled: true
+    recipe:
+      0: FERMENTED_SPIDER_EYE
+      1: WITHER_SKELETON_SKULL
+      2: FERMENTED_SPIDER_EYE
+      3: SPIDER_EYE
+      4: NETHERITE_INGOT
+      5: SPIDER_EYE
+      6: POISONOUS_POTATO
+      7: STICK
+      8: POISONOUS_POTATO
+  
+  eclipse_blade:
+    enabled: true
+    recipe:
+      0: END_CRYSTAL
+      1: DRAGON_HEAD
+      2: END_CRYSTAL
+      3: CHORUS_FLOWER
+      4: NETHERITE_INGOT
+      5: CHORUS_FLOWER
+      6: PURPUR_BLOCK
+      7: STICK
+      8: PURPUR_BLOCK
+  
+  soul_reaver:
+    enabled: true
+    recipe:
+      0: TOTEM_OF_UNDYING
+      1: NETHER_STAR
+      2: TOTEM_OF_UNDYING
+      3: SOUL_LANTERN
+      4: NETHERITE_INGOT
+      5: SOUL_LANTERN
+      6: SOUL_SAND
+      7: STICK
+      8: SOUL_SAND
+  
+  phoenix_talon:
+    enabled: true
+    recipe:
+      0: MAGMA_BLOCK
+      1: FIRE_CHARGE
+      2: MAGMA_BLOCK
+      3: BLAZE_ROD
+      4: NETHERITE_INGOT
+      5: BLAZE_ROD
+      6: ANCIENT_DEBRIS
+      7: STICK
+      8: ANCIENT_DEBRIS
+  
+  wardens_oath:
+    enabled: true
+    recipe:
+      0: SCULK_SENSOR
+      1: SCULK_SHRIEKER
+      2: SCULK_SENSOR
+      3: ECHO_SHARD
+      4: NETHERITE_INGOT
+      5: ECHO_SHARD
+      6: SCULK_CATALYST
+      7: STICK
+      8: SCULK_CATALYST
+  
+  windblade:
+    enabled: true
+    recipe:
+      0: WIND_CHARGE
+      1: HEAVY_CORE
+      2: WIND_CHARGE
+      3: TRIAL_KEY
+      4: NETHERITE_INGOT
+      5: TRIAL_KEY
+      6: WIND_CHARGE
+      7: BREEZE_ROD
+      8: WIND_CHARGE
+  
+  power_house:
+    enabled: true
+    recipe:
+      0: ANVIL
+      1: NETHERITE_BLOCK
+      2: ANVIL
+      3: OBSIDIAN
+      4: NETHERITE_INGOT
+      5: OBSIDIAN
+      6: IRON_BLOCK
+      7: STICK
+      8: IRON_BLOCK
